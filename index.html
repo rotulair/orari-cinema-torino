@@ -59,6 +59,20 @@ main{padding:14px 0 60px}
 .fh{display:flex;gap:14px;align-items:flex-start;padding-bottom:12px;margin-bottom:4px;border-bottom:2px solid var(--line)}.fh>div{min-width:0}
 .poster{width:64px;height:94px;object-fit:cover;border-radius:6px;flex:none;background:var(--pill)}
 .fh h2{margin-top:0}
+.dbar{padding:0 0 8px}
+.dbar .link{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:0}
+#days{display:block;overflow:visible;padding:2px 0 10px}
+.wk{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px;font-size:13px;color:var(--mute);font-weight:600}
+.wk .link{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;font-weight:700;cursor:pointer;padding:2px 0}
+.wk .link[hidden]{visibility:hidden;display:inline}
+.dgrid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.dc{display:flex;flex-direction:column;align-items:center;gap:1px;padding:7px 0;border:1px solid var(--line);border-radius:12px;
+  background:var(--card);color:var(--ink);font:inherit;cursor:pointer}
+.dc span{font-size:11px;font-weight:600;color:var(--mute);text-transform:none}
+.dc b{font-size:17px;font-weight:800;line-height:1.1}
+.dc[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.dc[aria-pressed=true] span{color:inherit;opacity:.9}
+.dc:disabled{opacity:.35;cursor:default}
 .dtabs{display:flex;gap:6px;overflow-x:auto;padding:2px 0 10px;margin:0 -2px;scrollbar-width:none}
 .dtabs::-webkit-scrollbar{display:none}
 .dt{flex:none;border:1px solid var(--line);background:var(--pill);color:var(--pill-ink);font:inherit;font-size:13px;font-weight:600;
@@ -207,6 +221,7 @@ function filmInfo(title){
     overview: (t && t.overview) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
     original: (t && t.original_title) || "", year: t && t.year ? t.year : ""};
 }
+const cardMore = new Set();   // schede film con le linguette degli altri giorni aperte
 const cardDay = new Map();   // scheda film -> giorno scelto nelle sue linguette (si azzera cambiando giorno)
 /* ---------- schede comprimibili ---------- */
 // Schede film: chiuse di default (si ricordano solo quelle aperte). Schede cinema: aperte di default.
@@ -335,10 +350,27 @@ function render(){
   state.dates = dates;
   const isToday = state.day === today;
 
-  $("days").innerHTML = dates.map(x=>`<button class="chip" data-d="${x}" aria-pressed="${x===state.day}">${esc(dayLabel(x,today))}</button>`).join("");
-  $("days").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.anim = b.dataset.d > state.day ? "l" : "r"; state.day=b.dataset.d; cardDay.clear(); render(); });
-  const act = $("days").querySelector('[aria-pressed="true"]');
-  if(act) $("days").scrollLeft = act.offsetLeft - ($("days").clientWidth - act.offsetWidth)/2;
+  // Barra dei giorni: una settimana alla volta (7 colonne fisse, niente scorrimento)
+  const addDays = (iso,n)=>{ const x=new Date(iso+"T12:00:00Z"); x.setUTCDate(x.getUTCDate()+n); return x.toISOString().slice(0,10); };
+  const diff = Math.round((new Date(state.day+"T12:00:00Z") - new Date(today+"T12:00:00Z"))/864e5);
+  const start = addDays(today, 7*Math.floor(diff/7));
+  const week = Array.from({length:7},(_,n)=>addDays(start,n));
+  const hasNext = dates.some(x=>x>week[6]);
+  const fmt = (iso,o)=>new Intl.DateTimeFormat("it-IT",{timeZone:"UTC",...o}).format(new Date(iso+"T12:00:00Z"));
+  const range = `${new Date(week[0]+"T12:00:00Z").getUTCDate()}–${new Date(week[6]+"T12:00:00Z").getUTCDate()} ${fmt(week[6],{month:"short"}).replace(".","")}`;
+  $("days").innerHTML = `<div class="wk"><button type="button" class="link" data-wk="-1"${start===today?" hidden":""}>‹ Prima</button>`
+    + `<span>${start===today?"Questa settimana":"Settimana"} · ${esc(range)}</span>`
+    + `<button type="button" class="link" data-wk="1"${hasNext?"":" hidden"}>Più avanti ›</button></div>`
+    + `<div class="dgrid">${week.map(x=>{
+        const has = dates.includes(x), wd = fmt(x,{weekday:"short"}).replace(".","");
+        return `<button type="button" class="dc" data-d="${x}" aria-pressed="${x===state.day}"${has?"":" disabled"}><span>${x===today?"Oggi":esc(wd.charAt(0).toUpperCase()+wd.slice(1))}</span><b>${new Date(x+"T12:00:00Z").getUTCDate()}</b></button>`;
+      }).join("")}</div>`;
+  const setDay = x=>{ state.anim = x > state.day ? "l" : "r"; state.day = x; cardDay.clear(); cardMore.clear(); render(); };
+  $("days").querySelectorAll("button[data-d]").forEach(b=>b.onclick=()=>setDay(b.dataset.d));
+  $("days").querySelectorAll("button[data-wk]").forEach(b=>b.onclick=()=>{
+    const ws = addDays(start, 7*(+b.dataset.wk)), we = addDays(ws,6);
+    setDay(dates.find(x=>x>=ws && x<=we) || ws);      // primo giorno con programmazione di quella settimana
+  });
   $("v-film").setAttribute("aria-pressed", String(state.view==="film"));
   $("v-cinema").setAttribute("aria-pressed", String(state.view==="cinema"));
 
@@ -420,8 +452,10 @@ function renderFilms(rows, cmap, now, isToday, all, today){
       byCinema.forEach(a=>a.sort((x,y)=>effMin(x.time)-effMin(y.time)));
     }
     const n = byCinema.size;
+    const openTabs = cardMore.has(k);
     const tabs = days.length > 1
-      ? `<div class="dtabs" role="group" aria-label="Giorni di programmazione">${days.map(x=>`<button type="button" class="dt" data-cd="${esc(k)}" data-date="${x}" aria-pressed="${x===sel}">${esc(dayLabel(x,today))}</button>`).join("")}</div>`
+      ? `<div class="dbar"><button type="button" class="link altri" data-cmore="${esc(k)}" aria-expanded="${openTabs}">${sel!==state.day?esc(dayLabel(sel,today))+" · ":""}Altri giorni ${openTabs?"▴":"▾"}</button></div>`
+        + (openTabs ? `<div class="dtabs" role="group" aria-label="Giorni di programmazione">${days.map(x=>`<button type="button" class="dt" data-cd="${esc(k)}" data-date="${x}" aria-pressed="${x===sel}">${esc(dayLabel(x,today))}</button>`).join("")}</div>` : "")
       : "";
     const rowsHtml = n ? [...byCinema.entries()].sort((a,b)=>effMin(a[1][0].time)-effMin(b[1][0].time)).map(([cid,arr])=>{
       const c = cmap[cid]; const link = c.site || c.info_url;
@@ -493,7 +527,9 @@ $("out").addEventListener("click", e => {
   const mo = e.target.closest("[data-more]");
   if(mo){ const p = mo.previousElementSibling; const full = p.classList.toggle("full"); mo.textContent = full ? "Mostra meno" : "Leggi tutto"; return; }
   const t = e.target.closest("[data-cd]");
-  if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); render(); }
+  if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); cardMore.delete(t.dataset.cd); render(); return; }
+  const cm = e.target.closest("[data-cmore]");
+  if(cm){ e.preventDefault(); const k = cm.dataset.cmore; cardMore.has(k) ? cardMore.delete(k) : cardMore.add(k); render(); }
 });
 
 /* ---------- scorrimento orizzontale tra i giorni ---------- */
@@ -501,7 +537,7 @@ function gotoDay(step){
   const j = state.dates.indexOf(state.day) + step;
   if(j < 0 || j >= state.dates.length) return;
   state.anim = step > 0 ? "l" : "r";
-  state.day = state.dates[j]; cardDay.clear(); render();
+  state.day = state.dates[j]; cardDay.clear(); cardMore.clear(); render();
   window.scrollTo({top:0});
 }
 let tx = 0, ty = 0, tok = false;
