@@ -1,6 +1,6 @@
 # Cinema Torino
 
-Una pagina unica con film e orari delle sale di Torino, che si aggiorna da sola. Costo: zero (GitHub gratuito).
+Una pagina unica con film e orari delle sale di Torino, che si aggiorna da sola. 
 
 Come funziona:
 
