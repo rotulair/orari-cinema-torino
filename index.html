@@ -59,13 +59,22 @@ main{padding:14px 0 60px}
 .fh{display:flex;gap:14px;align-items:flex-start;padding-bottom:12px;margin-bottom:4px;border-bottom:2px solid var(--line)}.fh>div{min-width:0}
 .poster{width:64px;height:94px;object-fit:cover;border-radius:6px;flex:none;background:var(--pill)}
 .fh h2{margin-top:0}
+summary.fh{list-style:none;cursor:pointer;position:relative}
+summary.fh::-webkit-details-marker{display:none}
+summary.fh::after{content:"";flex:none;align-self:center;margin-left:auto;width:9px;height:9px;
+  border-right:2px solid var(--mute);border-bottom:2px solid var(--mute);transform:rotate(45deg);transition:transform .15s}
+.card:not([open])>summary.fh::after{transform:rotate(-45deg)}
+.card:not([open])>summary.fh{border-bottom:0;padding-bottom:0;margin-bottom:0}
+summary.fh>div{flex:1}
+.dir{display:inline;font-size:14px;font-weight:500;color:var(--mute);letter-spacing:0;vertical-align:baseline}
+.tools .link{background:none;border:0;color:var(--accent);font:inherit;font-size:14px;font-weight:600;cursor:pointer;padding:0 4px}
+.tools .link[hidden]{display:none}
 a.ft{color:inherit;text-decoration:none}
 a.ft:hover{text-decoration:underline}
 .only{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 10px;padding:8px 12px;border-radius:10px;background:var(--pill);font-size:14px}
 .only button{border:0;background:none;color:var(--accent);font:inherit;font-weight:700;cursor:pointer;padding:0}
 .card .sub a{color:var(--mute);text-decoration:underline;text-underline-offset:2px}
 .card .sub{font-size:13px;color:var(--mute);margin:0}
-.card>.sub{padding-bottom:10px;margin-bottom:4px;border-bottom:2px solid var(--line)}
 .row{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--line);align-items:center}
 .row:first-of-type,.fh+.row,.card>.sub+.row{border-top:0}
 .row .who{flex:0 0 42%;max-width:240px;font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em;min-width:0}
@@ -106,6 +115,7 @@ footer a{color:inherit}
     <div class="tools">
       <input type="search" id="q" placeholder="Cerca un film…" aria-label="Cerca un film" autocomplete="off">
       <label class="toggle"><input type="checkbox" id="fromnow" checked> Solo da ora</label>
+      <button type="button" class="link" id="colall" hidden>Comprimi tutto</button>
     </div>
     <details class="filter" id="filter">
       <summary>Cinema <span id="fsum"></span></summary>
@@ -164,6 +174,18 @@ function filmInfo(title){
   const q = encodeURIComponent(title.replace(/\([^)]*\)|\[[^\]]*\]/g," ").trim()+" film");
   return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url, poster: f.poster || ""};
 }
+/* ---------- schede comprimibili ---------- */
+const collapsed = new Set();
+try{ JSON.parse(lsGet("ct.collapsed")||"[]").forEach(k=>collapsed.add(k)); }catch(e){}
+const isOpen = k => collapsed.has(k) ? "" : " open";
+function saveCollapsed(){ lsSet("ct.collapsed", JSON.stringify([...collapsed].slice(-300))); }
+function syncColAll(){
+  const all = [...document.querySelectorAll("#out details.card")];
+  const b = $("colall"); if(!b) return;
+  b.hidden = !all.length;
+  b.textContent = all.some(d=>d.open) ? "Comprimi tutto" : "Espandi tutto";
+}
+
 function cinemaFilmLink(title){   // nella scheda cinema: porta alla scheda film (tutti i cinema e gli orari)
   return `<a class="ft" href="#film" data-film="${esc(filmKey(title))}" title="Vedi tutti i cinema e gli orari di questo film">${esc(title)}</a>`;
 }
@@ -269,6 +291,7 @@ function render(){
   if(state.view==="film") html += renderFilms(rows, cmap, now, isToday);
   else html += renderCinemas(rows, d, now, isToday);
   $("out").innerHTML = html;
+  syncColAll();
 
   const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
   $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`;
@@ -301,7 +324,10 @@ function renderFilms(rows, cmap, now, isToday){
     }).join("");
     const i = filmInfo(f.title);
     const img = i.poster ? `<img class="poster" src="${esc(i.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
-    return `<section class="card"><div class="fh">${img}<div><h2>${titleLink(f.title)}</h2><p class="sub">${n} cinema · <a href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Scheda Wikipedia ↗":"Cerca su Google ↗"}</a></p></div></div>${rowsHtml}</section>`;
+    const k = filmKey(f.title);
+    const regia = ([...f.byCinema.values()].flat().find(s=>s.regia)||{}).regia || (FILMS[k]||{}).director || "";
+    const dir = regia ? ` <span class="dir">regia di: ${esc(regia)}</span>` : "";
+    return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${img}<div><h2>${titleLink(f.title)}${dir}</h2><p class="sub">${n} cinema · <a href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Scheda Wikipedia ↗":"Cerca su Google ↗"}</a></p></div></summary>${rowsHtml}</details>`;
   }).join("");
 }
 
@@ -322,7 +348,7 @@ function renderCinemas(rows, d, now, isToday){
       f.arr.sort((x,y)=>effMin(x.time)-effMin(y.time));
       return `<div class="row"><div class="who">${cinemaFilmLink(f.title)}</div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
     }).join("");
-    out += `<section class="card"><h2>${link?`<a href="${esc(link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(c.name)}</a>`:esc(c.name)}</h2>${subline(c,link)}${body}</section>`;
+    out += `<details class="card" data-k="c:${esc(c.id)}"${isOpen("c:"+c.id)}><summary class="fh"><div><h2>${link?`<a href="${esc(link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(c.name)}</a>`:esc(c.name)}</h2>${subline(c,link)}</div></summary>${body}</details>`;
   }
   return out || emptyMsg(isToday);
 }
@@ -335,6 +361,16 @@ function emptyMsg(isToday){
 $("v-film").onclick = () => { state.only=""; state.view="film"; lsSet("ct.view","film"); render(); };
 $("v-cinema").onclick = () => { state.only=""; state.view="cinema"; lsSet("ct.view","cinema"); render(); };
 $("q").addEventListener("input", e => { state.q = e.target.value; state.only=""; render(); });
+$("out").addEventListener("toggle", e => {
+  const d = e.target; if(!d.dataset || !d.dataset.k) return;
+  if(d.open) collapsed.delete(d.dataset.k); else collapsed.add(d.dataset.k);
+  saveCollapsed(); syncColAll();
+}, true);
+$("colall").onclick = () => {
+  const all = [...document.querySelectorAll("#out details.card")];
+  const open = all.some(d=>d.open);
+  all.forEach(d=>{ d.open = !open; });   // il gestore "toggle" aggiorna lo stato salvato
+};
 $("out").addEventListener("click", e => {
   const a = e.target.closest("[data-film]");
   if(a){ e.preventDefault(); state.only = a.dataset.film; state.view="film"; render(); window.scrollTo({top:0}); return; }
