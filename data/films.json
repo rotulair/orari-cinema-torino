@@ -376,5 +376,125 @@
   "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_tre",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dune_part_three_title_with_orange_awesome_background.jpg/250px-Dune_part_three_title_with_orange_awesome_background.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "checked": "2026-11-17"
+ },
+ "cleo": {
+  "title": "CLEO",
+  "url": "https://it.wikipedia.org/wiki/Cleo_(Disney)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pinocchio_1940_-_Cleo.png/250px-Pinocchio_1940_-_Cleo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "wildwood i segreti del bosco proibito": {
+  "title": "WILDWOOD: I SEGRETI DEL BOSCO PROIBITO",
+  "url": "https://it.wikipedia.org/wiki/Wildwood_-_I_segreti_del_bosco_proibito",
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "ice cream man": {
+  "title": "Ice Cream Man",
+  "url": "https://it.wikipedia.org/wiki/Ice_Cream_Man_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Ari_Millen_Ice_Cream_Man.jpeg/250px-Ari_Millen_Ice_Cream_Man.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "clayface": {
+  "title": "Clayface",
+  "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "shaun vita da pecora operazione z u c c a": {
+  "title": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
+  "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "la vallee des fous": {
+  "title": "LA VALLÉE DES FOUS",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "la maison des femmes la casa delle donne": {
+  "title": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "wax gold": {
+  "title": "Wax & Gold",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "la guerra dei prezzi": {
+  "title": "La guerra dei prezzi",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "bts world tour arirang in kaohsiung live viewing": {
+  "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "l hangar rosso": {
+  "title": "L’HANGAR ROSSO",
+  "url": "https://it.wikipedia.org/wiki/L%27hangar_rosso",
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "in quota cambia tutto": {
+  "title": "IN QUOTA CAMBIA TUTTO",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "sospesi": {
+  "title": "SOSPESI",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "born to die in berlin": {
+  "title": "BORN TO DIE IN BERLIN",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "come ti muovi sbagli": {
+  "title": "COME TI MUOVI, SBAGLI",
+  "url": "https://it.wikipedia.org/wiki/Come_ti_muovi,_sbagli",
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "ciau cine": {
+  "title": "CIAU CINE",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "domani il viaggio di maysoon majidi": {
+  "title": "DOMANI, Il viaggio di Maysoon Majidi",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "wind talk to me": {
+  "title": "WIND TALK TO ME",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "dune parte 3": {
+  "title": "DUNE PARTE 3",
+  "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_due",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/2b/DunePart2.png/250px-DunePart2.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "le cours de la vie": {
+  "title": "LE COURS DE LA VIE",
+  "url": null,
+  "poster": null,
+  "checked": "2026-11-17"
  }
 }
