@@ -27,7 +27,7 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "la gradiva": {
@@ -58,7 +58,7 @@
    "release_date": "2026-10-21"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "la nostra isola e il mondo intero": {
@@ -68,7 +68,7 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "wild horse nine": {
@@ -101,17 +101,7 @@
    "release_date": "2026-10-30"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "2001 odissea nello spazio wb 100th anniversary": {
-  "title": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": false,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "ragione e sentimento": {
@@ -206,7 +196,7 @@
    "release_date": "2026-05-16"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "persepolis": {
@@ -238,17 +228,17 @@
    "release_date": "2007-06-27"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "hope": {
   "title": "Hope",
-  "url": null,
-  "poster": null,
-  "director": null,
+  "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Na Hong-jin",
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "minotaur": {
@@ -265,12 +255,6 @@
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/83/Primetime_film_2026.png/250px-Primetime_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
   "v": 2,
-  "checked": "2026-11-17"
- },
- "come rapinare una banca 2026": {
-  "title": "COME RAPINARE UNA BANCA [2026]",
-  "url": "https://it.wikipedia.org/wiki/Come_rapinare_una_banca",
-  "poster": null,
   "checked": "2026-11-17"
  },
  "godzilla minus zero": {
@@ -303,13 +287,7 @@
    "release_date": "2026-11-03"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "il gatto col cappello 2026": {
-  "title": "IL GATTO COL CAPPELLO [2026]",
-  "url": "https://it.wikipedia.org/wiki/Il_gatto_col_cappello_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Cat_in_the_Hat_%282026%29_-_Logo.jpg/250px-The_Cat_in_the_Hat_%282026%29_-_Logo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "v": 5,
   "checked": "2026-11-17"
  },
  "il rumore delle cose nuove": {
@@ -340,15 +318,7 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "n d": {
-  "title": "n.d.",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "v": 2,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "scrooge e gli spiriti del natale": {
@@ -381,7 +351,7 @@
    "release_date": "2026-11-11"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "se domani non torno": {
@@ -412,7 +382,7 @@
    "release_date": "2026-11-05"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "un tranquillo funerale di famiglia": {
@@ -443,7 +413,7 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "la storia infinita": {
@@ -476,7 +446,7 @@
    "release_date": "1984-04-06"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "dolce e la vita": {
@@ -497,34 +467,33 @@
  },
  "look back": {
   "title": "Look Back",
-  "url": null,
-  "poster": null,
-  "director": null,
+  "url": "https://it.wikipedia.org/wiki/Look_Back_(film_2026)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/76/Look_Back_2026.png/250px-Look_Back_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Hirokazu Kore'eda",
   "tmdb": {
-   "id": 1244492,
-   "url": "https://www.themoviedb.org/movie/1244492?language=it-IT",
-   "poster_path": "/9GCNAcMo2EyEu1PCC8T0iQk2mm3.jpg",
-   "runtime": 62,
-   "director": "押山清高",
-   "year": 2024,
-   "overview": "Fujino, eccessivamente sicura di sé, e Kyomoto, chiusa in se stessa, non potrebbero essere più diverse, ma l'amore per il disegno manga unisce queste due ragazze di provincia, in una toccante storia di crescita e progresso.",
+   "id": 1591675,
+   "url": "https://www.themoviedb.org/movie/1591675?language=it-IT",
+   "poster_path": "/7Ou8VlAhPvYmtzRu7UhFdSjJs4j.jpg",
+   "runtime": 101,
+   "director": "Hirokazu Kore-eda",
+   "year": 2026,
+   "overview": "Fujino, adolescente determinata e piena di talento, sogna di diventare una mangaka. Kyomoto, schiva e solitaria, vive quasi sempre chiusa nella sua stanza, dedicando ogni istante al disegno. Unite dalla stessa passione, le due ragazze, cresciute in una piccola città, inseguono per tredici anni il sogno di diventare autrici di manga.",
    "genres": [
-    "Animazione",
     "Dramma"
    ],
    "cast": [
-    "河合優実",
-    "吉田美月喜",
-    "斉藤陽一郎",
-    "岡幸太",
-    "牧紅葉",
-    "吉橋航也"
+    "出口夏希",
+    "Aju Makita",
+    "七瀬ふうり",
+    "岡田六花",
+    "Masaki Suda",
+    "宮藤官九郎"
    ],
    "original_title": "ルックバック",
-   "release_date": "2024-06-28"
+   "release_date": "2026-09-11"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "naked": {
@@ -533,30 +502,30 @@
   "poster": null,
   "director": null,
   "tmdb": {
-   "id": 21450,
-   "url": "https://www.themoviedb.org/movie/21450?language=it-IT",
-   "poster_path": "/5u5cLz5FzvjR1zN8uu3quLEYybF.jpg",
-   "runtime": 126,
-   "director": "Mike Leigh",
-   "year": 1993,
-   "overview": "Johnny è un uomo stanco del mondo e di se stesso. È un vagabondo. Agisce d'istinto e in quel di Manchester violenta una ragazza. Poi, raggiunta Londra, va a casa della sua ex e conosce un pessimo individuo che insidia la ragazza. Alla fine Johnny si allontana più disperato e arrabbiato che mai.",
+   "id": 1728061,
+   "url": "https://www.themoviedb.org/movie/1728061?language=it-IT",
+   "poster_path": "/7GMkQRjS6Ag8Tv2B7eL0M1p8lsU.jpg",
+   "runtime": null,
+   "director": "William Adiguna",
+   "year": 2026,
+   "overview": null,
    "genres": [
     "Dramma",
-    "Commedia"
+    "Thriller",
+    "Crime",
+    "Mistero"
    ],
    "cast": [
-    "David Thewlis",
-    "Lesley Sharp",
-    "Katrin Cartlidge",
-    "Greg Cruttwell",
-    "Claire Skinner",
-    "Peter Wight"
+    "Rio Dewanto",
+    "Aulia Sarah",
+    "Yayu Unru",
+    "Sheryl Sheinafia"
    ],
-   "original_title": "Naked",
-   "release_date": "1993-08-06"
+   "original_title": "NAKED",
+   "release_date": "2026-07-07"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "panni sporchi": {
@@ -587,7 +556,7 @@
    "release_date": "1999-01-29"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "minotaur nel labirinto del potere": {
@@ -620,17 +589,7 @@
    "release_date": "2026-10-14"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "wild horse nine v o": {
-  "title": "WILD HORSE NINE - V. O.",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "in un battito": {
@@ -656,7 +615,7 @@
    "release_date": "2026-11-16"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "l estranea": {
@@ -689,7 +648,7 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "street fighter": {
@@ -697,7 +656,31 @@
   "url": "https://it.wikipedia.org/wiki/Street_Fighter_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Street_Fighter_2026_film_logo.svg/250px-Street_Fighter_2026_film_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Kitao Sakurai",
-  "v": 2,
+  "tmdb": {
+   "id": 1153576,
+   "url": "https://www.themoviedb.org/movie/1153576?language=it-IT",
+   "poster_path": "/uKMRx1OQfzwTKtn8Wm4uIizxBzG.jpg",
+   "runtime": 120,
+   "director": "Kitao Sakurai",
+   "year": 2026,
+   "overview": "1993. Un’epoca di sale giochi, monete consumate e leggende nate a colpi di joystick. Ryu (Andrew Koji) e Ken Masters (Noah Centineo), Street Fighters un tempo inseparabili, oggi sono lontani, divisi da scelte e ferite mai rimarginate. Il destino li richiama sul ring quando la misteriosa Chun-Li (Callina Liang) li arruola per il nuovo World Warrior Tournament: un torneo spietato dove i pugni decidono il futuro e la furia riscrive il destino. Ma dietro lo spettacolo della battle royale si muove un’ombra. Una cospirazione letale che costringerà Ryu e Ken non solo a combattere tra loro, ma a guardare in faccia i demoni del passato. Perché qui non esistono seconde possibilità: se perdi, è GAME OV",
+   "genres": [
+    "Azione",
+    "Fantasy"
+   ],
+   "cast": [
+    "Andrew Koji",
+    "Noah Centineo",
+    "Callina Liang",
+    "David Dastmalchian",
+    "Andrew Schulz",
+    "Cody Rhodes"
+   ],
+   "original_title": "Street Fighter",
+   "release_date": "2026-10-13"
+  },
+  "t": true,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "judy": {
@@ -730,74 +713,14 @@
    "release_date": "2019-09-27"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "100": {
-  "title": "100'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "105": {
-  "title": "105'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "113": {
-  "title": "113'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "114": {
-  "title": "114'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "115": {
-  "title": "115'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "117": {
-  "title": "117'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "135": {
-  "title": "135'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "98": {
-  "title": "98'",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "animazione avventura fantasy": {
-  "title": "Animazione, Avventura, Fantasy",
-  "url": null,
-  "poster": null,
-  "checked": "2026-11-17"
- },
- "documentario": {
-  "title": "Documentario",
-  "url": null,
-  "poster": null,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "un weekend artificiale": {
   "title": "UN WEEKEND ARTIFICIALE",
   "url": "https://it.wikipedia.org/wiki/Un_weekend_artificiale",
   "poster": null,
-  "director": "Leonardo Pieraccioni, che ne è anche co-protagonista",
+  "director": "Leonardo Pieraccioni",
   "tmdb": {
    "id": 1723882,
    "url": "https://www.themoviedb.org/movie/1723882?language=it-IT",
@@ -822,7 +745,7 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "2001 odissea nello spazio": {
@@ -897,7 +820,7 @@
    "release_date": "2026-10-31"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "nel silenzio delle stanze": {
@@ -929,7 +852,7 @@
    "release_date": "2025-12-10"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "dal nulla": {
@@ -1033,23 +956,7 @@
    "release_date": "1972-03-20"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "fjord v o": {
-  "title": "FJORD - V. O.",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
- },
- "158": {
-  "title": "158'",
-  "url": null,
-  "poster": null,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "hunger games l alba sulla mietitura": {
@@ -1082,7 +989,7 @@
    "release_date": "2026-11-18"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "minnie and moscowitz": {
@@ -1092,7 +999,7 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "topsy turvy": {
@@ -1100,7 +1007,9 @@
   "url": "https://it.wikipedia.org/wiki/Topsy-Turvy_Sweedie",
   "poster": null,
   "director": null,
-  "v": 2,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "scomode verita": {
@@ -1109,16 +1018,6 @@
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/87/HardTruths.png/250px-HardTruths.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Mike Leigh",
   "v": 2,
-  "checked": "2026-11-17"
- },
- "i swear e piu forte di me v o": {
-  "title": "I SWEAR – È PIÚ FORTE DI ME - V. O.",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 4,
   "checked": "2026-11-17"
  },
  "silent friend": {
@@ -1149,17 +1048,17 @@
    "release_date": "2026-01-15"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "your name": {
-  "title": "YOUR NAME 4K",
-  "url": null,
-  "poster": null,
-  "director": null,
+  "title": "YOUR NAME",
+  "url": "https://it.wikipedia.org/wiki/Your_Name.",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3b/Your_Name.jpg/250px-Your_Name.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Makoto Shinkai",
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "unicorni": {
@@ -1190,7 +1089,7 @@
    "release_date": "2025-07-18"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "lorenzo l incredibile avventura di jovanotti": {
@@ -1230,13 +1129,13 @@
    "release_date": "2026-12-15"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "cleo": {
   "title": "CLEO",
-  "url": "https://it.wikipedia.org/wiki/Cleo_(Disney)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pinocchio_1940_-_Cleo.png/250px-Pinocchio_1940_-_Cleo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "url": null,
+  "poster": null,
   "director": null,
   "tmdb": {
    "id": 485882,
@@ -1261,7 +1160,7 @@
    "release_date": "2019-07-25"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "wildwood i segreti del bosco proibito": {
@@ -1294,7 +1193,7 @@
    "release_date": "2026-10-19"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "ice cream man": {
@@ -1327,7 +1226,7 @@
    "release_date": "2026-08-03"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "clayface": {
@@ -1360,7 +1259,7 @@
    "release_date": "2026-10-19"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "shaun vita da pecora operazione z u c c a": {
@@ -1394,7 +1293,7 @@
    "release_date": "2026-09-17"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "la vallee des fous": {
@@ -1410,7 +1309,30 @@
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
+  "tmdb": {
+   "id": 1318417,
+   "url": "https://www.themoviedb.org/movie/1318417?language=it-IT",
+   "poster_path": "/deNnRUbRnImW2n5RQrQHWwH5ox6.jpg",
+   "runtime": 110,
+   "director": "Mélisa Godet",
+   "year": 2026,
+   "overview": "Alla Maison des femmes vengono accudite, ascoltate e curate tutte quelle donne vittima di violenza che richiedono assistenza, fisica e psicologica. Altrove vengono minacciate, sminuite, violentate, mutilate e la loro sofferenza viene ignorata. Qui vengono credute e sostenute. Diane, Manon, Inès, Awa e le altre operatrici della Casa, sono disposte a dare tutto pur di aiutare le donne in difficoltà, anche se questo significa mettere a repentaglio il proprio equilibrio mentale ed emotivo.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Karin Viard",
+    "Laetitia Dosch",
+    "Oulaya Amamra",
+    "Eye Haïdara",
+    "Pierre Deladonchamps",
+    "Juliette Armanet"
+   ],
+   "original_title": "La Maison des Femmes",
+   "release_date": "2026-03-01"
+  },
+  "t": true,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "wax gold": {
@@ -1482,7 +1404,32 @@
   "url": "https://it.wikipedia.org/wiki/L%27hangar_rosso",
   "poster": null,
   "director": "Juan Pablo Sallato, al debutto cinematografico",
-  "v": 2,
+  "tmdb": {
+   "id": 1563588,
+   "url": "https://www.themoviedb.org/movie/1563588?language=it-IT",
+   "poster_path": "/owA1QtBUMmJ5DBN4eLL4fmrUxRH.jpg",
+   "runtime": 81,
+   "director": "Juan Pablo Sallato",
+   "year": 2026,
+   "overview": "Cile, 11 settembre 1973, colpo di stato militare. Il capitano Jorge Silva, ex capo dell’intelligence dell’Aeronautica, viene incaricato di trasformare l’Accademia in cui sta addestrando i giovani cadetti in un centro di detenzione e tortura. Mentre gli hangar si riempiono di prigionieri e la repressione diventa sempre più brutale, Silva si ritrova a un bivio: obbedire agli ordini e appoggiare il nuovo regime, o disobbedire e aiutare chi lotta per sopravvivere?",
+   "genres": [
+    "Dramma",
+    "Storia",
+    "Thriller"
+   ],
+   "cast": [
+    "Nicolás Zárate",
+    "Boris Quercia",
+    "Marcial Tagle",
+    "Catalina Stuardo",
+    "Arón Hernández",
+    "Taiu Braver Iosovich"
+   ],
+   "original_title": "Hangar Rojo",
+   "release_date": "2026-05-08"
+  },
+  "t": true,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "in quota cambia tutto": {
@@ -1539,7 +1486,7 @@
    "release_date": "2025-09-05"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "ciau cine": {
@@ -1549,7 +1496,7 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "domani il viaggio di maysoon majidi": {
@@ -1571,7 +1518,7 @@
    "release_date": null
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "wind talk to me": {
@@ -1581,7 +1528,7 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "dune parte 3": {
@@ -1589,31 +1536,9 @@
   "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_tre",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dune_part_three_title_with_orange_awesome_background.jpg/250px-Dune_part_three_title_with_orange_awesome_background.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Denis Villeneuve",
-  "tmdb": {
-   "id": 1170608,
-   "url": "https://www.themoviedb.org/movie/1170608?language=it-IT",
-   "poster_path": "/7TuK5ltI7fdjHz5XsbkbnzFcU7Z.jpg",
-   "runtime": 150,
-   "director": "Denis Villeneuve",
-   "year": 2026,
-   "overview": "Paul Atreides è diventato Imperatore dell’universo. Ma il suo dominio è minacciato dai numerosi nemici e pur avendo previsto questo futuro, Paul lo considera il meno distruttivo possibile per l’umanità. Sposato con la principessa Irulan ma innamorato di Chani, Paul non riesce ad avere figli a causa di un complotto delle Bene Gesserit. Intanto queste, insieme alla Gilda Spaziale e ai Tleilaxu, tramano per eliminarlo.",
-   "genres": [
-    "Fantascienza",
-    "Avventura"
-   ],
-   "cast": [
-    "Timothée Chalamet",
-    "Zendaya",
-    "Jason Momoa",
-    "Florence Pugh",
-    "Rebecca Ferguson",
-    "Isaach de Bankolé"
-   ],
-   "original_title": "Dune: Part Three",
-   "release_date": "2026-12-15"
-  },
+  "tmdb": null,
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "le cours de la vie": {
@@ -1645,7 +1570,7 @@
    "release_date": "2023-05-10"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "belle speranze": {
@@ -1677,12 +1602,12 @@
    "release_date": "1989-01-13"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "ti presento i fotter": {
   "title": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-  "url": "https://it.wikipedia.org/wiki/Ti_presento_i_Fotter",
+  "url": null,
   "poster": null,
   "director": null,
   "tmdb": {
@@ -1709,7 +1634,7 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "avengers doomsday": {
@@ -1775,7 +1700,7 @@
    "release_date": "2026-04-30"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "strongher": {
@@ -1803,7 +1728,7 @@
    "release_date": "2026-06-01"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "un topolino sotto l albero": {
@@ -1875,7 +1800,7 @@
    "release_date": "2026-11-19"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
   "checked": "2026-11-17"
  },
  "fjord": {
@@ -1906,7 +1831,39 @@
    "release_date": "2026-06-13"
   },
   "t": true,
-  "v": 4,
+  "v": 5,
+  "checked": "2026-11-17"
+ },
+ "i swear e piu forte di me": {
+  "title": "I SWEAR – È PIÚ FORTE DI ME",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1317149,
+   "url": "https://www.themoviedb.org/movie/1317149?language=it-IT",
+   "poster_path": "/aEIT9GFMGYytuUFCiVSv21OhkWk.jpg",
+   "runtime": 121,
+   "director": "Kirk Jones",
+   "year": 2025,
+   "overview": "A quindici anni, John Davidson riceve una diagnosi di sindrome di Tourette. Sfidando ogni difficoltà, affronta un'adolescenza complicata e il passaggio all'età adulta, trovando nella gentilezza degli altri la forza e l'ispirazione necessarie per scoprire il suo vero scopo nella vita.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Robert Aramayo",
+    "Maxine Peake",
+    "Peter Mullan",
+    "Shirley Henderson",
+    "Scott Ellis Watson",
+    "David Carlyle"
+   ],
+   "original_title": "I Swear",
+   "release_date": "2025-09-22"
+  },
+  "t": true,
+  "v": 5,
   "checked": "2026-11-17"
  }
 }
