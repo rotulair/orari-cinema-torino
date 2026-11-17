@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Cinema Torino</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎬%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f6f5f2; --card:#ffffff; --ink:#1b1b1f; --mute:#6b6b76; --line:#e6e4de;
+  --accent:#d9381e; --accent-ink:#ffffff; --pill:#f0eee9; --pill-ink:#1b1b1f;
+  --past:#a8a8b0; --warn-bg:#fff4d6; --warn-ink:#6a4b00; --vo:#2457d6;
+  --r:14px; --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 14px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#121214; --card:#1c1c20; --ink:#f1f0ee; --mute:#9a9aa6; --line:#2b2b31;
+  --accent:#ff6a4d; --accent-ink:#17110f; --pill:#2a2a30; --pill-ink:#f1f0ee;
+  --past:#5d5d68; --warn-bg:#3a2f10; --warn-ink:#ffd37a; --vo:#8fb0ff;
+  --shadow:none}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding-bottom:env(safe-area-inset-bottom)}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:10px;padding:12px 0 8px}
+h1{font-size:20px;margin:0;letter-spacing:-.02em;flex:1}
+h1 small{font-weight:500;color:var(--mute);font-size:13px;margin-left:6px}
+.seg{display:inline-flex;background:var(--pill);border-radius:10px;padding:3px}
+.seg button{border:0;background:transparent;color:var(--mute);font:inherit;font-size:14px;font-weight:600;
+  padding:6px 12px;border-radius:8px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
+.days{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:14px;
+  font-weight:600;padding:7px 14px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;padding:0 0 12px}
+.tools input[type=search]{flex:1 1 180px;min-width:0;font:inherit;font-size:15px;color:var(--ink);
+  background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.tools input::placeholder{color:var(--mute)}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--mute);cursor:pointer;user-select:none}
+.toggle input{accent-color:var(--accent);width:16px;height:16px}
+details.filter{margin:0 0 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+details.filter summary{cursor:pointer;padding:9px 12px;font-size:14px;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+details.filter summary::-webkit-details-marker{display:none}
+details.filter summary span{color:var(--mute);font-weight:500}
+.cinema-chips{display:flex;flex-wrap:wrap;gap:6px;padding:4px 12px 12px}
+.cinema-chips .chip{font-size:13px;padding:5px 11px}
+.cinema-chips .link{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:5px 6px}
+main{padding:14px 0 60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:14px 16px;margin:0 0 12px}
+.card h2{font-size:17px;margin:0 0 2px;letter-spacing:-.01em}
+.fh{display:flex;gap:12px;align-items:flex-start}.fh>div{min-width:0}
+.poster{width:54px;height:80px;object-fit:cover;border-radius:6px;flex:none;background:var(--pill)}
+.fh h2{margin-top:0}
+a.ft{color:inherit;text-decoration:none}
+a.ft:hover{text-decoration:underline}
+.card .sub a{color:var(--mute);text-decoration:underline;text-underline-offset:2px}
+.card .sub{font-size:13px;color:var(--mute);margin:0 0 8px}
+.row{display:flex;gap:10px;padding:8px 0;border-top:1px solid var(--line);align-items:baseline}
+.row:first-of-type{border-top:0}
+.row .who{flex:0 0 38%;max-width:200px;font-size:14px;font-weight:600;min-width:0}
+.row .who small{display:block;font-weight:400;color:var(--mute);font-size:12px}
+.row .who a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--mute)}
+.times{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.t{background:var(--pill);color:var(--pill-ink);border-radius:8px;padding:3px 9px;font-size:14px;font-weight:600;
+  font-variant-numeric:tabular-nums}
+.t.past{color:var(--past);text-decoration:line-through;font-weight:500}
+.t.next{background:var(--accent);color:var(--accent-ink)}
+.t sup{font-size:9px;font-weight:800;margin-left:2px;color:var(--vo)}
+.t.next sup{color:inherit}
+.t i{font-style:normal;font-size:10px;font-weight:600;color:var(--mute);margin-left:4px;text-transform:uppercase}
+.t i.r{color:var(--accent);font-weight:800}
+.t.next i.r{color:inherit}
+.t.next i{color:inherit;opacity:.8}
+.warn{background:var(--warn-bg);color:var(--warn-ink);border-radius:10px;padding:8px 12px;font-size:13px;margin:0 0 10px}
+.warn a{color:inherit;font-weight:600}
+.empty{color:var(--mute);text-align:center;padding:44px 12px;font-size:15px}
+.empty b{display:block;color:var(--ink);font-size:17px;margin-bottom:6px}
+footer{color:var(--mute);font-size:12px;text-align:center;padding:0 16px 28px}
+footer a{color:inherit}
+.none{color:var(--mute);font-size:14px;padding:4px 0}
+@media (max-width:520px){.row{flex-direction:column;gap:5px}.row .who{flex:none;max-width:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>Cinema Torino<small id="upd"></small></h1>
+      <div class="seg" role="group" aria-label="Vista">
+        <button id="v-film" aria-pressed="true">Film</button>
+        <button id="v-cinema" aria-pressed="false">Cinema</button>
+      </div>
+    </div>
+    <div class="days" id="days" role="group" aria-label="Giorno"></div>
+    <div class="tools">
+      <input type="search" id="q" placeholder="Cerca un film…" aria-label="Cerca un film" autocomplete="off">
+      <label class="toggle"><input type="checkbox" id="fromnow" checked> Solo da ora</label>
+    </div>
+    <details class="filter" id="filter">
+      <summary>Cinema <span id="fsum"></span></summary>
+      <div class="cinema-chips" id="cchips"></div>
+    </details>
+  </div>
+</header>
+<main class="wrap" id="out"><div class="empty">Caricamento…</div></main>
+<footer id="foot"></footer>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const TZ = "Europe/Rome";
+
+const state = { data:null, day:null, view:"film", q:"", fromNow:true, hidden:new Set() };
+
+/* ---------- utilità ---------- */
+function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+
+function romeNow(){
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",
+    hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+  return { date:`${p.year}-${p.month}-${p.day}`, min:(+p.hour)*60 + (+p.minute) };
+}
+const toMin = t => { const [h,m]=t.split(":"); return (+h)*60+(+m); };
+// gli spettacoli dopo mezzanotte (00:05) appartengono alla serata del giorno stesso: contano come "fine giornata"
+const effMin = t => { const m = toMin(t); return m < 5*60 ? m + 24*60 : m; };
+
+function dayLabel(iso, today){
+  const d = new Date(iso+"T12:00:00Z"), t = new Date(today+"T12:00:00Z");
+  const diff = Math.round((d - t)/864e5);
+  if(diff===0) return "Oggi";
+  if(diff===1) return "Domani";
+  const wd = new Intl.DateTimeFormat("it-IT",{weekday:"short",timeZone:"UTC"}).format(d).replace(".","");
+  return `${wd.charAt(0).toUpperCase()+wd.slice(1)} ${d.getUTCDate()}/${d.getUTCMonth()+1}`;
+}
+
+function prettyTitle(t){
+  const letters = t.replace(/[^A-Za-zÀ-ÿ]/g,"");
+  if(letters.length < 4 || letters !== letters.toUpperCase()) return t;   // già in maiuscolo/minuscolo "normale"
+  // titoli italiani: maiuscola solo all'inizio e dopo i due punti ("Avengers: Doomsday")
+  return t.toLowerCase().replace(/(^|:\s+|\(\s*)([a-zà-ÿ])/g,(m,a,b)=>a+b.toUpperCase());
+}
+function filmKey(t){
+  return t.toLowerCase().replace(/\([^)]*\)/g," ").replace(/\b4k\b/g," ")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
+}
+const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------- schede film (opzionale: data/films.json) ---------- */
+let FILMS = {};
+function filmInfo(title){
+  const f = FILMS[filmKey(title)] || {};
+  const q = encodeURIComponent(title.replace(/\([^)]*\)/g," ").trim()+" film");
+  return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url, poster: f.poster || ""};
+}
+function titleLink(title){
+  const i = filmInfo(title);
+  return `<a class="ft" href="${esc(i.url)}" target="_blank" rel="noopener" title="${i.wiki?"Scheda su Wikipedia":"Cerca su Google"}">${esc(title)}</a>`;
+}
+
+/* ---------- dati ---------- */
+async function load(){
+  try{ const r = await fetch("data/films.json",{cache:"no-store"}); if(r.ok) FILMS = await r.json(); }catch(e){}
+  try{
+    const r = await fetch("data/showtimes.json",{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    state.data = await r.json();
+  }catch(e){
+    $("out").innerHTML = `<div class="empty"><b>Dati non ancora disponibili</b>Il file data/showtimes.json non è stato trovato. Se hai appena pubblicato il sito, avvia una volta il workflow “Aggiorna programmazione” dalla scheda Actions del repository.</div>`;
+    return;
+  }
+  const saved = lsGet("ct.hidden"); if(saved) try{ state.hidden = new Set(JSON.parse(saved)); }catch(e){}
+  state.view = lsGet("ct.view") || "film";
+  state.fromNow = lsGet("ct.fromnow") !== "0";
+  $("fromnow").checked = state.fromNow;
+  buildChips(); render();
+}
+
+function buildChips(){
+  const box = $("cchips"); box.innerHTML = "";
+  for(const c of state.data.cinemas){
+    const b = document.createElement("button");
+    b.className="chip"; b.textContent=c.name; b.dataset.id=c.id;
+    b.setAttribute("aria-pressed", String(!state.hidden.has(c.id)));
+    b.onclick = () => { state.hidden.has(c.id) ? state.hidden.delete(c.id) : state.hidden.add(c.id);
+      lsSet("ct.hidden", JSON.stringify([...state.hidden])); buildChips(); render(); };
+    box.appendChild(b);
+  }
+  const all = document.createElement("button"); all.className="link"; all.textContent="Tutti";
+  all.onclick = () => { state.hidden.clear(); lsSet("ct.hidden","[]"); buildChips(); render(); };
+  const none = document.createElement("button"); none.className="link"; none.textContent="Nessuno";
+  none.onclick = () => { state.hidden = new Set(state.data.cinemas.map(c=>c.id)); lsSet("ct.hidden", JSON.stringify([...state.hidden])); buildChips(); render(); };
+  box.append(all,none);
+  const shown = state.data.cinemas.length - state.hidden.size;
+  $("fsum").textContent = shown === state.data.cinemas.length ? "tutti" : `${shown} su ${state.data.cinemas.length}`;
+}
+
+/* ---------- rendering ---------- */
+function subline(c, link){
+  const bits = [];
+  if(c.address) bits.push(esc(c.address));
+  if(link) bits.push(`<a href="${esc(link)}" target="_blank" rel="noopener">Sito ufficiale ↗</a>`);
+  if(c.status && c.status.source==="Movieplayer") bits.push("orari da Movieplayer, solo oggi: verifica sul sito");
+  return bits.length ? `<p class="sub">${bits.join(" · ")}</p>` : "";
+}
+function timePills(list, now, isToday){
+  let nextMarked = false;
+  return list.map(s=>{
+    const isPast = isToday && effMin(s.time) < now.min - 10;
+    let cls = "t";
+    if(isPast) cls += " past";
+    else if(isToday && !nextMarked){ cls += " next"; nextMarked = true; }
+    const vo = s.tag==="VO" ? "<sup>VO</sup>" : "";
+    const extra = s.tag && s.tag!=="VO" ? `<i>${esc(s.tag)}</i>` : "";
+    const room = s.room ? `<i class="r" title="Sala ${esc(s.room)}">S${esc(s.room)}</i>` : "";
+    return `<span class="${cls}">${s.time}${vo}${room}${extra}</span>`;
+  }).join("");
+}
+
+function render(){
+  const d = state.data; if(!d) return;
+  const now = romeNow();
+  const today = now.date;
+  const dates = [...new Set(d.showtimes.map(s=>s.date))].filter(x=>x>=today).sort();
+  if(!dates.includes(today)) dates.unshift(today);
+  if(!state.day || !dates.includes(state.day)) state.day = today;
+  const isToday = state.day === today;
+
+  $("days").innerHTML = dates.map(x=>`<button class="chip" data-d="${x}" aria-pressed="${x===state.day}">${esc(dayLabel(x,today))}</button>`).join("");
+  $("days").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.day=b.dataset.d; render(); });
+  $("v-film").setAttribute("aria-pressed", String(state.view==="film"));
+  $("v-cinema").setAttribute("aria-pressed", String(state.view==="cinema"));
+
+  const g = new Date(d.generated_at);
+  const gDay = isNaN(g) ? "" : new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(g);
+  $("upd").textContent = isNaN(g) ? "" : "· agg. " + new Intl.DateTimeFormat("it-IT",
+    gDay===today ? {timeZone:TZ,hour:"2-digit",minute:"2-digit"} : {timeZone:TZ,day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}).format(g);
+
+  const cmap = Object.fromEntries(d.cinemas.map(c=>[c.id,c]));
+  const q = filmKey(state.q);
+  let rows = d.showtimes.filter(s => s.date===state.day && !state.hidden.has(s.cinema) && (!q || filmKey(s.film).includes(q)));
+  if(isToday && state.fromNow) rows = rows.filter(s => effMin(s.time) >= now.min - 10);
+
+  const warns = d.cinemas.filter(c=>!state.hidden.has(c.id) && (c.status.stale || (!c.status.ok && !c.status.n) ));
+  let html = "";
+  const broken = warns.filter(c=>c.status.stale).map(c=>c.name);
+  const missing = warns.filter(c=>!c.status.stale).map(c=>c.name);
+  if(broken.length) html += `<div class="warn">Orari non aggiornati (sito non raggiungibile all’ultimo controllo): ${esc(broken.join(", "))}.</div>`;
+  if(missing.length) html += `<div class="warn">Programmazione non rilevata automaticamente per: ${missing.map(n=>{const c=d.cinemas.find(x=>x.name===n);const u=c.site||c.info_url;return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`:esc(n)}).join(", ")}.</div>`;
+
+  if(state.view==="film") html += renderFilms(rows, cmap, now, isToday);
+  else html += renderCinemas(rows, d, now, isToday);
+  $("out").innerHTML = html;
+
+  const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
+  $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`;
+}
+
+function renderFilms(rows, cmap, now, isToday){
+  if(!rows.length) return emptyMsg(isToday);
+  const films = new Map();
+  for(const s of rows){
+    const k = filmKey(s.film);
+    if(!films.has(k)) films.set(k,{title:s.film, byCinema:new Map()});
+    const f = films.get(k);
+    if(s.film !== s.film.toUpperCase()) f.title = s.film;   // preferisci la versione non tutta maiuscola
+    if(!f.byCinema.has(s.cinema)) f.byCinema.set(s.cinema,[]);
+    f.byCinema.get(s.cinema).push(s);
+  }
+  const list = [...films.values()].map(f=>{
+    f.byCinema.forEach(a=>a.sort((x,y)=>effMin(x.time)-effMin(y.time)));
+    f.first = Math.min(...[...f.byCinema.values()].map(a=>effMin(a[0].time)));
+    f.title = prettyTitle(f.title);
+    return f;
+  }).sort((a,b)=> a.first-b.first || a.title.localeCompare(b.title,"it"));
+
+  return list.map(f=>{
+    const n = f.byCinema.size;
+    const rowsHtml = [...f.byCinema.entries()].sort((a,b)=>effMin(a[1][0].time)-effMin(b[1][0].time)).map(([cid,arr])=>{
+      const c = cmap[cid]; const link = c.site || c.info_url;
+      const name = link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name);
+      return `<div class="row"><div class="who">${name}${c.address?`<small>${esc(c.address)}</small>`:""}</div><div class="times">${timePills(arr,now,isToday)}</div></div>`;
+    }).join("");
+    const i = filmInfo(f.title);
+    const img = i.poster ? `<img class="poster" src="${esc(i.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+    return `<section class="card"><div class="fh">${img}<div><h2>${titleLink(f.title)}</h2><p class="sub">${n} cinema · <a href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Scheda Wikipedia ↗":"Cerca su Google ↗"}</a></p></div></div>${rowsHtml}</section>`;
+  }).join("");
+}
+
+function renderCinemas(rows, d, now, isToday){
+  const by = new Map();
+  for(const s of rows){ if(!by.has(s.cinema)) by.set(s.cinema,new Map());
+    const m = by.get(s.cinema), k = filmKey(s.film);
+    if(!m.has(k)) m.set(k,{title:prettyTitle(s.film),arr:[]}); m.get(k).arr.push(s); }
+  let out = "";
+  for(const c of d.cinemas){
+    if(state.hidden.has(c.id)) continue;
+    const films = by.get(c.id);
+    if(!films && state.q) continue;
+    const link = c.site || c.info_url;
+    let body;
+    if(!films) body = `<div class="none">${c.status.stale?"Orari non aggiornati.":(c.status.ok?"Nessuna proiezione trovata per questo giorno.":"Programmazione non rilevata automaticamente.")}</div>`;
+    else body = [...films.values()].sort((a,b)=>effMin(a.arr[0].time)-effMin(b.arr[0].time)).map(f=>{
+      f.arr.sort((x,y)=>effMin(x.time)-effMin(y.time));
+      return `<div class="row"><div class="who">${titleLink(f.title)}</div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
+    }).join("");
+    out += `<section class="card"><h2>${link?`<a href="${esc(link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(c.name)}</a>`:esc(c.name)}</h2>${subline(c,link)}${body}</section>`;
+  }
+  return out || emptyMsg(isToday);
+}
+
+function emptyMsg(isToday){
+  return `<div class="empty"><b>Nessuna proiezione</b>${isToday&&state.fromNow?"Per oggi non ci sono più spettacoli con questi filtri. Togli “Solo da ora” o scegli un altro giorno.":"Prova a cambiare giorno, ricerca o cinema selezionati."}</div>`;
+}
+
+/* ---------- eventi ---------- */
+$("v-film").onclick = () => { state.view="film"; lsSet("ct.view","film"); render(); };
+$("v-cinema").onclick = () => { state.view="cinema"; lsSet("ct.view","cinema"); render(); };
+$("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+$("fromnow").addEventListener("change", e => { state.fromNow = e.target.checked; lsSet("ct.fromnow", e.target.checked?"1":"0"); render(); });
+document.addEventListener("visibilitychange", () => { if(!document.hidden && state.data) render(); });
+setInterval(()=>{ if(state.data && !document.hidden) render(); }, 60000);
+load();
+</script>
+</body>
+</html>

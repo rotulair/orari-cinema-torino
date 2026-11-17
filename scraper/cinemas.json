@@ -1,0 +1,241 @@
+[
+ {
+  "id": "ideal",
+  "name": "Ideal Cityplex",
+  "address": "Corso Beccaria 4",
+  "sources": [
+   {
+    "type": "ideal",
+    "label": "Sito ufficiale",
+    "url": "https://www.idealcityplex.it/ideal-cityplex"
+   }
+  ],
+  "site": "https://www.idealcityplex.it/"
+ },
+ {
+  "id": "massaua",
+  "name": "Massaua Cityplex",
+  "address": "Piazza Massaua 9",
+  "site": "https://massauacityplex.it/",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://massauacityplex.it/"
+   }
+  ]
+ },
+ {
+  "id": "reposi",
+  "name": "Reposi",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://www.multisalareposi.it/"
+   }
+  ],
+  "site": "https://www.multisalareposi.it/"
+ },
+ {
+  "id": "thespace",
+  "name": "The Space Parco Dora",
+  "address": "Salita M. Garove 24",
+  "sources": [
+   {
+    "type": "movieplayer",
+    "label": "Movieplayer",
+    "url": "https://movieplayer.it/cinema/the-space-cinema-torino-parco-dora_1451/"
+   }
+  ],
+  "site": "https://www.thespacecinema.it/"
+ },
+ {
+  "id": "uci",
+  "name": "UCI Lingotto",
+  "address": "Via Nizza 230",
+  "sources": [
+   {
+    "type": "movieplayer",
+    "label": "Movieplayer",
+    "url": "https://movieplayer.it/cinema/uci-cinemas-lingotto_1455/"
+   }
+  ],
+  "site": "https://www.ucicinemas.it/"
+ },
+ {
+  "id": "eliseo",
+  "name": "Eliseo",
+  "address": "Via Monginevro 42",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://cctorino.18tickets.it/",
+    "venue": "eliseo"
+   }
+  ],
+  "site": "https://eliseo.cctorino.18tickets.it/"
+ },
+ {
+  "id": "marx",
+  "name": "Fratelli Marx",
+  "address": "Corso Belgio 53",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://cctorino.18tickets.it/",
+    "venue": "fratellimarx"
+   }
+  ],
+  "site": "https://cctorino.18tickets.it/"
+ },
+ {
+  "id": "romano",
+  "name": "Romano",
+  "address": "Piazza Castello 9",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://cctorino.18tickets.it/",
+    "venue": "romano"
+   }
+  ],
+  "site": "https://romano.cctorino.18tickets.it/"
+ },
+ {
+  "id": "nazionale",
+  "name": "Nazionale",
+  "address": "Via Pomba 7",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://cctorino.18tickets.it/",
+    "venue": "nazionale"
+   }
+  ],
+  "site": "https://cctorino.18tickets.it/"
+ },
+ {
+  "id": "massimo",
+  "name": "Cinema Massimo",
+  "address": "Via Verdi 18",
+  "site": "https://www.cinemamassimotorino.it/",
+  "sources": [
+   {
+    "type": "massimo",
+    "label": "Sito ufficiale",
+    "url": "https://www.cinemamassimotorino.it/calendario-completo/"
+   }
+  ]
+ },
+ {
+  "id": "lux",
+  "name": "Movie Planet Lux",
+  "address": "Galleria San Federico",
+  "sources": [
+   {
+    "type": "movieplanet",
+    "label": "Sito ufficiale",
+    "url": "https://www.movieplanetgroup.it/mp_torino/printProg.php"
+   }
+  ],
+  "site": "https://www.movieplanetgroup.it/mp_torino/"
+ },
+ {
+  "id": "centrale",
+  "name": "Centrale Arthouse",
+  "address": "Via Carlo Alberto 27",
+  "sources": [
+   {
+    "type": "centrale",
+    "label": "Sito ufficiale",
+    "url": "https://cinemacentrale.wordpress.com/",
+    "follow": "/\\d{4}/\\d{2}/\\d{2}/programmazione"
+   }
+  ],
+  "site": "https://cinemacentrale.wordpress.com/"
+ },
+ {
+  "id": "classico",
+  "name": "Classico",
+  "address": "Piazza Vittorio Veneto 5",
+  "sources": [
+   {
+    "type": "movieplayer",
+    "label": "Movieplayer",
+    "url": "https://movieplayer.it/cinema/empire_1444/"
+   }
+  ],
+  "site": "https://www.circuitograntorino.com/"
+ },
+ {
+  "id": "greenwich",
+  "name": "Greenwich Village",
+  "address": "Via Po 30",
+  "sources": [
+   {
+    "type": "movieplayer",
+    "label": "Movieplayer",
+    "url": "https://movieplayer.it/cinema/greenwich-village_1448/"
+   }
+  ],
+  "site": "https://www.circuitograntorino.com/"
+ },
+ {
+  "id": "duegiardini",
+  "name": "Due Giardini",
+  "address": "Via Monfalcone 62",
+  "sources": [
+   {
+    "type": "18tickets",
+    "label": "Sito ufficiale",
+    "url": "https://cctorino.18tickets.it/",
+    "venue": "duegiardini"
+   }
+  ],
+  "site": "https://cctorino.18tickets.it/"
+ },
+ {
+  "id": "esedra",
+  "name": "Esedra",
+  "address": "Via Bagetti 30",
+  "sources": [
+   {
+    "type": "esedra",
+    "label": "Sito ufficiale",
+    "url": "https://www.cinemaesedra.com/"
+   }
+  ],
+  "site": "https://www.cinemaesedra.com/"
+ },
+ {
+  "id": "baretti",
+  "name": "Baretti",
+  "address": "Via Baretti 4",
+  "sources": [
+   {
+    "type": "baretti",
+    "label": "Sito ufficiale",
+    "url": "https://cineteatrobaretti.it/cinema/"
+   }
+  ],
+  "site": "https://cineteatrobaretti.it/cinema/"
+ },
+ {
+  "id": "agnelli",
+  "name": "Agnelli",
+  "address": "Via Paolo Sarpi 111",
+  "sources": [
+   {
+    "type": "agnelli",
+    "label": "Sito ufficiale",
+    "url": "https://www.cineteatroagnelli.it/cinema/"
+   }
+  ],
+  "site": "https://www.cineteatroagnelli.it/cinema/"
+ }
+]
