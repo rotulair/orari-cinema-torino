@@ -59,6 +59,33 @@ main{padding:14px 0 60px}
 .fh{display:flex;gap:14px;align-items:flex-start;padding-bottom:12px;margin-bottom:4px;border-bottom:2px solid var(--line)}.fh>div{min-width:0}
 .poster{width:64px;height:94px;object-fit:cover;border-radius:6px;flex:none;background:var(--pill)}
 .fh h2{margin-top:0}
+.dtabs{display:flex;gap:6px;overflow-x:auto;padding:2px 0 10px;margin:0 -2px;scrollbar-width:none}
+.dtabs::-webkit-scrollbar{display:none}
+.dt{flex:none;border:1px solid var(--line);background:var(--pill);color:var(--pill-ink);font:inherit;font-size:13px;font-weight:600;
+  padding:6px 11px;border-radius:999px;cursor:pointer}
+.dt[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.only{align-items:center;flex-wrap:wrap}
+.only button[data-back]{border:0;background:none;color:var(--accent);font:inherit;font-weight:700;cursor:pointer;padding:0 8px 0 0}
+.info{padding:12px 0 2px;border-top:1px solid var(--line);margin-top:4px;font-size:14px;line-height:1.45}
+.info p{margin:0 0 6px}
+.info .facts{font-weight:600}
+.info .mut{color:var(--mute);font-size:13px}
+.plot{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.plot.full{display:block}
+.info .more{padding:0;margin:0 0 6px;font-size:13px}
+.ibtns{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.ibtn{padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--pill);color:var(--pill-ink);
+  text-decoration:none;font-size:13px;font-weight:600}
+.row .who a.cn{color:inherit}
+.row .who a.ext{color:var(--mute);font-size:14px;font-weight:400;text-decoration:none;border:0;margin-left:2px}
+.who.mw{display:flex;gap:10px;align-items:flex-start}
+.who.mw>div{min-width:0}
+.mini{width:36px;height:54px;border-radius:5px;object-fit:cover;flex:none;background:var(--pill)}
+@keyframes slL{from{opacity:.3;transform:translateX(28px)}to{opacity:1;transform:none}}
+@keyframes slR{from{opacity:.3;transform:translateX(-28px)}to{opacity:1;transform:none}}
+#out.sl{animation:slL .18s ease-out}
+#out.sr{animation:slR .18s ease-out}
+@media (prefers-reduced-motion:reduce){#out.sl,#out.sr{animation:none}}
 summary.fh{list-style:none;cursor:pointer;position:relative}
 summary.fh::-webkit-details-marker{display:none}
 summary.fh::after{content:"";flex:none;align-self:center;margin-left:auto;width:9px;height:9px;
@@ -131,7 +158,7 @@ footer a{color:inherit}
 const $ = id => document.getElementById(id);
 const TZ = "Europe/Rome";
 
-const state = { data:null, day:null, view:"film", q:"", only:"", fromNow:true, hidden:new Set() };
+const state = { data:null, day:null, dates:[], anim:"", depth:0, view:"film", q:"", only:"", onlyCinema:"", fromNow:true, hidden:new Set() };
 
 /* ---------- utilità ---------- */
 function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
@@ -169,11 +196,18 @@ const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 
 /* ---------- schede film (opzionale: data/films.json) ---------- */
 let FILMS = {};
+const TMDB_IMG = "https://image.tmdb.org/t/p/w185";
 function filmInfo(title){
   const f = FILMS[filmKey(title)] || {};
   const q = encodeURIComponent(title.replace(/\([^)]*\)|\[[^\]]*\]/g," ").trim()+" film");
-  return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url, poster: f.poster || ""};
+  const t = f.tmdb || null;
+  return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url,
+    poster: t && t.poster_path ? "https://image.tmdb.org/t/p/w185"+t.poster_path : (f.poster || ""),
+    tmdb: t && t.url ? t.url : "", runtime: (t && t.runtime) || 0, director: (t && t.director) || f.director || "",
+    overview: (t && t.overview) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
+    original: (t && t.original_title) || "", year: t && t.year ? t.year : ""};
 }
+const cardDay = new Map();   // scheda film -> giorno scelto nelle sue linguette (si azzera cambiando giorno)
 /* ---------- schede comprimibili ---------- */
 // Schede film: chiuse di default (si ricordano solo quelle aperte). Schede cinema: aperte di default.
 const collapsed = new Set(), expanded = new Set();
@@ -190,6 +224,38 @@ function syncColAll(){
   const b = $("colall"); if(!b) return;
   b.hidden = !all.length;
   b.textContent = all.some(d=>d.open) ? "Comprimi tutto" : "Espandi tutto";
+}
+
+/* ---------- navigazione interna (tasto Indietro del telefono incluso) ---------- */
+const snap = () => ({view:state.view, only:state.only, onlyCinema:state.onlyCinema, day:state.day, depth:state.depth, y:window.scrollY});
+function syncHist(){ try{ history.replaceState(snap(), ""); }catch(e){} }
+function navigate(patch){
+  syncHist();                                   // ricorda dove eri (anche lo scroll)
+  Object.assign(state, patch); state.depth++;
+  try{ history.pushState(snap(), ""); }catch(e){}
+  render(); window.scrollTo({top:0});
+}
+function goBack(){
+  if(state.depth > 0){ try{ history.back(); return; }catch(e){} }
+  state.only = state.onlyCinema = ""; state.depth = 0; syncHist(); render();
+}
+window.addEventListener("popstate", e => {
+  const h = e.state; if(!h) return;
+  Object.assign(state, {view:h.view, only:h.only||"", onlyCinema:h.onlyCinema||"", depth:h.depth||0});
+  if(h.day) state.day = h.day;
+  render(); window.scrollTo({top:h.y||0});
+});
+
+function infoBlock(i, title){
+  const bits = [];
+  const facts = [i.genres.join(", "), i.year].filter(Boolean).join(" · ");
+  if(facts) bits.push(`<p class="facts">${esc(facts)}</p>`);
+  if(i.original && filmKey(i.original) !== filmKey(title)) bits.push(`<p class="mut">Titolo originale: <i>${esc(i.original)}</i></p>`);
+  if(i.overview) bits.push(`<p class="plot${i.overview.length>190?"":" full"}">${esc(i.overview)}</p>` + (i.overview.length>190 ? `<button type="button" class="link more" data-more="1">Leggi tutto</button>` : ""));
+  if(i.cast.length) bits.push(`<p class="mut">Con: ${esc(i.cast.join(", "))}</p>`);
+  const btns = `<div class="ibtns"><a class="ibtn" href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Wikipedia ↗":"Cerca su Google ↗"}</a>`
+    + (i.tmdb ? `<a class="ibtn" href="${esc(i.tmdb)}" target="_blank" rel="noopener">TMDB ↗</a>` : "") + `</div>`;
+  return `<div class="info">${bits.join("")}${btns}</div>`;
 }
 
 function cinemaFilmLink(title){   // nella scheda cinema: porta alla scheda film (tutti i cinema e gli orari)
@@ -215,7 +281,7 @@ async function load(){
   state.view = lsGet("ct.view") || "film";
   state.fromNow = lsGet("ct.fromnow") !== "0";
   $("fromnow").checked = state.fromNow;
-  buildChips(); render();
+  buildChips(); render(); syncHist();
 }
 
 function buildChips(){
@@ -266,10 +332,13 @@ function render(){
   const dates = [...new Set(d.showtimes.map(s=>s.date))].filter(x=>x>=today).sort();
   if(!dates.includes(today)) dates.unshift(today);
   if(!state.day || !dates.includes(state.day)) state.day = today;
+  state.dates = dates;
   const isToday = state.day === today;
 
   $("days").innerHTML = dates.map(x=>`<button class="chip" data-d="${x}" aria-pressed="${x===state.day}">${esc(dayLabel(x,today))}</button>`).join("");
-  $("days").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.day=b.dataset.d; render(); });
+  $("days").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.anim = b.dataset.d > state.day ? "l" : "r"; state.day=b.dataset.d; cardDay.clear(); render(); });
+  const act = $("days").querySelector('[aria-pressed="true"]');
+  if(act) $("days").scrollLeft = act.offsetLeft - ($("days").clientWidth - act.offsetWidth)/2;
   $("v-film").setAttribute("aria-pressed", String(state.view==="film"));
   $("v-cinema").setAttribute("aria-pressed", String(state.view==="cinema"));
 
@@ -280,8 +349,17 @@ function render(){
 
   const cmap = Object.fromEntries(d.cinemas.map(c=>[c.id,c]));
   const q = filmKey(state.q);
-  let rows = d.showtimes.filter(s => s.date===state.day && !state.hidden.has(s.cinema) && (!q || filmKey(s.film).includes(q)) && (!state.only || filmKey(s.film)===state.only));
+  let rows = d.showtimes.filter(s => s.date===state.day && !state.hidden.has(s.cinema) && (!q || filmKey(s.film).includes(q)) && (!state.only || filmKey(s.film)===state.only) && (!state.onlyCinema || s.cinema===state.onlyCinema));
   if(isToday && state.fromNow) rows = rows.filter(s => effMin(s.time) >= now.min - 10);
+  // tutti i giorni di ogni film (per le linguette dei giorni nella scheda film)
+  const all = new Map();
+  for(const s of d.showtimes){
+    if(s.date < today || state.hidden.has(s.cinema)) continue;
+    const k = filmKey(s.film);
+    if((q && !k.includes(q)) || (state.only && k!==state.only) || (state.onlyCinema && s.cinema!==state.onlyCinema)) continue;
+    if(!all.has(k)) all.set(k,new Map());
+    const m = all.get(k); if(!m.has(s.date)) m.set(s.date,[]); m.get(s.date).push(s);
+  }
 
   const warns = d.cinemas.filter(c=>!state.hidden.has(c.id) && (c.status.stale || (!c.status.ok && !c.status.n) ));
   let html = "";
@@ -290,20 +368,24 @@ function render(){
   if(broken.length) html += `<div class="warn">Orari non aggiornati (sito non raggiungibile all’ultimo controllo): ${esc(broken.join(", "))}.</div>`;
   if(missing.length) html += `<div class="warn">Programmazione non rilevata automaticamente per: ${missing.map(n=>{const c=d.cinemas.find(x=>x.name===n);const u=c.site||c.info_url;return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`:esc(n)}).join(", ")}.</div>`;
 
-  if(state.only){
-    const nm = d.showtimes.find(s=>filmKey(s.film)===state.only);
-    html += `<div class="only"><span>Solo: <b>${esc(nm?prettyTitle(nm.film):state.only)}</b></span><button type="button" data-clear="1">Mostra tutti i film ✕</button></div>`;
+  if(state.only || state.onlyCinema){
+    const nm = state.only ? d.showtimes.find(s=>filmKey(s.film)===state.only) : null;
+    const label = state.only ? (nm?prettyTitle(nm.film):state.only) : ((cmap[state.onlyCinema]||{}).name || state.onlyCinema);
+    html += `<div class="only"><button type="button" data-back="1">← Indietro</button><span>Solo: <b>${esc(label)}</b></span><button type="button" data-clear="1">Mostra tutti ✕</button></div>`;
   }
-  if(state.view==="film") html += renderFilms(rows, cmap, now, isToday);
+  if(state.view==="film") html += renderFilms(rows, cmap, now, isToday, all, today);
   else html += renderCinemas(rows, d, now, isToday);
   $("out").innerHTML = html;
   syncColAll();
 
   const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
-  $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`;
+  const hasTmdb = Object.values(FILMS).some(f=>f && f.tmdb);
+  $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`
+    + (hasTmdb ? `<br>Locandine, durate e registi: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> e Wikipedia. This product uses the TMDB API but is not endorsed or certified by TMDB.` : "");
+  if(state.anim){ const o=$("out"); o.classList.remove("sl","sr"); void o.offsetWidth; o.classList.add(state.anim==="l"?"sl":"sr"); state.anim=""; }
 }
 
-function renderFilms(rows, cmap, now, isToday){
+function renderFilms(rows, cmap, now, isToday, all, today){
   if(!rows.length) return emptyMsg(isToday);
   const films = new Map();
   for(const s of rows){
@@ -322,18 +404,37 @@ function renderFilms(rows, cmap, now, isToday){
   }).sort((a,b)=> a.first-b.first || a.title.localeCompare(b.title,"it"));
 
   return list.map(f=>{
-    const n = f.byCinema.size;
-    const rowsHtml = [...f.byCinema.entries()].sort((a,b)=>effMin(a[1][0].time)-effMin(b[1][0].time)).map(([cid,arr])=>{
+    const k = filmKey(f.title);
+    const perDay = all.get(k) || new Map();
+    const days = [...perDay.keys()].sort();
+    let sel = cardDay.get(k); if(!days.includes(sel)) sel = state.day;
+    const selToday = sel === today;
+    let byCinema = f.byCinema;
+    if(sel !== state.day){
+      byCinema = new Map();
+      for(const s of perDay.get(sel)||[]){
+        if(selToday && state.fromNow && effMin(s.time) < now.min - 10) continue;
+        if(!byCinema.has(s.cinema)) byCinema.set(s.cinema,[]);
+        byCinema.get(s.cinema).push(s);
+      }
+      byCinema.forEach(a=>a.sort((x,y)=>effMin(x.time)-effMin(y.time)));
+    }
+    const n = byCinema.size;
+    const tabs = days.length > 1
+      ? `<div class="dtabs" role="group" aria-label="Giorni di programmazione">${days.map(x=>`<button type="button" class="dt" data-cd="${esc(k)}" data-date="${x}" aria-pressed="${x===sel}">${esc(dayLabel(x,today))}</button>`).join("")}</div>`
+      : "";
+    const rowsHtml = n ? [...byCinema.entries()].sort((a,b)=>effMin(a[1][0].time)-effMin(b[1][0].time)).map(([cid,arr])=>{
       const c = cmap[cid]; const link = c.site || c.info_url;
-      const name = link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name);
-      return `<div class="row"><div class="who">${name}${c.address?`<small>${esc(c.address)}</small>`:""}</div><div class="times">${timePills(arr,now,isToday)}</div></div>`;
-    }).join("");
+      const name = `<a class="cn" href="#cinema" data-cinema="${esc(cid)}" title="Tutta la programmazione di questo cinema">${esc(c.name)}</a>`
+        + (link ? ` <a class="ext" href="${esc(link)}" target="_blank" rel="noopener" title="Sito ufficiale" aria-label="Sito ufficiale">↗</a>` : "");
+      return `<div class="row"><div class="who">${name}${c.address?`<small>${esc(c.address)}</small>`:""}</div><div class="times">${timePills(arr,now,selToday)}</div></div>`;
+    }).join("") : `<div class="none">Nessuna proiezione in questo giorno con i filtri attuali.</div>`;
     const i = filmInfo(f.title);
     const img = i.poster ? `<img class="poster" src="${esc(i.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
-    const k = filmKey(f.title);
-    const regia = ([...f.byCinema.values()].flat().find(s=>s.regia)||{}).regia || (FILMS[k]||{}).director || "";
-    const dir = regia ? `<span class="dir">regia di: ${esc(regia)}</span>` : "";
-    return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${img}<div><h2>${titleLink(f.title)}${dir}</h2><p class="sub">${n} cinema · <a href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Scheda Wikipedia ↗":"Cerca su Google ↗"}</a></p></div></summary>${rowsHtml}</details>`;
+    const regia = ([...perDay.values()].flat().find(s=>s.regia)||{}).regia || i.director || "";
+    const meta = [regia ? `regia di: ${esc(regia)}` : "", i.runtime ? `${i.runtime}\u00a0min` : ""].filter(Boolean).join(" · ");
+    const dir = meta ? `<span class="dir">${meta}</span>` : "";
+    return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${img}<div><h2>${esc(f.title)}${dir}</h2><p class="sub">${n} ${n===1?"cinema":"cinema"}</p></div></summary>${tabs}${rowsHtml}${infoBlock(i, f.title)}</details>`;
   }).join("");
 }
 
@@ -344,7 +445,7 @@ function renderCinemas(rows, d, now, isToday){
     if(!m.has(k)) m.set(k,{title:prettyTitle(s.film),arr:[]}); m.get(k).arr.push(s); }
   let out = "";
   for(const c of d.cinemas){
-    if(state.hidden.has(c.id)) continue;
+    if(state.hidden.has(c.id) || (state.onlyCinema && c.id!==state.onlyCinema)) continue;
     const films = by.get(c.id);
     if(!films && (state.q || state.only)) continue;
     const link = c.site || c.info_url;
@@ -352,7 +453,9 @@ function renderCinemas(rows, d, now, isToday){
     if(!films) body = `<div class="none">${c.status.stale?"Orari non aggiornati.":(c.status.ok?"Nessuna proiezione trovata per questo giorno.":"Programmazione non rilevata automaticamente.")}</div>`;
     else body = [...films.values()].sort((a,b)=>effMin(a.arr[0].time)-effMin(b.arr[0].time)).map(f=>{
       f.arr.sort((x,y)=>effMin(x.time)-effMin(y.time));
-      return `<div class="row"><div class="who">${cinemaFilmLink(f.title)}</div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
+      const fi = filmInfo(f.title);
+      const mini = fi.poster ? `<img class="mini" src="${esc(fi.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<span class=&quot;mini ph&quot;></span>'">` : `<span class="mini ph"></span>`;
+      return `<div class="row"><div class="who mw">${mini}<div>${cinemaFilmLink(f.title)}</div></div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
     }).join("");
     out += `<details class="card" data-k="c:${esc(c.id)}"${isOpen("c:"+c.id)}><summary class="fh"><div><h2>${link?`<a href="${esc(link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(c.name)}</a>`:esc(c.name)}</h2>${subline(c,link)}</div></summary>${body}</details>`;
   }
@@ -364,9 +467,9 @@ function emptyMsg(isToday){
 }
 
 /* ---------- eventi ---------- */
-$("v-film").onclick = () => { state.only=""; state.view="film"; lsSet("ct.view","film"); render(); };
-$("v-cinema").onclick = () => { state.only=""; state.view="cinema"; lsSet("ct.view","cinema"); render(); };
-$("q").addEventListener("input", e => { state.q = e.target.value; state.only=""; render(); });
+$("v-film").onclick = () => { state.only=state.onlyCinema=""; state.depth=0; state.view="film"; lsSet("ct.view","film"); syncHist(); render(); };
+$("v-cinema").onclick = () => { state.only=state.onlyCinema=""; state.depth=0; state.view="cinema"; lsSet("ct.view","cinema"); syncHist(); render(); };
+$("q").addEventListener("input", e => { state.q = e.target.value; state.only=state.onlyCinema=""; render(); });
 $("out").addEventListener("toggle", e => {
   const d = e.target; if(!d.dataset || !d.dataset.k) return;
   const k = d.dataset.k;
@@ -382,8 +485,39 @@ $("colall").onclick = () => {
 };
 $("out").addEventListener("click", e => {
   const a = e.target.closest("[data-film]");
-  if(a){ e.preventDefault(); state.only = a.dataset.film; state.view="film"; render(); window.scrollTo({top:0}); return; }
-  if(e.target.closest("[data-clear]")){ state.only=""; render(); }
+  if(a){ e.preventDefault(); navigate({only:a.dataset.film, onlyCinema:"", view:"film"}); return; }
+  const cn = e.target.closest("[data-cinema]");
+  if(cn){ e.preventDefault(); navigate({onlyCinema:cn.dataset.cinema, only:"", view:"cinema"}); return; }
+  if(e.target.closest("[data-back]")){ goBack(); return; }
+  if(e.target.closest("[data-clear]")){ state.only=state.onlyCinema=""; state.depth=0; syncHist(); render(); return; }
+  const mo = e.target.closest("[data-more]");
+  if(mo){ const p = mo.previousElementSibling; const full = p.classList.toggle("full"); mo.textContent = full ? "Mostra meno" : "Leggi tutto"; return; }
+  const t = e.target.closest("[data-cd]");
+  if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); render(); }
+});
+
+/* ---------- scorrimento orizzontale tra i giorni ---------- */
+function gotoDay(step){
+  const j = state.dates.indexOf(state.day) + step;
+  if(j < 0 || j >= state.dates.length) return;
+  state.anim = step > 0 ? "l" : "r";
+  state.day = state.dates[j]; cardDay.clear(); render();
+  window.scrollTo({top:0});
+}
+let tx = 0, ty = 0, tok = false;
+document.addEventListener("touchstart", e => {
+  const t = e.touches[0]; tx = t.clientX; ty = t.clientY;
+  tok = e.touches.length === 1 && !e.target.closest(".dtabs,.days,.cinema-chips,input,.filter[open]");
+}, {passive:true});
+document.addEventListener("touchend", e => {
+  if(!tok) return; tok = false;
+  const t = e.changedTouches[0], dx = t.clientX - tx, dy = t.clientY - ty;
+  if(Math.abs(dx) < 70 || Math.abs(dx) < 1.8*Math.abs(dy)) return;
+  gotoDay(dx < 0 ? 1 : -1);
+}, {passive:true});
+document.addEventListener("keydown", e => {
+  if(e.target.closest && e.target.closest("input")) return;
+  if(e.key === "ArrowRight") gotoDay(1); else if(e.key === "ArrowLeft") gotoDay(-1);
 });
 $("fromnow").addEventListener("change", e => { state.fromNow = e.target.checked; lsSet("ct.fromnow", e.target.checked?"1":"0"); render(); });
 document.addEventListener("visibilitychange", () => { if(!document.hidden && state.data) render(); });
