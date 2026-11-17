@@ -28,6 +28,8 @@ jobs:
         run: python -m unittest discover -s tests
 
       - name: Scarica la programmazione
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
         run: python scraper/scrape.py --debug-dir debug
 
       - name: Salva l'HTML scaricato se qualcosa va storto
