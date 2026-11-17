@@ -1,36 +1,141 @@
 # Cinema Torino
 
-Una pagina unica con film e orari delle sale di Torino, che si aggiorna da sola. 
+Una pagina unica per consultare film, orari e programmazioni delle sale cinematografiche di Torino, aggiornata automaticamente.
 
-Come funziona:
+Il servizio è gratuito e non richiede registrazione, server o installazione di applicazioni.
 
-- `scraper/scrape.py` scarica la programmazione e scrive `data/showtimes.json`.
-- GitHub Actions lo esegue 6 volte al giorno (`.github/workflows/aggiorna.yml`) e salva il file aggiornato nel repository.
-- GitHub Pages pubblica `index.html`, che legge quel file.
+## Come funziona
 
-## Cosa aspettarsi
+Il sito raccoglie le programmazioni pubblicate dai cinema e le organizza in un'unica interfaccia.
 
-- **Fonti: siti ufficiali, con Movieplayer solo dove il sito ufficiale non è leggibile.**
-  - Sistema di biglietteria dei cinema (18tickets, lo stesso del sito del cinema): Eliseo, Romano, Nazionale, Fratelli Marx, Due Giardini, Massaua, Reposi.
-  - Pagine dei cinema: Ideal Cityplex, Cinema Massimo (calendario completo), Movie Planet Lux, Esedra, Baretti, Agnelli, Centrale Arthouse (ultimo post del blog).
-  - **Movieplayer (solo orari di oggi)** per The Space, UCI Lingotto, Greenwich Village e Classico: i loro siti caricano gli orari con JavaScript o in PDF. Sul sito compare l'indicazione "da Movieplayer" e ogni cinema ha comunque il link "Sito ufficiale" per verificare.
-- **Giorni.** Dove il sito mostra più giorni (quasi tutti) compaiono tutti; se ne mostra uno solo, vedrai solo quello.
-- **Guasti.** Se un sito non risponde, restano gli ultimi dati validi con un avviso "orari non aggiornati". Se non esce nessun orario da nessun cinema, il workflow fallisce e GitHub ti manda una mail. Nella scheda Actions trovi l'HTML scaricato (artifact `html-debug`) per capire cosa è cambiato.
-- **Inattività.** GitHub può sospendere i workflow pianificati dopo 60 giorni senza attività nel repository. In quel caso riattivali dalla scheda Actions.
-- **Uso personale.** Lo scraper fa poche richieste, con pause. Controlla i termini d'uso dei siti prima di condividere pubblicamente la pagina.
+L'aggiornamento avviene automaticamente sei volte al giorno:
 
-## Aggiungere o correggere un cinema
+- I dati vengono recuperati dai siti dei cinema.
+- Le programmazioni vengono aggiornate.
+- Il sito mostra i nuovi orari senza necessità di interventi manuali.
 
-Tutto sta in `scraper/cinemas.json`. Ogni cinema ha una lista di `sources` provate in ordine:
+Il servizio è ospitato gratuitamente su GitHub Pages.
 
-```json
-{"type": "movieplayer", "url": "https://movieplayer.it/cinema/..."}
-```
+## Fonti dei dati
 
-I tipi disponibili sono `18tickets` (con `venue` per filtrare un cinema su un sito condiviso), `ideal`, `massimo`, `movieplanet`, `esedra`, `baretti`, `agnelli`, `centrale` (con `follow`, un'espressione regolare per aprire l'ultimo post) e `movieplayer` (non usato). Per un sito nuovo serve un parser in `scrape.py`, dentro `PARSERS`. Provalo in locale con `python scraper/scrape.py --only ID --debug-dir debug` e lancia i test con `python -m unittest discover -s tests`.
+Le programmazioni vengono recuperate prioritariamente dai siti ufficiali dei cinema e dai rispettivi sistemi di biglietteria.
 
-## Sale
-Dove la fonte la indica compare la sala accanto all'orario (es. `S2`): oggi per Ideal Cityplex e Cinema Massimo. Per gli altri la fonte non la espone in modo che io abbia potuto verificare.
+### Cinema inclusi
 
-## Schede film e locandine
-Ogni film ha un link alla scheda Wikipedia (e la locandina, se Wikipedia ce l'ha); se non la trova, il link porta a una ricerca Google. Le ricerche si salvano in `data/films.json` (non si ripetono) e sono un passaggio facoltativo: se falliscono, gli orari si aggiornano lo stesso. Il match è prudente (il titolo deve combaciare e la pagina deve parlare di un film), quindi qualche film uscirà senza scheda piuttosto che con quella sbagliata.
+**Sistema di biglietteria 18tickets**
+- Eliseo
+- Romano
+- Nazionale
+- Fratelli Marx
+- Due Giardini
+- Massaua
+- Reposi
+
+**Siti ufficiali**
+- Ideal Cityplex
+- Cinema Massimo
+- Movie Planet Lux
+- Esedra
+- Baretti
+- Agnelli
+- Centrale Arthouse
+
+**Movieplayer**
+
+Per alcuni cinema vengono utilizzati gli orari pubblicati su Movieplayer, quando non è possibile recuperare direttamente quelli dai siti ufficiali:
+
+- The Space
+- UCI Lingotto
+- Greenwich Village
+- Classico
+
+In questi casi, il sito segnala chiaramente la provenienza dei dati con la dicitura «da Movieplayer».
+
+È sempre disponibile il collegamento al sito ufficiale del cinema per verificare la programmazione.
+
+## Aggiornamento e affidabilità
+
+Le programmazioni vengono aggiornate automaticamente sei volte al giorno.
+
+La disponibilità degli orari dipende dalle informazioni pubblicate dalle singole fonti:
+
+- Quando un cinema pubblica più giorni di programmazione, vengono mostrati tutti quelli disponibili.
+- Quando pubblica soltanto gli orari del giorno corrente, vengono mostrati esclusivamente quelli.
+- Se una fonte non risponde, vengono mantenuti gli ultimi dati validi e viene mostrato un avviso di mancato aggiornamento.
+
+Gli orari visualizzati possono subire variazioni. Per informazioni definitive e acquisto dei biglietti è sempre consigliabile consultare il sito ufficiale del cinema.
+
+## Schede dei film e informazioni aggiuntive
+
+Ogni film può avere una scheda dedicata con informazioni provenienti da TMDB e Wikipedia.
+
+Quando disponibili, vengono mostrati:
+
+- Locandina
+- Titolo originale
+- Genere
+- Anno di uscita
+- Durata
+- Regia
+- Trama
+- Cast
+
+Sono inoltre presenti i collegamenti alle schede del film su Wikipedia e TMDB.
+
+Per evitare associazioni errate tra film omonimi, il sistema verifica la corrispondenza del titolo e, quando disponibili, del regista e dell'anno di uscita.
+
+Se non viene individuata una corrispondenza sufficientemente affidabile, il film può essere visualizzato senza scheda informativa.
+
+## Navigazione tra i giorni
+
+Aprendo la scheda di un film è possibile consultare i giorni in cui è programmato.
+
+Selezionando una data vengono mostrati tutti i cinema che proiettano quel film e i relativi orari.
+
+È possibile cambiare giorno anche senza utilizzare le linguette:
+
+- **Smartphone:** scorrendo la pagina verso destra o sinistra.
+- **Computer:** utilizzando le frecce direzionali `←` e `→`.
+
+## Navigazione tra film e cinema
+
+Il sito permette di passare direttamente dalla programmazione di un cinema alla scheda di un film e viceversa.
+
+- Toccando il nome di un cinema nella scheda di un film si apre la programmazione della sala.
+- La freccia `↗` accanto al cinema permette di visitare il suo sito ufficiale.
+- Toccando un film nella programmazione di un cinema si apre la relativa scheda.
+
+Per tornare alla schermata precedente è disponibile il comando **«← Indietro»**. È supportato anche il normale tasto Indietro dello smartphone.
+
+## Informazioni sulle sale
+
+Quando il dato è disponibile nella fonte originale, accanto all'orario viene indicato anche il numero della sala (ad esempio `S2`).
+
+Attualmente questa informazione è disponibile per Ideal Cityplex e Cinema Massimo.
+
+Per gli altri cinema il dato non è disponibile nelle fonti utilizzate.
+
+## Tecnologia e sviluppo
+
+Il progetto utilizza tecnologie gratuite e aperte:
+
+- **Python:** recupero e organizzazione delle programmazioni.
+- **GitHub Actions:** esecuzione automatica degli aggiornamenti.
+- **GitHub Pages:** pubblicazione del sito.
+- **JSON:** archiviazione dei dati delle programmazioni e delle schede dei film.
+- **TMDB e Wikipedia:** recupero delle informazioni cinematografiche.
+
+Non è necessario un server dedicato né un database esterno.
+
+### Personalizzazione e miglioramenti
+
+Il progetto può essere ampliato e modificato, ad esempio per:
+
+- Aggiungere altri cinema di Torino o di altre città.
+- Integrare nuove fonti di programmazione.
+- Migliorare il recupero degli orari.
+- Aggiungere informazioni sulle sale.
+- Arricchire le schede dei film.
+- Modificare l'interfaccia e le modalità di navigazione.
+
+Il codice e le configurazioni sono organizzati per consentire l'aggiunta di nuove fonti e funzionalità.
