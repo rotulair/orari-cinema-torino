@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T12:50:55+01:00",
+ "generated_at": "2026-11-17T14:26:33+01:00",
  "today": "2026-11-17",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:18+01:00"
+    "fetched_at": "2026-11-17T14:25:54+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:21+01:00"
+    "fetched_at": "2026-11-17T14:25:56+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:23+01:00"
+    "fetched_at": "2026-11-17T14:25:59+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:25+01:00"
+    "fetched_at": "2026-11-17T14:26:01+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:27+01:00"
+    "fetched_at": "2026-11-17T14:26:04+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:29+01:00"
+    "fetched_at": "2026-11-17T14:26:06+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:31+01:00"
+    "fetched_at": "2026-11-17T14:26:08+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:32+01:00"
+    "fetched_at": "2026-11-17T14:26:09+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:34+01:00"
+    "fetched_at": "2026-11-17T14:26:11+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:37+01:00"
+    "fetched_at": "2026-11-17T14:26:14+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:39+01:00"
+    "fetched_at": "2026-11-17T14:26:17+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:41+01:00"
+    "fetched_at": "2026-11-17T14:26:18+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:43+01:00"
+    "fetched_at": "2026-11-17T14:26:20+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:45+01:00"
+    "fetched_at": "2026-11-17T14:26:22+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:46+01:00"
+    "fetched_at": "2026-11-17T14:26:24+01:00"
    }
   },
   {
@@ -235,11 +235,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 10,
+    "n": 7,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:49+01:00"
+    "fetched_at": "2026-11-17T14:26:27+01:00"
    }
   },
   {
@@ -250,11 +250,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 21,
+    "n": 25,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:52+01:00"
+    "fetched_at": "2026-11-17T14:26:30+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T12:50:55+01:00"
+    "fetched_at": "2026-11-17T14:26:33+01:00"
    }
   }
  ],
@@ -2998,6 +2998,13 @@
    "regia": "Mélisa Godet"
   },
   {
+   "cinema": "esedra",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-20",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
    "cinema": "ideal",
    "film": "DIO RIDE",
    "date": "2026-11-20",
@@ -3337,6 +3344,21 @@
    "regia": "Erik Schmitt"
   },
   {
+   "cinema": "baretti",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "esedra",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-21",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
    "cinema": "esedra",
    "film": "La guerra dei prezzi",
    "date": "2026-11-21",
@@ -3519,7 +3541,7 @@
    "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
    "date": "2026-11-21",
    "time": "11:45",
-   "tag": "Eventi Musicali"
+   "tag": "Sala 3 Eventi Musicali"
   },
   {
    "cinema": "massaua",
@@ -3742,11 +3764,34 @@
   },
   {
    "cinema": "baretti",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
    "film": "PECORE SOTTO COPERTURA",
    "date": "2026-11-22",
    "time": "15:30",
    "tag": "",
    "regia": "Kyle Balda"
+  },
+  {
+   "cinema": "esedra",
+   "film": "La guerra dei prezzi",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": ""
   },
   {
    "cinema": "ideal",
@@ -4145,6 +4190,14 @@
    "time": "16:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "tag": "",
+   "regia": "Paolo Strippoli"
   },
   {
    "cinema": "baretti",
