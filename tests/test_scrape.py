@@ -304,6 +304,46 @@ class FilmsTests(unittest.TestCase):
             self.assertEqual(c, {})
 
 
+class UnifyTests(unittest.TestCase):
+    def test_anno_formati_articoli_maiuscole(self):
+        rows = [{"cinema": "a", "film": "Scrooge e gli spiriti del Natale [2026]"},
+                {"cinema": "b", "film": "SCROOGE E GLI SPIRITI DEL NATALE"},
+                {"cinema": "c", "film": "Scrooge e gli spiriti del Natale (4K)"},
+                {"cinema": "d", "film": "Il maestro"}, {"cinema": "e", "film": "MAESTRO (RIED.)"},
+                {"cinema": "f", "film": "L'hangar rosso"}, {"cinema": "g", "film": "L’HANGAR ROSSO"}]
+        scrape.unify_titles(rows)
+        self.assertEqual({r["film"] for r in rows[:3]}, {"Scrooge e gli spiriti del Natale"})
+        self.assertEqual(rows[3]["film"], rows[4]["film"])
+        self.assertEqual(rows[5]["film"], rows[6]["film"])
+        self.assertNotIn("[", rows[0]["film"])
+
+    def test_film_diversi_restano_separati(self):
+        rows = [{"film": "Toy Story 2"}, {"film": "Toy Story 3"}, {"film": "Toy Story"},
+                {"film": "Cleo"}, {"film": "Cleo e Leo"}, {"film": "Mission Impossible"},
+                {"film": "Mission Impossible Dead Reckoning"}]
+        before = [r["film"] for r in rows]
+        scrape.unify_titles(rows)
+        self.assertEqual([r["film"] for r in rows], before)
+
+    def test_refusi_e_typo_vicini(self):
+        rows = [{"film": "La vallée des fous"}, {"film": "LA VALLEE DES FOUS"}, {"film": "Persepolis"}, {"film": "Perspolis"}]
+        scrape.unify_titles(rows)
+        self.assertEqual(rows[0]["film"], rows[1]["film"])
+        self.assertEqual(rows[2]["film"], rows[3]["film"])
+
+    def test_run_non_duplica_dopo_unione(self):
+        with tempfile.TemporaryDirectory() as t:
+            tmp = Path(t)
+            cfg = tmp / "c.json"
+            cfg.write_text(json.dumps([{"id": "m", "name": "M", "mode": "all", "sources": [
+                {"type": "baretti", "url": "http://1/"}, {"type": "baretti", "url": "http://2/"}]}]))
+            pages = {"http://1/": "<p>Lunedì 16 novembre 2026, ore 21.15: <span>CLEO [2026]</span> di X</p>",
+                     "http://2/": "<p>Lunedì 16 novembre 2026, ore 21.15: <span>CLEO</span> di X</p>"}
+            scrape.DELAY_SECONDS = 0
+            d = scrape.run(cfg, tmp / "o.json", fetcher=pages.__getitem__, today="2026-11-16")
+            self.assertEqual(len(d["showtimes"]), 1)
+
+
 class RunTests(unittest.TestCase):
     def _cfg(self, tmp: Path) -> Path:
         cfg = [
