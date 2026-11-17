@@ -21,8 +21,8 @@ MAX_LOOKUPS = 40  # per esecuzione
 
 def film_key(title: str) -> str:
     """Stessa normalizzazione di filmKey() in index.html."""
-    t = re.sub(r"\([^)]*\)", " ", title.lower())
-    t = re.sub(r"\b4k\b", " ", t)
+    t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title.lower())
+    t = re.sub(r"\b(4k|ried|rid)\b", " ", t)
     t = unicodedata.normalize("NFD", t)
     t = "".join(c for c in t if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]+", " ", t).strip()
@@ -48,7 +48,7 @@ def pick(title: str, pages: list[dict]) -> dict | None:
 
 
 def lookup(title: str, fetcher) -> dict | None:
-    q = re.sub(r"\([^)]*\)", " ", title)
+    q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title)
     params = {"action": "query", "format": "json", "generator": "search", "gsrsearch": f"{q.strip()} film",
               "gsrlimit": "5", "prop": "pageimages|extracts|info", "inprop": "url", "piprop": "thumbnail",
               "pithumbsize": "240", "exintro": "1", "explaintext": "1", "exchars": "250", "redirects": "1"}
