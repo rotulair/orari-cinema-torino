@@ -18,6 +18,9 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import difflib
+import unicodedata
+from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -628,6 +631,84 @@ PARSERS = {"movieplayer": parse_movieplayer, "18tickets": parse_18tickets, "idea
            "baretti": parse_baretti, "agnelli": parse_agnelli, "centrale": parse_centrale}
 
 
+# --------------------------------------------------------------------------- titoli duplicati
+# Cinemi diversi scrivono lo stesso film in modo diverso ("Titolo [2026]", "TITOLO (4K)", "Il titolo").
+# Prima di salvare, i titoli vengono confrontati e riuniti sotto un unico nome.
+
+_ARTICLES = {"il", "lo", "la", "l", "i", "gli", "le", "un", "uno", "una", "the"}
+
+
+def compare_key(title: str) -> str:
+    t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title.lower())
+    t = re.sub(r"\b(4k|ried|rid|ridistribuzione|restaurato|versione restaurata)\b", " ", t)
+    t = unicodedata.normalize("NFD", t)
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    words = [w for w in re.sub(r"[^a-z0-9]+", " ", t).split()]
+    while len(words) > 1 and words[0] in _ARTICLES:
+        words.pop(0)
+    return " ".join(words)
+
+
+def display_title(title: str) -> str:
+    """Toglie anni e formati tra parentesi: 'Titolo [2026]' -> 'Titolo'."""
+    t = re.sub(r"\s*\[[^\]]*\]", "", title)
+    t = re.sub(r"\s*\((?:\d{4}|4k|ried\.?|ridistribuzione)\)", "", t, flags=re.I)
+    return clean(t).strip(" -–")
+
+
+def _same_film(a: str, b: str) -> bool:
+    if a == b:
+        return True
+    if min(len(a), len(b)) < 6:
+        return False
+    if [w for w in a.split() if w.isdigit()] != [w for w in b.split() if w.isdigit()]:
+        return False  # "Toy Story 2" != "Toy Story 3"
+    return difflib.SequenceMatcher(None, a, b).ratio() >= 0.93
+
+
+def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
+    """Riscrive r['film'] col nome canonico di ogni gruppo. Restituisce le unificazioni fatte."""
+    keys = {r["film"]: compare_key(r["film"]) for r in rows}
+    names = sorted(keys, key=lambda n: (keys[n], n))
+    parent = {n: n for n in names}
+
+    def find(n):
+        while parent[n] != n:
+            parent[n] = parent[parent[n]]
+            n = parent[n]
+        return n
+
+    for i, a in enumerate(names):
+        for b in names[i + 1:]:
+            if find(a) != find(b) and _same_film(keys[a], keys[b]):
+                parent[find(b)] = find(a)
+
+    counts = Counter(r["film"] for r in rows)
+    groups: dict[str, list[str]] = {}
+    for n in names:
+        groups.setdefault(find(n), []).append(n)
+
+    canon: dict[str, str] = {}
+    merged: list[tuple[str, str]] = []
+    for members in groups.values():
+        cleaned = Counter()
+        for n in members:
+            cleaned[display_title(n)] += counts[n]
+
+        def rank(t: str):
+            letters = re.sub(r"[^A-Za-zÀ-ÿ]", "", t)
+            mixed = letters != letters.upper() or len(letters) < 4
+            return (-cleaned[t], not mixed, -len(t), t)
+        best = sorted(cleaned, key=rank)[0]
+        for n in members:
+            canon[n] = best
+            if n != best:
+                merged.append((n, best))
+    for r in rows:
+        r["film"] = canon[r["film"]]
+    return merged
+
+
 # --------------------------------------------------------------------------- orchestrazione
 
 def scrape_cinema(cfg: dict, day: str, fetcher, debug_dir: Path | None) -> tuple[list[dict], dict]:
@@ -743,6 +824,13 @@ def run(config_path: Path, out_path: Path, only: str | None = None,
         })
 
     all_rows = [r for r in all_rows if r["date"] >= day]
+    for a, b in unify_titles(all_rows):
+        print(f"  titoli unificati: {a!r} -> {b!r}")
+    # dopo l'unificazione lo stesso spettacolo puo' comparire due volte nello stesso cinema
+    uniq: dict[tuple, dict] = {}
+    for r in all_rows:
+        uniq.setdefault((r["cinema"], r["film"].lower(), r["date"], r["time"]), r)
+    all_rows = list(uniq.values())
     all_rows.sort(key=lambda r: (r["date"], r["cinema"], r["film"].lower(), r["time"]))
 
     data = {
