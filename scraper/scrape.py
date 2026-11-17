@@ -338,25 +338,61 @@ _IDEAL_DAY = re.compile(rf"^{_DAYNAME}\s+(\d{{1,2}})/(\d{{1,2}})$", re.I)
 _IDEAL_SHOW = re.compile(r"^([^,]+),\s*(\d{1,2}[:.]\d{2})(?:\s*,\s*(.+))?$")
 
 
+_META = re.compile(r"(?i)^(regia|genere|durata|cast|anno|nazione|con)\b\s*:?")
+_ROOM_ONLY = re.compile(r"(?i)^sala\s*\w+$")
+_TIME_ONLY = re.compile(r"^\d{1,2}[:.]\d{2}$")
+
+
 def parse_ideal(html: str, day: str) -> list[dict]:
-    title, cur = "", None
+    """Tollerante: orario sia in una riga sola ('SALA 1, 15:00, INFINITY VISION') sia spezzato in
+    nodi separati ('SALA 1' / '15:00' / 'INFINITY VISION'). Titolo da un titolo HTML, oppure dal
+    testo che precede 'Regia:/Durata:'."""
+    title, cur, room = "", None, ""
     out: list[dict] = []
     seen: set = set()
+    last: dict | None = None  # ultimo orario, in attesa dell'eventuale formato nel nodo seguente
+    prev = ""
+    head_since = False
     for text, tag in lines_of(html):
-        if tag in _HEAD_TAGS and not _IDEAL_DAY.match(text):
-            if text.lower().startswith("film in programmazione"):
-                continue
-            title, cur = clean(text), None
+        text = text.strip().rstrip(",").strip()
+        if not text:
             continue
+        if tag in _HEAD_TAGS and not _IDEAL_DAY.match(text):
+            if not text.lower().startswith(("film in programmazione", "prossimamente")):
+                title, cur, room, last, head_since = clean(text), None, "", None, True
+            prev = text
+            continue
+        if _META.match(text):
+            if not head_since and prev and not _META.match(prev) and not _IDEAL_DAY.match(prev):
+                title, cur, room, last = clean(prev), None, "", None
+            head_since = False
+            prev = text
+            continue
+        prev = text
         m = _IDEAL_DAY.match(text)
         if m:
-            cur = infer_date(day, int(m.group(1)), int(m.group(2)))
+            cur, room, last = infer_date(day, int(m.group(1)), int(m.group(2))), "", None
             continue
         m = _IDEAL_SHOW.match(text)
         if m and title and cur:
             hhmm = times_in(m.group(2))
             if hhmm:
                 _add(out, seen, title, cur, hhmm[0], _norm_tag(m.group(3) or ""), room_short(m.group(1)))
+            last = None
+            continue
+        if _ROOM_ONLY.match(text):
+            room, last = room_short(text), None
+            continue
+        if _TIME_ONLY.match(text) and title and cur:
+            hhmm = times_in(text)
+            before = len(out)
+            if hhmm:
+                _add(out, seen, title, cur, hhmm[0], "", room)
+            last = out[-1] if len(out) > before else None
+            continue
+        if last is not None and len(text) <= 30 and not text.lower().startswith("scheda"):
+            last["tag"] = _norm_tag(text)
+        last = None
     return out
 
 
