@@ -330,6 +330,11 @@ class FilmsTests(unittest.TestCase):
 
 
 class UnifyTests(unittest.TestCase):
+    def test_anno_tra_parentesi_diventa_campo(self):
+        rows = [{"film": "Cleo [2026]"}, {"film": "Cleo"}]
+        scrape.unify_titles(rows)
+        self.assertEqual([r.get("anno") for r in rows], [2026, None])
+
     def test_anno_formati_articoli_maiuscole(self):
         rows = [{"cinema": "a", "film": "Scrooge e gli spiriti del Natale [2026]"},
                 {"cinema": "b", "film": "SCROOGE E GLI SPIRITI DEL NATALE"},
@@ -367,6 +372,84 @@ class UnifyTests(unittest.TestCase):
             scrape.DELAY_SECONDS = 0
             d = scrape.run(cfg, tmp / "o.json", fetcher=pages.__getitem__, today="2026-11-16")
             self.assertEqual(len(d["showtimes"]), 1)
+
+
+def fake_tmdb(table):
+    """table: {id: (title, original, year, [registi], runtime, poster)}"""
+    def fetch(url):
+        if "/search/movie" in url:
+            return json.dumps({"results": [{"id": i, "title": v[0], "original_title": v[1],
+                                             "release_date": f"{v[2]}-05-01", "popularity": 5}
+                                            for i, v in table.items()]})
+        i = int(url.split("/movie/")[1].split("?")[0])
+        v = table[i]
+        return json.dumps({"id": i, "release_date": f"{v[2]}-05-01", "runtime": v[4], "poster_path": v[5],
+                           "popularity": 5, "overview": f"Trama di {v[0]} {v[2]}.", "genres": [{"name": "Drammatico"}],
+                           "original_title": v[1],
+                           "credits": {"crew": [{"job": "Director", "name": n} for n in v[3]]
+                                       + [{"job": "Writer", "name": "Altro Nome"}],
+                                       "cast": [{"name": "Attore Uno"}, {"name": "Attrice Due"}]}})
+    return fetch
+
+
+class TmdbTests(unittest.TestCase):
+    OMONIMI = {1: ("Cleo", "Cleo", 2023, ["Mario Rossi"], 90, "/old.jpg"),
+               2: ("Cleo", "Cleo", 2026, ["Erik Schmitt"], 98, "/new.jpg")}
+
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scraper"))
+        import films
+        self.films = films
+
+    def run_enrich(self, rows, table, wiki_json=None):
+        wiki = wiki_json or json.dumps({"query": {"pages": {}}})
+        with tempfile.TemporaryDirectory() as t:
+            c = self.films.enrich(rows, Path(t) / "f.json", lambda u: wiki, today="2026-11-17", delay=0,
+                                  tmdb=fake_tmdb(table))
+        return next(iter(c.values()))
+
+    def test_omonimi_si_sceglie_col_regista(self):
+        e = self.run_enrich([{"film": "Cleo", "regia": "Erik Schmitt"}], self.OMONIMI)
+        self.assertEqual((e["tmdb"]["id"], e["tmdb"]["runtime"], e["tmdb"]["poster_path"]), (2, 98, "/new.jpg"))
+        self.assertEqual(e["tmdb"]["director"], "Erik Schmitt")
+        self.assertEqual((e["tmdb"]["overview"], e["tmdb"]["genres"], e["tmdb"]["cast"]),
+                         ("Trama di Cleo 2026.", ["Drammatico"], ["Attore Uno", "Attrice Due"]))
+
+    def test_regista_non_combacia_nessun_link(self):
+        e = self.run_enrich([{"film": "Cleo", "regia": "Giulia Verdi"}], self.OMONIMI)
+        self.assertIsNone(e["tmdb"])
+
+    def test_anno_scarta_omonimo_senza_regista(self):
+        e = self.run_enrich([{"film": "Cleo", "anno": 2026}], self.OMONIMI)
+        self.assertEqual(e["tmdb"]["id"], 2)
+
+    def test_regista_wikipedia_guida_tmdb(self):
+        wiki = json.dumps({"query": {"pages": {"1": {"index": 1, "title": "Cleo (film 2026)",
+                           "extract": "Cleo è un film del 2026 diretto da Erik Schmitt.", "fullurl": "http://w/c"}}}})
+        e = self.run_enrich([{"film": "Cleo"}], self.OMONIMI, wiki)
+        self.assertEqual((e["url"], e["tmdb"]["id"]), ("http://w/c", 2))
+
+    def test_wikipedia_scartata_se_regista_del_cinema_diverso(self):
+        wiki = json.dumps({"query": {"pages": {"1": {"index": 1, "title": "Cleo (film 2023)",
+                           "extract": "Cleo è un film del 2023 diretto da Mario Rossi.", "fullurl": "http://w/old"}}}})
+        e = self.run_enrich([{"film": "Cleo", "regia": "Erik Schmitt"}], self.OMONIMI, wiki)
+        self.assertIsNone(e["url"])
+        self.assertEqual(e["tmdb"]["id"], 2)
+
+    def test_cognomi_e_alfabeti(self):
+        m = self.films.surname_match
+        self.assertTrue(m("Hirokazu Kore'eda", ["Hirokazu Koreeda"]))
+        self.assertTrue(m("Anthony e Joe Russo", ["Joe Russo", "Anthony Russo"]))
+        self.assertFalse(m("Paolo Sorrentino", ["Paolo Genovese"]))
+        self.assertIsNone(m(None, ["X Y"]))
+
+    def test_errore_rete_tmdb_non_rompe(self):
+        def boom(u):
+            raise RuntimeError("giu")
+        with tempfile.TemporaryDirectory() as t:
+            c = self.films.enrich([{"film": "Cleo"}], Path(t) / "f.json", lambda u: "{}", today="2026-11-17",
+                                  delay=0, tmdb=boom)
+        self.assertEqual(c, {})
 
 
 class RunTests(unittest.TestCase):
