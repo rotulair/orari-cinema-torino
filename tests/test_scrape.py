@@ -166,6 +166,9 @@ class OfficialSiteTests(unittest.TestCase):
         r = scrape.parse_ideal(html, self.D)
         self.assertEqual(sorted((x["film"], x["time"], x["room"]) for x in r),
                          [("AVENGERS", "15:00", "4"), ("DOCUMENTARIO X", "15:35", "3")])
+        self.assertEqual([x.get("regia") for x in sorted(r, key=lambda x: x["film"])], ["A. Russo", None])
+        one = scrape.parse_ideal(IDEAL_HTML, self.D)
+        self.assertEqual({x["regia"] for x in one if x["film"].startswith("AVENGERS")}, {"A. Russo"})
 
     def test_ideal_nodi_separati_senza_titoli_html(self):
         r = scrape.parse_ideal(IDEAL_SPLIT, self.D)
@@ -211,6 +214,13 @@ class OfficialSiteTests(unittest.TestCase):
             ("CLEO", "2026-11-17", "21:00", "VO"),
             ("DOMANI, Il viaggio di Maysoon Majidi", "2026-12-14", "21:15", ""),
             ("IN QUOTA CAMBIA TUTTO", "2026-11-25", "21:00", "")])
+
+    def test_baretti_regia(self):
+        r = {x["film"]: x.get("regia") for x in scrape.parse_baretti(BARETTI_HTML, self.D)}
+        self.assertEqual(r["BORN TO DIE IN BERLIN"], "Maurizio Spagliardi")
+        self.assertEqual(r["CLEO"], "Erik Schmitt")
+        self.assertEqual(r["DOMANI, Il viaggio di Maysoon Majidi"], "Vincenzo Caricari")
+        self.assertIsNone(r["IN QUOTA CAMBIA TUTTO"])  # "con ..." sono ospiti, non regia
 
     def test_agnelli(self):
         r = scrape.parse_agnelli(AGNELLI_HTML, self.D)
@@ -275,6 +285,14 @@ class FilmsTests(unittest.TestCase):
     def test_chiave_uguale_a_quella_della_pagina(self):
         self.assertEqual(self.films.film_key("2001: Odissea nello spazio (4K)"), "2001 odissea nello spazio")
         self.assertEqual(self.films.film_key("Perché è così"), "perche e cosi")
+
+    def test_regista_da_wikipedia(self):
+        d = self.films.director_of
+        self.assertEqual(d("Se domani non torno è un film del 2026 diretto da Paola Randi, con Elio Germano."), "Paola Randi")
+        self.assertEqual(d("X è un film d'animazione scritto e diretto da Anthony e Joe Russo."), "Anthony e Joe Russo")
+        self.assertEqual(d("Persepolis è un film del 2007 diretto da Marjane Satrapi e Vincent Paronnaud (tratto da fumetto)."),
+                         "Marjane Satrapi e Vincent Paronnaud")
+        self.assertIsNone(d("Una serie televisiva americana."))
 
     def test_scelta_pagina_e_cache(self):
         calls = []
