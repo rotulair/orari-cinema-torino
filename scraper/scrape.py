@@ -522,7 +522,7 @@ def parse_movieplanet(html: str, day: str) -> list[dict]:
                 for hhmm in times_in(t):
                     _add(out, seen, title, cur, hhmm)
             continue
-        if 2 < len(t) <= 90 and not re.search(r"(?i)dal\s+\d|www\.|©|stampa|programmazione|orari", t):
+        if 2 < len(t) <= 90 and not is_junk_title(t) and not re.search(r"(?i)dal\s+\d|www\.|©|stampa|programmazione|orari", t):
             pending = clean(t)
             cur = None
     return out
@@ -651,7 +651,32 @@ PARSERS = {"movieplayer": parse_movieplayer, "18tickets": parse_18tickets, "idea
 _ARTICLES = {"il", "lo", "la", "l", "i", "gli", "le", "un", "uno", "una", "the"}
 
 
+_JUNK = re.compile(r"(?i)^(n\.?\s?/?\s?d\.?|n\.?a\.?|nd|tba|tbd|-+|\d{2,3}['’′]?)$")
+
+
+def is_junk_title(t: str) -> bool:
+    """Segnaposto o valori scambiati per titoli: 'n.d.', 'N/D', durate come 113', 'Sala 3'..."""
+    t = (t or "").strip()
+    if not re.search(r"[A-Za-zÀ-ÿ0-9]{2,}", t) or _JUNK.match(t):
+        return True
+    return t.lower().startswith(("sala ", "in programmazione", "prossimamente", "film in programma"))
+
+
+_VO_SUFFIX = re.compile(r"\s*[-–—(]\s*(?:v\.?\s?o\.?s?|versione originale|lingua originale|sottotitolat\w*[^)]*)\s*\)?\s*$", re.I)
+_EDITION = re.compile(r"\s*[-–—]\s*[^-–—]*\b(?:anniversar\w*|restaurat\w*|rimasterizzat\w*|remaster\w*|edition|special|"
+                      r"director'?s cut)\b.*$", re.I)
+
+
+def strip_noise(title: str) -> str:
+    """'Titolo - V. O.' -> 'Titolo'; 'Titolo 4K – WB 100th Anniversary (...)' -> 'Titolo'."""
+    t = _VO_SUFFIX.sub("", title)
+    t = _EDITION.sub("", t)
+    t = re.sub(r"\s+4k\b", "", t, flags=re.I)
+    return t.strip()
+
+
 def compare_key(title: str) -> str:
+    title = strip_noise(title)
     t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title.lower())
     t = re.sub(r"\b(4k|ried|rid|ridistribuzione|restaurato|versione restaurata)\b", " ", t)
     t = unicodedata.normalize("NFD", t)
@@ -663,8 +688,8 @@ def compare_key(title: str) -> str:
 
 
 def display_title(title: str) -> str:
-    """Toglie anni e formati tra parentesi: 'Titolo [2026]' -> 'Titolo'."""
-    t = re.sub(r"\s*\[[^\]]*\]", "", title)
+    """Toglie anni, formati, edizioni speciali e '- V.O.': 'Titolo [2026]' -> 'Titolo'."""
+    t = re.sub(r"\s*\[[^\]]*\]", "", strip_noise(title))
     t = re.sub(r"\s*\((?:\d{4}|4k|ried\.?|ridistribuzione)\)", "", t, flags=re.I)
     return clean(t).strip(" -–")
 
@@ -718,6 +743,10 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
             if n != best:
                 merged.append((n, best))
     for r in rows:
+        if re.search(r"(?i)\b4k\b|\bried\b|\brid\.|restaurat|rimasterizz|remaster|anniversar|riedizione|ritorna", r["film"]):
+            r["rer"] = True                                   # riedizione di un film vecchio: serve a TMDB
+        if _VO_SUFFIX.search(r["film"]) and not r.get("tag"):
+            r["tag"] = "VO"                                   # "Titolo - V. O." = proiezione in originale
         y = re.search(r"[\[(]\s*((?:19|20)\d{2})\s*[\])]", r["film"])   # "Titolo [2026]": serve a TMDB
         if y and "anno" not in r:
             r["anno"] = int(y.group(1))
@@ -840,6 +869,10 @@ def run(config_path: Path, out_path: Path, only: str | None = None,
         })
 
     all_rows = [r for r in all_rows if r["date"] >= day]
+    junk = [r for r in all_rows if is_junk_title(r["film"])]
+    if junk:
+        print(f"  scartate {len(junk)} proiezioni senza titolo valido (es. {junk[0]['film']!r} a {junk[0]['cinema']})")
+        all_rows = [r for r in all_rows if not is_junk_title(r["film"])]
     for a, b in unify_titles(all_rows):
         print(f"  titoli unificati: {a!r} -> {b!r}")
     # dopo l'unificazione lo stesso spettacolo puo' comparire due volte nello stesso cinema

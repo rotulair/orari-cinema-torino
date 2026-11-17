@@ -19,8 +19,8 @@ from pathlib import Path
 
 API = "https://it.wikipedia.org/w/api.php"
 RETRY_DAYS = 7
-MAX_LOOKUPS = 80  # per esecuzione
-SCHEMA = 4        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
+MAX_LOOKUPS = 150 # per esecuzione
+SCHEMA = 5        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
 
 
 def film_key(title: str) -> str:
@@ -53,6 +53,7 @@ def pick(title: str, pages: list[dict]) -> dict | None:
 
 _STOP = (r"(?:,?\s+(?:con|prodotto|prodotta|tratto|tratta|basato|basata|scritto|scritta|ispirato|ispirata|"
          r"interpretato|interpretata|distribuito|distribuita|uscito|uscita|presentato|presentata|liberamente)\b"
+         r"|,?\s+che\b"
          r"|\s+e\s+(?:prodott\w+|sceneggiat\w+|scritt\w+|montat\w+|interpretat\w+|distribuit\w+)\b"
          r"|(?<!\b[A-Z])\.|[;(]|$)")
 _NAMES = r"((?:[^.;(]|(?<=\b[A-Z])\.)+?)"   # i punti dopo un'iniziale ("J. J. Abrams") non chiudono il nome
@@ -74,10 +75,14 @@ def director_of(extract: str) -> str | None:
     return None
 
 
-def lookup(title: str, fetcher) -> dict | None:
-    q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title)
-    params = {"action": "query", "format": "json", "generator": "search", "gsrsearch": f"{q.strip()} film",
-              "gsrlimit": "5", "prop": "pageimages|extracts|info", "inprop": "url", "piprop": "thumbnail",
+def wiki_year(extract: str) -> int | None:
+    m = re.search(r"\bfilm\b[^.]{0,80}?\b((?:19|20)\d{2})\b", (extract or "")[:300], re.I)
+    return int(m.group(1)) if m else None
+
+
+def _wiki_search(query: str, title: str, fetcher) -> dict | None:
+    params = {"action": "query", "format": "json", "generator": "search", "gsrsearch": query,
+              "gsrlimit": "6", "prop": "pageimages|extracts|info", "inprop": "url", "piprop": "thumbnail",
               "pithumbsize": "240", "exintro": "1", "explaintext": "1", "exchars": "500", "redirects": "1"}
     data = json.loads(fetcher(API + "?" + urllib.parse.urlencode(params)))
     pages = list((data.get("query") or {}).get("pages", {}).values())
@@ -85,7 +90,31 @@ def lookup(title: str, fetcher) -> dict | None:
     if not p:
         return None
     return {"url": p.get("fullurl"), "poster": (p.get("thumbnail") or {}).get("source"),
-            "director": director_of(p.get("extract"))}
+            "director": director_of(p.get("extract")), "year": wiki_year(p.get("extract")),
+            "extract": p.get("extract") or ""}
+
+
+def lookup(title: str, fetcher, year: int | None = None, director: str | None = None) -> dict | None:
+    """Cerca la pagina Wikipedia del film. Prova piu' query (con anno e regista, se noti) e tiene la prima
+    pagina che sia davvero un film con quel titolo; l'omonimia si controlla poi in decide()."""
+    q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title).strip()
+    queries = []
+    if year:
+        queries.append(f"{q} film {year}")
+    if director:
+        queries.append(f"{q} film {director}")
+    queries.append(f"{q} film")
+    last = None
+    for qq in queries:
+        found = _wiki_search(qq, title, fetcher)
+        if not found:
+            continue
+        last = last or found
+        ok_year = not year or not found["year"] or abs(found["year"] - year) <= 1
+        ok_dir = not director or surname_match(director, found["director"]) is not False
+        if ok_year and ok_dir:
+            return found
+    return last
 
 
 # ----------------------------------------------------------------------------- TMDB
@@ -165,16 +194,18 @@ def surname_match(ref: str | None, names: list[str] | str | None) -> bool | None
 def tmdb_candidates(title: str, fetch, hint_year: int | None = None) -> list[dict]:
     """Cerca il film e, per i risultati con titolo simile, scarica dettagli e regia."""
     q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title).strip()
-    res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(
-        {"query": q, "language": "it-IT", "include_adult": "false"})))
+    params = {"query": q, "language": "it-IT", "include_adult": "false"}
+    if hint_year:
+        params["year"] = str(hint_year)
+    res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(params)))
     hits = []
     for r in res.get("results", []):
         sim = max(title_sim(q, r.get("title", "")), title_sim(q, r.get("original_title", "")))
-        if sim >= 0.75:
+        if sim >= 0.85:
             hits.append((sim, r))
     hits.sort(key=lambda x: (-x[0], -(x[1].get("popularity") or 0)))
     out = []
-    for sim, r in hits[:3]:
+    for sim, r in hits[:4]:
         d = json.loads(fetch(f"{TMDB_API}/movie/{r['id']}?" + urllib.parse.urlencode(
             {"language": "it-IT", "append_to_response": "credits"})))
         crew = (d.get("credits") or {}).get("crew") or []
@@ -190,46 +221,96 @@ def tmdb_candidates(title: str, fetch, hint_year: int | None = None) -> list[dic
     return out
 
 
-def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | None,
-           cands: list[dict]) -> tuple[dict | None, dict | None, str]:
-    """Controllo incrociato titolo + regista (+ anno). Restituisce (wiki, tmdb, nota)."""
-    wiki_dir = (wiki or {}).get("director")
-    note = ""
-    # Wikipedia: scartata se il regista noto dal cinema e' un altro
-    if wiki and surname_match(ref_dir, wiki_dir) is False:
-        wiki, note = None, "wikipedia scartata: regista diverso da quello del cinema"
-    check_dir = ref_dir or (wiki_dir if wiki else None)
+def _months_from(today: dt.date, release: str | None) -> float | None:
+    try:
+        return (dt.date.fromisoformat(release) - today).days / 30.4
+    except (TypeError, ValueError):
+        return None
 
-    accepted, strong_conflict = [], False
-    if not cands:
-        note = (note + "; " if note else "") + "TMDB: nessun risultato con titolo simile"
+
+def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | None,
+           cands: list[dict], today: dt.date | None = None, rerelease: bool = False
+           ) -> tuple[dict | None, dict | None, str]:
+    """Controllo incrociato titolo + regista + anno. Meglio nessun dato che un dato di un film omonimo.
+
+    Regole per TMDB (un candidato passa solo se):
+      1. titolo molto simile;
+      2. se si conosce l'anno (dal cinema o da Wikipedia): uscita entro un anno;
+      3. se si conosce il regista (dal cinema o da Wikipedia): coincide per cognome;
+      4. se NON c'e' alcun riscontro (ne' regista ne' anno): il film deve essere uscito da poco (da 18 mesi fa
+         a 8 mesi avanti), a meno che sia una riedizione dichiarata e il titolo sia identico;
+      5. se piu' candidati passano e nessuno e' confermato dal regista: ambiguo -> nessuno.
+    Wikipedia viene scartata se regista o anno contraddicono quanto dichiarato dal cinema.
+    """
+    today = today or dt.date.today()
+    notes: list[str] = []
+    wiki_dir = (wiki or {}).get("director")
+
+    if wiki:
+        if surname_match(ref_dir, wiki_dir) is False:
+            wiki = None
+            notes.append("wikipedia scartata: regista diverso da quello del cinema")
+        elif hint_year and wiki.get("year") and abs(wiki["year"] - hint_year) > 1:
+            wiki = None
+            notes.append("wikipedia scartata: anno diverso da quello del cinema")
+        elif ref_dir and not wiki_dir and surname_match(ref_dir, [w for w in (wiki.get("extract") or "").split()
+                                                                  if w[:1].isupper()]) is not True:
+            wiki = None
+            notes.append("wikipedia scartata: il regista del cinema non compare nella scheda")
+    wiki_dir = (wiki or {}).get("director")
+    check_dir = ref_dir or wiki_dir
+    year = hint_year or (wiki or {}).get("year")
+
+    passed: list[tuple[bool, dict]] = []
     for c in cands:
-        year_ok = not hint_year or not c["year"] or abs(c["year"] - hint_year) <= 1
+        why = None
         m = surname_match(check_dir, c["directors"]) if check_dir else None
-        if m is True and c["sim"] >= 0.75:
-            accepted.append((2, c))
-        elif m is None and c["sim"] >= 0.9 and year_ok:
-            accepted.append((1, c))
-        elif m is False and c["sim"] >= 0.9:
-            strong_conflict = True
-        if not accepted or accepted[-1][1] is not c:
-            note = (note + "; " if note else "") + (
-                f"TMDB scartato id {c['id']} ({c['year']}): "
-                + ("regista " + ", ".join(c["directors"][:2]) + f" != '{check_dir}'" if m is False
-                   else "anno non coerente" if not year_ok else "regista non confrontabile e titolo non identico"))
-    if accepted:
-        accepted.sort(key=lambda x: (-x[0], -x[1]["sim"], -x[1]["popularity"]))
-        best = accepted[0][1]
-        t = {"id": best["id"], "url": f"{TMDB_PAGE}{best['id']}?language=it-IT",
-             "poster_path": best["poster_path"], "runtime": best["runtime"],
-             "director": ", ".join(best["directors"]) or None, "year": best["year"],
-             "overview": best["overview"], "genres": best["genres"], "cast": best["cast"],
-             "original_title": best["original_title"], "release_date": best["release_date"]}
-        return wiki, t, note
-    if strong_conflict and not ref_dir and wiki:
-        # TMDB e Wikipedia indicano due registi diversi per lo stesso titolo: probabile omonimia, meglio nessun link
-        return None, None, "scartati Wikipedia e TMDB: stesso titolo ma registi diversi"
-    return wiki, None, note
+        if c["sim"] < 0.85:
+            why = "titolo diverso"
+        elif year and c["year"] and abs(c["year"] - year) > 1:
+            why = f"anno {c['year']} != {year}"
+        elif m is False:
+            why = f"regista {', '.join(c['directors'][:2]) or '?'} != '{check_dir}'"
+        elif m is None and not year:
+            age = _months_from(today, c["release_date"])
+            recent = age is not None and -18 <= age <= 8
+            if not recent and not (rerelease and c["sim"] >= 0.95):
+                why = f"nessun riscontro e uscita {c['year'] or '?'} non recente"
+        if why:
+            notes.append(f"TMDB scartato id {c['id']} ({c['year']}): {why}")
+        else:
+            passed.append((m is True, c))
+
+    if not cands:
+        notes.append("TMDB: nessun risultato con titolo simile")
+    chosen = None
+    if len(passed) == 1:
+        chosen = passed[0][1]
+    elif passed:
+        confirmed = [c for ok, c in passed if ok]
+        by_year = [c for _, c in passed if year and c["year"] == year]
+        pool = confirmed if len(confirmed) == 1 else by_year if len(by_year) == 1 else []
+        if pool:
+            chosen = pool[0]
+        else:
+            notes.append(f"TMDB ambiguo: {len(passed)} film con lo stesso titolo, nessuna conferma -> nessun dato")
+
+    t = None
+    if chosen:
+        runtime = chosen["runtime"] if chosen["runtime"] and 30 <= chosen["runtime"] <= 400 else None
+        t = {"id": chosen["id"], "url": f"{TMDB_PAGE}{chosen['id']}?language=it-IT",
+             "poster_path": chosen["poster_path"], "runtime": runtime,
+             "director": ", ".join(chosen["directors"]) or None, "year": chosen["year"],
+             "overview": chosen["overview"], "genres": chosen["genres"], "cast": chosen["cast"],
+             "original_title": chosen["original_title"], "release_date": chosen["release_date"]}
+        # TMDB e Wikipedia devono parlare dello stesso film
+        if wiki and wiki.get("year") and chosen["year"] and abs(wiki["year"] - chosen["year"]) > 1:
+            notes.append("scartati Wikipedia e TMDB: anni diversi (omonimia probabile)")
+            return None, None, "; ".join(notes)
+        if wiki and wiki_dir and chosen["directors"] and surname_match(wiki_dir, chosen["directors"]) is False:
+            notes.append("scartati Wikipedia e TMDB: registi diversi (omonimia probabile)")
+            return None, None, "; ".join(notes)
+    return wiki, t, "; ".join(notes)
 
 
 def _refs(showtimes: list[dict]) -> dict[str, dict]:
@@ -237,9 +318,10 @@ def _refs(showtimes: list[dict]) -> dict[str, dict]:
     refs: dict[str, dict] = {}
     for r in showtimes:
         k = film_key(r["film"])
-        e = refs.setdefault(k, {"title": r["film"], "regia": "", "anno": None})
+        e = refs.setdefault(k, {"title": r["film"], "regia": "", "anno": None, "rer": False})
         e["regia"] = e["regia"] or r.get("regia", "")
         e["anno"] = e["anno"] or r.get("anno")
+        e["rer"] = e["rer"] or bool(r.get("rer"))
     return refs
 
 
@@ -265,19 +347,19 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
             break
         n += 1
         try:
-            wiki = lookup(title, fetcher)
+            wiki = lookup(title, fetcher, ref["anno"], ref["regia"] or None)
         except Exception:  # noqa: BLE001 - rete o API giu': si riprova al prossimo giro
             continue
         cands, tmdb_ok = [], bool(tmdb)
         if tmdb:
             try:
-                cands = tmdb_candidates(title, tmdb, ref["anno"])
+                cands = tmdb_candidates(title, tmdb, ref["anno"] or (wiki or {}).get("year"))
             except Exception as exc:  # noqa: BLE001 - errore TMDB: lo si vede nel log, i dati Wikipedia restano
                 if not tmdb_errors:
                     print(f"  TMDB errore: {exc}")
                 tmdb_errors.append(title)
                 tmdb_ok = False
-        wiki, t, note = decide(title, ref["regia"] or None, ref["anno"], wiki, cands)
+        wiki, t, note = decide(title, ref["regia"] or None, ref["anno"], wiki, cands, today_d, ref["rer"])
         if note and printed < 40:
             printed += 1
             print(f"  film '{title}': {note}")
@@ -287,7 +369,7 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
         time.sleep(delay)
     # tieni nel file solo i film ancora in programmazione (o cercati di recente)
     cache = {k: v for k, v in cache.items() if k in refs or
-             (today_d - dt.date.fromisoformat(v["checked"])).days < 30}
+             (v.get("v") == SCHEMA and (today_d - dt.date.fromisoformat(v["checked"])).days < 30)}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     return cache
