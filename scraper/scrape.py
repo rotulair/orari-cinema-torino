@@ -230,6 +230,27 @@ def lines_of(html: str) -> list[tuple[str, str]]:
     return out
 
 
+_BLOCK_TAGS = {"p", "div", "li", "br", "tr", "ul", "ol", "table", "section", "article", "blockquote",
+               "td", "th", "header", "footer"} | _HEAD_TAGS
+
+
+def block_segments(html: str) -> list[list[str]]:
+    """Righe 'visive': i nodi di testo sono raggruppati finche' non c'e' un a-capo (br, p, div, li...).
+    Un titolo evidenziato (span) resta un segmento a se'."""
+    blocks: list[list[str]] = []
+    cur: list[str] = []
+    for kind, a, _b in events_of(html):
+        if kind in ("start", "end") and a in _BLOCK_TAGS:
+            if cur:
+                blocks.append(cur)
+                cur = []
+        elif kind == "text":
+            cur.append(a)
+    if cur:
+        blocks.append(cur)
+    return blocks
+
+
 def _today(day: str) -> dt.date:
     return dt.date.fromisoformat(day)
 
@@ -345,14 +366,15 @@ _TIME_ONLY = re.compile(r"^\d{1,2}[:.]\d{2}$")
 
 def parse_ideal(html: str, day: str) -> list[dict]:
     """Tollerante: orario sia in una riga sola ('SALA 1, 15:00, INFINITY VISION') sia spezzato in
-    nodi separati ('SALA 1' / '15:00' / 'INFINITY VISION'). Titolo da un titolo HTML, oppure dal
-    testo che precede 'Regia:/Durata:'."""
+    nodi separati ('SALA 1' / '15:00' / 'INFINITY VISION'). Titolo da un titolo HTML oppure, se non
+    c'e', dal nodo che precede la prima etichetta 'Regia:/Genere:/Durata:' (etichette e valori
+    possono essere nodi separati: 'Durata:' / "113'")."""
     title, cur, room = "", None, ""
     out: list[dict] = []
     seen: set = set()
     last: dict | None = None  # ultimo orario, in attesa dell'eventuale formato nel nodo seguente
-    prev = ""
-    head_since = False
+    cand = ""                 # ultimo testo "libero" visto fuori dai metadati
+    in_meta = skip_value = head_since = False
     for text, tag in lines_of(html):
         text = text.strip().rstrip(",").strip()
         if not text:
@@ -360,18 +382,22 @@ def parse_ideal(html: str, day: str) -> list[dict]:
         if tag in _HEAD_TAGS and not _IDEAL_DAY.match(text):
             if not text.lower().startswith(("film in programmazione", "prossimamente")):
                 title, cur, room, last, head_since = clean(text), None, "", None, True
-            prev = text
+                in_meta = skip_value = False
             continue
         if _META.match(text):
-            if not head_since and prev and not _META.match(prev) and not _IDEAL_DAY.match(prev):
-                title, cur, room, last = clean(prev), None, "", None
-            head_since = False
-            prev = text
+            if not in_meta and not head_since and cand:
+                title, cur, room, last = clean(cand), None, "", None
+            head_since, in_meta = False, True
+            skip_value = text.endswith(":")      # etichetta sola: il valore e' il nodo dopo
             continue
-        prev = text
+        if in_meta and skip_value:
+            skip_value = False
+            continue
         m = _IDEAL_DAY.match(text)
         if m:
-            cur, room, last = infer_date(day, int(m.group(1)), int(m.group(2))), "", None
+            cur, room, last, in_meta = infer_date(day, int(m.group(1)), int(m.group(2))), "", None, False
+            continue
+        if in_meta:
             continue
         m = _IDEAL_SHOW.match(text)
         if m and title and cur:
@@ -392,7 +418,10 @@ def parse_ideal(html: str, day: str) -> list[dict]:
             continue
         if last is not None and len(text) <= 30 and not text.lower().startswith("scheda"):
             last["tag"] = _norm_tag(text)
+            last = None
+            continue
         last = None
+        cand = text
     return out
 
 
@@ -514,24 +543,39 @@ def parse_esedra(html: str, day: str) -> list[dict]:
 # Righe "Lunedi 16 novembre 2026, ore 21.15: TITOLO di Regista (VOS)".
 
 _BARETTI = re.compile(
-    rf"{_DAYNAME}\s+(\d{{1,2}})\s+({_MONTH_RE})(?:\s+(\d{{4}}))?\s*,?\s*ore\s*(\d{{1,2}}[.:]\d{{2}})\s*[:\-–]\s*(.+)$", re.I)
+    rf"{_DAYNAME}\s+(\d{{1,2}})\s+({_MONTH_RE})(?:\s+(\d{{4}}))?\s*,?\s*ore\s*(\d{{1,2}})(?:[.:](\d{{2}}))?\s*:\s*", re.I)
 
 
 def parse_baretti(html: str, day: str) -> list[dict]:
+    """Righe 'Lunedi 16 novembre 2026, ore 21.15: TITOLO di Regista (VOS) [ Rassegna ]'.
+    Il titolo e' di solito evidenziato (un nodo a se'); altrimenti si taglia prima di ' di Nome'.
+    L'ora puo' essere senza minuti ('ore 21:')."""
     out: list[dict] = []
     seen: set = set()
-    for text, _tag in lines_of(html):
-        m = _BARETTI.search(text)
+    for segs in block_segments(html):
+        full = clean(" ".join(segs))
+        m = _BARETTI.search(full)
         if not m:
             continue
         date = infer_date(day, int(m.group(1)), MONTHS[m.group(2).lower()], int(m.group(3)) if m.group(3) else None)
-        hhmm = times_in(m.group(4))
-        rest = m.group(5)
+        h, mi = int(m.group(4)), int(m.group(5) or 0)
+        if not date or not _valid_time(h, mi):
+            continue
+        rest = full[m.end():]
+        # titolo = primo segmento dopo il prefisso "... ore 21.15:" (se e' un nodo separato)
+        pos, title = 0, ""
+        for seg in segs:
+            start = full.find(seg, pos)
+            pos = start + len(seg)
+            if start >= m.end() - 1 and seg.strip(" :"):
+                title = seg.strip(" :")
+                break
+        if not title:
+            title = re.split(r"\s+(?:di|con)\s+(?=[A-ZÀ-Ý])", re.sub(r"\([^)]*\)", "", rest), maxsplit=1)[0]
+        title = clean(re.sub(r"\([^)]*\)", "", title)).strip(" .,-–:")
         tag = "VO" if re.search(r"\((?:v\.?o\.?s?|versione originale)[^)]*\)", rest, re.I) else ""
-        rest = re.sub(r"\([^)]*\)", "", rest)
-        title = clean(re.split(r"\s+di\s+(?=[A-ZÀ-Ý])", rest, maxsplit=1)[0]).strip(" .,-–")
-        if date and hhmm and title:
-            _add(out, seen, title, date, hhmm[0], tag)
+        if title:
+            _add(out, seen, title, date, f"{h:02d}:{mi:02d}", tag)
     return out
 
 
