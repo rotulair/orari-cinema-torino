@@ -66,7 +66,7 @@ summary.fh::after{content:"";flex:none;align-self:center;margin-left:auto;width:
 .card:not([open])>summary.fh::after{transform:rotate(-45deg)}
 .card:not([open])>summary.fh{border-bottom:0;padding-bottom:0;margin-bottom:0}
 summary.fh>div{flex:1}
-.dir{display:inline;font-size:14px;font-weight:500;color:var(--mute);letter-spacing:0;vertical-align:baseline}
+.dir{display:block;margin:2px 0 4px;font-size:14px;font-weight:400;color:var(--mute);letter-spacing:0;line-height:1.3}
 .tools .link{background:none;border:0;color:var(--accent);font:inherit;font-size:14px;font-weight:600;cursor:pointer;padding:0 4px}
 .tools .link[hidden]{display:none}
 a.ft{color:inherit;text-decoration:none}
@@ -175,10 +175,16 @@ function filmInfo(title){
   return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url, poster: f.poster || ""};
 }
 /* ---------- schede comprimibili ---------- */
-const collapsed = new Set();
-try{ JSON.parse(lsGet("ct.collapsed")||"[]").forEach(k=>collapsed.add(k)); }catch(e){}
-const isOpen = k => collapsed.has(k) ? "" : " open";
-function saveCollapsed(){ lsSet("ct.collapsed", JSON.stringify([...collapsed].slice(-300))); }
+// Schede film: chiuse di default (si ricordano solo quelle aperte). Schede cinema: aperte di default.
+const collapsed = new Set(), expanded = new Set();
+try{ JSON.parse(lsGet("ct.collapsed")||"[]").forEach(k=>{ if(k[0]==="c") collapsed.add(k); }); }catch(e){}
+try{ JSON.parse(lsGet("ct.expanded")||"[]").forEach(k=>expanded.add(k)); }catch(e){}
+const isFilmCard = k => k[0]==="f";
+const isOpen = k => (isFilmCard(k) ? (state.only || expanded.has(k)) : !collapsed.has(k)) ? " open" : "";
+function saveCollapsed(){
+  lsSet("ct.collapsed", JSON.stringify([...collapsed].slice(-300)));
+  lsSet("ct.expanded", JSON.stringify([...expanded].slice(-300)));
+}
 function syncColAll(){
   const all = [...document.querySelectorAll("#out details.card")];
   const b = $("colall"); if(!b) return;
@@ -326,7 +332,7 @@ function renderFilms(rows, cmap, now, isToday){
     const img = i.poster ? `<img class="poster" src="${esc(i.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
     const k = filmKey(f.title);
     const regia = ([...f.byCinema.values()].flat().find(s=>s.regia)||{}).regia || (FILMS[k]||{}).director || "";
-    const dir = regia ? ` <span class="dir">regia di: ${esc(regia)}</span>` : "";
+    const dir = regia ? `<span class="dir">regia di: ${esc(regia)}</span>` : "";
     return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${img}<div><h2>${titleLink(f.title)}${dir}</h2><p class="sub">${n} cinema · <a href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Scheda Wikipedia ↗":"Cerca su Google ↗"}</a></p></div></summary>${rowsHtml}</details>`;
   }).join("");
 }
@@ -363,7 +369,10 @@ $("v-cinema").onclick = () => { state.only=""; state.view="cinema"; lsSet("ct.vi
 $("q").addEventListener("input", e => { state.q = e.target.value; state.only=""; render(); });
 $("out").addEventListener("toggle", e => {
   const d = e.target; if(!d.dataset || !d.dataset.k) return;
-  if(d.open) collapsed.delete(d.dataset.k); else collapsed.add(d.dataset.k);
+  const k = d.dataset.k;
+  if(d.open === (isOpen(k) !== "")){ syncColAll(); return; }   // evento causato dal disegno della pagina, non da un tocco
+  if(isFilmCard(k)){ d.open ? expanded.add(k) : expanded.delete(k); }
+  else { d.open ? collapsed.delete(k) : collapsed.add(k); }
   saveCollapsed(); syncColAll();
 }, true);
 $("colall").onclick = () => {
