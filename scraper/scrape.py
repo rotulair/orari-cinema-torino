@@ -344,13 +344,16 @@ def room_short(text: str) -> str:
     return _NUM_WORDS.get(t.lower(), t)[:20]
 
 
-def _add(out: list[dict], seen: set, film: str, date: str, hhmm: str, tag: str = "", room: str = "") -> None:
+def _add(out: list[dict], seen: set, film: str, date: str, hhmm: str, tag: str = "", room: str = "",
+         regia: str = "") -> None:
     key = (film.lower(), date, hhmm)
     if film and key not in seen:
         seen.add(key)
         row = {"film": film, "date": date, "time": hhmm, "tag": tag}
         if room:
             row["room"] = room
+        if regia:
+            row["regia"] = regia
         out.append(row)
 
 
@@ -378,6 +381,7 @@ def parse_ideal(html: str, day: str) -> list[dict]:
     last: dict | None = None  # ultimo orario, in attesa dell'eventuale formato nel nodo seguente
     cand = ""                 # ultimo testo "libero" visto fuori dai metadati
     in_meta = skip_value = head_since = False
+    regia, want_regia = "", False
     for text, tag in lines_of(html):
         text = text.strip().rstrip(",").strip()
         if not text:
@@ -386,15 +390,22 @@ def parse_ideal(html: str, day: str) -> list[dict]:
             if not text.lower().startswith(("film in programmazione", "prossimamente")):
                 title, cur, room, last, head_since = clean(text), None, "", None, True
                 in_meta = skip_value = False
+                regia = ""
             continue
         if _META.match(text):
             if not in_meta and not head_since and cand:
-                title, cur, room, last = clean(cand), None, "", None
+                title, cur, room, last, regia = clean(cand), None, "", None, ""
             head_since, in_meta = False, True
             skip_value = text.endswith(":")      # etichetta sola: il valore e' il nodo dopo
+            is_regia = text.lower().startswith("regia")
+            if is_regia and not skip_value:
+                regia = clean(text.split(":", 1)[1]) if ":" in text else ""
+            want_regia = is_regia and skip_value
             continue
         if in_meta and skip_value:
             skip_value = False
+            if want_regia:
+                regia, want_regia = clean(text), False
             continue
         m = _IDEAL_DAY.match(text)
         if m:
@@ -406,7 +417,7 @@ def parse_ideal(html: str, day: str) -> list[dict]:
         if m and title and cur:
             hhmm = times_in(m.group(2))
             if hhmm:
-                _add(out, seen, title, cur, hhmm[0], _norm_tag(m.group(3) or ""), room_short(m.group(1)))
+                _add(out, seen, title, cur, hhmm[0], _norm_tag(m.group(3) or ""), room_short(m.group(1)), regia)
             last = None
             continue
         if _ROOM_ONLY.match(text):
@@ -416,7 +427,7 @@ def parse_ideal(html: str, day: str) -> list[dict]:
             hhmm = times_in(text)
             before = len(out)
             if hhmm:
-                _add(out, seen, title, cur, hhmm[0], "", room)
+                _add(out, seen, title, cur, hhmm[0], "", room, regia)
             last = out[-1] if len(out) > before else None
             continue
         if last is not None and len(text) <= 30 and not text.lower().startswith("scheda"):
@@ -577,8 +588,10 @@ def parse_baretti(html: str, day: str) -> list[dict]:
             title = re.split(r"\s+(?:di|con)\s+(?=[A-ZÀ-Ý])", re.sub(r"\([^)]*\)", "", rest), maxsplit=1)[0]
         title = clean(re.sub(r"\([^)]*\)", "", title)).strip(" .,-–:")
         tag = "VO" if re.search(r"\((?:v\.?o\.?s?|versione originale)[^)]*\)", rest, re.I) else ""
+        after = rest[rest.find(title) + len(title):] if title in rest else ""
+        dm = re.match(r"\s*di\s+([^\[\](),]+)", after)
         if title:
-            _add(out, seen, title, date, f"{h:02d}:{mi:02d}", tag)
+            _add(out, seen, title, date, f"{h:02d}:{mi:02d}", tag, regia=clean(dm.group(1)) if dm else "")
     return out
 
 

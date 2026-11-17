@@ -47,17 +47,34 @@ def pick(title: str, pages: list[dict]) -> dict | None:
     return None
 
 
+_DIR = re.compile(
+    r"(?:diretto|diretta|co-?diretto|scritto e diretto|scritta e diretta)\s+da\s+(.+?)"
+    r"(?:,?\s+(?:con|prodotto|prodotta|tratto|tratta|basato|basata|scritto|scritta|ispirato|ispirata|"
+    r"interpretato|interpretata|distribuito|distribuita|uscito|uscita|presentato|presentata|e\s+interpretat\w+|"
+    r"liberamente)\b|[.;(]|$)", re.I)
+
+
+def director_of(extract: str) -> str | None:
+    """'... è un film del 2026 diretto da Paola Randi, con ...' -> 'Paola Randi'."""
+    m = _DIR.search((extract or "")[:500].replace("\n", " "))
+    if not m:
+        return None
+    d = re.sub(r"\s+", " ", m.group(1)).strip(" ,")
+    return d if 3 <= len(d) <= 80 else None
+
+
 def lookup(title: str, fetcher) -> dict | None:
     q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title)
     params = {"action": "query", "format": "json", "generator": "search", "gsrsearch": f"{q.strip()} film",
               "gsrlimit": "5", "prop": "pageimages|extracts|info", "inprop": "url", "piprop": "thumbnail",
-              "pithumbsize": "240", "exintro": "1", "explaintext": "1", "exchars": "250", "redirects": "1"}
+              "pithumbsize": "240", "exintro": "1", "explaintext": "1", "exchars": "500", "redirects": "1"}
     data = json.loads(fetcher(API + "?" + urllib.parse.urlencode(params)))
     pages = list((data.get("query") or {}).get("pages", {}).values())
     p = pick(title, pages)
     if not p:
         return None
-    return {"url": p.get("fullurl"), "poster": (p.get("thumbnail") or {}).get("source")}
+    return {"url": p.get("fullurl"), "poster": (p.get("thumbnail") or {}).get("source"),
+            "director": director_of(p.get("extract"))}
 
 
 def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None, delay: float = 0.4) -> dict:
@@ -74,7 +91,7 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
         old = cache.get(key)
         if old:
             age = (today_d - dt.date.fromisoformat(old["checked"])).days
-            if old.get("url") or age < RETRY_DAYS:
+            if (old.get("url") and "director" in old) or (not old.get("url") and age < RETRY_DAYS):
                 continue
         if n >= MAX_LOOKUPS:
             break
@@ -84,7 +101,8 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
         except Exception:  # noqa: BLE001 - rete o API giu': si riprova al prossimo giro
             continue
         cache[key] = {"title": title, "url": (found or {}).get("url"),
-                      "poster": (found or {}).get("poster"), "checked": today_d.isoformat()}
+                      "poster": (found or {}).get("poster"),
+                      "director": (found or {}).get("director"), "checked": today_d.isoformat()}
         time.sleep(delay)
     # tieni nel file solo i film ancora in programmazione (o cercati di recente)
     cache = {k: v for k, v in cache.items() if k in titles or
