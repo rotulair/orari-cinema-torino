@@ -449,7 +449,8 @@ class TmdbTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as t:
             c = self.films.enrich([{"film": "Cleo"}], Path(t) / "f.json", lambda u: "{}", today="2026-11-17",
                                   delay=0, tmdb=boom)
-        self.assertEqual(c, {})
+        # l'errore TMDB non butta via il resto: il film resta salvato (senza TMDB) e verra' riprovato
+        self.assertEqual((c["cleo"]["t"], c["cleo"]["tmdb"]), (False, None))
 
 
 class RunTests(unittest.TestCase):
