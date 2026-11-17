@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T18:15:52+01:00",
+ "generated_at": "2026-11-17T21:25:28+01:00",
  "today": "2026-11-17",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:06+01:00"
+    "fetched_at": "2026-11-17T21:24:43+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 126,
+    "n": 117,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:09+01:00"
+    "fetched_at": "2026-11-17T21:24:45+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 125,
+    "n": 120,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:16+01:00"
+    "fetched_at": "2026-11-17T21:24:49+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:19+01:00"
+    "fetched_at": "2026-11-17T21:24:52+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:22+01:00"
+    "fetched_at": "2026-11-17T21:24:55+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 78,
+    "n": 75,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:24+01:00"
+    "fetched_at": "2026-11-17T21:24:58+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 84,
+    "n": 80,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:26+01:00"
+    "fetched_at": "2026-11-17T21:24:59+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 15,
+    "n": 11,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:27+01:00"
+    "fetched_at": "2026-11-17T21:25:01+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 21,
+    "n": 16,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:29+01:00"
+    "fetched_at": "2026-11-17T21:25:02+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:32+01:00"
+    "fetched_at": "2026-11-17T21:25:06+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:35+01:00"
+    "fetched_at": "2026-11-17T21:25:10+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:36+01:00"
+    "fetched_at": "2026-11-17T21:25:12+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:39+01:00"
+    "fetched_at": "2026-11-17T21:25:15+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:41+01:00"
+    "fetched_at": "2026-11-17T21:25:17+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 53,
+    "n": 50,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:43+01:00"
+    "fetched_at": "2026-11-17T21:25:19+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:45+01:00"
+    "fetched_at": "2026-11-17T21:25:22+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:49+01:00"
+    "fetched_at": "2026-11-17T21:25:25+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T18:15:52+01:00"
+    "fetched_at": "2026-11-17T21:25:28+01:00"
    }
   }
  ],
@@ -326,27 +326,6 @@
   },
   {
    "cinema": "duegiardini",
-   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
-   "date": "2026-11-17",
-   "time": "20:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-17",
-   "time": "18:00",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-17",
-   "time": "18:50",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "duegiardini",
    "film": "WILD HORSE NINE",
    "date": "2026-11-17",
    "time": "21:15",
@@ -356,21 +335,7 @@
    "cinema": "eliseo",
    "film": "DIO RIDE",
    "date": "2026-11-17",
-   "time": "18:30",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "DIO RIDE",
-   "date": "2026-11-17",
    "time": "21:15",
-   "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-17",
-   "time": "18:15",
    "tag": "Blu"
   },
   {
@@ -379,13 +344,6 @@
    "date": "2026-11-17",
    "time": "20:45",
    "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-17",
-   "time": "18:45",
-   "tag": "Grande"
   },
   {
    "cinema": "eliseo",
@@ -512,7 +470,8 @@
    "time": "15:00",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -521,7 +480,8 @@
    "time": "17:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -654,7 +614,8 @@
    "film": "COME RAPINARE UNA BANCA",
    "date": "2026-11-17",
    "time": "18:35",
-   "tag": ""
+   "tag": "",
+   "anno": 2026
   },
   {
    "cinema": "lux",
@@ -668,7 +629,8 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-17",
    "time": "18:15",
-   "tag": ""
+   "tag": "",
+   "anno": 2026
   },
   {
    "cinema": "lux",
@@ -742,108 +704,17 @@
   },
   {
    "cinema": "marx",
-   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
-   "date": "2026-11-17",
-   "time": "20:30",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-17",
-   "time": "18:50",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-17",
-   "time": "18:30",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-17",
    "time": "20:45",
    "tag": "Groucho"
   },
   {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-17",
-   "time": "18:15",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "massaua",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-17",
-   "time": "21:00",
-   "tag": "CULT"
-  },
-  {
-   "cinema": "massaua",
-   "film": "COME RAPINARE UNA BANCA",
-   "date": "2026-11-17",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "DIO RIDE",
-   "date": "2026-11-17",
-   "time": "19:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-17",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-17",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
-   "date": "2026-11-17",
-   "time": "19:15",
-   "tag": "CULT"
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-17",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-17",
    "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-17",
-   "time": "21:05",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-17",
-   "time": "19:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massimo",
@@ -919,20 +790,6 @@
   },
   {
    "cinema": "nazionale",
-   "film": "Fatherland",
-   "date": "2026-11-17",
-   "time": "18:50",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "Look Back",
-   "date": "2026-11-17",
-   "time": "18:45",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "nazionale",
    "film": "Look Back",
    "date": "2026-11-17",
    "time": "21:00",
@@ -942,29 +799,8 @@
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-17",
-   "time": "18:45",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-17",
    "time": "20:45",
    "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-17",
-   "time": "18:10",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-17",
-   "time": "20:30",
-   "tag": "Sala 1"
   },
   {
    "cinema": "nazionale",
@@ -984,29 +820,8 @@
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-17",
-   "time": "19:50",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-17",
    "time": "22:00",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IN UN BATTITO",
-   "date": "2026-11-17",
-   "time": "20:00",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
-   "date": "2026-11-17",
-   "time": "20:00",
-   "tag": "Sala 5"
   },
   {
    "cinema": "reposi",
@@ -1014,20 +829,6 @@
    "date": "2026-11-17",
    "time": "22:00",
    "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-17",
-   "time": "19:50",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-17",
-   "time": "17:50",
-   "tag": "Sala 5"
   },
   {
    "cinema": "reposi",
@@ -1047,13 +848,6 @@
    "cinema": "romano",
    "film": "DIO RIDE",
    "date": "2026-11-17",
-   "time": "18:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-17",
    "time": "21:00",
    "tag": "Sala 3"
   },
@@ -1061,29 +855,8 @@
    "cinema": "romano",
    "film": "L'ESSERE AMATO (EL SER QUERIDO)",
    "date": "2026-11-17",
-   "time": "18:20",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-17",
    "time": "20:45",
    "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-17",
-   "time": "17:45",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "romano",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-17",
-   "time": "20:30",
-   "tag": "Sala 1"
   },
   {
    "cinema": "thespace",
@@ -1171,14 +944,14 @@
   },
   {
    "cinema": "thespace",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
+   "film": "La storia infinita",
    "date": "2026-11-17",
    "time": "19:15",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
+   "film": "La storia infinita",
    "date": "2026-11-17",
    "time": "21:15",
    "tag": ""
@@ -1374,7 +1147,7 @@
   },
   {
    "cinema": "uci",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
+   "film": "La storia infinita",
    "date": "2026-11-17",
    "time": "20:50",
    "tag": ""
@@ -1708,7 +1481,8 @@
    "time": "15:00",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -1717,7 +1491,8 @@
    "time": "17:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -1850,7 +1625,8 @@
    "film": "COME RAPINARE UNA BANCA",
    "date": "2026-11-18",
    "time": "18:35",
-   "tag": ""
+   "tag": "",
+   "anno": 2026
   },
   {
    "cinema": "lux",
@@ -1864,7 +1640,8 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-18",
    "time": "18:15",
-   "tag": ""
+   "tag": "",
+   "anno": 2026
   },
   {
    "cinema": "lux",
@@ -2032,49 +1809,49 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-18",
    "time": "17:05",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
    "time": "16:50",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
    "time": "21:15",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
+   "film": "La storia infinita",
    "date": "2026-11-18",
    "time": "19:15",
-   "tag": "CULT"
+   "tag": "Sala 3 CULT"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "17:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "19:15",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "21:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
@@ -2317,7 +2094,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)",
+   "film": "La storia infinita",
    "date": "2026-11-18",
    "time": "20:00",
    "tag": "Sala 5"
@@ -2612,7 +2389,8 @@
    "time": "15:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -2621,7 +2399,8 @@
    "time": "17:15",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -2832,42 +2611,42 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-19",
    "time": "17:30",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-19",
    "time": "19:00",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-19",
    "time": "21:10",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "16:45",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "19:30",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "21:30",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
@@ -2888,7 +2667,7 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-19",
    "time": "19:40",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3282,7 +3061,8 @@
    "time": "17:15",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -3486,42 +3266,42 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-20",
    "time": "17:20",
-   "tag": ""
+   "tag": "Sala 2"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-20",
    "time": "17:00",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-20",
    "time": "21:00",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "17:00",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "19:30",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "21:40",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
@@ -3542,7 +3322,7 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-20",
    "time": "19:30",
-   "tag": "Sala 2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3556,7 +3336,7 @@
    "film": "WILDWOOD: I SEGRETI DEL BOSCO PROIBITO",
    "date": "2026-11-20",
    "time": "19:10",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massimo",
@@ -3958,7 +3738,8 @@
    "time": "15:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -3967,7 +3748,8 @@
    "time": "17:15",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -4192,63 +3974,63 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-21",
    "time": "14:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-21",
    "time": "17:40",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "14:30",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "17:45",
-   "tag": ""
+   "tag": "Sala 2"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "21:40",
-   "tag": ""
+   "tag": "Sala 2"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "15:20",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "17:20",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "19:30",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "21:40",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
@@ -4276,7 +4058,7 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-21",
    "time": "19:45",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -4715,7 +4497,8 @@
    "time": "15:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -4724,7 +4507,8 @@
    "time": "17:15",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -4928,49 +4712,49 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-22",
    "time": "14:20",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-22",
    "time": "18:15",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-22",
    "time": "17:30",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-22",
    "time": "20:45",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "15:20",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "18:25",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "21:30",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
@@ -5012,14 +4796,14 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-22",
    "time": "16:30",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-22",
    "time": "19:40",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -5384,7 +5168,8 @@
    "time": "16:50",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -5787,7 +5572,8 @@
    "time": "15:10",
    "tag": "",
    "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
@@ -5796,7 +5582,8 @@
    "time": "17:15",
    "tag": "",
    "room": "4",
-   "regia": "Alessandro Carloni, Erica Rivinoja"
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
   {
    "cinema": "ideal",
