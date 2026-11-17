@@ -878,7 +878,14 @@ def main() -> int:
         token = (os.environ.get("TMDB_TOKEN") or os.environ.get("TMDB_API_KEY") or "").strip()
         tmdb = films.tmdb_fetcher(token) if token else None
         if not tmdb:
-            print("TMDB: nessuna chiave (segreto TMDB_TOKEN) -> solo Wikipedia")
+            print("TMDB: nessuna chiave ricevuta (segreto TMDB_TOKEN non letto dal workflow?) -> solo Wikipedia")
+        else:
+            why = films.tmdb_check(tmdb)
+            if why:
+                print(f"TMDB: chiave non accettata ({why}) -> solo Wikipedia")
+                tmdb = None
+            else:
+                print("TMDB: chiave OK")
         cache = films.enrich(data["showtimes"], Path(args.out).with_name("films.json"), fetch, data["today"],
                              tmdb=tmdb)
         print(f"schede film: {sum(1 for v in cache.values() if v.get('url'))}/{len(cache)} su Wikipedia, "

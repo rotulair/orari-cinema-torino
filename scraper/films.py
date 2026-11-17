@@ -116,6 +116,15 @@ def tmdb_fetcher(token: str):
     return fetch
 
 
+def tmdb_check(fetch) -> str | None:
+    """None se la chiave funziona, altrimenti il motivo (per il log)."""
+    try:
+        json.loads(fetch(f"{TMDB_API}/configuration"))
+        return None
+    except Exception as exc:  # noqa: BLE001
+        return str(exc)
+
+
 def _strip_articles(key: str) -> str:
     w = key.split()
     while len(w) > 1 and w[0] in {"il", "lo", "la", "l", "i", "gli", "le", "the", "un", "una", "uno"}:
@@ -192,6 +201,8 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
     check_dir = ref_dir or (wiki_dir if wiki else None)
 
     accepted, strong_conflict = [], False
+    if not cands:
+        note = (note + "; " if note else "") + "TMDB: nessun risultato con titolo simile"
     for c in cands:
         year_ok = not hint_year or not c["year"] or abs(c["year"] - hint_year) <= 1
         m = surname_match(check_dir, c["directors"]) if check_dir else None
@@ -201,6 +212,11 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
             accepted.append((1, c))
         elif m is False and c["sim"] >= 0.9:
             strong_conflict = True
+        if not accepted or accepted[-1][1] is not c:
+            note = (note + "; " if note else "") + (
+                f"TMDB scartato id {c['id']} ({c['year']}): "
+                + ("regista " + ", ".join(c["directors"][:2]) + f" != '{check_dir}'" if m is False
+                   else "anno non coerente" if not year_ok else "regista non confrontabile e titolo non identico"))
     if accepted:
         accepted.sort(key=lambda x: (-x[0], -x[1]["sim"], -x[1]["popularity"]))
         best = accepted[0][1]
@@ -236,6 +252,8 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
         cache = {}
     refs = _refs(showtimes)
     n = 0
+    tmdb_errors: list[str] = []
+    printed = 0
     for key, ref in refs.items():
         title = ref["title"]
         old = cache.get(key)
@@ -248,14 +266,23 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
         n += 1
         try:
             wiki = lookup(title, fetcher)
-            cands = tmdb_candidates(title, tmdb, ref["anno"]) if tmdb else []
         except Exception:  # noqa: BLE001 - rete o API giu': si riprova al prossimo giro
             continue
+        cands, tmdb_ok = [], bool(tmdb)
+        if tmdb:
+            try:
+                cands = tmdb_candidates(title, tmdb, ref["anno"])
+            except Exception as exc:  # noqa: BLE001 - errore TMDB: lo si vede nel log, i dati Wikipedia restano
+                if not tmdb_errors:
+                    print(f"  TMDB errore: {exc}")
+                tmdb_errors.append(title)
+                tmdb_ok = False
         wiki, t, note = decide(title, ref["regia"] or None, ref["anno"], wiki, cands)
-        if note:
+        if note and printed < 40:
+            printed += 1
             print(f"  film '{title}': {note}")
         cache[key] = {"title": title, "url": (wiki or {}).get("url"), "poster": (wiki or {}).get("poster"),
-                      "director": (wiki or {}).get("director"), "tmdb": t, "t": bool(tmdb), "v": SCHEMA,
+                      "director": (wiki or {}).get("director"), "tmdb": t, "t": tmdb_ok, "v": SCHEMA,
                       "checked": today_d.isoformat()}
         time.sleep(delay)
     # tieni nel file solo i film ancora in programmazione (o cercati di recente)
