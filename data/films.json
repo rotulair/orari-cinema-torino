@@ -3,12 +3,14 @@
   "title": "ZUSTISSIA",
   "url": "https://it.wikipedia.org/wiki/Zust%C3%ACssia",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c6/Zustissia.png/250px-Zustissia.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Francesco Piras, al suo debutto come regista",
   "checked": "2026-11-17"
  },
  "la gradiva": {
-  "title": "LA GRADIVA",
+  "title": "La Gradiva",
   "url": "https://it.wikipedia.org/wiki/La_Gradiva",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c5/La_Gradiva_%28film%29.jpeg/250px-La_Gradiva_%28film%29.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Marine Atlan, al suo debutto alla regia di un lungometraggio",
   "checked": "2026-11-17"
  },
  "la nostra isola e il mondo intero": {
@@ -18,9 +20,10 @@
   "checked": "2026-11-17"
  },
  "wild horse nine": {
-  "title": "Wild Horse Nine",
+  "title": "WILD HORSE NINE",
   "url": "https://it.wikipedia.org/wiki/Wild_Horse_Nine",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/54/Wild_Horse_Nine.png/250px-Wild_Horse_Nine.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Martin McDonagh",
   "checked": "2026-11-17"
  },
  "2001 odissea nello spazio wb 100th anniversary": {
@@ -33,42 +36,49 @@
   "title": "RAGIONE E SENTIMENTO",
   "url": "https://it.wikipedia.org/wiki/Ragione_e_sentimento_(film_2026)",
   "poster": null,
+  "director": "Georgia Oakley, al suo secondo lungometraggio",
   "checked": "2026-11-17"
  },
  "dio ride": {
   "title": "DIO RIDE",
   "url": "https://it.wikipedia.org/wiki/Dio_ride",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/f8/Dio_ride_%28film%29.png/250px-Dio_ride_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Giovanni Veronesi",
   "checked": "2026-11-17"
  },
  "l essere amato": {
   "title": "L'ESSERE AMATO (EL SER QUERIDO)",
   "url": "https://it.wikipedia.org/wiki/L%27essere_amato",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/El_ser_querido.jpg/250px-El_ser_querido.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "persepolis": {
   "title": "Persepolis",
   "url": "https://it.wikipedia.org/wiki/Persepolis_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0c/Persepolis-film.jpg/250px-Persepolis-film.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Marjane Satrapi e Vincent Paronnaud",
   "checked": "2026-11-17"
  },
  "hope": {
   "title": "Hope",
   "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "minotaur": {
   "title": "Minotaur",
   "url": "https://it.wikipedia.org/wiki/Minotaur_(film)",
   "poster": null,
+  "director": "Jonathan English",
   "checked": "2026-11-17"
  },
  "primetime": {
   "title": "Primetime",
   "url": "https://it.wikipedia.org/wiki/Primetime_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/83/Primetime_film_2026.png/250px-Primetime_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "come rapinare una banca 2026": {
@@ -81,6 +91,7 @@
   "title": "GODZILLA MINUS ZERO",
   "url": "https://it.wikipedia.org/wiki/Godzilla_Minus_Zero",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/GodzillaMinusZerologo.png/250px-GodzillaMinusZerologo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "il gatto col cappello 2026": {
@@ -93,6 +104,7 @@
   "title": "IL RUMORE DELLE COSE NUOVE",
   "url": "https://it.wikipedia.org/wiki/Il_rumore_delle_cose_nuove",
   "poster": null,
+  "director": null,
   "checked": "2026-11-17"
  },
  "n d": {
@@ -105,18 +117,21 @@
   "title": "SCROOGE E GLI SPIRITI DEL NATALE",
   "url": "https://it.wikipedia.org/wiki/Scrooge_e_gli_spiriti_del_Natale",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e5/Scrooge_e_gli_spiriti_del_Natale.png/250px-Scrooge_e_gli_spiriti_del_Natale.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Ti West",
   "checked": "2026-11-17"
  },
  "se domani non torno": {
   "title": "SE DOMANI NON TORNO",
   "url": "https://it.wikipedia.org/wiki/Se_domani_non_torno",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3a/Se_domani_non_torno_%28film%29.png/250px-Se_domani_non_torno_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Paola Randi",
   "checked": "2026-11-17"
  },
  "un tranquillo funerale di famiglia": {
   "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
   "url": "https://it.wikipedia.org/wiki/Un_tranquillo_funerale_di_famiglia",
   "poster": null,
+  "director": "Massimiliano Bruno",
   "checked": "2026-11-17"
  },
  "la storia infinita": {
@@ -135,12 +150,14 @@
   "title": "Fatherland",
   "url": "https://it.wikipedia.org/wiki/Fatherland_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/2c/Fatherland2026.png/250px-Fatherland2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "look back": {
   "title": "Look Back",
   "url": "https://it.wikipedia.org/wiki/Look_Back_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/76/Look_Back_2026.png/250px-Look_Back_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "naked": {
@@ -153,12 +170,14 @@
   "title": "Panni sporchi",
   "url": "https://it.wikipedia.org/wiki/Panni_sporchi_(film_1999)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Panni_sporchi_-_Bonacelli.png/250px-Panni_sporchi_-_Bonacelli.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Mario Monicelli",
   "checked": "2026-11-17"
  },
  "minotaur nel labirinto del potere": {
   "title": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
   "url": "https://it.wikipedia.org/wiki/Minotaur_-_Nel_labirinto_del_potere",
   "poster": null,
+  "director": "Andrej Petrovič Zvjagincev",
   "checked": "2026-11-17"
  },
  "wild horse nine v o": {
@@ -177,18 +196,21 @@
   "title": "L'ESTRANEA",
   "url": "https://it.wikipedia.org/wiki/L%27estranea_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Estranea_Strippoli.jpeg/250px-Estranea_Strippoli.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Paolo Strippoli",
   "checked": "2026-11-17"
  },
  "street fighter": {
   "title": "Street Fighter",
   "url": "https://it.wikipedia.org/wiki/Street_Fighter_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Street_Fighter_2026_film_logo.svg/250px-Street_Fighter_2026_film_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Kitao Sakurai",
   "checked": "2026-11-17"
  },
  "judy": {
   "title": "Judy",
   "url": "https://it.wikipedia.org/wiki/Judy_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Judy_film_2019.jpg/250px-Judy_film_2019.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Rupert Goold",
   "checked": "2026-11-17"
  },
  "100": {
@@ -255,6 +277,7 @@
   "title": "UN WEEKEND ARTIFICIALE",
   "url": "https://it.wikipedia.org/wiki/Un_weekend_artificiale",
   "poster": null,
+  "director": null,
   "checked": "2026-11-17"
  },
  "2001 odissea nello spazio": {
@@ -270,15 +293,17 @@
   "checked": "2026-11-17"
  },
  "il gatto col cappello": {
-  "title": "IL GATTO COL CAPPELLO (THE CAT IN THE HAT)",
+  "title": "IL GATTO COL CAPPELLO",
   "url": "https://it.wikipedia.org/wiki/Il_gatto_col_cappello_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Cat_in_the_Hat_%282026%29_-_Logo.jpg/250px-The_Cat_in_the_Hat_%282026%29_-_Logo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Erica Rivinoja e Alessandro Carloni",
   "checked": "2026-11-17"
  },
  "nel silenzio delle stanze": {
   "title": "NEL SILENZIO DELLE STANZE",
   "url": "https://it.wikipedia.org/wiki/Nel_silenzio_delle_stanze",
   "poster": null,
+  "director": "Jérôme Bonnell",
   "checked": "2026-11-17"
  },
  "dal nulla": {
@@ -318,9 +343,10 @@
   "checked": "2026-11-17"
  },
  "hunger games l alba sulla mietitura": {
-  "title": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+  "title": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
   "url": "https://it.wikipedia.org/wiki/Hunger_Games_-_L%27alba_sulla_mietitura",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3c/Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg/250px-Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Francis Lawrence",
   "checked": "2026-11-17"
  },
  "minnie and moscowitz": {
@@ -333,12 +359,14 @@
   "title": "Topsy-Turvy",
   "url": "https://it.wikipedia.org/wiki/Topsy-Turvy_Sweedie",
   "poster": null,
+  "director": null,
   "checked": "2026-11-17"
  },
  "scomode verita": {
   "title": "Scomode verità",
   "url": "https://it.wikipedia.org/wiki/Scomode_verit%C3%A0",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/87/HardTruths.png/250px-HardTruths.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Mike Leigh",
   "checked": "2026-11-17"
  },
  "i swear e piu forte di me v o": {
@@ -381,6 +409,7 @@
   "title": "CLEO",
   "url": "https://it.wikipedia.org/wiki/Cleo_(Disney)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pinocchio_1940_-_Cleo.png/250px-Pinocchio_1940_-_Cleo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "wildwood i segreti del bosco proibito": {
@@ -393,18 +422,21 @@
   "title": "Ice Cream Man",
   "url": "https://it.wikipedia.org/wiki/Ice_Cream_Man_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Ari_Millen_Ice_Cream_Man.jpeg/250px-Ari_Millen_Ice_Cream_Man.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "clayface": {
   "title": "Clayface",
   "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "James Watkins",
   "checked": "2026-11-17"
  },
  "shaun vita da pecora operazione z u c c a": {
   "title": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
   "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
   "checked": "2026-11-17"
  },
  "la vallee des fous": {
