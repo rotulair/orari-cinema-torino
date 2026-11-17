@@ -1,0 +1,51 @@
+name: Aggiorna programmazione
+
+on:
+  schedule:
+    # 6 volte al giorno (orario UTC): 01:20, 05:20, 09:20, 13:20, 17:20, 21:20 in Italia (inverno)
+    - cron: "20 0,4,8,12,16,20 * * *"
+  workflow_dispatch: {}          # pulsante "Run workflow" per lanciarlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test dei parser
+        run: python -m unittest discover -s tests
+
+      - name: Scarica la programmazione
+        run: python scraper/scrape.py --debug-dir debug
+
+      - name: Salva l'HTML scaricato se qualcosa va storto
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-debug
+          path: debug/
+          retention-days: 7
+
+      - name: Pubblica i dati aggiornati
+        run: |
+          git config user.name  "cinema-torino-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/showtimes.json data/films.json
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+          else
+            git commit -m "Aggiornamento programmazione $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
