@@ -4,8 +4,29 @@
   "url": "https://it.wikipedia.org/wiki/Zust%C3%ACssia",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c6/Zustissia.png/250px-Zustissia.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Francesco Piras, al suo debutto come regista",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1639616,
+   "url": "https://www.themoviedb.org/movie/1639616?language=it-IT",
+   "poster_path": "/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
+   "runtime": 111,
+   "director": "Francesco Piras",
+   "year": 2026,
+   "overview": "Nel 1991, un triplice omicidio commesso sui monti del Sud Sardegna porta alla rapida condanna di un uomo innocente: Beniamino Zuncheddu. Tre gradi di giudizio in un anno per dare un ergastolo. Venticinque anni dopo, un giovane avvocato decide di lottare - pro bono - per restituirgli la libertà. La storia di una vita rubata dal più lungo errore giudiziario della storia italiana: 33 anni di ingiusta detenzione. Ed è anche la storia dell’emozionante battaglia che l’avvocato Mauro Trogu e altri alleati hanno ingaggiato per arrivare alla revisione del processo e all’assoluzione, giunta il 26 gennaio 2024.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Michele Riondino",
+    "Fabrizio Ferracane",
+    "Paola Giannini",
+    "Jacopo Cullin",
+    "Francesco Colella",
+    "Geppi Cucciari"
+   ],
+   "original_title": "Zustìssia",
+   "release_date": "2026-10-08"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -14,8 +35,29 @@
   "url": "https://it.wikipedia.org/wiki/La_Gradiva",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c5/La_Gradiva_%28film%29.jpeg/250px-La_Gradiva_%28film%29.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Marine Atlan, al suo debutto alla regia di un lungometraggio",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1154730,
+   "url": "https://www.themoviedb.org/movie/1154730?language=it-IT",
+   "poster_path": "/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+   "runtime": 145,
+   "director": "Marine Atlan",
+   "year": 2026,
+   "overview": "Una classe di liceali si reca a Pompei alla scoperta delle rovine e dei corpi pietrificati dal Vesuvio. Il viaggio si trasforma in un momento unico in cui la forza della giovinezza incontra un mondo congelato nel tempo. I loro desideri cominciano ad affiorare con intensità inaspettata, conducendoli verso una frattura irreversibile.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Colas Quignard",
+    "Antonia Buresi",
+    "Mitia Capellier-Audat",
+    "Suzanne Gerin",
+    "Hadya Fofana",
+    "Rouge Isaac"
+   ],
+   "original_title": "La Gradiva",
+   "release_date": "2026-10-21"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -25,7 +67,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -34,8 +76,31 @@
   "url": "https://it.wikipedia.org/wiki/Wild_Horse_Nine",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/54/Wild_Horse_Nine.png/250px-Wild_Horse_Nine.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Martin McDonagh",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 891621,
+   "url": "https://www.themoviedb.org/movie/891621?language=it-IT",
+   "poster_path": "/og5qagWp4ZqVl28nbBwiBHZprJM.jpg",
+   "runtime": 117,
+   "director": "Martin McDonagh",
+   "year": 2026,
+   "overview": "Cile, 1973. Chris e Lee sono due agenti della CIA distaccati in Sud America, costretti ad affrontare un complicato viaggio da Santiago all'Isola di Pasqua che metterà a dura prova la loro fiducia reciproca.",
+   "genres": [
+    "Commedia",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": [
+    "John Malkovich",
+    "Sam Rockwell",
+    "Steve Buscemi",
+    "Mariana di Girolamo",
+    "Ailín Salas",
+    "Parker Posey"
+   ],
+   "original_title": "Wild Horse Nine",
+   "release_date": "2026-10-30"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -54,8 +119,30 @@
   "url": "https://it.wikipedia.org/wiki/Ragione_e_sentimento_(film_2026)",
   "poster": null,
   "director": "Georgia Oakley, al suo secondo lungometraggio",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1503762,
+   "url": "https://www.themoviedb.org/movie/1503762?language=it-IT",
+   "poster_path": "/bwZCHb0qCFP2QT3QylGixpsNo8D.jpg",
+   "runtime": 132,
+   "director": "Georgia Oakley",
+   "year": 2026,
+   "overview": "La storia segue le vicende delle sorelle Elinor e Marianne Dashwood che, insieme alla madre e alla sorella minore Margaret, si ritrovano improvvisamente in ristrettezze economiche dopo la morte del padre, la cui eredità passa interamente al fratellastro John a causa delle leggi dell’epoca. Sfrattate dalla loro casa di famiglia nel Sussex, le donne Dashwood si trasferiscono in un modesto cottage nel Devonshire. Qui le due sorelle maggiori, profondamente diverse per temperamento – Elinor è guidata dalla prudenza e dal controllo delle emozioni (sense, la ragione), Marianne dall’impulso e dalla passione romantica (sensibility, il sentimento) –, dovranno navigare tra le rigide convenzioni sociali",
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Daisy Edgar-Jones",
+    "Esmé Creed-Miles",
+    "Caitríona Balfe",
+    "Frank Dillane",
+    "Herbert Nordrum",
+    "George MacKay"
+   ],
+   "original_title": "Sense and Sensibility",
+   "release_date": "2026-09-23"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -64,8 +151,30 @@
   "url": "https://it.wikipedia.org/wiki/Dio_ride",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/f8/Dio_ride_%28film%29.png/250px-Dio_ride_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Giovanni Veronesi",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1506710,
+   "url": "https://www.themoviedb.org/movie/1506710?language=it-IT",
+   "poster_path": "/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+   "runtime": 114,
+   "director": "Giovanni Veronesi",
+   "year": 2026,
+   "overview": "Nel cuore del ‘600, Frate Leopoldo da Casamacchia racconta il Vangelo con una gioia e una libertà mai viste prima. Mentre la Chiesa parla in latino, lui parla alla gente di un Dio vicino, capace di portare sollievo, speranza e persino di ridere insieme agli uomini. La sua voce si diffonde di villaggio in villaggio, conquistando migliaia di persone e svuotando le chiese. L’eco del suo messaggio arriva fino a Roma, dove il Papa affida il caso al cardinale Maculani, il più autorevole inquisitore del tempo. Quello che nasce come un processo si trasforma in un confronto inatteso, capace di mettere in crisi convinzioni apparentemente incrollabili. Mentre il destino di Leopoldo sembra segnato, il d",
+   "genres": [
+    "Commedia",
+    "Dramma"
+   ],
+   "cast": [
+    "Pierfrancesco Favino",
+    "Silvio Orlando",
+    "Alma Noce",
+    "Maurizio Lombardi",
+    "Francesco Gheghi",
+    "Paolo Rossi"
+   ],
+   "original_title": "Dio ride",
+   "release_date": "2026-10-29"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -74,8 +183,29 @@
   "url": "https://it.wikipedia.org/wiki/L%27essere_amato",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/El_ser_querido.jpg/250px-El_ser_querido.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Rodrigo Sorogoyen",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1074074,
+   "url": "https://www.themoviedb.org/movie/1074074?language=it-IT",
+   "poster_path": "/aV3dZ2xlUoGHT0N6a47ZZOACZmv.jpg",
+   "runtime": 136,
+   "director": "Rodrigo Sorogoyen",
+   "year": 2026,
+   "overview": "L'acclamato regista Esteban Martínez è una vera e propria leggenda, noto tanto per i suoi capolavori quanto per il suo difficile passato segnato da violenza ed eccessi. Per il suo nuovo e ambizioso progetto, decide di offrire a sua figlia Emilia un ruolo, con il pretesto di rilanciare la sua carriera di attrice ormai in stallo.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Javier Bardem",
+    "Victoria Luengo",
+    "Melina Matthews",
+    "Malena Villa",
+    "Mourad Ouani",
+    "Pepa Gracia"
+   ],
+   "original_title": "El ser querido",
+   "release_date": "2026-05-16"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -84,18 +214,40 @@
   "url": "https://it.wikipedia.org/wiki/Persepolis_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0c/Persepolis-film.jpg/250px-Persepolis-film.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Marjane Satrapi e Vincent Paronnaud",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 2011,
+   "url": "https://www.themoviedb.org/movie/2011?language=it-IT",
+   "poster_path": "/dUvdyb2rkChGjDJELiuMXpChsqg.jpg",
+   "runtime": 95,
+   "director": "Vincent Paronnaud, Marjane Satrapi",
+   "year": 2007,
+   "overview": "La storia di Marjane, una ragazza precoce e ribelle che, cresciuta portando scarpe da ginnastica e giocando alla lotta con i maschietti, si trova costretta ad affrontare, dall'infanzia all'età adulta,  drastici cambiamenti delle proprie abitudini di vita imposti prima dalla monarchia dello Scià e poi dal regime degli ayatollah, fino alla sua partenza per l'Europa.",
+   "genres": [
+    "Animazione",
+    "Dramma"
+   ],
+   "cast": [
+    "Chiara Mastroianni",
+    "Danielle Darrieux",
+    "Catherine Deneuve",
+    "Simon Abkarian",
+    "Gabrielle Lopes Benites",
+    "François Jerosme"
+   ],
+   "original_title": "Persepolis",
+   "release_date": "2007-06-27"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
  "hope": {
   "title": "Hope",
-  "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Na Hong-jin",
+  "url": null,
+  "poster": null,
+  "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -126,8 +278,31 @@
   "url": "https://it.wikipedia.org/wiki/Godzilla_Minus_Zero",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/GodzillaMinusZerologo.png/250px-GodzillaMinusZerologo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Takashi Yamazaki",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1381071,
+   "url": "https://www.themoviedb.org/movie/1381071?language=it-IT",
+   "poster_path": "/qRq5Oa4hsfjVqTtEgBKi1efTQuv.jpg",
+   "runtime": 135,
+   "director": "Takashi Yamazaki",
+   "year": 2026,
+   "overview": "La vicenda è ambientata nel 1949, in un Giappone che sta ancora faticosamente cercando di ricostruirsi dopo i traumi della Seconda Guerra Mondiale e dopo il precedente passaggio del mostro. La ricomparsa di Godzilla costringerà i due protagonisti, l’ex pilota Kōichi (interpretato da Ryunosuke Kamiki) e Noriko (Minami Hamabe), a una nuova e disperata lotta per la sopravvivenza.",
+   "genres": [
+    "Fantascienza",
+    "Horror",
+    "Azione"
+   ],
+   "cast": [
+    "Ryūnosuke Kamiki",
+    "浜辺美波",
+    "田中泯",
+    "吉岡秀隆",
+    "長澤まさみ",
+    "山田裕貴"
+   ],
+   "original_title": "ゴジラ-0.0",
+   "release_date": "2026-11-03"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -142,8 +317,29 @@
   "url": "https://it.wikipedia.org/wiki/Il_rumore_delle_cose_nuove",
   "poster": null,
   "director": "Paolo Genovese",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1544126,
+   "url": "https://www.themoviedb.org/movie/1544126?language=it-IT",
+   "poster_path": "/2Wq59OquoiAmgs1A86FfJcnzxfs.jpg",
+   "runtime": 113,
+   "director": "Paolo Genovese",
+   "year": 2026,
+   "overview": "Andrea è un fotografo, Andreina un’infermiera, e se oggi Andrea è ancora vivo è perché Andreina gli ha donato un pezzo di sé. Umberto al lavoro allevia il dolore e a casa lo infligge ad Alba, che aveva sogni semplici e ora ha smesso di sognare. Ralph di mestiere riproduce suoni, Viola è un’attrice che ha scelto di recitare anche nella vita. E poi c’è Mirko, che ha dieci anni ma fa tanto rumore. Tre famiglie, che per anni si sono sfiorate nelle strade di Milano senza conoscersi, trascorrono le loro esistenze fra rancori, bugie e momenti di felicità finché un incontro imprevisto non stravolge tutto. Allora il caos prende il sopravvento sul fragile equilibrio che le regge e rischia di spazzarle",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Edoardo Pesce",
+    "Stefano Accorsi",
+    "Emanuela Fanelli",
+    "Lino Musella",
+    "Claudia Pandolfi",
+    "Claudio Santamaria"
+   ],
+   "original_title": "Il rumore delle cose nuove",
+   "release_date": "2026-11-12"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -160,8 +356,31 @@
   "url": "https://it.wikipedia.org/wiki/Scrooge_e_gli_spiriti_del_Natale",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e5/Scrooge_e_gli_spiriti_del_Natale.png/250px-Scrooge_e_gli_spiriti_del_Natale.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Ti West",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1567605,
+   "url": "https://www.themoviedb.org/movie/1567605?language=it-IT",
+   "poster_path": "/drg45KOBksTrv9qQA0EmNuFgHG9.jpg",
+   "runtime": 115,
+   "director": "Ti West",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Fantasy",
+    "Commedia",
+    "Horror"
+   ],
+   "cast": [
+    "Johnny Depp",
+    "Rupert Grint",
+    "Daisy Ridley",
+    "Ian McKellen",
+    "Andrea Riseborough",
+    "Sam Claflin"
+   ],
+   "original_title": "Ebenezer",
+   "release_date": "2026-11-11"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -170,8 +389,29 @@
   "url": "https://it.wikipedia.org/wiki/Se_domani_non_torno",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3a/Se_domani_non_torno_%28film%29.png/250px-Se_domani_non_torno_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Paola Randi",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1583853,
+   "url": "https://www.themoviedb.org/movie/1583853?language=it-IT",
+   "poster_path": "/yfnAxbirYCIm1qP9ZT9LjYIj6DQ.jpg",
+   "runtime": 106,
+   "director": "Paola Randi",
+   "year": 2026,
+   "overview": "Giulia è la figlia ideale. Studia, disegna, sogna di vivere in una brughiera, colleziona scatole e regala sorrisi dolcissimi. Poi una sera scompare, inghiottita da una morte assurda: un femminicidio. Travolto dal dolore più atroce che un padre possa sopportare, Gino Cecchettin sceglie di non stare in silenzio, si interroga sugli esiti più efferati di una cultura patriarcale che ancora ci riguarda e trova le parole per ricordare chi era Giulia e cosa ha imparato da lei. In questa lunga lettera scritta insieme a Marco Franzoso, Gino ripercorre la sua storia di padre, i giorni della gioia e quelli del dolore. Commuove e invita a “costruire un’alleanza tra i sessi, anziché consolidare la prevari",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Sabrina Martina",
+    "Filippo Timi",
+    "Tecla Bossi",
+    "Tommaso Allione",
+    "Massimo Scola",
+    "Carmen Lorenzo"
+   ],
+   "original_title": "Se domani non torno",
+   "release_date": "2026-11-05"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -180,8 +420,29 @@
   "url": "https://it.wikipedia.org/wiki/Un_tranquillo_funerale_di_famiglia",
   "poster": null,
   "director": "Massimiliano Bruno",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1678120,
+   "url": "https://www.themoviedb.org/movie/1678120?language=it-IT",
+   "poster_path": "/iXtZ4Y28GTw1BJFHgcmHrICoyL1.jpg",
+   "runtime": 98,
+   "director": "Massimiliano Bruno",
+   "year": 2026,
+   "overview": "Nel giorno del funerale del patriarca della famiglia Mancuso, i due figli Daria e Riccardo si ritrovano a fare i conti con rancori mai sopiti e segreti inconfessati. Quella che dovrebbe essere una solenne cerimonia di commiato si trasforma presto in un imprevedibile susseguirsi di rivelazioni inattese ed equivoci grotteschi, destinati a far emergere tutte le fragilità e le contraddizioni di una famiglia tutt'altro che perfetta.",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Claudia Pandolfi",
+    "Pietro Sermonti",
+    "Diego Abatantuono",
+    "Stefania Sandrelli",
+    "Stefano Fresi",
+    "Beatrice Arnera"
+   ],
+   "original_title": "Un tranquillo funerale di famiglia",
+   "release_date": "2026-10-29"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -190,8 +451,31 @@
   "url": "https://it.wikipedia.org/wiki/La_storia_infinita_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/La_st%D0%BEria_infinita_%28film%29.png/250px-La_st%D0%BEria_infinita_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Wolfgang Petersen",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 34584,
+   "url": "https://www.themoviedb.org/movie/34584?language=it-IT",
+   "poster_path": "/m5plr6ylu6sXPPRQ5hlQC8JkYWx.jpg",
+   "runtime": 102,
+   "director": "Wolfgang Petersen",
+   "year": 1984,
+   "overview": "Il piccolo Bastian che ha da poco perso la mamma, si rifugia nella soffitta della scuola a leggere un vecchio libro che si rivela magico; così Bastian “entra” nella storia e combatte contro il Nulla per difendere il mondo di Fantasia con l'aiuto di un drago volante e di un fanciullo guerriero. Suggestiva superproduzione tedesca, girata però in inglese, che all'epoca ottenne un grande successo grazie alla fiabesca vicenda del romanzo di Michael Ende (debitamente semplificata) e alla colonna sonora di Giorgio Moroder. Appassionante e non stucchevole.",
+   "genres": [
+    "Avventura",
+    "Fantasy",
+    "Famiglia"
+   ],
+   "cast": [
+    "Noah Hathaway",
+    "Barret Oliver",
+    "Tami Stronach",
+    "Alan Oppenheimer",
+    "Sydney Bromley",
+    "Patricia Hayes"
+   ],
+   "original_title": "Die unendliche Geschichte",
+   "release_date": "1984-04-06"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -213,11 +497,33 @@
  },
  "look back": {
   "title": "Look Back",
-  "url": "https://it.wikipedia.org/wiki/Look_Back_(film_2026)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/76/Look_Back_2026.png/250px-Look_Back_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Hirokazu Kore'eda",
-  "tmdb": null,
-  "t": false,
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1244492,
+   "url": "https://www.themoviedb.org/movie/1244492?language=it-IT",
+   "poster_path": "/9GCNAcMo2EyEu1PCC8T0iQk2mm3.jpg",
+   "runtime": 62,
+   "director": "押山清高",
+   "year": 2024,
+   "overview": "Fujino, eccessivamente sicura di sé, e Kyomoto, chiusa in se stessa, non potrebbero essere più diverse, ma l'amore per il disegno manga unisce queste due ragazze di provincia, in una toccante storia di crescita e progresso.",
+   "genres": [
+    "Animazione",
+    "Dramma"
+   ],
+   "cast": [
+    "河合優実",
+    "吉田美月喜",
+    "斉藤陽一郎",
+    "岡幸太",
+    "牧紅葉",
+    "吉橋航也"
+   ],
+   "original_title": "ルックバック",
+   "release_date": "2024-06-28"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -226,8 +532,30 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 21450,
+   "url": "https://www.themoviedb.org/movie/21450?language=it-IT",
+   "poster_path": "/5u5cLz5FzvjR1zN8uu3quLEYybF.jpg",
+   "runtime": 126,
+   "director": "Mike Leigh",
+   "year": 1993,
+   "overview": "Johnny è un uomo stanco del mondo e di se stesso. È un vagabondo. Agisce d'istinto e in quel di Manchester violenta una ragazza. Poi, raggiunta Londra, va a casa della sua ex e conosce un pessimo individuo che insidia la ragazza. Alla fine Johnny si allontana più disperato e arrabbiato che mai.",
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "David Thewlis",
+    "Lesley Sharp",
+    "Katrin Cartlidge",
+    "Greg Cruttwell",
+    "Claire Skinner",
+    "Peter Wight"
+   ],
+   "original_title": "Naked",
+   "release_date": "1993-08-06"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -236,8 +564,29 @@
   "url": "https://it.wikipedia.org/wiki/Panni_sporchi_(film_1999)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Panni_sporchi_-_Bonacelli.png/250px-Panni_sporchi_-_Bonacelli.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Mario Monicelli",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 24195,
+   "url": "https://www.themoviedb.org/movie/24195?language=it-IT",
+   "poster_path": "/UzoM2G9OKscKtxvP1p33aN3ASk.jpg",
+   "runtime": 110,
+   "director": "Mario Monicelli",
+   "year": 1999,
+   "overview": "La famiglia Razzi da due generazioni produce la Cialda, una caramella digestiva a base di cicoria. Al comando dell'azienda c'è ora Furio Cimin, il genero del fondatore, che è stato esautorato ma che vorrebbe, attraverso un nipote, riprendere il comando della ditta. Litigi, intrighi, investimenti avventati tra i figli e i parenti del capostipite, stanno portando la ditta sull'orlo del fallimento.",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Paolo Bonacelli",
+    "Marina Confalone",
+    "Alessandro Haber",
+    "Benedetta Mazzini",
+    "Mariangela Melato",
+    "Gianni Morandi"
+   ],
+   "original_title": "Panni sporchi",
+   "release_date": "1999-01-29"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -246,8 +595,31 @@
   "url": "https://it.wikipedia.org/wiki/Minotaur_-_Nel_labirinto_del_potere",
   "poster": null,
   "director": "Andrej Petrovič Zvjagincev",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 848700,
+   "url": "https://www.themoviedb.org/movie/848700?language=it-IT",
+   "poster_path": "/gMPqcNmJaEmIArwxzvnuPI7H1Ob.jpg",
+   "runtime": 142,
+   "director": "Andrej Zvjagincev",
+   "year": 2026,
+   "overview": "Russia, 2022. Quando Gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della sua vita ordinata precipita verso la violenza.",
+   "genres": [
+    "Dramma",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": [
+    "Дмитрий Мазуров",
+    "Ирис Лебедева",
+    "Варвара Шмыкова",
+    "Juris Žagars",
+    "Анатолий Белый",
+    "ולדימיר פרידמן"
+   ],
+   "original_title": "Minotaure",
+   "release_date": "2026-10-14"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -257,7 +629,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -266,8 +638,24 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1795686,
+   "url": "https://www.themoviedb.org/movie/1795686?language=it-IT",
+   "poster_path": "/cuYB8P1i9iySjMop9HJaGlMywE6.jpg",
+   "runtime": 102,
+   "director": "Giovanni Troilo",
+   "year": 2026,
+   "overview": "Il film racconta i mesi successivi al 1° dicembre 2024, quando, durante Fiorentina-Inter, Edoardo Bove si accascia improvvisamente sul terreno di gioco. Un episodio che interrompe il percorso che sembrava già tracciato per una delle promesse più brillanti del calcio italiano e apre una fase completamente nuova della sua vita. Da quel momento Edoardo si confronta con un futuro diventato improvvisamente incerto: tornerà a giocare? Potrà ancora farlo in Italia? E chi è Edoardo al di fuori del calcio?",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Edoardo Bove"
+   ],
+   "original_title": "In un battito",
+   "release_date": "2026-11-16"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -276,8 +664,31 @@
   "url": "https://it.wikipedia.org/wiki/L%27estranea_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Estranea_Strippoli.jpeg/250px-Estranea_Strippoli.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Paolo Strippoli",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1412795,
+   "url": "https://www.themoviedb.org/movie/1412795?language=it-IT",
+   "poster_path": "/6GisyPsQBvnpgMKXqtPuwJqpZzl.jpg",
+   "runtime": 115,
+   "director": "Paolo Strippoli",
+   "year": 2026,
+   "overview": "La trama ruota attorno a una donna che si presenta all’improvviso a casa di sua figlia per raccontarle la verità sulla loro famiglia, segnata da un patto stretto molti anni prima con un’estranea. Un segreto custodito troppo a lungo, che ora torna a reclamare il suo prezzo.",
+   "genres": [
+    "Dramma",
+    "Horror",
+    "Thriller"
+   ],
+   "cast": [
+    "Jasmine Trinca",
+    "Romana Maggiora Vergano",
+    "Adriano Giannini",
+    "Valeria Bruni Tedeschi",
+    "Gabriella Telegrafo",
+    "Alessandro Carbonara"
+   ],
+   "original_title": "L'estranea",
+   "release_date": "2026-10-08"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -294,8 +705,31 @@
   "url": "https://it.wikipedia.org/wiki/Judy_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Judy_film_2019.jpg/250px-Judy_film_2019.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Rupert Goold",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 491283,
+   "url": "https://www.themoviedb.org/movie/491283?language=it-IT",
+   "poster_path": "/hPrEVrwl1LBV5davh0JkFtmZiSF.jpg",
+   "runtime": 118,
+   "director": "Rupert Goold",
+   "year": 2019,
+   "overview": "Judy Garland, leggendaria artista, nel 1968 arriva a Londra per tenere una serie di concerti. Per lei si tratta di un periodo non felice: la sua situazione finanziaria non è delle migliori e la sua vita privata è un completo disastro.",
+   "genres": [
+    "Dramma",
+    "Storia",
+    "Musica"
+   ],
+   "cast": [
+    "Renée Zellweger",
+    "Jessie Buckley",
+    "Finn Wittrock",
+    "Rufus Sewell",
+    "Michael Gambon",
+    "Richard Cordery"
+   ],
+   "original_title": "Judy",
+   "release_date": "2019-09-27"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -364,8 +798,30 @@
   "url": "https://it.wikipedia.org/wiki/Un_weekend_artificiale",
   "poster": null,
   "director": "Leonardo Pieraccioni, che ne è anche co-protagonista",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1723882,
+   "url": "https://www.themoviedb.org/movie/1723882?language=it-IT",
+   "poster_path": "/x8fbJstLDEYYlJSCDj3v0MD9Lqd.jpg",
+   "runtime": 100,
+   "director": "Leonardo Pieraccioni",
+   "year": 2026,
+   "overview": "Leonardo, parrucchiere fiorentino, viene invitato insieme ad altri sei sconosciuti in una villa da sogno per partecipare a un esperimento senza precedenti: dovranno scoprire chi tra di loro è un umanoide creato con l’intelligenza artificiale. Un incasinatissimo weekend di sospetti, emozioni e colpi di scena… prima che siano i sentimenti e la vita vera a mandare tutti in tilt.",
+   "genres": [
+    "Commedia",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Leonardo Pieraccioni",
+    "Giulia Vecchio",
+    "Herbert Ballerina",
+    "Massimo Ceccherini",
+    "Tosca D'Aquino",
+    "Giovanni Esposito"
+   ],
+   "original_title": "Un weekend artificiale",
+   "release_date": "2026-11-12"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -374,8 +830,31 @@
   "url": "https://it.wikipedia.org/wiki/2001:_Odissea_nello_spazio",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fb/2001_-_Odissea_nello_spazio.jpg/250px-2001_-_Odissea_nello_spazio.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Stanley Kubrick, che ha curato anche parte degli effetti speciali",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 62,
+   "url": "https://www.themoviedb.org/movie/62?language=it-IT",
+   "poster_path": "/uvSRVMXGHaCeYAj2pCYNdC31b2u.jpg",
+   "runtime": 141,
+   "director": "Stanley Kubrick",
+   "year": 1968,
+   "overview": "Un gigantesco monolite, individuato sulla superficie lunare, trasmette dei messaggi radio in direzione del pianeta Giove. Per seguire il fascio di onde elettromagnetiche viene organizzata una spedizione che ben presto però si trova in balia del computer che governa l'astronave. La lotta avrà un solo vincitore.",
+   "genres": [
+    "Fantascienza",
+    "Mistero",
+    "Avventura"
+   ],
+   "cast": [
+    "Keir Dullea",
+    "Gary Lockwood",
+    "William Sylvester",
+    "Douglas Rain",
+    "Daniel Richter",
+    "Leonard Rossiter"
+   ],
+   "original_title": "2001: A Space Odyssey",
+   "release_date": "1968-04-02"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -392,8 +871,32 @@
   "url": "https://it.wikipedia.org/wiki/Il_gatto_col_cappello_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Cat_in_the_Hat_%282026%29_-_Logo.jpg/250px-The_Cat_in_the_Hat_%282026%29_-_Logo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Erica Rivinoja e Alessandro Carloni",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1117898,
+   "url": "https://www.themoviedb.org/movie/1117898?language=it-IT",
+   "poster_path": "/reGVZn7oCOXM5oaOTjV4MZhFwqT.jpg",
+   "runtime": 91,
+   "director": "Erica Rivinoja, Alessandro Carloni",
+   "year": 2026,
+   "overview": "Scopri Il Gatto col Cappello come non l’hai mai visto prima! Dal meraviglioso e stravagante mondo di Dr. Seuss, Il Gatto col Cappello arriva per la prima volta sul grande schermo da protagonista di un film d’animazione: un’avventura epica, inedita e piena di brio, dove regnano magia, caos e tanta allegria. Facendo ciò che gli riesce meglio, il Gatto porta gioia ai bambini con il suo umorismo esilarante, unico e irriverente, trasportandoli in un viaggio fantastico verso un mondo mai visto prima.",
+   "genres": [
+    "Animazione",
+    "Fantasy",
+    "Avventura",
+    "Famiglia"
+   ],
+   "cast": [
+    "Bill Hader",
+    "Xochitl Gomez",
+    "Tiago Martinez",
+    "Matt Berry",
+    "Quinta Brunson",
+    "Bowen Yang"
+   ],
+   "original_title": "The Cat in the Hat",
+   "release_date": "2026-10-31"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -402,8 +905,30 @@
   "url": "https://it.wikipedia.org/wiki/Nel_silenzio_delle_stanze",
   "poster": null,
   "director": "Jérôme Bonnell",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1119548,
+   "url": "https://www.themoviedb.org/movie/1119548?language=it-IT",
+   "poster_path": "/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+   "runtime": 103,
+   "director": "Jérôme Bonnell",
+   "year": 2025,
+   "overview": "Normandia, 1908. Céleste è una giovane domestica che lavora nella grande villa di André, un ricco notaio, e sua moglie Victoire, una donna oppressa dalle convenzioni borghesi che la vogliono moglie modello. Un giorno Victoire scopre che Céleste è incinta e intuisce che il padre è Andre. Per evitare lo scandalo e proteggere la reputazione della coppia, la donna impone al marito una condizione: l’integrità dell’uomo sarà preservata ma un accordo segreto legherà Victoire e Céleste in un’inaspettata alleanza che porterà le due donne a sfidare il rigido ordine sociale del tempo.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Swann Arlaud",
+    "Galatea Bellugi",
+    "Louise Chevillotte",
+    "Emmanuelle Devos",
+    "Aymeline Alix",
+    "Pierre Philippe"
+   ],
+   "original_title": "La Condition",
+   "release_date": "2025-12-10"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -420,8 +945,30 @@
   "url": "https://it.wikipedia.org/wiki/Ragazze_(film)",
   "poster": null,
   "director": "Mike Leigh",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 49462,
+   "url": "https://www.themoviedb.org/movie/49462?language=it-IT",
+   "poster_path": "/jV4fPYvXI2OLGfVx9p56arrx61T.jpg",
+   "runtime": 110,
+   "director": "Mike Leigh",
+   "year": 1997,
+   "overview": "Annie e Hannah, due giovani donne in carriera si incontrano dopo molto tempo e finiscono per riscoprire la stessa intensa amicizia che le legava alcuni anni prima quando, all'università, dividevano lo stesso appartamento. Durante il week end che segna il loro nuovo incontro, le donne vengono a contatto con numerose persone che studiavano con loro nella Londra degli anni Ottanta. Veniamo a scoprire come le due ragazze sono cambiate e come il mondo è cambiato.",
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "Katrin Cartlidge",
+    "Lynda Steadman",
+    "Kate Byers",
+    "Mark Benton",
+    "Andy Serkis",
+    "Joe Tucker"
+   ],
+   "original_title": "Career Girls",
+   "release_date": "1997-06-01"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -430,8 +977,29 @@
   "url": "https://it.wikipedia.org/wiki/Segreti_e_bugie",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ef/Segreti_e_bugie.png/250px-Segreti_e_bugie.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 11159,
+   "url": "https://www.themoviedb.org/movie/11159?language=it-IT",
+   "poster_path": "/72hGVKvq4u8lcEXFwmMW15JfkKb.jpg",
+   "runtime": 142,
+   "director": "Mike Leigh",
+   "year": 1996,
+   "overview": "Alla periferia di Londra vivono due fratelli, Cynthia e Maurice, che non si vedono da parecchio tempo. Cynthia ha con sé la figlia Roxanne e non ha simpatia per Monica, moglie di Maurice. Finalmente questi, che fa il fotografo, rompe gli indugi, va a trovare la sorella e la invita a casa sua per festeggiare tutti insieme il ventunesimo compleanno di Roxanne. Nel frattempo Cynthia viene contattata da Hortense, una ragazza di colore che lavora come ottica e si qualifica come figlia di Cynthia, data in adozione subito dopo la nascita.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Brenda Blethyn",
+    "Marianne Jean-Baptiste",
+    "Timothy Spall",
+    "Phyllis Logan",
+    "Claire Rushbrook",
+    "Lee Ross"
+   ],
+   "original_title": "Secrets & Lies",
+   "release_date": "1996-05-24"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -440,8 +1008,31 @@
   "url": "https://it.wikipedia.org/wiki/Solaris_(film_1972)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Solaris_scena_1.jpg/250px-Solaris_scena_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Andrej Tarkovskij",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 593,
+   "url": "https://www.themoviedb.org/movie/593?language=it-IT",
+   "poster_path": "/35qz0324aNUOfvU9OCWG3zedKqR.jpg",
+   "runtime": 167,
+   "director": "Andrej Tarkovskij",
+   "year": 1972,
+   "overview": "In un futuro imprecisato lo psicologo Kris Kelvin è incaricato di recarsi in una stazione scientifica presso il pianeta Solaris. Prima della partenza per il lunghissimo viaggio, egli trascorre alcuni giorni nella dacia paterna, consapevole che al suo ritorno non rivedrà l'anziano padre e sua zia Anna. Scorcio della città del futuro, percorsa in automobile da Henri Berton; scena girata ad Akasaka, distretto commerciale del quartiere di Tōkyō Minato Nel frattempo riceve la visita indesiderata di Henri Berton, un ex-astronauta amico del padre, che decenni anni prima, in missione su Solaris, avrebbe assistito a strani fenomeni che lo traumatizzarono rovinandogli la carriera.",
+   "genres": [
+    "Dramma",
+    "Fantascienza",
+    "Mistero"
+   ],
+   "cast": [
+    "Наталья Бондарчук",
+    "Donatas Banionis",
+    "Jüri Järvet",
+    "Владислав Дворжецкий",
+    "Микола Гринько",
+    "Анатолий Солоницын"
+   ],
+   "original_title": "Солярис",
+   "release_date": "1972-03-20"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -451,7 +1042,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -466,8 +1057,31 @@
   "url": "https://it.wikipedia.org/wiki/Hunger_Games_-_L%27alba_sulla_mietitura",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3c/Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg/250px-Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Francis Lawrence",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1300968,
+   "url": "https://www.themoviedb.org/movie/1300968?language=it-IT",
+   "poster_path": "/uR1lZA2ET3gf7uGVgbRwSeSkEsU.jpg",
+   "runtime": 159,
+   "director": "Francis Lawrence",
+   "year": 2026,
+   "overview": "Ventiquattro anni prima delle vicende di Katniss Everdeen, il giovane Haymitch Abernathy viene scelto come tributo del Distretto 12 per i cinquantesimi Hunger Games, la seconda Edizione della Memoria. Nell’arena dovrà lottare per sopravvivere contro avversari e un sistema spietato.",
+   "genres": [
+    "Fantascienza",
+    "Azione",
+    "Avventura"
+   ],
+   "cast": [
+    "Joseph Zada",
+    "Mckenna Grace",
+    "Ralph Fiennes",
+    "Jesse Plemons",
+    "Glenn Close",
+    "Whitney Peak"
+   ],
+   "original_title": "The Hunger Games: Sunrise on the Reaping",
+   "release_date": "2026-11-18"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -477,7 +1091,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -503,7 +1117,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -512,8 +1126,29 @@
   "url": "https://it.wikipedia.org/wiki/Silent_Friend",
   "poster": null,
   "director": "Ildikó Enyedi",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1168719,
+   "url": "https://www.themoviedb.org/movie/1168719?language=it-IT",
+   "poster_path": "/bUUd6D7E0DuzxwSo4qnu136LW5v.jpg",
+   "runtime": 147,
+   "director": "Enyedi Ildikó",
+   "year": 2026,
+   "overview": "Nel cuore di un giardino botanico in una città universitaria medievale in Germania si erge un maestoso ginkgo biloba. Questo testimone silenzioso ha osservato per oltre un secolo i tranquilli ritmi di trasformazione attraverso tre vite umane. 2020: un neuroscienziato di Hong Kong, esplorando la mente dei neonati, inizia un esperimento inaspettato con il vecchio albero. 1972: una giovane studentessa subisce un profondo cambiamento grazie al semplice atto di osservare e connettersi con un geranio. 1908: la prima donna ammessa all’università scopre, attraverso la lente della fotografia, i sacri schemi dell’universo nascosti nella più umile delle piante.  Seguiamo i loro goffi e impacciati tenta",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Tony Leung Chiu-wai",
+    "Luna Wedler",
+    "Enzo Brumm",
+    "Sylvester Groth",
+    "Martin Wuttke",
+    "Johannes Hegemann"
+   ],
+   "original_title": "Silent Friend",
+   "release_date": "2026-01-15"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -523,7 +1158,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -532,8 +1167,29 @@
   "url": "https://it.wikipedia.org/wiki/Unicorni_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/87/FilmUnicorni.jpg/250px-FilmUnicorni.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Michela Andreozzi",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1438969,
+   "url": "https://www.themoviedb.org/movie/1438969?language=it-IT",
+   "poster_path": "/nBUtKoEWqrtFWD0vyldo1p96a0Y.jpg",
+   "runtime": 103,
+   "director": "Michela Andreozzi",
+   "year": 2025,
+   "overview": "Lucio (Edoardo Pesce), conduttore di una nota trasmissione radiofonica, spigliato, brillante e dalle idee progressiste, è sposato con la bella Elena (Valentina Lodovini), insicura ed emotivamente dipendente del marito. I due hanno un’armoniosa famiglia allargata (che include la prima moglie ed una figlia di Lucio) ed un unico figlio: Blu (Daniele Scardini), 9 anni, che adora vestirsi da femmina, ed è libero di farlo, col permesso di mamma e papà, solo quando è a casa. In occasione della recita scolastica, però, il bambino vuole a tutti i costi indossare il costume della Sirenetta: i suoi genitori, divisi tra il desiderio di assecondarlo e quello di proteggerlo, saranno i primi a dover ricons",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Edoardo Pesce",
+    "Valentina Lodovini",
+    "Daniele Scardini",
+    "Viola Gabriele",
+    "Lino Musella",
+    "Thony"
+   ],
+   "original_title": "Unicorni",
+   "release_date": "2025-07-18"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -550,8 +1206,30 @@
   "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_tre",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dune_part_three_title_with_orange_awesome_background.jpg/250px-Dune_part_three_title_with_orange_awesome_background.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Denis Villeneuve",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1170608,
+   "url": "https://www.themoviedb.org/movie/1170608?language=it-IT",
+   "poster_path": "/7TuK5ltI7fdjHz5XsbkbnzFcU7Z.jpg",
+   "runtime": 150,
+   "director": "Denis Villeneuve",
+   "year": 2026,
+   "overview": "Paul Atreides è diventato Imperatore dell’universo. Ma il suo dominio è minacciato dai numerosi nemici e pur avendo previsto questo futuro, Paul lo considera il meno distruttivo possibile per l’umanità. Sposato con la principessa Irulan ma innamorato di Chani, Paul non riesce ad avere figli a causa di un complotto delle Bene Gesserit. Intanto queste, insieme alla Gilda Spaziale e ai Tleilaxu, tramano per eliminarlo.",
+   "genres": [
+    "Fantascienza",
+    "Avventura"
+   ],
+   "cast": [
+    "Timothée Chalamet",
+    "Zendaya",
+    "Jason Momoa",
+    "Florence Pugh",
+    "Rebecca Ferguson",
+    "Isaach de Bankolé"
+   ],
+   "original_title": "Dune: Part Three",
+   "release_date": "2026-12-15"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -560,8 +1238,29 @@
   "url": "https://it.wikipedia.org/wiki/Cleo_(Disney)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pinocchio_1940_-_Cleo.png/250px-Pinocchio_1940_-_Cleo.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 485882,
+   "url": "https://www.themoviedb.org/movie/485882?language=it-IT",
+   "poster_path": "/d4vdVvcvFXrUnB4QN7bhP2Oq0xl.jpg",
+   "runtime": 99,
+   "director": "Erik Schmitt",
+   "year": 2019,
+   "overview": null,
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Marleen Lohse",
+    "Jeremy Mockridge",
+    "Max Mauff",
+    "Heiko Pinkowski",
+    "Fabian Busch",
+    "Anna Böttcher"
+   ],
+   "original_title": "Cleo",
+   "release_date": "2019-07-25"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -570,8 +1269,31 @@
   "url": "https://it.wikipedia.org/wiki/Wildwood_-_I_segreti_del_bosco_proibito",
   "poster": null,
   "director": "Travis Knight",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 791523,
+   "url": "https://www.themoviedb.org/movie/791523?language=it-IT",
+   "poster_path": "/kfczsvfehVNDwzWiPuKAuQclzl7.jpg",
+   "runtime": 132,
+   "director": "Travis Knight",
+   "year": 2026,
+   "overview": "Wildwood, nei dintorni di Portland, è un posto da cui tenersi lontani e che dovrebbe rimanere nascosto a tutti. Prue McKeel, tuttavia, è costretta a raggiungerlo dopo che il fratellino Mac è stato rapito da uno stormo di corvi e trasportato nei meandri della foresta. Insieme allo sfortunato compagno di classe Curtis, Prue corre a salvare Mac da un pericolo che sembra uscito dalle pagine di una favola.",
+   "genres": [
+    "Animazione",
+    "Fantasy",
+    "Avventura"
+   ],
+   "cast": [
+    "Peyton Elizabeth Lee",
+    "Jacob Tremblay",
+    "Carey Mulligan",
+    "Mahershala Ali",
+    "Richard E. Grant",
+    "Angela Bassett"
+   ],
+   "original_title": "Wildwood",
+   "release_date": "2026-10-19"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -580,8 +1302,31 @@
   "url": "https://it.wikipedia.org/wiki/Ice_Cream_Man_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Ari_Millen_Ice_Cream_Man.jpeg/250px-Ari_Millen_Ice_Cream_Man.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Eli Roth",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1477712,
+   "url": "https://www.themoviedb.org/movie/1477712?language=it-IT",
+   "poster_path": "/bnZUCOLv2Br3VOxnDMo5qPOncJF.jpg",
+   "runtime": 86,
+   "director": "Eli Roth",
+   "year": 2026,
+   "overview": "Un'idilliaca cittadina di villeggiatura estiva precipita nell’orrore, quando un gelataio offre ai bambini dolci prelibatezze dalle conseguenze terrificanti.",
+   "genres": [
+    "Horror",
+    "Commedia",
+    "Thriller"
+   ],
+   "cast": [
+    "Ari Millen",
+    "Charlie Zeltzer",
+    "Shiloh O’Reilly",
+    "Kiori Mirza Waldman",
+    "Sarah Abbott",
+    "Benjamin Byron Davis"
+   ],
+   "original_title": "Ice Cream Man",
+   "release_date": "2026-08-03"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -590,8 +1335,31 @@
   "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "James Watkins",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1400940,
+   "url": "https://www.themoviedb.org/movie/1400940?language=it-IT",
+   "poster_path": "/t6snh7pOxNjqs5rwP28TZmTQ0Ul.jpg",
+   "runtime": 109,
+   "director": "James Watkins",
+   "year": 2026,
+   "overview": "La terrificante discesa di un uomo, da astro nascente di Hollywood a mostro assetato di vendetta, in una storia che esplora la perdita di identità e umanità, l’amore corrosivo e il lato oscuro dell’ambizione scientifica.",
+   "genres": [
+    "Horror",
+    "Thriller",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Tom Rhys Harries",
+    "Naomi Ackie",
+    "Eddie Marsan",
+    "Max Minghella",
+    "David Dencik",
+    "Francesca Corney"
+   ],
+   "original_title": "Clayface",
+   "release_date": "2026-10-19"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -600,7 +1368,33 @@
   "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
-  "v": 2,
+  "tmdb": {
+   "id": 1477104,
+   "url": "https://www.themoviedb.org/movie/1477104?language=it-IT",
+   "poster_path": "/hIgvOtvwbNCUclH0uBvg2qn6Ye.jpg",
+   "runtime": 88,
+   "director": "Steve Cox, Matthew Walker",
+   "year": 2026,
+   "overview": "Halloween è alle porte. Shaun e tutti gli animali della fattoria si preparano per festeggiarlo al meglio coltivando un magnifico campo di zucche. Ma quando tutto sembrava ormai pronto, il contadino misteriosamente scompare e arriva dal bosco uno spaventoso mostro. Sarà compito di Shaun e i suoi amici salvare la fattoria dalla pelosa creatura e ritrovare l’amato contadino in tempo per la grande festa. Tra esperimenti impazziti e colpi di scena inaspettati, sarà un’avventura a tutta pecora per tutta la famiglia.",
+   "genres": [
+    "Animazione",
+    "Fantascienza",
+    "Commedia",
+    "Famiglia"
+   ],
+   "cast": [
+    "Justin Fletcher",
+    "John Sparkes",
+    "Nina Sosanya",
+    "Kate Harbour",
+    "Rich Webber",
+    "Emma Tate"
+   ],
+   "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "release_date": "2026-09-17"
+  },
+  "t": true,
+  "v": 4,
   "checked": "2026-11-17"
  },
  "la vallee des fous": {
@@ -632,8 +1426,30 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1376412,
+   "url": "https://www.themoviedb.org/movie/1376412?language=it-IT",
+   "poster_path": "/uYErQw5TdQHTAg310y01ayDLOEw.jpg",
+   "runtime": 96,
+   "director": "Anthony Déchaux",
+   "year": 2026,
+   "overview": "Audrey, appassionata di prodotti biologici e locali, è responsabile del reparto latticini di un'importante catena di supermercati. Riconosciuta dai suoi superiori, entra a far parte dell'ufficio acquisti centrale. Guidata da un veterano delle trattative, Audrey affronterà le contraddizioni interiori di una giovane donna idealista ma ambiziosa e vendicativa.",
+   "genres": [
+    "Thriller",
+    "Dramma"
+   ],
+   "cast": [
+    "Olivier Gourmet",
+    "Ana Girardot",
+    "Julien Frison",
+    "Jonas Bloquet",
+    "Camille Moutawakil",
+    "Catherine Vinatier"
+   ],
+   "original_title": "La Guerre des prix",
+   "release_date": "2026-03-18"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -642,8 +1458,22 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1820083,
+   "url": "https://www.themoviedb.org/movie/1820083?language=it-IT",
+   "poster_path": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
+   "runtime": 195,
+   "director": "Ha Jung-jae",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Musica"
+   ],
+   "cast": [],
+   "original_title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+   "release_date": "2026-11-21"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -677,7 +1507,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -686,8 +1516,29 @@
   "url": "https://it.wikipedia.org/wiki/Come_ti_muovi,_sbagli",
   "poster": null,
   "director": "Gianni Di Gregorio",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1520507,
+   "url": "https://www.themoviedb.org/movie/1520507?language=it-IT",
+   "poster_path": "/cjC8r0zjfQcSvXXEmXYamGlKfjJ.jpg",
+   "runtime": 97,
+   "director": "Gianni Di Gregorio",
+   "year": 2025,
+   "overview": "Riuscire a evitare tutti i fastidi della vita quotidiana, mettersi in salvo da ogni rottura di scatole è sufficiente per essere felici? Il professore a settant’anni suonati ha trovato finalmente la serenità, ha una bella casa, una discreta pensione, degli amici con cui scherzare, una signora con cui passare qualche giornata. Si dedica solo a cose piacevoli. Fino a quando la sua vita è messa sottosopra dall’arrivo della figlia, in crisi coniugale, e dei due ingombrantissimi nipotini. Nuove preoccupazioni, nuove angosce, ma anche nuovi affetti. Comincia così un’avventura nelle vite sentimentali degli altri, e nella sua, che gli farà capire che l’amore vale sempre la pena di essere vissuto, anc",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Gianni Di Gregorio",
+    "Greta Scarano",
+    "Tom Wlaschiha",
+    "Anna Losano",
+    "Pietro Serpi",
+    "Iaia Forte"
+   ],
+   "original_title": "Come ti muovi, sbagli",
+   "release_date": "2025-09-05"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -697,7 +1548,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -706,8 +1557,20 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1574232,
+   "url": "https://www.themoviedb.org/movie/1574232?language=it-IT",
+   "poster_path": "/jLDHbyvqnedebUxHbOxO26TK0lI.jpg",
+   "runtime": 67,
+   "director": "Vincenzo Caricari, Barbara di Fabio",
+   "year": null,
+   "overview": "Maysoon Majidi, regista e attivista curda nata a Teheran, è costretta a fuggire dall’Iran per il suo impegno politico. Arrivata in Italia viene arrestata con l’accusa di favoreggiamento dell’immigrazione irregolare.",
+   "genres": [],
+   "cast": [],
+   "original_title": "Domani. Il viaggio di Maysoon Majidi",
+   "release_date": null
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -717,7 +1580,7 @@
   "poster": null,
   "director": null,
   "tmdb": null,
-  "t": false,
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -726,8 +1589,30 @@
   "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_tre",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dune_part_three_title_with_orange_awesome_background.jpg/250px-Dune_part_three_title_with_orange_awesome_background.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Denis Villeneuve",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1170608,
+   "url": "https://www.themoviedb.org/movie/1170608?language=it-IT",
+   "poster_path": "/7TuK5ltI7fdjHz5XsbkbnzFcU7Z.jpg",
+   "runtime": 150,
+   "director": "Denis Villeneuve",
+   "year": 2026,
+   "overview": "Paul Atreides è diventato Imperatore dell’universo. Ma il suo dominio è minacciato dai numerosi nemici e pur avendo previsto questo futuro, Paul lo considera il meno distruttivo possibile per l’umanità. Sposato con la principessa Irulan ma innamorato di Chani, Paul non riesce ad avere figli a causa di un complotto delle Bene Gesserit. Intanto queste, insieme alla Gilda Spaziale e ai Tleilaxu, tramano per eliminarlo.",
+   "genres": [
+    "Fantascienza",
+    "Avventura"
+   ],
+   "cast": [
+    "Timothée Chalamet",
+    "Zendaya",
+    "Jason Momoa",
+    "Florence Pugh",
+    "Rebecca Ferguson",
+    "Isaach de Bankolé"
+   ],
+   "original_title": "Dune: Part Three",
+   "release_date": "2026-12-15"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -736,8 +1621,30 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 958857,
+   "url": "https://www.themoviedb.org/movie/958857?language=it-IT",
+   "poster_path": "/wg92fUpEqy6ymuld69dBbDa3Arv.jpg",
+   "runtime": 90,
+   "director": "Frédéric Sojcher",
+   "year": 2023,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "Agnès Jaoui",
+    "Jonathan Zaccaï",
+    "Géraldine Nakache",
+    "Stéphane Henon",
+    "Lise Lomi",
+    "Guillaume Douat"
+   ],
+   "original_title": "Le Cours de la vie",
+   "release_date": "2023-05-10"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -746,8 +1653,30 @@
   "url": "https://it.wikipedia.org/wiki/Belle_speranze_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ec/Bellesperanze1988.PNG/250px-Bellesperanze1988.PNG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Mike Leigh",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 47870,
+   "url": "https://www.themoviedb.org/movie/47870?language=it-IT",
+   "poster_path": "/heQV100jWgl1IxiG6UHruusjXKK.jpg",
+   "runtime": 102,
+   "director": "Mike Leigh",
+   "year": 1989,
+   "overview": "In un piccolo quartiere alla periferia di Londra c'è una lei che fa la giardiniera, ha la passione per i cactus e desidera un figlio. Poi c'è lui, ex sessantottino che fa il corriere motociclista, ha una sorella nevrotica e una madre piuttosto svagata.",
+   "genres": [
+    "Commedia",
+    "Dramma"
+   ],
+   "cast": [
+    "Phil Davis",
+    "Ruth Sheen",
+    "Edna Doré",
+    "Philip Jackson",
+    "Heather Tobias",
+    "Lesley Manville"
+   ],
+   "original_title": "High Hopes",
+   "release_date": "1989-01-13"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -756,8 +1685,30 @@
   "url": "https://it.wikipedia.org/wiki/Ti_presento_i_Fotter",
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1400336,
+   "url": "https://www.themoviedb.org/movie/1400336?language=it-IT",
+   "poster_path": "/ekWQkK9aI41TUBX4nrmKUyfW5ly.jpg",
+   "runtime": 105,
+   "director": "John Hamburg",
+   "year": 2026,
+   "overview": "Un giovane di nome Henry, figlio di Greg e Pam Focker, si ritrova ad affrontare il caos familiare quando decide di sposare una donna volitiva che sembra essere completamente diversa dalla sua fidanzata ideale.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Ben Stiller",
+    "Robert De Niro",
+    "Ariana Grande",
+    "Skyler Gisondo",
+    "Owen Wilson",
+    "Blythe Danner"
+   ],
+   "original_title": "Focker-in-Law",
+   "release_date": "2026-11-21"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -766,8 +1717,31 @@
   "url": "https://it.wikipedia.org/wiki/Avengers:_Doomsday",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d1/AvengersDoomsday.png/250px-AvengersDoomsday.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Anthony e Joe Russo",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1003596,
+   "url": "https://www.themoviedb.org/movie/1003596?language=it-IT",
+   "poster_path": "/6uOkzW0gF1ANWz2flhwXfTUQuLY.jpg",
+   "runtime": 165,
+   "director": "Joe Russo, Anthony Russo",
+   "year": 2026,
+   "overview": "Gli universi si scontrano e la Saga del Multiverso inizia il suo capitolo finale. Gli amati eroi di tre universi distinti si troveranno su una rotta di collisione mortale e dovranno affrontare una minaccia esistenziale diversa da qualsiasi altra abbiano mai incontrato.",
+   "genres": [
+    "Fantascienza",
+    "Azione",
+    "Avventura"
+   ],
+   "cast": [
+    "Robert Downey Jr.",
+    "Chris Evans",
+    "Chris Hemsworth",
+    "Pedro Pascal",
+    "Paul Rudd",
+    "Anthony Mackie"
+   ],
+   "original_title": "Avengers: Doomsday",
+   "release_date": "2026-12-16"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -776,8 +1750,31 @@
   "url": "https://it.wikipedia.org/wiki/Pecore_sotto_copertura",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/af/Pecore_sotto_copertura_2026.png/250px-Pecore_sotto_copertura_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Kyle Balda",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1301421,
+   "url": "https://www.themoviedb.org/movie/1301421?language=it-IT",
+   "poster_path": "/hWELMex5ZbcdULp4M8CECiWBBkO.jpg",
+   "runtime": 109,
+   "director": "Kyle Balda",
+   "year": 2026,
+   "overview": "George (Hugh Jackman) è un pastore che ogni sera legge romanzi gialli alle sue amate pecore, convinto che non possano comprenderlo. Quando però un misterioso incidente sconvolge la tranquillità della fattoria, le pecore decidono di dover diventare loro stesse delle detective. Seguendo gli indizi e indagando sui sospetti umani, dimostrano che anche le pecore possono essere brillanti investigatrici.",
+   "genres": [
+    "Commedia",
+    "Famiglia",
+    "Mistero"
+   ],
+   "cast": [
+    "Hugh Jackman",
+    "Nicholas Braun",
+    "Nicholas Galitzine",
+    "Molly Gordon",
+    "Julia Louis-Dreyfus",
+    "Bryan Cranston"
+   ],
+   "original_title": "The Sheep Detectives",
+   "release_date": "2026-04-30"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -786,8 +1783,26 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1766073,
+   "url": "https://www.themoviedb.org/movie/1766073?language=it-IT",
+   "poster_path": "/fGvO1BjCz57apR0SX6rinz83nqe.jpg",
+   "runtime": 96,
+   "director": "Massimo Ivan Falsetta",
+   "year": 2026,
+   "overview": "“StrongHer” nasce come un film sulle donne, ma nel tempo ho capito che è diventato qualcosa di più: un\r film dedicato a tutte le persone che, almeno una volta nella vita, hanno avuto la sensazione di essere\r rimaste indietro mentre qualcun altro andava avanti.",
+   "genres": [],
+   "cast": [
+    "Ian Anderson",
+    "Carmen Loiacono",
+    "Alessia D'Andrea",
+    "Lucy O'Brien",
+    "Scarlet Rivera"
+   ],
+   "original_title": "StrongHer",
+   "release_date": "2026-06-01"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -796,8 +1811,31 @@
   "url": "https://it.wikipedia.org/wiki/Un_topolino_sotto_l%27albero",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4d/Un_topolino_sotto_l%27albero.png/250px-Un_topolino_sotto_l%27albero.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Henrik Martin Dahlsbakken",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1427833,
+   "url": "https://www.themoviedb.org/movie/1427833?language=it-IT",
+   "poster_path": "/bWgvTgcStRka2FO8kXI9isj2Imd.jpg",
+   "runtime": 80,
+   "director": "Henrik Martin Dahlsbakken",
+   "year": 2025,
+   "overview": "Una piccola famiglia di topi organizza un tranquillo Natale fuori città, ma i festeggiamenti vengono interrotti dall'arrivo inaspettato di alcuni umani. Mentre i topi cercano di nascondere i preparativi, gli umani reagiscono con determinazione ai rumori provenienti da dietro le mura.",
+   "genres": [
+    "Famiglia",
+    "Animazione",
+    "Commedia"
+   ],
+   "cast": [
+    "Pål Sverre Hagen",
+    "Sara Khorami",
+    "Flo Fagerli",
+    "Vegard Strand Eide",
+    "Jon Øigarden",
+    "Jakob Oftebro"
+   ],
+   "original_title": "Hvis ingen går i fella",
+   "release_date": "2025-11-06"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -814,8 +1852,29 @@
   "url": "https://it.wikipedia.org/wiki/Il_fuoco_che_ti_porti_dentro_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/1/18/Il_fuoco_che_ti_porti_dentro.png/250px-Il_fuoco_che_ti_porti_dentro.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Edoardo De Angelis",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1632188,
+   "url": "https://www.themoviedb.org/movie/1632188?language=it-IT",
+   "poster_path": "/kCfIZpqRsBe39Y1lUCxOAjgQ5VR.jpg",
+   "runtime": 93,
+   "director": "Edoardo De Angelis",
+   "year": 2026,
+   "overview": "Antonio, fuggito molti anni fa da Napoli, ha costruito a Milano una famiglia e una carriera di successo, lontano da sua madre Angela, una donna esagerata nel bene e nel male, irresistibile, antica e ostile come poche, che lo ha raggiunto per Natale e sembra decisa a restare. La cena della Vigilia diventa così un campo di battaglia emotivo, comico e feroce al tempo stesso che fa riemergere un passato di sopraffazioni e incomprensioni. Con un tenace cappone che non vuole saperne di finire in pentola, una figlia che non si sa se mai arriverà e un illustre ospite inatteso, la serata si trasforma in una resa dei conti tra madre e figlio destinata a cambiare per sempre il senso del loro legame: un",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Vanessa Scalera",
+    "Lino Musella",
+    "Elena Radonicich",
+    "Ivana Lotito",
+    "Tommaso Ragno",
+    "Nicole Malaj"
+   ],
+   "original_title": "Il fuoco che ti porti dentro",
+   "release_date": "2026-11-19"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  },
@@ -824,8 +1883,29 @@
   "url": "https://it.wikipedia.org/wiki/Fjord_(film)",
   "poster": null,
   "director": "Cristian Mungiu",
-  "tmdb": null,
-  "t": false,
+  "tmdb": {
+   "id": 1401459,
+   "url": "https://www.themoviedb.org/movie/1401459?language=it-IT",
+   "poster_path": "/e6qR7qbqxe66vh2ONZ8d5pCphA6.jpg",
+   "runtime": 146,
+   "director": "Cristian Mungiu",
+   "year": 2026,
+   "overview": "Una famiglia rumeno-norvegese profondamente religiosa si trasferisce in un remoto villaggio tra i fiordi della Norvegia per ricominciare una nuova vita. Quando la figlia maggiore arriva a scuola con alcuni lividi, la comunità e le autorità iniziano a sospettare che l'educazione tradizionale impartita dai genitori possa nascondere abusi. Ne nasce un intenso dramma giudiziario e morale che mette a confronto valori, fede, identità culturale e i limiti della tolleranza.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Sebastian Stan",
+    "Renate Reinsve",
+    "Lisa Carlehed",
+    "Ellen Dorrit Petersen",
+    "Lisa Loven Kongsli",
+    "Henrikke Lund Olsen"
+   ],
+   "original_title": "Fjord",
+   "release_date": "2026-06-13"
+  },
+  "t": true,
   "v": 4,
   "checked": "2026-11-17"
  }

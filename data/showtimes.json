@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T21:25:28+01:00",
+ "generated_at": "2026-11-17T22:02:31+01:00",
  "today": "2026-11-17",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:43+01:00"
+    "fetched_at": "2026-11-17T22:01:48+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 117,
+    "n": 116,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:45+01:00"
+    "fetched_at": "2026-11-17T22:01:51+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 120,
+    "n": 119,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:49+01:00"
+    "fetched_at": "2026-11-17T22:01:53+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:52+01:00"
+    "fetched_at": "2026-11-17T22:01:55+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:55+01:00"
+    "fetched_at": "2026-11-17T22:01:58+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 75,
+    "n": 73,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:58+01:00"
+    "fetched_at": "2026-11-17T22:02:00+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 80,
+    "n": 79,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:24:59+01:00"
+    "fetched_at": "2026-11-17T22:02:02+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 11,
+    "n": 9,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:01+01:00"
+    "fetched_at": "2026-11-17T22:02:03+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 16,
+    "n": 14,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:02+01:00"
+    "fetched_at": "2026-11-17T22:02:05+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:06+01:00"
+    "fetched_at": "2026-11-17T22:02:08+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:10+01:00"
+    "fetched_at": "2026-11-17T22:02:11+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:12+01:00"
+    "fetched_at": "2026-11-17T22:02:13+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:15+01:00"
+    "fetched_at": "2026-11-17T22:02:15+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:17+01:00"
+    "fetched_at": "2026-11-17T22:02:17+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:19+01:00"
+    "fetched_at": "2026-11-17T22:02:19+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:22+01:00"
+    "fetched_at": "2026-11-17T22:02:24+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:25+01:00"
+    "fetched_at": "2026-11-17T22:02:27+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-17T21:25:28+01:00"
+    "fetched_at": "2026-11-17T22:02:31+01:00"
    }
   }
  ],
@@ -337,20 +337,6 @@
    "date": "2026-11-17",
    "time": "21:15",
    "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-17",
-   "time": "21:00",
-   "tag": "Grande"
   },
   {
    "cinema": "esedra",
@@ -703,20 +689,6 @@
    "tag": ""
   },
   {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-17",
-   "time": "21:30",
-   "tag": "Emozioni"
-  },
-  {
    "cinema": "massimo",
    "film": "Dolce è la vita",
    "date": "2026-11-17",
@@ -790,31 +762,10 @@
   },
   {
    "cinema": "nazionale",
-   "film": "Look Back",
-   "date": "2026-11-17",
-   "time": "21:00",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
    "film": "WILD HORSE NINE - V. O.",
    "date": "2026-11-17",
    "time": "21:30",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-17",
-   "time": "21:00",
-   "tag": "Sala 1 EVENTO"
   },
   {
    "cinema": "reposi",
@@ -843,20 +794,6 @@
    "date": "2026-11-17",
    "time": "22:05",
    "tag": "Sala 5"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-17",
-   "time": "21:00",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "tag": "Sala 2"
   },
   {
    "cinema": "thespace",
@@ -1809,49 +1746,49 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-18",
    "time": "17:05",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
    "time": "16:50",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
    "time": "21:15",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "La storia infinita",
    "date": "2026-11-18",
    "time": "19:15",
-   "tag": "Sala 3 CULT"
+   "tag": "CULT"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "17:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "19:15",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "21:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -2611,42 +2548,42 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-19",
    "time": "17:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-19",
    "time": "19:00",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-19",
    "time": "21:10",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "16:45",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "19:30",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-19",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3266,42 +3203,42 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-20",
    "time": "17:20",
-   "tag": "Sala 2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-20",
    "time": "17:00",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-20",
    "time": "21:00",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "17:00",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "19:30",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
    "time": "21:40",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3974,63 +3911,63 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-21",
    "time": "14:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-21",
    "time": "17:40",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "14:30",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "17:45",
-   "tag": "Sala 2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-21",
    "time": "21:40",
-   "tag": "Sala 2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "15:20",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "17:20",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "19:30",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-21",
    "time": "21:40",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -4712,49 +4649,49 @@
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-22",
    "time": "14:20",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-22",
    "time": "18:15",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-22",
    "time": "17:30",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-22",
    "time": "20:45",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "15:20",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "18:25",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-22",
    "time": "21:30",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
