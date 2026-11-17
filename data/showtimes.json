@@ -1,0 +1,3052 @@
+{
+ "generated_at": "2026-11-17T10:59:41+01:00",
+ "today": "2026-11-17",
+ "cinemas": [
+  {
+   "id": "ideal",
+   "name": "Ideal Cityplex",
+   "address": "Corso Beccaria 4",
+   "site": "https://www.idealcityplex.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 0,
+    "source": null,
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:58:56+01:00"
+   }
+  },
+  {
+   "id": "massaua",
+   "name": "Massaua Cityplex",
+   "address": "Piazza Massaua 9",
+   "site": "https://massauacityplex.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 65,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:58:59+01:00"
+   }
+  },
+  {
+   "id": "reposi",
+   "name": "Reposi",
+   "address": null,
+   "site": "https://www.multisalareposi.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 58,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:02+01:00"
+   }
+  },
+  {
+   "id": "thespace",
+   "name": "The Space Parco Dora",
+   "address": "Salita M. Garove 24",
+   "site": "https://www.thespacecinema.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 26,
+    "source": "Movieplayer",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:05+01:00"
+   }
+  },
+  {
+   "id": "uci",
+   "name": "UCI Lingotto",
+   "address": "Via Nizza 230",
+   "site": "https://www.ucicinemas.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 37,
+    "source": "Movieplayer",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:07+01:00"
+   }
+  },
+  {
+   "id": "eliseo",
+   "name": "Eliseo",
+   "address": "Via Monginevro 42",
+   "site": "https://eliseo.cctorino.18tickets.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 18,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:10+01:00"
+   }
+  },
+  {
+   "id": "marx",
+   "name": "Fratelli Marx",
+   "address": "Corso Belgio 53",
+   "site": "https://cctorino.18tickets.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 19,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:11+01:00"
+   }
+  },
+  {
+   "id": "romano",
+   "name": "Romano",
+   "address": "Piazza Castello 9",
+   "site": "https://romano.cctorino.18tickets.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 18,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:13+01:00"
+   }
+  },
+  {
+   "id": "nazionale",
+   "name": "Nazionale",
+   "address": "Via Pomba 7",
+   "site": "https://cctorino.18tickets.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 26,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:14+01:00"
+   }
+  },
+  {
+   "id": "massimo",
+   "name": "Cinema Massimo",
+   "address": "Via Verdi 18",
+   "site": "https://www.cinemamassimotorino.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 66,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:19+01:00"
+   }
+  },
+  {
+   "id": "lux",
+   "name": "Movie Planet Lux",
+   "address": "Galleria San Federico",
+   "site": "https://www.movieplanetgroup.it/mp_torino/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 119,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:22+01:00"
+   }
+  },
+  {
+   "id": "centrale",
+   "name": "Centrale Arthouse",
+   "address": "Via Carlo Alberto 27",
+   "site": "https://cinemacentrale.wordpress.com/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 13,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:24+01:00"
+   }
+  },
+  {
+   "id": "classico",
+   "name": "Classico",
+   "address": "Piazza Vittorio Veneto 5",
+   "site": "https://www.circuitograntorino.com/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 3,
+    "source": "Movieplayer",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:27+01:00"
+   }
+  },
+  {
+   "id": "greenwich",
+   "name": "Greenwich Village",
+   "address": "Via Po 30",
+   "site": "https://www.circuitograntorino.com/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 11,
+    "source": "Movieplayer",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:29+01:00"
+   }
+  },
+  {
+   "id": "duegiardini",
+   "name": "Due Giardini",
+   "address": "Via Monfalcone 62",
+   "site": "https://cctorino.18tickets.it/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 13,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:31+01:00"
+   }
+  },
+  {
+   "id": "esedra",
+   "name": "Esedra",
+   "address": "Via Bagetti 30",
+   "site": "https://www.cinemaesedra.com/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 10,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:33+01:00"
+   }
+  },
+  {
+   "id": "baretti",
+   "name": "Baretti",
+   "address": "Via Baretti 4",
+   "site": "https://cineteatrobaretti.it/cinema/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 0,
+    "source": null,
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:37+01:00"
+   }
+  },
+  {
+   "id": "agnelli",
+   "name": "Agnelli",
+   "address": "Via Paolo Sarpi 111",
+   "site": "https://www.cineteatroagnelli.it/cinema/",
+   "info_url": null,
+   "status": {
+    "ok": true,
+    "n": 5,
+    "source": "Sito ufficiale",
+    "error": null,
+    "stale": false,
+    "fetched_at": "2026-11-17T10:59:41+01:00"
+   }
+  }
+ ],
+ "showtimes": [
+  {
+   "cinema": "agnelli",
+   "film": "ZUSTISSIA",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA NOSTRA ISOLA È IL MONDO INTERO",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "classico",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": ""
+  },
+  {
+   "cinema": "classico",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": "VO"
+  },
+  {
+   "cinema": "classico",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "VO"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "16:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "18:45",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "esedra",
+   "film": "Persepolis",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Hope",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Judy",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'essere amato",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'essere amato",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'essere amato",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'essere amato",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Minotaur",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Minotaur",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Primetime",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "VO"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Ragione e sentimento",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "Ragione e sentimento",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "VO"
+  },
+  {
+   "cinema": "lux",
+   "film": "COME RAPINARE UNA BANCA [2026]",
+   "date": "2026-11-17",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO [2026]",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "n.d.",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-17",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-17",
+   "time": "18:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-17",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-17",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "marx",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "16:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "massaua",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "CULT"
+  },
+  {
+   "cinema": "massaua",
+   "film": "COME RAPINARE UNA BANCA",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL GATTO COL CAPPELLO (THE CAT IN THE HAT)",
+   "date": "2026-11-17",
+   "time": "17:05",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)(RIED.)",
+   "date": "2026-11-17",
+   "time": "19:15",
+   "tag": "CULT"
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-17",
+   "time": "19:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-17",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "21:05",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massimo",
+   "film": "Dolce è la vita",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-17",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Naked",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Panni sporchi",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-17",
+   "time": "15:15",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-17",
+   "time": "18:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-17",
+   "time": "18:45",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "18:10",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE - V. O.",
+   "date": "2026-11-17",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "Sala 1 EVENTO"
+  },
+  {
+   "cinema": "reposi",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL GATTO COL CAPPELLO (THE CAT IN THE HAT)",
+   "date": "2026-11-17",
+   "time": "17:40",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "19:50",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IN UN BATTITO",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-17",
+   "time": "17:40",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)(RIED.)",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-17",
+   "time": "15:25",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-17",
+   "time": "17:40",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-17",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-17",
+   "time": "17:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-17",
+   "time": "22:05",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-17",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "18:20",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-17",
+   "time": "17:45",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "thespace",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-17",
+   "time": "21:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Come rapinare una banca",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Dio ride",
+   "date": "2026-11-17",
+   "time": "14:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "15:35",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "18:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Hope",
+   "date": "2026-11-17",
+   "time": "21:45",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Ice Cream Man",
+   "date": "2026-11-17",
+   "time": "14:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Il gatto col cappello",
+   "date": "2026-11-17",
+   "time": "16:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "16:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "18:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "20:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "La storia infinita",
+   "date": "2026-11-17",
+   "time": "19:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "La storia infinita",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "16:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "16:25",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "19:25",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "15:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "17:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "15:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "22:25",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-17",
+   "time": "18:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-17",
+   "time": "19:10",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-17",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Clayface",
+   "date": "2026-11-17",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Come rapinare una banca",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Dio ride",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "16:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Godzilla Minus Zero",
+   "date": "2026-11-17",
+   "time": "21:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Il gatto col cappello",
+   "date": "2026-11-17",
+   "time": "14:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Il gatto col cappello",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "15:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Il rumore delle cose nuove",
+   "date": "2026-11-17",
+   "time": "21:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "In un battito",
+   "date": "2026-11-17",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "La storia infinita",
+   "date": "2026-11-17",
+   "time": "20:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Look Back",
+   "date": "2026-11-17",
+   "time": "19:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "14:10",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "18:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Scrooge e gli spiriti del Natale",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "16:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "18:45",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Se domani non torno",
+   "date": "2026-11-17",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Street Fighter",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un tranquillo funerale di famiglia",
+   "date": "2026-11-17",
+   "time": "16:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un tranquillo funerale di famiglia",
+   "date": "2026-11-17",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "14:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "17:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "19:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Un weekend artificiale",
+   "date": "2026-11-17",
+   "time": "21:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "Wild Horse Nine",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Wildwood - I segreti del bosco proibito",
+   "date": "2026-11-17",
+   "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "agnelli",
+   "film": "ZUSTISSIA",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "DAL NULLA",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-18",
+   "time": "18:00",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "18:50",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "18:30",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "15:45",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "18:15",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "20:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "16:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "18:45",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "esedra",
+   "film": "Persepolis",
+   "date": "2026-11-18",
+   "time": "17:15",
+   "tag": ""
+  },
+  {
+   "cinema": "esedra",
+   "film": "Persepolis",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "COME RAPINARE UNA BANCA [2026]",
+   "date": "2026-11-18",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO [2026]",
+   "date": "2026-11-18",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "n.d.",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-18",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-18",
+   "time": "18:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-18",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-18",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "marx",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "18:50",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "16:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "18:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "20:45",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "massaua",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "CULT"
+  },
+  {
+   "cinema": "massaua",
+   "film": "COME RAPINARE UNA BANCA",
+   "date": "2026-11-18",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL GATTO COL CAPPELLO (THE CAT IN THE HAT)",
+   "date": "2026-11-18",
+   "time": "17:05",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)(RIED.)",
+   "date": "2026-11-18",
+   "time": "19:15",
+   "tag": "CULT"
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-18",
+   "time": "19:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-18",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "21:05",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-18",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-18",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-18",
+   "time": "15:45",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Ragazze",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Segreti & bugie",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Solaris",
+   "date": "2026-11-18",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-18",
+   "time": "15:15",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FATHERLAND",
+   "date": "2026-11-18",
+   "time": "18:50",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD - V. O.",
+   "date": "2026-11-18",
+   "time": "20:45",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-18",
+   "time": "18:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-18",
+   "time": "18:45",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-18",
+   "time": "20:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "15:45",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "18:10",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE - V. O.",
+   "date": "2026-11-18",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "2001: ODISSEA NELLO SPAZIO 4K",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "Sala 1 EVENTO"
+  },
+  {
+   "cinema": "reposi",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL GATTO COL CAPPELLO (THE CAT IN THE HAT)",
+   "date": "2026-11-18",
+   "time": "17:40",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "19:50",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-18",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IN UN BATTITO",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-18",
+   "time": "17:40",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "L'ESTRANEA",
+   "date": "2026-11-18",
+   "time": "22:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA STORIA INFINITA (DIE UNENDLICHE GESCHICHTE)(RIED.)",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-18",
+   "time": "15:25",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-18",
+   "time": "17:40",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE (EBENEZER)",
+   "date": "2026-11-18",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-18",
+   "time": "17:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-18",
+   "time": "22:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-18",
+   "time": "22:05",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "18:20",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "massaua",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-19",
+   "time": "16:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-19",
+   "time": "18:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-19",
+   "time": "16:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Minnie and Moscowitz",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Topsy-Turvy",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-20",
+   "time": "16:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-20",
+   "time": "18:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-20",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-20",
+   "time": "16:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Minnie and Moscowitz",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Scomode verità",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Wax & Gold",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "esedra",
+   "film": "La guerra dei prezzi",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+   "date": "2026-11-21",
+   "time": "11:45",
+   "tag": "Eventi Musicali"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Belle speranze",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Dolce è la vita",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-21",
+   "time": "16:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-21",
+   "time": "18:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-21",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-21",
+   "time": "16:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Naked",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "romano",
+   "film": "I SWEAR – È PIÚ FORTE DI ME - V. O.",
+   "date": "2026-11-21",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "marx",
+   "film": "SILENT FRIEND",
+   "date": "2026-11-22",
+   "time": "20:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-22",
+   "time": "18:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-22",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-22",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-22",
+   "time": "16:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Minnie and Moscowitz",
+   "date": "2026-11-22",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Ragazze",
+   "date": "2026-11-22",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Segreti & bugie",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Topsy-Turvy",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "YOUR NAME 4K",
+   "date": "2026-11-23",
+   "time": "19:15",
+   "tag": "Anime"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Fatherland",
+   "date": "2026-11-23",
+   "time": "18:45",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "La Gradiva",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Look Back",
+   "date": "2026-11-23",
+   "time": "16:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Unicorni",
+   "date": "2026-11-23",
+   "time": "15:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Unicorni",
+   "date": "2026-11-23",
+   "time": "17:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "massimo",
+   "film": "Unicorni",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "massaua",
+   "film": "YOUR NAME 4K",
+   "date": "2026-11-24",
+   "time": "19:15",
+   "tag": "Anime"
+  },
+  {
+   "cinema": "massaua",
+   "film": "YOUR NAME 4K",
+   "date": "2026-11-25",
+   "time": "19:15",
+   "tag": "Anime"
+  },
+  {
+   "cinema": "massaua",
+   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
+   "date": "2026-11-26",
+   "time": "20:00",
+   "tag": "Eventi Musicali"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "DUNE – PARTE TRE",
+   "date": "2026-12-15",
+   "time": "21:01",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "marx",
+   "film": "DUNE – PARTE TRE",
+   "date": "2026-12-15",
+   "time": "21:01",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "massaua",
+   "film": "DUNE PARTE 3",
+   "date": "2026-12-15",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "00:01",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "00:05",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "00:10",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "09:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "10:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "12:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "13:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "15:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "16:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "19:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "22:30",
+   "tag": ""
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "20:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-16",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "15:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "20:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-17",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "15:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "20:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-18",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "15:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "20:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-19",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "15:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "massaua",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "20:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "AVENGERS: DOOMSDAY",
+   "date": "2026-12-20",
+   "time": "21:30",
+   "tag": "Sala 3"
+  }
+ ]
+}
