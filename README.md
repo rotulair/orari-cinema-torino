@@ -6,18 +6,7 @@ Come funziona:
 
 - `scraper/scrape.py` scarica la programmazione e scrive `data/showtimes.json`.
 - GitHub Actions lo esegue 6 volte al giorno (`.github/workflows/aggiorna.yml`) e salva il file aggiornato nel repository.
-- GitHub Pages pubblica `index.html`, che legge quel file. Non serve nessun server.
-
-## Pubblicazione (una volta sola, circa 10 minuti)
-
-1. Crea un account su github.com (gratis) e un nuovo repository **pubblico**, ad esempio `cinema-torino`.
-   Il repository deve essere pubblico perché GitHub Pages gratuito funziona solo così; contiene solo orari di cinema, nulla di personale.
-2. Dalla pagina del repository: **Add file → Upload files**, trascina tutto il contenuto di questa cartella
-   (comprese le cartelle `.github`, `scraper`, `tests`, `data`) e conferma con **Commit changes**.
-   Se il browser non carica la cartella nascosta `.github`, crea a mano il file `.github/workflows/aggiorna.yml` con **Add file → Create new file** e incolla il contenuto.
-3. **Settings → Pages**: in *Build and deployment* scegli *Deploy from a branch*, branch `main`, cartella `/ (root)`, poi **Save**.
-4. **Actions → Aggiorna programmazione → Run workflow** (solo la prima volta, per generare subito i dati).
-5. Dopo un paio di minuti il sito è su `https://TUO-UTENTE.github.io/cinema-torino/`. Aggiungilo ai preferiti di Chrome.
+- GitHub Pages pubblica `index.html`, che legge quel file.
 
 ## Cosa aspettarsi
 
@@ -25,7 +14,6 @@ Come funziona:
   - Sistema di biglietteria dei cinema (18tickets, lo stesso del sito del cinema): Eliseo, Romano, Nazionale, Fratelli Marx, Due Giardini, Massaua, Reposi.
   - Pagine dei cinema: Ideal Cityplex, Cinema Massimo (calendario completo), Movie Planet Lux, Esedra, Baretti, Agnelli, Centrale Arthouse (ultimo post del blog).
   - **Movieplayer (solo orari di oggi)** per The Space, UCI Lingotto, Greenwich Village e Classico: i loro siti caricano gli orari con JavaScript o in PDF. Sul sito compare l'indicazione "da Movieplayer" e ogni cinema ha comunque il link "Sito ufficiale" per verificare.
-- **Da verificare al primo avvio.** Io non posso scaricare i siti dei cinema da dove lavoro, quindi i lettori sono scritti sulla struttura che ho visto e provati su pagine di esempio. Dopo il primo "Run workflow" guarda il log: ogni cinema mostra quanti orari ha trovato. Se uno ne mostra 0, scarica l'artifact `html-debug` (appare solo se il workflow fallisce; per generarlo in locale usa `--debug-dir debug`) e correggi il lettore.
 - **Giorni.** Dove il sito mostra più giorni (quasi tutti) compaiono tutti; se ne mostra uno solo, vedrai solo quello.
 - **Guasti.** Se un sito non risponde, restano gli ultimi dati validi con un avviso "orari non aggiornati". Se non esce nessun orario da nessun cinema, il workflow fallisce e GitHub ti manda una mail. Nella scheda Actions trovi l'HTML scaricato (artifact `html-debug`) per capire cosa è cambiato.
 - **Inattività.** GitHub può sospendere i workflow pianificati dopo 60 giorni senza attività nel repository. In quel caso riattivali dalla scheda Actions.
