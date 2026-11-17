@@ -133,6 +133,15 @@ def look_rows(r):
     return [x for x in r if x["film"] == "Look Back"]
 
 
+IDEAL_SPLIT = """<div class="film"><b>AVENGERS - DOOMSDAY</b>
+<p>Regia: Anthony Russo</p><p>Genere: Azione</p><p>Durata: 170'</p><a>Scheda film</a>
+<ul><li>Mercoledì 16/12
+ <ul><li><span>SALA 1</span>, <a href="/b/1">15:00</a>, <span>INFINITY VISION</span></li>
+ <li><span>SALA 4</span>, <a href="/b/2">21:10</a>, <span>V.O.</span></li></ul></li></ul></div>
+<div class="film"><b>GODZILLA MINUS ZERO</b><p>Durata: 135'</p>
+<ul><li>Lunedì 16/11<ul><li>SALA 1, <a>21:30</a>, <span>2D</span></li></ul></li></ul></div>"""
+
+
 class OfficialSiteTests(unittest.TestCase):
     D = "2026-11-16"
 
@@ -144,6 +153,14 @@ class OfficialSiteTests(unittest.TestCase):
         g = {x["time"]: x for x in r if x["film"].startswith("GODZILLA")}
         self.assertEqual((g["21:30"]["tag"], g["18:00"]["tag"]), ("", "VO"))
         self.assertEqual({x["room"] for x in r if x["film"].startswith("GODZILLA")}, {"2"})
+
+    def test_ideal_nodi_separati_senza_titoli_html(self):
+        r = scrape.parse_ideal(IDEAL_SPLIT, self.D)
+        got = sorted((x["film"], x["date"], x["time"], x["room"], x["tag"]) for x in r)
+        self.assertEqual(got, [
+            ("AVENGERS - DOOMSDAY", "2026-12-16", "15:00", "1", "INFINITY VISION"),
+            ("AVENGERS - DOOMSDAY", "2026-12-16", "21:10", "4", "VO"),
+            ("GODZILLA MINUS ZERO", "2026-11-16", "21:30", "1", "")])
 
     def test_massimo(self):
         r = scrape.parse_massimo(MASSIMO_HTML, self.D)
