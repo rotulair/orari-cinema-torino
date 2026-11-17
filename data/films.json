@@ -496,5 +496,23 @@
   "url": null,
   "poster": null,
   "checked": "2026-11-17"
+ },
+ "belle speranze": {
+  "title": "Belle speranze",
+  "url": "https://it.wikipedia.org/wiki/Belle_speranze_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ec/Bellesperanze1988.PNG/250px-Bellesperanze1988.PNG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
+ },
+ "ti presento i fotter": {
+  "title": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+  "url": "https://it.wikipedia.org/wiki/Ti_presento_i_Fotter",
+  "poster": null,
+  "checked": "2026-11-17"
+ },
+ "avengers doomsday": {
+  "title": "AVENGERS: DOOMSDAY",
+  "url": "https://it.wikipedia.org/wiki/Avengers:_Doomsday",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d1/AvengersDoomsday.png/250px-AvengersDoomsday.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "checked": "2026-11-17"
  }
 }
