@@ -718,6 +718,9 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
             if n != best:
                 merged.append((n, best))
     for r in rows:
+        y = re.search(r"[\[(]\s*((?:19|20)\d{2})\s*[\])]", r["film"])   # "Titolo [2026]": serve a TMDB
+        if y and "anno" not in r:
+            r["anno"] = int(y.group(1))
         r["film"] = canon[r["film"]]
     return merged
 
@@ -869,9 +872,17 @@ def main() -> int:
                Path(args.debug_dir) if args.debug_dir else None)
 
     try:  # schede e locandine: opzionale, non deve mai far fallire gli orari
+        import os
+
         import films
-        cache = films.enrich(data["showtimes"], Path(args.out).with_name("films.json"), fetch, data["today"])
-        print(f"schede film: {sum(1 for v in cache.values() if v.get('url'))}/{len(cache)} trovate su Wikipedia")
+        token = (os.environ.get("TMDB_TOKEN") or os.environ.get("TMDB_API_KEY") or "").strip()
+        tmdb = films.tmdb_fetcher(token) if token else None
+        if not tmdb:
+            print("TMDB: nessuna chiave (segreto TMDB_TOKEN) -> solo Wikipedia")
+        cache = films.enrich(data["showtimes"], Path(args.out).with_name("films.json"), fetch, data["today"],
+                             tmdb=tmdb)
+        print(f"schede film: {sum(1 for v in cache.values() if v.get('url'))}/{len(cache)} su Wikipedia, "
+              f"{sum(1 for v in cache.values() if v.get('tmdb'))}/{len(cache)} su TMDB")
     except Exception as exc:  # noqa: BLE001
         print(f"schede film saltate: {exc}")
 
