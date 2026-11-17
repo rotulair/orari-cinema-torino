@@ -293,6 +293,13 @@ class FilmsTests(unittest.TestCase):
         self.assertEqual(d("Persepolis è un film del 2007 diretto da Marjane Satrapi e Vincent Paronnaud (tratto da fumetto)."),
                          "Marjane Satrapi e Vincent Paronnaud")
         self.assertIsNone(d("Una serie televisiva americana."))
+        self.assertEqual(d("Look Back (ルックバック, Rukku bakku) è un film del 2026 diretto, sceneggiato e montato da Hirokazu Kore'eda."),
+                         "Hirokazu Kore'eda")
+        self.assertEqual(d("Il film è diretto e sceneggiato da Wes Anderson."), "Wes Anderson")
+        self.assertEqual(d("Un film del 2026 scritto, prodotto e diretto da Greta Gerwig, con Saoirse Ronan."), "Greta Gerwig")
+        self.assertEqual(d("È un film scritto e prodotto da Mario Rossi e diretto da Luca Bianchi."), "Luca Bianchi")
+        self.assertEqual(d("Un film diretto da J. J. Abrams e prodotto da Bad Robot."), "J. J. Abrams")
+        self.assertEqual(d("Un film del 2026 per la regia di Ferzan Özpetek."), "Ferzan Özpetek")
 
     def test_scelta_pagina_e_cache(self):
         calls = []
