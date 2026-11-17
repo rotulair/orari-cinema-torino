@@ -293,6 +293,7 @@ class FilmsTests(unittest.TestCase):
         self.assertEqual(d("Persepolis è un film del 2007 diretto da Marjane Satrapi e Vincent Paronnaud (tratto da fumetto)."),
                          "Marjane Satrapi e Vincent Paronnaud")
         self.assertIsNone(d("Una serie televisiva americana."))
+        self.assertEqual(d("2001 è un film del 1968 diretto da Stanley Kubrick, che ha curato anche gli effetti."), "Stanley Kubrick")
         self.assertEqual(d("Look Back (ルックバック, Rukku bakku) è un film del 2026 diretto, sceneggiato e montato da Hirokazu Kore'eda."),
                          "Hirokazu Kore'eda")
         self.assertEqual(d("Il film è diretto e sceneggiato da Wes Anderson."), "Wes Anderson")
@@ -346,6 +347,28 @@ class UnifyTests(unittest.TestCase):
         self.assertEqual(rows[3]["film"], rows[4]["film"])
         self.assertEqual(rows[5]["film"], rows[6]["film"])
         self.assertNotIn("[", rows[0]["film"])
+
+    def test_suffisso_vo_edizioni_e_segnaposto(self):
+        rows = [{"film": "WILD HORSE NINE - V. O.", "cinema": "a"}, {"film": "Wild horse nine", "cinema": "b"},
+                {"film": "FJORD - V. O.", "cinema": "a"},
+                {"film": "2001: ODISSEA NELLO SPAZIO 4K – WB 100TH ANNIVERSARY (2001: A SPACE ODISSEY)", "cinema": "a"},
+                {"film": "2001: Odissea nello spazio", "cinema": "b"}]
+        scrape.unify_titles(rows)
+        self.assertEqual(rows[0]["film"], rows[1]["film"])
+        self.assertEqual(rows[0]["film"], "Wild horse nine")
+        self.assertEqual((rows[0].get("tag"), rows[1].get("tag")), ("VO", None))
+        self.assertEqual(rows[2]["film"], "FJORD")
+        self.assertEqual(rows[3]["film"], rows[4]["film"])
+        self.assertEqual(rows[3]["film"], "2001: Odissea nello spazio")
+        for j in ("n.d.", "N/D", "113'", "Sala 3", "-", ""):
+            self.assertTrue(scrape.is_junk_title(j), j)
+        self.assertFalse(scrape.is_junk_title("Fjord"))
+        self.assertFalse(scrape.is_junk_title("2001: Odissea"))
+
+    def test_lux_ignora_nd_come_titolo(self):
+        html = ("<h1>DAL 12 AL 18 NOVEMBRE</h1><h2>Il film vero</h2><p>n.d.</p><p>Martedì: 21:15</p>")
+        r = scrape.parse_movieplanet(html, "2026-11-16")
+        self.assertEqual([(x["film"], x["date"], x["time"]) for x in r], [("Il film vero", "2026-11-17", "21:15")])
 
     def test_film_diversi_restano_separati(self):
         rows = [{"film": "Toy Story 2"}, {"film": "Toy Story 3"}, {"film": "Toy Story"},
@@ -435,6 +458,56 @@ class TmdbTests(unittest.TestCase):
         e = self.run_enrich([{"film": "Cleo", "regia": "Erik Schmitt"}], self.OMONIMI, wiki)
         self.assertIsNone(e["url"])
         self.assertEqual(e["tmdb"]["id"], 2)
+
+    def cand(self, id, year, directors, sim=1.0, release=None):
+        return {"id": id, "sim": sim, "year": year, "popularity": 1, "poster_path": "/p.jpg", "runtime": 100,
+                "directors": directors, "overview": "x", "genres": [], "cast": [], "original_title": "x",
+                "release_date": release or f"{year}-06-01"}
+
+    def test_look_back_anime_2014_non_per_il_live_action_2026(self):
+        import datetime as dt
+        today = dt.date(2026, 11, 17)
+        anime = self.cand(1, 2024, ["Kiyotaka Oshiyama"])
+        # nessun riscontro (ne' regista ne' anno): un film del 2024 non e' "recente" -> scartato
+        w, t, note = self.films.decide("Look Back", None, None, None, [anime], today)
+        self.assertIsNone(t)
+        self.assertIn("non recente", note)
+        # Wikipedia dice 2026: l'anno del 2024 non coincide
+        wiki = {"url": "http://w", "director": "Hirokazu Kore'eda", "year": 2026, "extract": ""}
+        w, t, note = self.films.decide("Look Back", None, None, wiki, [anime], today)
+        self.assertIsNone(t)
+        self.assertEqual(w["url"], "http://w")
+        # se TMDB ha anche il live action 2026 con lo stesso regista, si sceglie quello
+        live = self.cand(2, 2026, ["Hirokazu Koreeda"])
+        w, t, note = self.films.decide("Look Back", None, None, wiki, [anime, live], today)
+        self.assertEqual(t["id"], 2)
+
+    def test_film_vecchi_solo_se_confermati_o_riedizioni(self):
+        import datetime as dt
+        today = dt.date(2026, 11, 17)
+        old = self.cand(62, 1968, ["Stanley Kubrick"])
+        self.assertIsNone(self.films.decide("2001", None, None, None, [old], today)[1])
+        self.assertEqual(self.films.decide("2001", "Stanley Kubrick", None, None, [old], today)[1]["id"], 62)
+        self.assertEqual(self.films.decide("2001", None, None, None, [old], today, rerelease=True)[1]["id"], 62)
+
+    def test_ambiguita_e_omonimi_recenti(self):
+        import datetime as dt
+        today = dt.date(2026, 11, 17)
+        a, b = self.cand(1, 2026, ["A Rossi"]), self.cand(2, 2026, ["B Verdi"])
+        _, t, note = self.films.decide("Hope", None, None, None, [a, b], today)
+        self.assertIsNone(t)
+        self.assertIn("ambiguo", note)
+        self.assertEqual(self.films.decide("Hope", "B Verdi", None, None, [a, b], today)[1]["id"], 2)
+        self.assertEqual(self.films.decide("Hope", None, 2026, None, [self.cand(1, 2019, ["A Rossi"]), b], today)[1]["id"], 2)
+
+    def test_wikipedia_scartata_se_anno_o_regista_non_tornano(self):
+        import datetime as dt
+        wiki = {"url": "http://w", "director": None, "year": 2014, "extract": "Un film del 2014."}
+        w, t, note = self.films.decide("X Y", None, 2026, wiki, [], dt.date(2026, 11, 17))
+        self.assertIsNone(w)
+        wiki2 = {"url": "http://w", "director": None, "year": None, "extract": "Un film. Con Mario Bianchi."}
+        self.assertIsNone(self.films.decide("X Y", "Luca Verdi", None, wiki2, [], dt.date(2026, 11, 17))[0])
+        self.assertIsNotNone(self.films.decide("X Y", "Mario Bianchi", None, wiki2, [], dt.date(2026, 11, 17))[0])
 
     def test_cognomi_e_alfabeti(self):
         m = self.films.surname_match
