@@ -75,7 +75,8 @@
   "title": "Hope",
   "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": null,
+  "director": "Na Hong-jin",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "minotaur": {
@@ -126,6 +127,8 @@
   "title": "n.d.",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "scrooge e gli spiriti del natale": {
@@ -237,6 +240,7 @@
   "url": "https://it.wikipedia.org/wiki/Street_Fighter_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Street_Fighter_2026_film_logo.svg/250px-Street_Fighter_2026_film_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Kitao Sakurai",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "judy": {
@@ -244,6 +248,7 @@
   "url": "https://it.wikipedia.org/wiki/Judy_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Judy_film_2019.jpg/250px-Judy_film_2019.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Rupert Goold",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "100": {
@@ -315,15 +320,19 @@
   "checked": "2026-11-17"
  },
  "2001 odissea nello spazio": {
-  "title": "2001: ODISSEA NELLO SPAZIO 4K",
-  "url": null,
-  "poster": null,
+  "title": "2001: Odissea nello spazio",
+  "url": "https://it.wikipedia.org/wiki/2001:_Odissea_nello_spazio",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fb/2001_-_Odissea_nello_spazio.jpg/250px-2001_-_Odissea_nello_spazio.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Stanley Kubrick, che ha curato anche parte degli effetti speciali",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "come rapinare una banca": {
   "title": "COME RAPINARE UNA BANCA",
   "url": "https://it.wikipedia.org/wiki/Come_rapinare_una_banca",
   "poster": null,
+  "director": "David Leitch",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "il gatto col cappello": {
@@ -417,6 +426,7 @@
   "url": "https://it.wikipedia.org/wiki/Scomode_verit%C3%A0",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/87/HardTruths.png/250px-HardTruths.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Mike Leigh",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "i swear e piu forte di me v o": {
@@ -455,6 +465,8 @@
   "title": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
   "url": "https://it.wikipedia.org/wiki/Lorenzo_-_L%27incredibile_avventura_di_Jovanotti",
   "poster": null,
+  "director": "Dario Zonta e Carlo Zoratti, dedicato alla vita e alla carriera di Jovanotti",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "dune parte tre": {
@@ -477,13 +489,16 @@
   "title": "WILDWOOD: I SEGRETI DEL BOSCO PROIBITO",
   "url": "https://it.wikipedia.org/wiki/Wildwood_-_I_segreti_del_bosco_proibito",
   "poster": null,
+  "director": "Travis Knight",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "ice cream man": {
   "title": "Ice Cream Man",
   "url": "https://it.wikipedia.org/wiki/Ice_Cream_Man_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Ari_Millen_Ice_Cream_Man.jpeg/250px-Ari_Millen_Ice_Cream_Man.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": null,
+  "director": "Eli Roth",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "clayface": {
@@ -491,6 +506,7 @@
   "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "James Watkins",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "shaun vita da pecora operazione z u c c a": {
@@ -498,6 +514,7 @@
   "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "la vallee des fous": {
@@ -520,18 +537,24 @@
   "title": "Wax & Gold",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "la guerra dei prezzi": {
   "title": "La guerra dei prezzi",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "bts world tour arirang in kaohsiung live viewing": {
   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "l hangar rosso": {
@@ -554,18 +577,24 @@
   "title": "SOSPESI",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "born to die in berlin": {
   "title": "BORN TO DIE IN BERLIN",
   "url": null,
   "poster": null,
+  "director": null,
+  "v": 2,
   "checked": "2026-11-17"
  },
  "come ti muovi sbagli": {
   "title": "COME TI MUOVI, SBAGLI",
   "url": "https://it.wikipedia.org/wiki/Come_ti_muovi,_sbagli",
   "poster": null,
+  "director": "Gianni Di Gregorio",
+  "v": 2,
   "checked": "2026-11-17"
  },
  "ciau cine": {
@@ -661,6 +690,22 @@
   "url": null,
   "poster": null,
   "director": null,
+  "v": 2,
+  "checked": "2026-11-17"
+ },
+ "il fuoco che ti porti dentro": {
+  "title": "IL FUOCO CHE TI PORTI DENTRO",
+  "url": "https://it.wikipedia.org/wiki/Il_fuoco_che_ti_porti_dentro_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/1/18/Il_fuoco_che_ti_porti_dentro.png/250px-Il_fuoco_che_ti_porti_dentro.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Edoardo De Angelis",
+  "v": 2,
+  "checked": "2026-11-17"
+ },
+ "fjord": {
+  "title": "FJORD",
+  "url": "https://it.wikipedia.org/wiki/Fjord_(film)",
+  "poster": null,
+  "director": "Cristian Mungiu",
   "v": 2,
   "checked": "2026-11-17"
  }
