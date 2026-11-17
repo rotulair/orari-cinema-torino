@@ -119,8 +119,11 @@ LUX_HTML = """<h1>Programmazione DAL 12 AL 18 NOVEMBRE</h1>
 ESEDRA_HTML = """<h2>Persepolis</h2><p>Martedì 17/11/2026</p><p>h. 21:15</p><p>Mercoledì 18/11/2026</p><p>h. 17:15 - 21:15</p>
 <h2>Era meglio domani</h2><p>Sabato 14/11/2026 h. 16:00 e 21:15</p>"""
 
-BARETTI_HTML = """<p>Lunedì 16 novembre 2026, ore 21.15: IL MAESTRO di Rossi (VOS)</p>
-<p>Martedì 17 novembre, ore 19.00: LA CASA di Bianchi</p><p>Solo testo ore 10.00</p>"""
+BARETTI_HTML = """<p>Lunedì 16 novembre 2026, ore 21.15: <span style="background:cyan">BORN TO DIE IN BERLIN</span> di Maurizio Spagliardi [ S.O.T.TO]<br>
+Martedì 17 novembre 2026, ore 21: <span>CLEO</span> di Erik Schmitt (VOS) [ Portofranco ]<br />
+Lunedì 14 dicembre 2026, ore 21.15: <span>DOMANI, Il viaggio di Maysoon Majidi</span> di Vincenzo Caricari [ S.O.T.TO]</p>
+<p>Mercoledì 25 novembre 2026, ore 21: IN QUOTA CAMBIA TUTTO con Farmacista in Quota [ Ferrino ]</p>
+<p>Solo testo ore 10.00</p>"""
 
 AGNELLI_HTML = """<h3>PETER PAN</h3><h2>Domenica 15 novembre ore 15:30 e 21:00</h2>
 <h3>NAZA</h3><h2>16-17-18 novembre ore 19:00</h2>"""
@@ -153,6 +156,16 @@ class OfficialSiteTests(unittest.TestCase):
         g = {x["time"]: x for x in r if x["film"].startswith("GODZILLA")}
         self.assertEqual((g["21:30"]["tag"], g["18:00"]["tag"]), ("", "VO"))
         self.assertEqual({x["room"] for x in r if x["film"].startswith("GODZILLA")}, {"2"})
+
+    def test_ideal_etichette_e_valori_separati(self):
+        html = ("<div><span>AVENGERS</span><p>Regia:</p><p>A. Russo</p><p>Genere:</p><p>Azione, Avventura</p>"
+                "<p>Durata:</p><p>113'</p><a>Scheda film</a><ul><li>Lunedì 16/11<ul>"
+                "<li><span>SALA 4</span>, <a>15:00</a>, <span>2D</span></li></ul></li></ul></div>"
+                "<div><span>DOCUMENTARIO X</span><p>Genere:</p><p>Documentario</p><p>Durata:</p><p>98'</p>"
+                "<ul><li>Lunedì 16/11<ul><li>SALA 3, <a>15:35</a></li></ul></li></ul></div>")
+        r = scrape.parse_ideal(html, self.D)
+        self.assertEqual(sorted((x["film"], x["time"], x["room"]) for x in r),
+                         [("AVENGERS", "15:00", "4"), ("DOCUMENTARIO X", "15:35", "3")])
 
     def test_ideal_nodi_separati_senza_titoli_html(self):
         r = scrape.parse_ideal(IDEAL_SPLIT, self.D)
@@ -193,8 +206,11 @@ class OfficialSiteTests(unittest.TestCase):
 
     def test_baretti(self):
         r = scrape.parse_baretti(BARETTI_HTML, self.D)
-        self.assertEqual([(x["film"], x["date"], x["time"], x["tag"]) for x in r],
-                         [("IL MAESTRO", "2026-11-16", "21:15", "VO"), ("LA CASA", "2026-11-17", "19:00", "")])
+        self.assertEqual([(x["film"], x["date"], x["time"], x["tag"]) for x in r], [
+            ("BORN TO DIE IN BERLIN", "2026-11-16", "21:15", ""),
+            ("CLEO", "2026-11-17", "21:00", "VO"),
+            ("DOMANI, Il viaggio di Maysoon Majidi", "2026-12-14", "21:15", ""),
+            ("IN QUOTA CAMBIA TUTTO", "2026-11-25", "21:00", "")])
 
     def test_agnelli(self):
         r = scrape.parse_agnelli(AGNELLI_HTML, self.D)
