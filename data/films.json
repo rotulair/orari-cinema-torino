@@ -2069,5 +2069,103 @@
   "t": true,
   "v": 5,
   "checked": "2026-11-18"
+ },
+ "21 00": {
+  "title": "21:00",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "e 20 45": {
+  "title": "e 20:45",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "18 00 e 20 45": {
+  "title": "18:00 e 20:45",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "on our own": {
+  "title": "ON OUR OWN",
+  "url": "https://it.wikipedia.org/wiki/On_Our_Own",
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 59083,
+   "url": "https://www.themoviedb.org/movie/59083?language=it-IT",
+   "poster_path": "/lfvmYhk2rsOgJ3K1jEcFUq5eIZ6.jpg",
+   "runtime": 84,
+   "director": "Lyman Dayton",
+   "year": 1988,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Famiglia"
+   ],
+   "cast": [
+    "Leigh Lombardi",
+    "Sam Hennings",
+    "Scott Warner",
+    "Amy Allred",
+    "Tom Dayton",
+    "Stephanie Kramer"
+   ],
+   "original_title": "On Our Own",
+   "release_date": "1988-01-01"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "16 00": {
+  "title": "16:00",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "holy wood dust": {
+  "title": "HOLY WOOD DUST",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1625362,
+   "url": "https://www.themoviedb.org/movie/1625362?language=it-IT",
+   "poster_path": "/9pyQnb9hWr0ggm3Qwgka4ALGsBN.jpg",
+   "runtime": 100,
+   "director": "Виктор Косаковский",
+   "year": 2026,
+   "overview": "Il regista Victor Kossakovsky e il celebre botanico Stefano Mancuso ci accompagnano in un viaggio senza precedenti nella vita degli alberi. Cosa succede nel secondo successivo all’abbattimento di un albero? Cosa pensa e prova quell’albero in quel preciso istante? Holy Wood Dust è un invito a ripensare radicalmente il regno vegetale da una prospettiva nuova e rivoluzionaria.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Stefano Mancuso"
+   ],
+   "original_title": "Holy Wood Dust",
+   "release_date": "2026-11-23"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  }
 }

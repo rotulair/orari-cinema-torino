@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T14:40:10+01:00",
+ "generated_at": "2026-11-18T18:25:00+01:00",
  "today": "2026-11-18",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:26+01:00"
+    "fetched_at": "2026-11-18T18:24:09+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 116,
+    "n": 111,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:29+01:00"
+    "fetched_at": "2026-11-18T18:24:13+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 115,
+    "n": 154,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:32+01:00"
+    "fetched_at": "2026-11-18T18:24:16+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:34+01:00"
+    "fetched_at": "2026-11-18T18:24:19+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:36+01:00"
+    "fetched_at": "2026-11-18T18:24:23+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 72,
+    "n": 69,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:39+01:00"
+    "fetched_at": "2026-11-18T18:24:26+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 79,
+    "n": 76,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:41+01:00"
+    "fetched_at": "2026-11-18T18:24:27+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 13,
+    "n": 40,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:42+01:00"
+    "fetched_at": "2026-11-18T18:24:29+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 13,
+    "n": 8,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:44+01:00"
+    "fetched_at": "2026-11-18T18:24:30+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:47+01:00"
+    "fetched_at": "2026-11-18T18:24:34+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:52+01:00"
+    "fetched_at": "2026-11-18T18:24:37+01:00"
    }
   },
   {
@@ -175,11 +175,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 11,
+    "n": 16,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:54+01:00"
+    "fetched_at": "2026-11-18T18:24:39+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:57+01:00"
+    "fetched_at": "2026-11-18T18:24:43+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:39:59+01:00"
+    "fetched_at": "2026-11-18T18:24:47+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 49,
+    "n": 47,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:40:00+01:00"
+    "fetched_at": "2026-11-18T18:24:49+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:40:03+01:00"
+    "fetched_at": "2026-11-18T18:24:52+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:40:07+01:00"
+    "fetched_at": "2026-11-18T18:24:56+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T14:40:10+01:00"
+    "fetched_at": "2026-11-18T18:25:00+01:00"
    }
   }
  ],
@@ -294,13 +294,6 @@
    "film": "DAL NULLA",
    "date": "2026-11-18",
    "time": "19:00",
-   "tag": ""
-  },
-  {
-   "cinema": "centrale",
-   "film": "La Gradiva",
-   "date": "2026-11-18",
-   "time": "16:00",
    "tag": ""
   },
   {
@@ -336,22 +329,8 @@
    "cinema": "duegiardini",
    "film": "RAGIONE E SENTIMENTO",
    "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-18",
    "time": "18:00",
    "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "16:30",
-   "tag": "Nirvana"
   },
   {
    "cinema": "duegiardini",
@@ -371,13 +350,6 @@
    "cinema": "eliseo",
    "film": "DIO RIDE",
    "date": "2026-11-18",
-   "time": "16:00",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
    "time": "18:30",
    "tag": "Rosso"
   },
@@ -386,13 +358,6 @@
    "film": "DIO RIDE",
    "date": "2026-11-18",
    "time": "21:15",
-   "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "15:45",
    "tag": "Blu"
   },
   {
@@ -408,13 +373,6 @@
    "date": "2026-11-18",
    "time": "20:45",
    "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "16:15",
-   "tag": "Grande"
   },
   {
    "cinema": "eliseo",
@@ -799,13 +757,6 @@
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-18",
-   "time": "16:30",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
    "time": "18:50",
    "tag": "Chico"
   },
@@ -820,13 +771,6 @@
    "cinema": "marx",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
-   "time": "16:15",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
    "time": "18:30",
    "tag": "Groucho"
   },
@@ -836,13 +780,6 @@
    "date": "2026-11-18",
    "time": "20:45",
    "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": "Harpo"
   },
   {
    "cinema": "marx",
@@ -882,20 +819,6 @@
   },
   {
    "cinema": "massaua",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "17:05",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
    "time": "21:15",
@@ -908,13 +831,6 @@
    "time": "19:15",
    "tag": "CULT",
    "rer": true
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "17:00",
-   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -934,13 +850,6 @@
    "cinema": "massaua",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-18",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
    "time": "21:05",
    "tag": ""
   },
@@ -949,13 +858,6 @@
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-18",
    "time": "19:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "17:00",
    "tag": ""
   },
   {
@@ -1026,20 +928,6 @@
    "cinema": "nazionale",
    "film": "Fatherland",
    "date": "2026-11-18",
-   "time": "15:15",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "Fatherland",
-   "date": "2026-11-18",
-   "time": "17:00",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "Fatherland",
-   "date": "2026-11-18",
    "time": "18:50",
    "tag": "Sala 4"
   },
@@ -1049,13 +937,6 @@
    "date": "2026-11-18",
    "time": "20:45",
    "tag": "Sala 1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "Look Back",
-   "date": "2026-11-18",
-   "time": "16:30",
-   "tag": "Sala 2"
   },
   {
    "cinema": "nazionale",
@@ -1075,13 +956,6 @@
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-18",
-   "time": "16:00",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-18",
    "time": "18:45",
    "tag": "Sala 3"
   },
@@ -1091,13 +965,6 @@
    "date": "2026-11-18",
    "time": "20:45",
    "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "15:45",
-   "tag": "Sala 1"
   },
   {
    "cinema": "nazionale",
@@ -1120,34 +987,6 @@
    "time": "21:00",
    "tag": "Sala 1 EVENTO",
    "rer": true
-  },
-  {
-   "cinema": "reposi",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "17:40",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "17:40",
-   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -1182,13 +1021,6 @@
    "cinema": "reposi",
    "film": "L’ESTRANEA",
    "date": "2026-11-18",
-   "time": "17:40",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "L’ESTRANEA",
-   "date": "2026-11-18",
    "time": "22:00",
    "tag": "Sala 2"
   },
@@ -1196,36 +1028,8 @@
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
-   "time": "15:25",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "17:40",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
    "time": "19:50",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-18",
-   "time": "17:50",
-   "tag": "Sala 5"
   },
   {
    "cinema": "reposi",
@@ -1238,22 +1042,8 @@
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Sala 5"
-  },
-  {
-   "cinema": "reposi",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
    "time": "22:05",
    "tag": "Sala 5"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": "Sala 3"
   },
   {
    "cinema": "romano",
@@ -1273,13 +1063,6 @@
    "cinema": "romano",
    "film": "L'ESSERE AMATO (EL SER QUERIDO)",
    "date": "2026-11-18",
-   "time": "15:45",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
    "time": "18:20",
    "tag": "Sala 2"
   },
@@ -1288,20 +1071,6 @@
    "film": "L'ESSERE AMATO (EL SER QUERIDO)",
    "date": "2026-11-18",
    "time": "20:00",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "romano",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "romano",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-18",
-   "time": "17:30",
    "tag": "Sala 1"
   },
   {
@@ -1750,6 +1519,20 @@
    "film": "Wildwood - I segreti del bosco proibito",
    "date": "2026-11-18",
    "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-19",
+   "time": "18:00",
    "tag": ""
   },
   {
@@ -2402,9 +2185,65 @@
   },
   {
    "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-19",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "18:20",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-19",
    "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-19",
+   "time": "18:30",
    "tag": "Sala 1"
   },
   {
@@ -2414,6 +2253,27 @@
    "time": "10:30",
    "tag": "",
    "regia": "Mélisa Godet"
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "e 20:45",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "La Gradiva",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": ""
   },
   {
    "cinema": "duegiardini",
@@ -3071,9 +2931,65 @@
   },
   {
    "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "18:20",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-20",
    "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-20",
+   "time": "18:30",
    "tag": "Sala 1"
   },
   {
@@ -3091,6 +3007,27 @@
    "time": "21:00",
    "tag": "",
    "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-21",
+   "time": "11:30",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "e 20:45",
+   "date": "2026-11-21",
+   "time": "13:30",
+   "tag": ""
   },
   {
    "cinema": "duegiardini",
@@ -3815,6 +3752,27 @@
   },
   {
    "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-21",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
    "film": "I SWEAR – È PIÚ FORTE DI ME",
    "date": "2026-11-21",
    "time": "18:30",
@@ -3822,9 +3780,37 @@
   },
   {
    "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-21",
    "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-21",
+   "time": "18:30",
    "tag": "Sala 1"
   },
   {
@@ -3864,6 +3850,34 @@
    "time": "15:30",
    "tag": "",
    "regia": "Kyle Balda"
+  },
+  {
+   "cinema": "centrale",
+   "film": "18:00 e 20:45",
+   "date": "2026-11-22",
+   "time": "11:30",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA NOSTRA ISOLA È IL MONDO INTERO",
+   "date": "2026-11-22",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "ON OUR OWN",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": ""
   },
   {
    "cinema": "duegiardini",
@@ -4582,9 +4596,65 @@
   },
   {
    "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-22",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "DIO RIDE",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "15:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "18:20",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "romano",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-22",
    "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "romano",
+   "film": "RAGIONE E SENTIMENTO",
+   "date": "2026-11-22",
+   "time": "18:30",
    "tag": "Sala 1"
   },
   {
@@ -4616,6 +4686,27 @@
    "time": "21:15",
    "tag": "",
    "regia": "Massimo Ivan Falsetta"
+  },
+  {
+   "cinema": "centrale",
+   "film": "16:00",
+   "date": "2026-11-23",
+   "time": "18:45",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "21:00",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "centrale",
+   "film": "La Gradiva",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "tag": ""
   },
   {
    "cinema": "eliseo",
@@ -4941,6 +5032,139 @@
    "time": "20:00",
    "tag": "",
    "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HOLY WOOD DUST",
+   "date": "2026-11-23",
+   "time": "19:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-23",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-23",
+   "time": "17:40",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-23",
+   "time": "22:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-23",
+   "time": "17:40",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-23",
+   "time": "19:50",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-23",
+   "time": "22:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-23",
+   "time": "15:25",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-23",
+   "time": "17:40",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-23",
+   "time": "19:55",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-23",
+   "time": "17:35",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-23",
+   "time": "21:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "19:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "22:05",
+   "tag": "Sala 1"
   },
   {
    "cinema": "agnelli",
@@ -5319,6 +5543,139 @@
    "rer": true
   },
   {
+   "cinema": "reposi",
+   "film": "HOLY WOOD DUST",
+   "date": "2026-11-24",
+   "time": "19:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-24",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-24",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-24",
+   "time": "17:40",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-24",
+   "time": "22:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-24",
+   "time": "17:40",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-24",
+   "time": "19:50",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-24",
+   "time": "22:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-24",
+   "time": "15:25",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-24",
+   "time": "17:40",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-24",
+   "time": "19:55",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-24",
+   "time": "17:35",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-24",
+   "time": "21:50",
+   "tag": "Sala 5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "19:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "22:05",
+   "tag": "Sala 1"
+  },
+  {
    "cinema": "agnelli",
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-25",
@@ -5521,6 +5878,83 @@
    "time": "19:15",
    "tag": "Anime",
    "rer": true
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-25",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-25",
+   "time": "17:40",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-25",
+   "time": "19:50",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-25",
+   "time": "22:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-25",
+   "time": "15:25",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-25",
+   "time": "17:40",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-25",
+   "time": "19:55",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "22:05",
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
