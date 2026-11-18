@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Installa poppler (lettura dei PDF)
+        run: sudo apt-get install -y poppler-utils || true
+
       - name: Test dei parser
         run: python -m unittest discover -s tests
 
