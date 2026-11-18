@@ -995,8 +995,8 @@
    "release_date": "1997-06-01"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "segreti bugie": {
   "title": "Segreti & bugie",
@@ -1026,8 +1026,8 @@
    "release_date": "1996-05-24"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "solaris": {
   "title": "Solaris",
@@ -1120,8 +1120,10 @@
   "url": "https://it.wikipedia.org/wiki/Scomode_verit%C3%A0",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/87/HardTruths.png/250px-HardTruths.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Mike Leigh",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "silent friend": {
   "title": "SILENT FRIEND",
@@ -1834,8 +1836,8 @@
    "release_date": "2026-12-16"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "pecore sotto copertura": {
   "title": "PECORE SOTTO COPERTURA",
@@ -1928,16 +1930,18 @@
    "release_date": "2025-11-06"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "jou scialpinismo nei picos de europa": {
   "title": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "il fuoco che ti porti dentro": {
   "title": "IL FUOCO CHE TI PORTI DENTRO",
