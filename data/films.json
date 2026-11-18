@@ -133,8 +133,8 @@
    "release_date": "2026-09-23"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "dio ride": {
   "title": "DIO RIDE",
@@ -165,8 +165,8 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "l essere amato": {
   "title": "L'ESSERE AMATO (EL SER QUERIDO)",
@@ -246,16 +246,66 @@
   "url": "https://it.wikipedia.org/wiki/Minotaur_(film)",
   "poster": null,
   "director": "Jonathan English",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 18870,
+   "url": "https://www.themoviedb.org/movie/18870?language=it-IT",
+   "poster_path": "/nwSYtZNc42WaqOzkMpSuZ4NElJr.jpg",
+   "runtime": 93,
+   "director": "Jonathan English",
+   "year": 2006,
+   "overview": "Nella notte dei tempi, il leggendario Minotauro, nato dall’incrocio tra una regina e un toro (ognuno ha i suoi gusti), esige periodici sacrifici umani. Nel piccolo villaggio che deve sacrificare i suoi giovani al mostro, Theo (Tom Hardy), figlio del capo Cyrnan (Rutger Hauer), è turbato e non ci sta. Una vecchia gli dice che i sacrificati, compresa la sua fidanzata, non sono morti, ma vivono in realtà nel labirinto assieme al Minotauro. Theo decide quindi di compiere l’impresa di uccidere il Minotauro e salvare i prigionieri. Quando arrivano i guerrieri per prelevare le vittime sacrificali, Cyrnan si oppone, ma quelli scatenano un massacro e si prendono ugualmente i giovani. Theo si imbarca ",
+   "genres": [
+    "Horror",
+    "Avventura",
+    "Fantasy"
+   ],
+   "cast": [
+    "Tom Hardy",
+    "Michelle Van Der Water",
+    "Tony Todd",
+    "Lex Shrapnel",
+    "Jonathan Readwin",
+    "Rutger Hauer"
+   ],
+   "original_title": "Minotaur",
+   "release_date": "2006-03-11"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "primetime": {
   "title": "Primetime",
   "url": "https://it.wikipedia.org/wiki/Primetime_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/83/Primetime_film_2026.png/250px-Primetime_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1375441,
+   "url": "https://www.themoviedb.org/movie/1375441?language=it-IT",
+   "poster_path": "/sqArsDFYFryd5iKuoxLvr4y5NZv.jpg",
+   "runtime": 110,
+   "director": "Lance Oppenheim",
+   "year": 2026,
+   "overview": "Nel 2006 il giornalista Chris Hansen si prepara a fare la storia della televisione con To Catch a Predator, il controverso format che, attraverso operazioni sotto copertura e telecamere nascoste, smaschera in diretta tv predatori sessuali colti sul fatto. Mentre il programma diventa un fenomeno nazionale e il suo conduttore un’icona del pubblico, il confine tra informazione, giustizia e spettacolo si fa sempre più ambiguo e il cortocircuito fra cronaca, intrattenimento e voyeurismo televisivo sempre più insostenibile.",
+   "genres": [
+    "Thriller",
+    "Dramma",
+    "Crime"
+   ],
+   "cast": [
+    "Robert Pattinson",
+    "Merritt Wever",
+    "Skyler Gisondo",
+    "Matthew Maher",
+    "Phoebe Bridgers",
+    "Victor Brunette"
+   ],
+   "original_title": "Primetime",
+   "release_date": "2026-09-23"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "godzilla minus zero": {
   "title": "GODZILLA MINUS ZERO",
@@ -454,16 +504,42 @@
   "url": "https://it.wikipedia.org/wiki/La_dolce_vita",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Town_Theater_Ad_-_7_July_1961%2C_NW%2C_Washington%2C_D.C.png/250px-Town_Theater_Ad_-_7_July_1961%2C_NW%2C_Washington%2C_D.C.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Federico Fellini",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "fatherland": {
   "title": "Fatherland",
   "url": "https://it.wikipedia.org/wiki/Fatherland_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/2c/Fatherland2026.png/250px-Fatherland2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Paweł Pawlikowski",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1437696,
+   "url": "https://www.themoviedb.org/movie/1437696?language=it-IT",
+   "poster_path": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+   "runtime": 82,
+   "director": "Paweł Pawlikowski",
+   "year": 2026,
+   "overview": "Il rapporto tra lo scrittore Thomas Mann (Hanns Zischler) e sua figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally. A bordo di una Buick nera intraprendono un viaggio attraverso una Germania in macerie: da Francoforte, sotto l'influenza statunitense, fino a Weimar, controllata dai sovietici. Per la prima volta dopo la guerra, Mann torna nella sua nativa Germania, dopo aver preso la difficile decisione di fuggire negli Stati Uniti per mettersi in salvo.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Sandra Hüller",
+    "Hanns Zischler",
+    "August Diehl",
+    "Anna Madeley",
+    "Devid Striesow",
+    "David Menkin"
+   ],
+   "original_title": "Ojczyzna",
+   "release_date": "2026-06-19"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "look back": {
   "title": "Look Back",
@@ -752,7 +828,7 @@
   "title": "2001: Odissea nello spazio",
   "url": "https://it.wikipedia.org/wiki/2001:_Odissea_nello_spazio",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fb/2001_-_Odissea_nello_spazio.jpg/250px-2001_-_Odissea_nello_spazio.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Stanley Kubrick, che ha curato anche parte degli effetti speciali",
+  "director": "Stanley Kubrick",
   "tmdb": {
    "id": 62,
    "url": "https://www.themoviedb.org/movie/62?language=it-IT",
@@ -778,16 +854,41 @@
    "release_date": "1968-04-02"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "come rapinare una banca": {
-  "title": "COME RAPINARE UNA BANCA",
+  "title": "Come rapinare una banca",
   "url": "https://it.wikipedia.org/wiki/Come_rapinare_una_banca",
   "poster": null,
   "director": "David Leitch",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1437511,
+   "url": "https://www.themoviedb.org/movie/1437511?language=it-IT",
+   "poster_path": "/c0wJ0zBp0pgacpdn3foT9MlFZpW.jpg",
+   "runtime": 122,
+   "director": "David Leitch",
+   "year": 2026,
+   "overview": "In \"Come rapinare una banca\", una banda di ladri, esperti di social media, trasmette le proprie spettacolari rapine, ignara che la crescente fama virale li ha messi nel mirino di un agente veterano dell'FBI e di una brillante ingegnera informatica. Nonostante i due inseguitori siano sempre più vicini, il gruppo criminale si spinge oltre i propri limiti, mettendo in gioco tutto per le proprie convinzioni e per il loro colpo più ambizioso di sempre.",
+   "genres": [
+    "Azione",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": [
+    "Nicholas Hoult",
+    "Zoë Kravitz",
+    "Pete Davidson",
+    "John C. Reilly",
+    "Anna Sawai",
+    "Rhenzy Feliz"
+   ],
+   "original_title": "How to Rob a Bank",
+   "release_date": "2026-11-10"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "il gatto col cappello": {
   "title": "IL GATTO COL CAPPELLO",
@@ -860,8 +961,10 @@
   "url": "https://it.wikipedia.org/wiki/Ritorno_dal_nulla",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c3/Thebasketballdiaries.jpg/250px-Thebasketballdiaries.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Scott Kalvert",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "ragazze": {
   "title": "Ragazze",
@@ -1097,8 +1200,27 @@
   "url": "https://it.wikipedia.org/wiki/Lorenzo_-_L%27incredibile_avventura_di_Jovanotti",
   "poster": null,
   "director": "Dario Zonta e Carlo Zoratti, dedicato alla vita e alla carriera di Jovanotti",
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1726926,
+   "url": "https://www.themoviedb.org/movie/1726926?language=it-IT",
+   "poster_path": "/bDaSr4TwA8jvKRuWBgEDCK6lJL.jpg",
+   "runtime": 83,
+   "director": "Dario Zonta, Carlo Zoratti",
+   "year": 2026,
+   "overview": "Il racconto di una vita straordinaria: le canzoni, il successo, i viaggi, la bici, dalla piccola radio locale alle folle oceaniche di pubblico. Il film attraversa ciò che conosciamo e arriva in un luogo più intimo, segreto, sorprendente. Dove l’artista che tutti conosciamo diventa la persona che pochissimi hanno davvero incontrato.",
+   "genres": [
+    "Documentario",
+    "Musica"
+   ],
+   "cast": [
+    "Jovanotti"
+   ],
+   "original_title": "Lorenzo - L’incredibile avventura di Jovanotti",
+   "release_date": "2026-11-26"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "dune parte tre": {
   "title": "DUNE – PARTE TRE",
@@ -1301,8 +1423,31 @@
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1130413,
+   "url": "https://www.themoviedb.org/movie/1130413?language=it-IT",
+   "poster_path": "/gyrO98lkqD4G2DwoqOi1YOGWKMk.jpg",
+   "runtime": 121,
+   "director": "Xavier Beauvois",
+   "year": 2024,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Jean-Paul Rouve",
+    "Pierre Richard",
+    "Madeleine Beauvois",
+    "Joseph Olivennes",
+    "Xavier Maly",
+    "Abbes Zahmani"
+   ],
+   "original_title": "La Vallée des fous",
+   "release_date": "2024-11-13"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "la maison des femmes la casa delle donne": {
   "title": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
@@ -1340,8 +1485,26 @@
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": {
+   "id": 1616130,
+   "url": "https://www.themoviedb.org/movie/1616130?language=it-IT",
+   "poster_path": "/f9eRzaSG6W98i9sZhyT77LVsawF.jpg",
+   "runtime": 97,
+   "director": "Ruth Beckermann",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Ruth Beckermann"
+   ],
+   "original_title": "Wax & Gold",
+   "release_date": "2026-02-15"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "la guerra dei prezzi": {
   "title": "La guerra dei prezzi",
@@ -1372,8 +1535,8 @@
    "release_date": "2026-03-18"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "bts world tour arirang in kaohsiung live viewing": {
   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
@@ -1396,8 +1559,8 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "l hangar rosso": {
   "title": "L’HANGAR ROSSO",
@@ -1437,16 +1600,20 @@
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "sospesi": {
   "title": "SOSPESI",
   "url": null,
   "poster": null,
   "director": null,
-  "v": 2,
-  "checked": "2026-11-17"
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "born to die in berlin": {
   "title": "BORN TO DIE IN BERLIN",
@@ -1455,8 +1622,8 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 4,
-  "checked": "2026-11-17"
+  "v": 5,
+  "checked": "2026-11-18"
  },
  "come ti muovi sbagli": {
   "title": "COME TI MUOVI, SBAGLI",
