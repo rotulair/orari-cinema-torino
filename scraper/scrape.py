@@ -639,9 +639,169 @@ def parse_centrale(html: str, day: str) -> list[dict]:
     return out
 
 
+# ------------------------------------------------------------------ parser: Circuito Gran Torino (Greenwich + Classico)
+# Il sito pubblica la programmazione settimanale come PDF (una tabella: un blocco per giorno, per Greenwich
+# quattro colonne = sale). La home contiene i link ai PDF; ogni PDF si legge con le coordinate delle parole
+# (pdftotext -bbox) e le righe escono con "venue": "greenwich" / "classico" (filtrato dalla configurazione).
+
+_BBOX_WORD = re.compile(r'<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="[\d.]+">([^<]*)</word>')
+_GT_DAY = re.compile(rf"^{_DAYNAME}$", re.I)
+_GT_TIME = re.compile(r"^(\d{1,2})[.:](\d{2})$")
+
+
+def fetch_pdf_bbox(url: str) -> str:
+    """Scarica un PDF e restituisce il testo con coordinate (pdftotext -bbox, pacchetto poppler-utils)."""
+    import subprocess
+    import tempfile
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=40) as resp:
+        data = resp.read()
+    with tempfile.TemporaryDirectory() as d:
+        f = Path(d) / "p.pdf"
+        f.write_bytes(data)
+        r = subprocess.run(["pdftotext", "-bbox", str(f), "-"], capture_output=True, text=True, timeout=60)
+    if r.returncode != 0 or "<word" not in r.stdout:
+        raise RuntimeError(f"pdftotext non ha letto {url}: {r.stderr.strip()[:120]}")
+    return r.stdout
+
+
+PDF_BBOX = fetch_pdf_bbox   # sostituibile nei test
+
+
+def parse_grantorino_pdf(xml: str, day: str, venue: str) -> list[dict]:
+    pages = xml.split("<page ")[1:] or [xml]
+    words: list[tuple[float, float, str]] = []   # (x, y, testo), y continuo tra pagine
+    off = 0.0
+    for pg in pages:
+        ys = [0.0]
+        for m in _BBOX_WORD.finditer(pg):
+            x, y, t = float(m.group(1)), float(m.group(2)) + off, html_unescape(m.group(4))
+            words.append((x, y, t)); ys.append(y)
+        off = max(ys) + 100
+    if not words:
+        return []
+
+    # intervallo date dal titolo: "PROGRAMMAZIONE DAL 19 AL 25 NOVEMBRE"
+    head = " ".join(t for _, _, t in sorted(words, key=lambda w: (round(w[1] / 4), w[0]))[:80])
+    m = re.search(rf"(?i)\bdal\s+(\d{{1,2}})(?:\s+({_MONTH_RE}))?\s+al\s+(\d{{1,2}})\s+({_MONTH_RE})", head)
+    if not m:
+        raise RuntimeError("intervallo di date non trovato nel PDF")
+    d1, d2, mo2 = int(m.group(1)), int(m.group(3)), MONTHS[m.group(4).lower()]
+    mo1 = MONTHS[m.group(2).lower()] if m.group(2) else (mo2 if d1 <= d2 else (mo2 - 2) % 12 + 1)
+    start = infer_date(day, d1, mo1)
+    end = infer_date(day, d2, mo2)
+    if not start or not end:
+        raise RuntimeError("date del PDF non valide")
+    sd, ed = dt.date.fromisoformat(start), dt.date.fromisoformat(end)
+    if ed < sd:
+        ed = dt.date(ed.year + 1, ed.month, ed.day)
+    span = [sd + dt.timedelta(days=i) for i in range((ed - sd).days + 1)]
+
+    # giorni (nome del giorno a sinistra); la data viene dall'intervallo, non dal testo (nel PDF ci sono refusi)
+    labels = sorted([(y, x, t) for x, y, t in words if _GT_DAY.match(t)])
+    if not labels:
+        return []
+    days: list[tuple[float, dt.date]] = []
+    for y, _x, t in labels:
+        wd = WEEKDAYS.index(t[:3].lower())
+        cand = [c for c in span if c.weekday() == wd]
+        if cand:
+            days.append((y, cand[0]))
+    bounds = [(-1e9 if i == 0 else (days[i - 1][0] + days[i][0]) / 2) for i in range(len(days))] + [1e9]
+
+    times = [(x, y, f"{int(mm.group(1)):02d}:{mm.group(2)}") for x, y, t in words
+             for mm in [_GT_TIME.match(t)] if mm and _valid_time(int(mm.group(1)), int(mm.group(2)))]
+    if not times:
+        return []
+    # colonne = gruppi di orari con lo stesso x (una colonna per sala)
+    edges: list[float] = []
+    for x in sorted({round(t[0]) for t in times}):
+        if not edges or x - edges[-1] > 15:
+            edges.append(float(x))
+    def col_of(x: float) -> int | None:
+        c = [i for i, e in enumerate(edges) if e <= x + 3]
+        return c[-1] if c else None
+
+    # numero di sala dall'intestazione (la prima riga "SALA n" di ogni colonna)
+    rooms: dict[int, tuple[float, str]] = {}
+    for i, (x, y, t) in enumerate(words):
+        if t.upper() == "SALA" and i + 1 < len(words) and re.fullmatch(r"\d+", words[i + 1][2]):
+            c = col_of(x)
+            if c is not None and (c not in rooms or y < rooms[c][0]):
+                rooms[c] = (y, words[i + 1][2])
+    multi = len(edges) > 1
+
+    out: list[dict] = []
+    seen: set = set()
+    for bi, (_dy, date) in enumerate(days):
+        lo, hi = bounds[bi], bounds[bi + 1]
+        for c in range(len(edges)):
+            ts = sorted((y, hhmm) for x, y, hhmm in times if lo <= y < hi and col_of(x) == c)
+            if not ts:
+                continue
+            # righe di testo della colonna (parole non-orario con la stessa y)
+            cells = sorted((y, x, t) for x, y, t in words
+                           if lo <= y < hi and col_of(x) == c and not _GT_TIME.match(t) and not _GT_DAY.match(t)
+                           and not re.fullmatch(r"\d{1,2}/\d{1,3}", t) and t.upper() != "SALA"
+                           and not (t.isdigit() and len(t) == 1))
+            lines: list[list] = []
+            for y, x, t in cells:
+                if lines and abs(lines[-1][0] - y) < 2.0:
+                    lines[-1][1].append(t)
+                else:
+                    lines.append([y, [t]])
+            parts: dict[int, dict] = {i: {"title": [], "vo": False} for i in range(len(ts))}
+            for ly, toks in lines:
+                text = " ".join(toks)
+                near = min(range(len(ts)), key=lambda i: abs(ts[i][0] - ly))
+                if abs(ts[near][0] - ly) > 20:
+                    continue
+                if text.startswith("(") or re.search(r"(?i)versione originale|\bsott\.", text):
+                    parts[near]["vo"] = True
+                else:
+                    parts[near]["title"].append(text)
+            for i, (_y, hhmm) in enumerate(ts):
+                title = clean(" ".join(parts[i]["title"]))
+                if not title:
+                    continue
+                n0 = len(out)
+                _add(out, seen, title, date.isoformat(), hhmm, "VO" if parts[i]["vo"] else "",
+                     rooms[c][1] if multi and c in rooms else "")
+                if len(out) > n0:
+                    out[-1]["venue"] = venue
+    return out
+
+
+def html_unescape(t: str) -> str:
+    import html as _h
+    return _h.unescape(t)
+
+
+def parse_grantorino(html: str, day: str) -> list[dict]:
+    """Home di circuitograntorino.com: trova i PDF di Greenwich e Classico e li legge."""
+    out: list[dict] = []
+    errors: list[str] = []
+    seen_urls: set[str] = set()
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
+        href, text = m.group(1), re.sub(r"<[^>]+>", " ", m.group(2))
+        blob = (href + " " + text).lower()
+        venue = "greenwich" if "greenwich" in blob else "classico" if "classico" in blob else ""
+        if not venue or href in seen_urls:
+            continue
+        seen_urls.add(href)
+        try:
+            out.extend(parse_grantorino_pdf(PDF_BBOX(href), day, venue))
+        except Exception as exc:  # noqa: BLE001 - un PDF rotto non blocca l'altro
+            errors.append(f"{venue}: {exc}")
+    if errors and not out:
+        raise RuntimeError("; ".join(errors))
+    return out
+
+
 PARSERS = {"movieplayer": parse_movieplayer, "18tickets": parse_18tickets, "ideal": parse_ideal,
            "massimo": parse_massimo, "movieplanet": parse_movieplanet, "esedra": parse_esedra,
-           "baretti": parse_baretti, "agnelli": parse_agnelli, "centrale": parse_centrale}
+           "baretti": parse_baretti, "agnelli": parse_agnelli, "centrale": parse_centrale,
+           "grantorino": parse_grantorino}
 
 
 # --------------------------------------------------------------------------- titoli duplicati
