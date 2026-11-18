@@ -589,5 +589,61 @@ class RunTests(unittest.TestCase):
             self.assertTrue(all(r["date"] >= "2026-11-16" for r in d["showtimes"]))
 
 
+
+class GranTorinoPdfTest(unittest.TestCase):
+    """PDF reali di Circuito Gran Torino (testo con coordinate salvato in tests/fixtures)."""
+    FIX = Path(__file__).resolve().parent / "fixtures"
+
+    def test_greenwich_sale_e_giorni(self):
+        xml = (self.FIX / "greenwich_bbox.xml").read_text(encoding="utf-8")
+        rows = scrape.parse_grantorino_pdf(xml, "2026-11-18", "greenwich")
+        self.assertEqual(len(rows), 84)                      # 7 giorni x 12 spettacoli
+        self.assertEqual({r["date"] for r in rows}, {f"2026-11-{d}" for d in range(19, 26)})
+        g = {(r["date"], r["time"], r["room"]): r for r in rows}
+        self.assertEqual(g[("2026-11-19", "15:30", "2")]["film"], "MINOTAURO")
+        self.assertEqual(g[("2026-11-19", "21:15", "3")]["film"], "PRIMETIME")
+        self.assertEqual(g[("2026-11-19", "21:15", "3")]["tag"], "VO")
+        self.assertEqual(g[("2026-11-19", "15:30", "3")]["tag"], "")
+        self.assertEqual(g[("2026-11-23", "18:00", "3")]["film"], "DIGGER")
+        self.assertEqual(g[("2026-11-25", "21:15", "3")]["film"], "HOPE")
+        self.assertEqual(g[("2026-11-21", "15:45", "1")]["film"], "L'ESSERE AMATO (EL SER QUERIDO)")
+        self.assertTrue(all(r["venue"] == "greenwich" for r in rows))
+
+    def test_classico_refuso_nella_data(self):
+        xml = (self.FIX / "classico_bbox.xml").read_text(encoding="utf-8")
+        rows = scrape.parse_grantorino_pdf(xml, "2026-11-18", "classico")
+        self.assertEqual(len(rows), 21)
+        self.assertIn("2026-11-16", {r["date"] for r in rows})   # nel PDF c'e' scritto "16/101"
+        self.assertEqual(sorted((r["time"], r["tag"]) for r in rows if r["date"] == "2026-11-18"),
+                         [("15:45", ""), ("18:15", "VO"), ("20:45", "VO")])
+        self.assertTrue(all(r["room"] == "" if "room" in r else True for r in rows))
+
+    def test_home_con_link_ai_pdf(self):
+        home = ('<a href="https://x.it/wp-content/PROGRAMMAZIONE-CINEMA-CLASSICO-DAL-12-AL-18.pdf">Programmazione Classico</a>'
+                '<a href="https://x.it/RETTIFICA-GREENWICH-VILLAGE.pdf">Programmazione Greenwich Village</a>'
+                '<a href="https://x.it/altro.pdf">Tariffe</a>')
+        fx = {"CLASSICO": "classico_bbox.xml", "GREENWICH": "greenwich_bbox.xml"}
+        old = scrape.PDF_BBOX
+        scrape.PDF_BBOX = lambda url: (self.FIX / fx[next(k for k in fx if k in url)]).read_text(encoding="utf-8")
+        try:
+            rows = scrape.parse_grantorino(home, "2026-11-18")
+        finally:
+            scrape.PDF_BBOX = old
+        self.assertEqual({r["venue"] for r in rows}, {"classico", "greenwich"})
+        self.assertEqual(len(rows), 105)
+
+    def test_un_pdf_rotto_non_blocca_l_altro(self):
+        home = ('<a href="https://x.it/CLASSICO.pdf">Classico</a><a href="https://x.it/GREENWICH.pdf">Greenwich</a>')
+        def fake(url):
+            if "CLASSICO" in url:
+                raise RuntimeError("giu'")
+            return (self.FIX / "greenwich_bbox.xml").read_text(encoding="utf-8")
+        old = scrape.PDF_BBOX; scrape.PDF_BBOX = fake
+        try:
+            rows = scrape.parse_grantorino(home, "2026-11-18")
+        finally:
+            scrape.PDF_BBOX = old
+        self.assertEqual({r["venue"] for r in rows}, {"greenwich"})
+
 if __name__ == "__main__":
     unittest.main()
