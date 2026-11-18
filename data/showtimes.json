@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:25:00+01:00",
+ "generated_at": "2026-11-18T21:22:00+01:00",
  "today": "2026-11-18",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:09+01:00"
+    "fetched_at": "2026-11-18T21:21:10+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 111,
+    "n": 102,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:13+01:00"
+    "fetched_at": "2026-11-18T21:21:13+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 154,
+    "n": 150,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:16+01:00"
+    "fetched_at": "2026-11-18T21:21:16+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:19+01:00"
+    "fetched_at": "2026-11-18T21:21:19+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:23+01:00"
+    "fetched_at": "2026-11-18T21:21:22+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 69,
+    "n": 66,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:26+01:00"
+    "fetched_at": "2026-11-18T21:21:25+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 76,
+    "n": 72,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:27+01:00"
+    "fetched_at": "2026-11-18T21:21:26+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 40,
+    "n": 37,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:29+01:00"
+    "fetched_at": "2026-11-18T21:21:28+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 8,
+    "n": 95,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:30+01:00"
+    "fetched_at": "2026-11-18T21:21:29+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:34+01:00"
+    "fetched_at": "2026-11-18T21:21:33+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:37+01:00"
+    "fetched_at": "2026-11-18T21:21:36+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:39+01:00"
+    "fetched_at": "2026-11-18T21:21:38+01:00"
    }
   },
   {
@@ -190,11 +190,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 3,
-    "source": "Movieplayer",
+    "n": 21,
+    "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:43+01:00"
+    "fetched_at": "2026-11-18T21:21:45+01:00"
    }
   },
   {
@@ -205,11 +205,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 11,
-    "source": "Movieplayer",
+    "n": 84,
+    "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:47+01:00"
+    "fetched_at": "2026-11-18T21:21:48+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 47,
+    "n": 44,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:49+01:00"
+    "fetched_at": "2026-11-18T21:21:50+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:52+01:00"
+    "fetched_at": "2026-11-18T21:21:53+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:24:56+01:00"
+    "fetched_at": "2026-11-18T21:21:56+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T18:25:00+01:00"
+    "fetched_at": "2026-11-18T21:22:00+01:00"
    }
   }
  ],
@@ -319,28 +319,6 @@
   },
   {
    "cinema": "duegiardini",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "20:30",
-   "tag": "Ombrerosse",
-   "rer": true
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-18",
-   "time": "18:00",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "18:50",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "duegiardini",
    "film": "WILD HORSE NINE",
    "date": "2026-11-18",
    "time": "21:15",
@@ -350,21 +328,7 @@
    "cinema": "eliseo",
    "film": "DIO RIDE",
    "date": "2026-11-18",
-   "time": "18:30",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
    "time": "21:15",
-   "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "18:15",
    "tag": "Blu"
   },
   {
@@ -373,13 +337,6 @@
    "date": "2026-11-18",
    "time": "20:45",
    "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "18:45",
-   "tag": "Grande"
   },
   {
    "cinema": "eliseo",
@@ -400,83 +357,6 @@
    "film": "Persepolis",
    "date": "2026-11-18",
    "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Hope",
-   "date": "2026-11-18",
-   "time": "20:45",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Judy",
-   "date": "2026-11-18",
-   "time": "18:30",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Minotaur",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Minotaur",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Minotaur",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "Primetime",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": "VO"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-18",
-   "time": "15:45",
    "tag": ""
   },
   {
@@ -747,32 +627,10 @@
   },
   {
    "cinema": "marx",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "20:30",
-   "tag": "Harpo",
-   "rer": true
-  },
-  {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "18:50",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-18",
    "time": "21:00",
    "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "18:30",
-   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -782,82 +640,10 @@
    "tag": "Groucho"
   },
   {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "massaua",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": "CULT",
-   "rer": true
-  },
-  {
-   "cinema": "massaua",
-   "film": "Come rapinare una banca",
-   "date": "2026-11-18",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "19:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "La storia infinita",
-   "date": "2026-11-18",
-   "time": "19:15",
-   "tag": "CULT",
-   "rer": true
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-18",
    "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "21:05",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "19:30",
    "tag": ""
   },
   {
@@ -886,7 +672,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "15:45",
    "tag": "",
@@ -894,7 +680,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "21:15",
    "tag": "VO",
@@ -926,13 +712,6 @@
   },
   {
    "cinema": "nazionale",
-   "film": "Fatherland",
-   "date": "2026-11-18",
-   "time": "18:50",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-18",
    "time": "20:45",
@@ -940,14 +719,7 @@
   },
   {
    "cinema": "nazionale",
-   "film": "Look Back",
-   "date": "2026-11-18",
-   "time": "18:45",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "21:00",
    "tag": "Sala 2"
@@ -956,22 +728,8 @@
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-18",
-   "time": "18:45",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-18",
    "time": "20:45",
    "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "18:10",
-   "tag": "Sala 1"
   },
   {
    "cinema": "nazionale",
@@ -992,30 +750,8 @@
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-18",
-   "time": "19:50",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
    "time": "22:00",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IN UN BATTITO",
-   "date": "2026-11-18",
-   "time": "20:00",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "La storia infinita",
-   "date": "2026-11-18",
-   "time": "20:00",
-   "tag": "Sala 5",
-   "rer": true
   },
   {
    "cinema": "reposi",
@@ -1023,13 +759,6 @@
    "date": "2026-11-18",
    "time": "22:00",
    "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "19:50",
-   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -1049,29 +778,8 @@
    "cinema": "romano",
    "film": "DIO RIDE",
    "date": "2026-11-18",
-   "time": "18:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
    "time": "21:00",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "18:20",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-18",
-   "time": "20:00",
-   "tag": "Sala 1"
   },
   {
    "cinema": "thespace",
@@ -1117,7 +825,7 @@
   },
   {
    "cinema": "thespace",
-   "film": "Hope",
+   "film": "HOPE",
    "date": "2026-11-18",
    "time": "21:10",
    "tag": ""
@@ -1173,14 +881,14 @@
   },
   {
    "cinema": "thespace",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "16:45",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "18:50",
    "tag": ""
@@ -1383,7 +1091,7 @@
   },
   {
    "cinema": "uci",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-18",
    "time": "19:20",
    "tag": ""
@@ -1646,6 +1354,102 @@
    "date": "2026-11-19",
    "time": "21:00",
    "tag": "Blu"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-19",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "PRIMETIME",
+   "date": "2026-11-19",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -2020,7 +1824,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-19",
    "time": "16:45",
    "tag": "",
@@ -2028,7 +1832,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-19",
    "time": "21:00",
    "tag": "VO",
@@ -2049,6 +1853,97 @@
    "time": "15:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-19",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -2393,6 +2288,102 @@
    "date": "2026-11-20",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-20",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "PRIMETIME",
+   "date": "2026-11-20",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -2758,7 +2749,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-20",
    "time": "16:45",
    "tag": "",
@@ -2766,7 +2757,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-20",
    "time": "21:00",
    "tag": "VO",
@@ -2795,6 +2786,97 @@
    "time": "20:30",
    "tag": "VO",
    "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-20",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-20",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-20",
+   "time": "21:30",
+   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -3154,6 +3236,102 @@
    "date": "2026-11-21",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-21",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "PRIMETIME",
+   "date": "2026-11-21",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -3595,7 +3773,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-21",
    "time": "16:45",
    "tag": "",
@@ -3603,7 +3781,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-21",
    "time": "21:00",
    "tag": "VO",
@@ -3616,6 +3794,97 @@
    "time": "20:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-21",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-21",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-21",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-21",
+   "time": "21:30",
+   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -3997,6 +4266,102 @@
    "date": "2026-11-22",
    "time": "16:00",
    "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-22",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "PRIMETIME",
+   "date": "2026-11-22",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -4415,7 +4780,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-22",
    "time": "16:45",
    "tag": "",
@@ -4423,7 +4788,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-22",
    "time": "21:00",
    "tag": "VO",
@@ -4460,6 +4825,97 @@
    "time": "16:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-22",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-22",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-22",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "20:45",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-22",
+   "time": "21:30",
+   "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
@@ -4772,6 +5228,102 @@
    "tag": "Blu"
   },
   {
+   "cinema": "greenwich",
+   "film": "DIGGER",
+   "date": "2026-11-23",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "HOPE",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-23",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
    "cinema": "ideal",
    "film": "DIO RIDE",
    "date": "2026-11-23",
@@ -5003,7 +5555,7 @@
   },
   {
    "cinema": "massimo",
-   "film": "Look Back",
+   "film": "LOOK BACK",
    "date": "2026-11-23",
    "time": "16:45",
    "tag": "",
@@ -5032,6 +5584,97 @@
    "time": "20:00",
    "tag": "",
    "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-23",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-23",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-23",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-23",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-23",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-23",
+   "time": "20:45",
+   "tag": "Sala 2"
   },
   {
    "cinema": "reposi",
@@ -5301,6 +5944,102 @@
    "tag": "Blu"
   },
   {
+   "cinema": "greenwich",
+   "film": "DIGGER",
+   "date": "2026-11-24",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "HOPE",
+   "date": "2026-11-24",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-24",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-24",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-24",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
    "cinema": "ideal",
    "film": "DIO RIDE",
    "date": "2026-11-24",
@@ -5541,6 +6280,97 @@
    "time": "19:15",
    "tag": "Anime",
    "rer": true
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-24",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-24",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-24",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-24",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-24",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-24",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-24",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-24",
+   "time": "20:45",
+   "tag": "Sala 2"
   },
   {
    "cinema": "reposi",
@@ -5809,6 +6639,102 @@
    "tag": "Blu"
   },
   {
+   "cinema": "greenwich",
+   "film": "DIGGER",
+   "date": "2026-11-25",
+   "time": "18:00",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "18:15",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "HOPE",
+   "date": "2026-11-25",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-25",
+   "time": "15:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-25",
+   "time": "21:15",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "MINOTAURO",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-25",
@@ -5878,6 +6804,97 @@
    "time": "19:15",
    "tag": "Anime",
    "rer": true
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "18:15",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-25",
+   "time": "17:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-25",
+   "time": "19:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-25",
+   "time": "21:30",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-25",
+   "time": "16:00",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
+   "date": "2026-11-25",
+   "time": "18:45",
+   "tag": "Sala 4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-25",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-25",
+   "time": "21:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "16:00",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "tag": "Sala 2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-25",
+   "time": "20:45",
+   "tag": "Sala 2"
   },
   {
    "cinema": "reposi",

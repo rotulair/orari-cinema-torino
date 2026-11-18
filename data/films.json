@@ -2167,5 +2167,35 @@
   "t": true,
   "v": 5,
   "checked": "2026-11-18"
+ },
+ "minotauro": {
+  "title": "MINOTAURO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "digger": {
+  "title": "DIGGER",
+  "url": "https://it.wikipedia.org/wiki/Digger_(film_2026)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/88/Digger_%28film_2026%29.jpg/250px-Digger_%28film_2026%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Alejandro González Iñárritu",
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
+ },
+ "mustang": {
+  "title": "MUSTANG",
+  "url": "https://it.wikipedia.org/wiki/Mustang_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/Mustang_%28film%29.png/250px-Mustang_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Deniz Gamze Ergüven",
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  }
 }
