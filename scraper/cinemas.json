@@ -165,6 +165,12 @@
   "address": "Piazza Vittorio Veneto 5",
   "sources": [
    {
+    "type": "grantorino",
+    "label": "Sito ufficiale (PDF)",
+    "url": "https://www.circuitograntorino.com/",
+    "venue": "classico"
+   },
+   {
     "type": "movieplayer",
     "label": "Movieplayer",
     "url": "https://movieplayer.it/cinema/empire_1444/"
@@ -177,6 +183,12 @@
   "name": "Greenwich Village",
   "address": "Via Po 30",
   "sources": [
+   {
+    "type": "grantorino",
+    "label": "Sito ufficiale (PDF)",
+    "url": "https://www.circuitograntorino.com/",
+    "venue": "greenwich"
+   },
    {
     "type": "movieplayer",
     "label": "Movieplayer",
