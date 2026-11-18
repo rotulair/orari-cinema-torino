@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T10:16:54+01:00",
+ "generated_at": "2026-11-18T14:40:10+01:00",
  "today": "2026-11-18",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:11+01:00"
+    "fetched_at": "2026-11-18T14:39:26+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:13+01:00"
+    "fetched_at": "2026-11-18T14:39:29+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:16+01:00"
+    "fetched_at": "2026-11-18T14:39:32+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:19+01:00"
+    "fetched_at": "2026-11-18T14:39:34+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:21+01:00"
+    "fetched_at": "2026-11-18T14:39:36+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:24+01:00"
+    "fetched_at": "2026-11-18T14:39:39+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:25+01:00"
+    "fetched_at": "2026-11-18T14:39:41+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 9,
+    "n": 13,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:27+01:00"
+    "fetched_at": "2026-11-18T14:39:42+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:28+01:00"
+    "fetched_at": "2026-11-18T14:39:44+01:00"
    }
   },
   {
@@ -145,11 +145,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 61,
+    "n": 49,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:32+01:00"
+    "fetched_at": "2026-11-18T14:39:47+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:36+01:00"
+    "fetched_at": "2026-11-18T14:39:52+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:38+01:00"
+    "fetched_at": "2026-11-18T14:39:54+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:41+01:00"
+    "fetched_at": "2026-11-18T14:39:57+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:44+01:00"
+    "fetched_at": "2026-11-18T14:39:59+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:45+01:00"
+    "fetched_at": "2026-11-18T14:40:00+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:48+01:00"
+    "fetched_at": "2026-11-18T14:40:03+01:00"
    }
   },
   {
@@ -250,11 +250,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 0,
-    "source": null,
+    "n": 24,
+    "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:50+01:00"
+    "fetched_at": "2026-11-18T14:40:07+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T10:16:54+01:00"
+    "fetched_at": "2026-11-18T14:40:10+01:00"
    }
   }
  ],
@@ -280,6 +280,14 @@
    "date": "2026-11-18",
    "time": "21:00",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "LA VALLÉE DES FOUS",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Xavier Beauvois"
   },
   {
    "cinema": "centrale",
@@ -1172,14 +1180,14 @@
   },
   {
    "cinema": "reposi",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-18",
    "time": "17:40",
    "tag": "Sala 2"
   },
   {
    "cinema": "reposi",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-18",
    "time": "22:00",
    "tag": "Sala 2"
@@ -2393,6 +2401,21 @@
    "tag": "Sala 1"
   },
   {
+   "cinema": "romano",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "baretti",
+   "film": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
+   "date": "2026-11-20",
+   "time": "10:30",
+   "tag": "",
+   "regia": "Mélisa Godet"
+  },
+  {
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-20",
@@ -2506,7 +2529,7 @@
   },
   {
    "cinema": "esedra",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-20",
    "time": "21:15",
    "tag": ""
@@ -3047,6 +3070,29 @@
    "tag": "Sala 1"
   },
   {
+   "cinema": "romano",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
+   "cinema": "baretti",
+   "film": "CLEO",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Erik Schmitt"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-21",
@@ -3167,7 +3213,7 @@
   },
   {
    "cinema": "esedra",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-21",
    "time": "21:15",
    "tag": ""
@@ -3775,6 +3821,13 @@
    "tag": "Sala 2"
   },
   {
+   "cinema": "romano",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
    "cinema": "agnelli",
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-22",
@@ -3787,6 +3840,30 @@
    "date": "2026-11-22",
    "time": "21:00",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "PECORE SOTTO COPERTURA",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "",
+   "regia": "Kyle Balda"
   },
   {
    "cinema": "duegiardini",
@@ -4504,6 +4581,13 @@
    "tag": "Sala 1"
   },
   {
+   "cinema": "romano",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-22",
+   "time": "21:00",
+   "tag": "Sala 1"
+  },
+  {
    "cinema": "agnelli",
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-23",
@@ -4516,6 +4600,22 @@
    "date": "2026-11-23",
    "time": "19:00",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "STRONGHER",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Massimo Ivan Falsetta"
   },
   {
    "cinema": "eliseo",
@@ -4855,6 +4955,14 @@
    "date": "2026-11-24",
    "time": "19:00",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’HANGAR ROSSO",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Juan Pablo Sallato"
   },
   {
    "cinema": "duegiardini",
@@ -5225,6 +5333,13 @@
    "tag": ""
   },
   {
+   "cinema": "baretti",
+   "film": "IN QUOTA CAMBIA TUTTO",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-25",
@@ -5415,6 +5530,69 @@
    "tag": "Eventi Musicali"
   },
   {
+   "cinema": "baretti",
+   "film": "SOSPESI",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Luca Quaia e Francesco Sgrò"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’HANGAR ROSSO",
+   "date": "2026-11-28",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Juan Pablo Sallato"
+  },
+  {
+   "cinema": "baretti",
+   "film": "BORN TO DIE IN BERLIN",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Maurizio Spagliardi"
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-05",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "CIAU CINE",
+   "date": "2026-12-13",
+   "time": "11:00",
+   "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "DOMANI, Il viaggio di Maysoon Majidi",
+   "date": "2026-12-14",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Vincenzo Caricari e Barbara Di Fabio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-15",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
+  },
+  {
    "cinema": "duegiardini",
    "film": "DUNE – PARTE TRE",
    "date": "2026-12-15",
@@ -5443,6 +5621,14 @@
    "date": "2026-12-15",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "LE COURS DE LA VIE",
+   "date": "2026-12-16",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Frédéric Sojcher"
   },
   {
    "cinema": "ideal",
@@ -5743,6 +5929,14 @@
    "tag": "Sala 3"
   },
   {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-19",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
+  },
+  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
@@ -5817,6 +6011,14 @@
    "date": "2026-12-19",
    "time": "21:30",
    "tag": "Sala 3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "UN TOPOLINO SOTTO L’ALBERO",
+   "date": "2026-12-20",
+   "time": "15:30",
+   "tag": "",
+   "regia": "Henrik M. Dahlsbakken"
   },
   {
    "cinema": "ideal",
@@ -5965,6 +6167,13 @@
    "tag": "INFINITY VISION",
    "room": "1",
    "regia": "Anthony Russo, Joe Russo"
+  },
+  {
+   "cinema": "baretti",
+   "film": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
+   "date": "2027-01-21",
+   "time": "21:00",
+   "tag": ""
   }
  ]
 }

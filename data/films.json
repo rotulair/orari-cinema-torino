@@ -2036,5 +2036,38 @@
   "t": true,
   "v": 5,
   "checked": "2026-11-17"
+ },
+ "la ballata del re delle api": {
+  "title": "LA BALLATA DEL RE DELLE API",
+  "url": "https://it.wikipedia.org/wiki/La_ballata_del_re_delle_api",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/84/La_ballata_del_Re_delle_api_Matthew_McConaughey.jpeg/250px-La_ballata_del_Re_delle_api_Matthew_McConaughey.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Andrew Patterson",
+  "tmdb": {
+   "id": 1124142,
+   "url": "https://www.themoviedb.org/movie/1124142?language=it-IT",
+   "poster_path": "/bsUZIWpF5ZvU9oZTBL9pHw1DTP9.jpg",
+   "runtime": 131,
+   "director": "Andrew Patterson",
+   "year": 2026,
+   "overview": "Nel cuore delle zone più remote dell'Oklahoma rurale, il carismatico e talentuoso musicista Amziah King guida una strampalata band di bluegrass e gestisce la principale azienda produttrice di miele della zona. Quando la figlia adottiva, con cui non ha più rapporti da tempo, fa ritorno inaspettatamente, Amziah coglie al volo l'occasione per riallacciare i rapporti e creare un'attività di famiglia. Ma il mercato del miele è spietato e i rivali di Amziah minacciano di distruggere tutto ciò che ha costruito.",
+   "genres": [
+    "Crime",
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Matthew McConaughey",
+    "Kurt Russell",
+    "Angelina LookingGlass",
+    "Cole Sprouse",
+    "Scott Shepherd",
+    "Rob Morgan"
+   ],
+   "original_title": "The Rivals of Amziah King",
+   "release_date": "2026-08-13"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-18"
  }
 }
