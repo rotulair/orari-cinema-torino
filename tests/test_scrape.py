@@ -707,5 +707,31 @@ class RefusiETitoliTest(unittest.TestCase):
         r = next(r for r in rows if r["film"] == "LA GRADIVA")
         self.assertEqual((r["regia"], r["anno"]), ("Marine Atlan", 2026))
 
+
+class GeoTest(unittest.TestCase):
+    def test_parse_e_riquadro(self):
+        import geo
+        self.assertEqual(geo.parse_result('[{"lat":"45.0703","lon":"7.6869"}]'), (45.0703, 7.6869))
+        self.assertIsNone(geo.parse_result('[{"lat":"41.9","lon":"12.5"}]'))   # Roma: scartata
+        self.assertIsNone(geo.parse_result("[]"))
+        self.assertIsNone(geo.parse_result("non json"))
+
+    def test_ensure_cerca_solo_i_mancanti_e_rispetta_manual(self):
+        import geo
+        calls = []
+
+        def f(url):
+            calls.append(url)
+            return '[{"lat":"45.07","lon":"7.69"}]'
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "c.json"
+            p.write_text(json.dumps({"b": {"lat": 45.0, "lon": 7.6, "manual": True}}))
+            out = geo.ensure([{"id": "a", "name": "A", "address": "Via X 1"}, {"id": "b", "name": "B", "address": "Via Y 2"}], p, f, sleep=0)
+            self.assertEqual(len(calls), 1)
+            self.assertEqual(out["b"]["lat"], 45.0)
+            self.assertEqual(out["a"]["lat"], 45.07)
+            geo.ensure([{"id": "a", "name": "A", "address": "Via X 1"}], p, f, sleep=0)
+            self.assertEqual(len(calls), 1)          # gia' in cache
+
 if __name__ == "__main__":
     unittest.main()
