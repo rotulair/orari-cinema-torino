@@ -6,6 +6,7 @@
   "director": "Francesco Piras, al suo debutto come regista",
   "tmdb": {
    "id": 1639616,
+   "title": "Zustìssia",
    "url": "https://www.themoviedb.org/movie/1639616?language=it-IT",
    "poster_path": "/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
    "runtime": 111,
@@ -27,8 +28,13 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "la gradiva": {
   "title": "La Gradiva",
@@ -37,6 +43,7 @@
   "director": "Marine Atlan, al suo debutto alla regia di un lungometraggio",
   "tmdb": {
    "id": 1154730,
+   "title": "La Gradiva",
    "url": "https://www.themoviedb.org/movie/1154730?language=it-IT",
    "poster_path": "/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
    "runtime": 145,
@@ -58,8 +65,13 @@
    "release_date": "2026-10-21"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Marine Atlan",
+   "anno": 2026
+  },
+  "checked": "2026-11-19"
  },
  "la nostra isola e il mondo intero": {
   "title": "LA NOSTRA ISOLA È IL MONDO INTERO",
@@ -68,8 +80,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": "Claudio Di Mambro, Luca Mandrile, Umberto Migliaccio",
+   "anno": 2026
+  },
+  "checked": "2026-11-19"
  },
  "wild horse nine": {
   "title": "WILD HORSE NINE",
@@ -78,6 +95,7 @@
   "director": "Martin McDonagh",
   "tmdb": {
    "id": 891621,
+   "title": "Wild Horse Nine",
    "url": "https://www.themoviedb.org/movie/891621?language=it-IT",
    "poster_path": "/og5qagWp4ZqVl28nbBwiBHZprJM.jpg",
    "runtime": 117,
@@ -101,8 +119,13 @@
    "release_date": "2026-10-30"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Martin McDonagh",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "ragione e sentimento": {
   "title": "RAGIONE E SENTIMENTO",
@@ -111,6 +134,7 @@
   "director": "Georgia Oakley, al suo secondo lungometraggio",
   "tmdb": {
    "id": 1503762,
+   "title": "Ragione e sentimento",
    "url": "https://www.themoviedb.org/movie/1503762?language=it-IT",
    "poster_path": "/bwZCHb0qCFP2QT3QylGixpsNo8D.jpg",
    "runtime": 132,
@@ -133,8 +157,13 @@
    "release_date": "2026-09-23"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 4584 (1995): anno 1995 != 2026",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "dio ride": {
   "title": "DIO RIDE",
@@ -143,6 +172,7 @@
   "director": "Giovanni Veronesi",
   "tmdb": {
    "id": 1506710,
+   "title": "Dio ride",
    "url": "https://www.themoviedb.org/movie/1506710?language=it-IT",
    "poster_path": "/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
    "runtime": 114,
@@ -165,8 +195,13 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Giovanni Veronesi",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "l essere amato": {
   "title": "L'ESSERE AMATO (EL SER QUERIDO)",
@@ -175,6 +210,7 @@
   "director": "Rodrigo Sorogoyen",
   "tmdb": {
    "id": 1074074,
+   "title": "L'essere amato",
    "url": "https://www.themoviedb.org/movie/1074074?language=it-IT",
    "poster_path": "/aV3dZ2xlUoGHT0N6a47ZZOACZmv.jpg",
    "runtime": 136,
@@ -196,83 +232,28 @@
    "release_date": "2026-05-16"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "persepolis": {
-  "title": "Persepolis",
-  "url": "https://it.wikipedia.org/wiki/Persepolis_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0c/Persepolis-film.jpg/250px-Persepolis-film.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Marjane Satrapi e Vincent Paronnaud",
-  "tmdb": {
-   "id": 2011,
-   "url": "https://www.themoviedb.org/movie/2011?language=it-IT",
-   "poster_path": "/dUvdyb2rkChGjDJELiuMXpChsqg.jpg",
-   "runtime": 95,
-   "director": "Vincent Paronnaud, Marjane Satrapi",
-   "year": 2007,
-   "overview": "La storia di Marjane, una ragazza precoce e ribelle che, cresciuta portando scarpe da ginnastica e giocando alla lotta con i maschietti, si trova costretta ad affrontare, dall'infanzia all'età adulta,  drastici cambiamenti delle proprie abitudini di vita imposti prima dalla monarchia dello Scià e poi dal regime degli ayatollah, fino alla sua partenza per l'Europa.",
-   "genres": [
-    "Animazione",
-    "Dramma"
-   ],
-   "cast": [
-    "Chiara Mastroianni",
-    "Danielle Darrieux",
-    "Catherine Deneuve",
-    "Simon Abkarian",
-    "Gabrielle Lopes Benites",
-    "François Jerosme"
-   ],
-   "original_title": "Persepolis",
-   "release_date": "2007-06-27"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "hope": {
-  "title": "Hope",
+  "title": "HOPE",
   "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Na Hong-jin",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "minotaur": {
-  "title": "Minotaur",
-  "url": "https://it.wikipedia.org/wiki/Minotaur_(film)",
-  "poster": null,
-  "director": "Jonathan English",
-  "tmdb": {
-   "id": 18870,
-   "url": "https://www.themoviedb.org/movie/18870?language=it-IT",
-   "poster_path": "/nwSYtZNc42WaqOzkMpSuZ4NElJr.jpg",
-   "runtime": 93,
-   "director": "Jonathan English",
-   "year": 2006,
-   "overview": "Nella notte dei tempi, il leggendario Minotauro, nato dall’incrocio tra una regina e un toro (ognuno ha i suoi gusti), esige periodici sacrifici umani. Nel piccolo villaggio che deve sacrificare i suoi giovani al mostro, Theo (Tom Hardy), figlio del capo Cyrnan (Rutger Hauer), è turbato e non ci sta. Una vecchia gli dice che i sacrificati, compresa la sua fidanzata, non sono morti, ma vivono in realtà nel labirinto assieme al Minotauro. Theo decide quindi di compiere l’impresa di uccidere il Minotauro e salvare i prigionieri. Quando arrivano i guerrieri per prelevare le vittime sacrificali, Cyrnan si oppone, ma quelli scatenano un massacro e si prendono ugualmente i giovani. Theo si imbarca ",
-   "genres": [
-    "Horror",
-    "Avventura",
-    "Fantasy"
-   ],
-   "cast": [
-    "Tom Hardy",
-    "Michelle Van Der Water",
-    "Tony Todd",
-    "Lex Shrapnel",
-    "Jonathan Readwin",
-    "Rutger Hauer"
-   ],
-   "original_title": "Minotaur",
-   "release_date": "2006-03-11"
+  "v": 6,
+  "why": "TMDB scartato id 1058424 (2026): regista 나홍진 != 'Na Hong-jin'; TMDB scartato id 339849 (2025): titolo diverso (somiglianza 0.40: 'Non senza speranza' / 'Not Without Hope'); TMDB scartato id 1153470 (2023): titolo diverso (somiglianza 0.62: 'The Last Hope' / 'W nich cała nadzieja'); TMDB scartato id 793442 (2021): titolo diverso (somiglianza 0.33: 'I consigli di Zia Hope' / 'The Clue to Love'); TMDB scartato id 1548749 (2026): titolo diverso (somiglianza 0.57: 'Still Hope' / 'Still Hope')",
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  "primetime": {
   "title": "Primetime",
@@ -314,6 +295,7 @@
   "director": "Takashi Yamazaki",
   "tmdb": {
    "id": 1381071,
+   "title": "Godzilla Minus Zero",
    "url": "https://www.themoviedb.org/movie/1381071?language=it-IT",
    "poster_path": "/qRq5Oa4hsfjVqTtEgBKi1efTQuv.jpg",
    "runtime": 135,
@@ -337,8 +319,13 @@
    "release_date": "2026-11-03"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 940721 (2023): anno 2023 != 2026",
+  "ref": {
+   "regia": "Takashi Yamazaki",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "il rumore delle cose nuove": {
   "title": "IL RUMORE DELLE COSE NUOVE",
@@ -347,6 +334,7 @@
   "director": "Paolo Genovese",
   "tmdb": {
    "id": 1544126,
+   "title": "Il rumore delle cose nuove",
    "url": "https://www.themoviedb.org/movie/1544126?language=it-IT",
    "poster_path": "/2Wq59OquoiAmgs1A86FfJcnzxfs.jpg",
    "runtime": 113,
@@ -368,8 +356,13 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Paolo Genovese",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "scrooge e gli spiriti del natale": {
   "title": "SCROOGE E GLI SPIRITI DEL NATALE",
@@ -378,6 +371,7 @@
   "director": "Ti West",
   "tmdb": {
    "id": 1567605,
+   "title": "Scrooge e gli spiriti del Natale",
    "url": "https://www.themoviedb.org/movie/1567605?language=it-IT",
    "poster_path": "/drg45KOBksTrv9qQA0EmNuFgHG9.jpg",
    "runtime": 115,
@@ -386,8 +380,7 @@
    "overview": null,
    "genres": [
     "Fantasy",
-    "Commedia",
-    "Horror"
+    "Commedia"
    ],
    "cast": [
     "Johnny Depp",
@@ -401,8 +394,13 @@
    "release_date": "2026-11-11"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Ti West",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "se domani non torno": {
   "title": "SE DOMANI NON TORNO",
@@ -411,6 +409,7 @@
   "director": "Paola Randi",
   "tmdb": {
    "id": 1583853,
+   "title": "Se domani non torno",
    "url": "https://www.themoviedb.org/movie/1583853?language=it-IT",
    "poster_path": "/yfnAxbirYCIm1qP9ZT9LjYIj6DQ.jpg",
    "runtime": 106,
@@ -432,8 +431,13 @@
    "release_date": "2026-11-05"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Paola Randi",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "un tranquillo funerale di famiglia": {
   "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
@@ -442,6 +446,7 @@
   "director": "Massimiliano Bruno",
   "tmdb": {
    "id": 1678120,
+   "title": "Un tranquillo funerale di famiglia",
    "url": "https://www.themoviedb.org/movie/1678120?language=it-IT",
    "poster_path": "/iXtZ4Y28GTw1BJFHgcmHrICoyL1.jpg",
    "runtime": 98,
@@ -463,41 +468,13 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "la storia infinita": {
-  "title": "La storia infinita",
-  "url": "https://it.wikipedia.org/wiki/La_storia_infinita_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/La_st%D0%BEria_infinita_%28film%29.png/250px-La_st%D0%BEria_infinita_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Wolfgang Petersen",
-  "tmdb": {
-   "id": 34584,
-   "url": "https://www.themoviedb.org/movie/34584?language=it-IT",
-   "poster_path": "/m5plr6ylu6sXPPRQ5hlQC8JkYWx.jpg",
-   "runtime": 102,
-   "director": "Wolfgang Petersen",
-   "year": 1984,
-   "overview": "Il piccolo Bastian che ha da poco perso la mamma, si rifugia nella soffitta della scuola a leggere un vecchio libro che si rivela magico; così Bastian “entra” nella storia e combatte contro il Nulla per difendere il mondo di Fantasia con l'aiuto di un drago volante e di un fanciullo guerriero. Suggestiva superproduzione tedesca, girata però in inglese, che all'epoca ottenne un grande successo grazie alla fiabesca vicenda del romanzo di Michael Ende (debitamente semplificata) e alla colonna sonora di Giorgio Moroder. Appassionante e non stucchevole.",
-   "genres": [
-    "Avventura",
-    "Fantasy",
-    "Famiglia"
-   ],
-   "cast": [
-    "Noah Hathaway",
-    "Barret Oliver",
-    "Tami Stronach",
-    "Alan Oppenheimer",
-    "Sydney Bromley",
-    "Patricia Hayes"
-   ],
-   "original_title": "Die unendliche Geschichte",
-   "release_date": "1984-04-06"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "dolce e la vita": {
   "title": "Dolce è la vita",
@@ -506,8 +483,13 @@
   "director": "Federico Fellini",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 36843 (1991): anno 1991 != 1960; TMDB scartato id 71133 (1961): titolo diverso (somiglianza 0.47: 'Totò, Peppino e la dolce vita' / 'Totò, Peppino e la dolce vita')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "fatherland": {
   "title": "Fatherland",
@@ -516,6 +498,7 @@
   "director": "Paweł Pawlikowski",
   "tmdb": {
    "id": 1437696,
+   "title": "Fatherland",
    "url": "https://www.themoviedb.org/movie/1437696?language=it-IT",
    "poster_path": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
    "runtime": 82,
@@ -538,8 +521,13 @@
    "release_date": "2026-06-19"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 1705136 (2026): titolo diverso (somiglianza 0.48: 'Руини' / 'Руини'); TMDB scartato id 1802918 (2026): regista Tulani Hlalo != 'Paweł Pawlikowski'",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "look back": {
   "title": "Look Back",
@@ -577,63 +565,15 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": {
-   "id": 1728061,
-   "url": "https://www.themoviedb.org/movie/1728061?language=it-IT",
-   "poster_path": "/7GMkQRjS6Ag8Tv2B7eL0M1p8lsU.jpg",
-   "runtime": null,
-   "director": "William Adiguna",
-   "year": 2026,
-   "overview": null,
-   "genres": [
-    "Dramma",
-    "Thriller",
-    "Crime",
-    "Mistero"
-   ],
-   "cast": [
-    "Rio Dewanto",
-    "Aulia Sarah",
-    "Yayu Unru",
-    "Sheryl Sheinafia"
-   ],
-   "original_title": "NAKED",
-   "release_date": "2026-07-07"
-  },
+  "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "panni sporchi": {
-  "title": "Panni sporchi",
-  "url": "https://it.wikipedia.org/wiki/Panni_sporchi_(film_1999)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Panni_sporchi_-_Bonacelli.png/250px-Panni_sporchi_-_Bonacelli.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Mario Monicelli",
-  "tmdb": {
-   "id": 24195,
-   "url": "https://www.themoviedb.org/movie/24195?language=it-IT",
-   "poster_path": "/UzoM2G9OKscKtxvP1p33aN3ASk.jpg",
-   "runtime": 110,
-   "director": "Mario Monicelli",
-   "year": 1999,
-   "overview": "La famiglia Razzi da due generazioni produce la Cialda, una caramella digestiva a base di cicoria. Al comando dell'azienda c'è ora Furio Cimin, il genero del fondatore, che è stato esautorato ma che vorrebbe, attraverso un nipote, riprendere il comando della ditta. Litigi, intrighi, investimenti avventati tra i figli e i parenti del capostipite, stanno portando la ditta sull'orlo del fallimento.",
-   "genres": [
-    "Commedia"
-   ],
-   "cast": [
-    "Paolo Bonacelli",
-    "Marina Confalone",
-    "Alessandro Haber",
-    "Benedetta Mazzini",
-    "Mariangela Melato",
-    "Gianni Morandi"
-   ],
-   "original_title": "Panni sporchi",
-   "release_date": "1999-01-29"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1035259 (2025): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun'); TMDB scartato id 37136 (1988): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun: From the Files of Police Squad!'); TMDB scartato id 36593 (1994): titolo diverso (somiglianza 0.62: 'Una pallottola spuntata 33⅓ - L'insulto finale' / 'Naked Gun 33⅓: The Final Insult'); TMDB scartato id 8275 (2006): titolo diverso (somiglianza 0.31: 'American Pie presenta: Nudi alla meta' / 'American Pie Presents: The Naked Mile'); TMDB scartato id 21450 (1993): nessun riscontro e uscita 1993 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "minotaur nel labirinto del potere": {
   "title": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
@@ -642,6 +582,7 @@
   "director": "Andrej Petrovič Zvjagincev",
   "tmdb": {
    "id": 848700,
+   "title": "Minotaur - Nel labirinto del potere",
    "url": "https://www.themoviedb.org/movie/848700?language=it-IT",
    "poster_path": "/gMPqcNmJaEmIArwxzvnuPI7H1Ob.jpg",
    "runtime": 142,
@@ -665,34 +606,13 @@
    "release_date": "2026-10-14"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "in un battito": {
-  "title": "IN UN BATTITO",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": {
-   "id": 1795686,
-   "url": "https://www.themoviedb.org/movie/1795686?language=it-IT",
-   "poster_path": "/cuYB8P1i9iySjMop9HJaGlMywE6.jpg",
-   "runtime": 102,
-   "director": "Giovanni Troilo",
-   "year": 2026,
-   "overview": "Il film racconta i mesi successivi al 1° dicembre 2024, quando, durante Fiorentina-Inter, Edoardo Bove si accascia improvvisamente sul terreno di gioco. Un episodio che interrompe il percorso che sembrava già tracciato per una delle promesse più brillanti del calcio italiano e apre una fase completamente nuova della sua vita. Da quel momento Edoardo si confronta con un futuro diventato improvvisamente incerto: tornerà a giocare? Potrà ancora farlo in Italia? E chi è Edoardo al di fuori del calcio?",
-   "genres": [
-    "Documentario"
-   ],
-   "cast": [
-    "Edoardo Bove"
-   ],
-   "original_title": "In un battito",
-   "release_date": "2026-11-16"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "l estranea": {
   "title": "L’ESTRANEA",
@@ -701,6 +621,7 @@
   "director": "Paolo Strippoli",
   "tmdb": {
    "id": 1412795,
+   "title": "L'estranea",
    "url": "https://www.themoviedb.org/movie/1412795?language=it-IT",
    "poster_path": "/6GisyPsQBvnpgMKXqtPuwJqpZzl.jpg",
    "runtime": 115,
@@ -709,7 +630,6 @@
    "overview": "La trama ruota attorno a una donna che si presenta all’improvviso a casa di sua figlia per raccontarle la verità sulla loro famiglia, segnata da un patto stretto molti anni prima con un’estranea. Un segreto custodito troppo a lungo, che ora torna a reclamare il suo prezzo.",
    "genres": [
     "Dramma",
-    "Horror",
     "Thriller"
    ],
    "cast": [
@@ -724,73 +644,13 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "street fighter": {
-  "title": "Street Fighter",
-  "url": "https://it.wikipedia.org/wiki/Street_Fighter_(film_2026)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Street_Fighter_2026_film_logo.svg/250px-Street_Fighter_2026_film_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Kitao Sakurai",
-  "tmdb": {
-   "id": 1153576,
-   "url": "https://www.themoviedb.org/movie/1153576?language=it-IT",
-   "poster_path": "/uKMRx1OQfzwTKtn8Wm4uIizxBzG.jpg",
-   "runtime": 120,
-   "director": "Kitao Sakurai",
-   "year": 2026,
-   "overview": "1993. Un’epoca di sale giochi, monete consumate e leggende nate a colpi di joystick. Ryu (Andrew Koji) e Ken Masters (Noah Centineo), Street Fighters un tempo inseparabili, oggi sono lontani, divisi da scelte e ferite mai rimarginate. Il destino li richiama sul ring quando la misteriosa Chun-Li (Callina Liang) li arruola per il nuovo World Warrior Tournament: un torneo spietato dove i pugni decidono il futuro e la furia riscrive il destino. Ma dietro lo spettacolo della battle royale si muove un’ombra. Una cospirazione letale che costringerà Ryu e Ken non solo a combattere tra loro, ma a guardare in faccia i demoni del passato. Perché qui non esistono seconde possibilità: se perdi, è GAME OV",
-   "genres": [
-    "Azione",
-    "Fantasy"
-   ],
-   "cast": [
-    "Andrew Koji",
-    "Noah Centineo",
-    "Callina Liang",
-    "David Dastmalchian",
-    "Andrew Schulz",
-    "Cody Rhodes"
-   ],
-   "original_title": "Street Fighter",
-   "release_date": "2026-10-13"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Paolo Strippoli",
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "judy": {
-  "title": "Judy",
-  "url": "https://it.wikipedia.org/wiki/Judy_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Judy_film_2019.jpg/250px-Judy_film_2019.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Rupert Goold",
-  "tmdb": {
-   "id": 491283,
-   "url": "https://www.themoviedb.org/movie/491283?language=it-IT",
-   "poster_path": "/hPrEVrwl1LBV5davh0JkFtmZiSF.jpg",
-   "runtime": 118,
-   "director": "Rupert Goold",
-   "year": 2019,
-   "overview": "Judy Garland, leggendaria artista, nel 1968 arriva a Londra per tenere una serie di concerti. Per lei si tratta di un periodo non felice: la sua situazione finanziaria non è delle migliori e la sua vita privata è un completo disastro.",
-   "genres": [
-    "Dramma",
-    "Storia",
-    "Musica"
-   ],
-   "cast": [
-    "Renée Zellweger",
-    "Jessie Buckley",
-    "Finn Wittrock",
-    "Rufus Sewell",
-    "Michael Gambon",
-    "Richard Cordery"
-   ],
-   "original_title": "Judy",
-   "release_date": "2019-09-27"
-  },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "un weekend artificiale": {
   "title": "UN WEEKEND ARTIFICIALE",
@@ -799,6 +659,7 @@
   "director": "Leonardo Pieraccioni",
   "tmdb": {
    "id": 1723882,
+   "title": "Un weekend artificiale",
    "url": "https://www.themoviedb.org/movie/1723882?language=it-IT",
    "poster_path": "/x8fbJstLDEYYlJSCDj3v0MD9Lqd.jpg",
    "runtime": 100,
@@ -821,41 +682,13 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "2001 odissea nello spazio": {
-  "title": "2001: Odissea nello spazio",
-  "url": "https://it.wikipedia.org/wiki/2001:_Odissea_nello_spazio",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fb/2001_-_Odissea_nello_spazio.jpg/250px-2001_-_Odissea_nello_spazio.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Stanley Kubrick",
-  "tmdb": {
-   "id": 62,
-   "url": "https://www.themoviedb.org/movie/62?language=it-IT",
-   "poster_path": "/uvSRVMXGHaCeYAj2pCYNdC31b2u.jpg",
-   "runtime": 141,
-   "director": "Stanley Kubrick",
-   "year": 1968,
-   "overview": "Un gigantesco monolite, individuato sulla superficie lunare, trasmette dei messaggi radio in direzione del pianeta Giove. Per seguire il fascio di onde elettromagnetiche viene organizzata una spedizione che ben presto però si trova in balia del computer che governa l'astronave. La lotta avrà un solo vincitore.",
-   "genres": [
-    "Fantascienza",
-    "Mistero",
-    "Avventura"
-   ],
-   "cast": [
-    "Keir Dullea",
-    "Gary Lockwood",
-    "William Sylvester",
-    "Douglas Rain",
-    "Daniel Richter",
-    "Leonard Rossiter"
-   ],
-   "original_title": "2001: A Space Odyssey",
-   "release_date": "1968-04-02"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Leonardo Pieraccioni",
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  "come rapinare una banca": {
   "title": "Come rapinare una banca",
@@ -864,6 +697,7 @@
   "director": "David Leitch",
   "tmdb": {
    "id": 1437511,
+   "title": "Come rapinare una banca",
    "url": "https://www.themoviedb.org/movie/1437511?language=it-IT",
    "poster_path": "/c0wJ0zBp0pgacpdn3foT9MlFZpW.jpg",
    "runtime": 122,
@@ -887,8 +721,13 @@
    "release_date": "2026-11-10"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "il gatto col cappello": {
   "title": "IL GATTO COL CAPPELLO",
@@ -897,6 +736,7 @@
   "director": "Erica Rivinoja e Alessandro Carloni",
   "tmdb": {
    "id": 1117898,
+   "title": "Il gatto col cappello",
    "url": "https://www.themoviedb.org/movie/1117898?language=it-IT",
    "poster_path": "/reGVZn7oCOXM5oaOTjV4MZhFwqT.jpg",
    "runtime": 91,
@@ -921,50 +761,13 @@
    "release_date": "2026-10-31"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "nel silenzio delle stanze": {
-  "title": "NEL SILENZIO DELLE STANZE",
-  "url": "https://it.wikipedia.org/wiki/Nel_silenzio_delle_stanze",
-  "poster": null,
-  "director": "Jérôme Bonnell",
-  "tmdb": {
-   "id": 1119548,
-   "url": "https://www.themoviedb.org/movie/1119548?language=it-IT",
-   "poster_path": "/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
-   "runtime": 103,
-   "director": "Jérôme Bonnell",
-   "year": 2025,
-   "overview": "Normandia, 1908. Céleste è una giovane domestica che lavora nella grande villa di André, un ricco notaio, e sua moglie Victoire, una donna oppressa dalle convenzioni borghesi che la vogliono moglie modello. Un giorno Victoire scopre che Céleste è incinta e intuisce che il padre è Andre. Per evitare lo scandalo e proteggere la reputazione della coppia, la donna impone al marito una condizione: l’integrità dell’uomo sarà preservata ma un accordo segreto legherà Victoire e Céleste in un’inaspettata alleanza che porterà le due donne a sfidare il rigido ordine sociale del tempo.",
-   "genres": [
-    "Dramma",
-    "Storia"
-   ],
-   "cast": [
-    "Swann Arlaud",
-    "Galatea Bellugi",
-    "Louise Chevillotte",
-    "Emmanuelle Devos",
-    "Aymeline Alix",
-    "Pierre Philippe"
-   ],
-   "original_title": "La Condition",
-   "release_date": "2025-12-10"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Alessandro Carloni, Erica Rivinoja",
+   "anno": 2026
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "dal nulla": {
-  "title": "DAL NULLA",
-  "url": "https://it.wikipedia.org/wiki/Ritorno_dal_nulla",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c3/Thebasketballdiaries.jpg/250px-Thebasketballdiaries.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Scott Kalvert",
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  "ragazze": {
   "title": "Ragazze",
@@ -1005,6 +808,7 @@
   "director": null,
   "tmdb": {
    "id": 11159,
+   "title": "Segreti e bugie",
    "url": "https://www.themoviedb.org/movie/11159?language=it-IT",
    "poster_path": "/72hGVKvq4u8lcEXFwmMW15JfkKb.jpg",
    "runtime": 142,
@@ -1026,49 +830,22 @@
    "release_date": "1996-05-24"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "solaris": {
-  "title": "Solaris",
-  "url": "https://it.wikipedia.org/wiki/Solaris_(film_1972)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Solaris_scena_1.jpg/250px-Solaris_scena_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Andrej Tarkovskij",
-  "tmdb": {
-   "id": 593,
-   "url": "https://www.themoviedb.org/movie/593?language=it-IT",
-   "poster_path": "/35qz0324aNUOfvU9OCWG3zedKqR.jpg",
-   "runtime": 167,
-   "director": "Andrej Tarkovskij",
-   "year": 1972,
-   "overview": "In un futuro imprecisato lo psicologo Kris Kelvin è incaricato di recarsi in una stazione scientifica presso il pianeta Solaris. Prima della partenza per il lunghissimo viaggio, egli trascorre alcuni giorni nella dacia paterna, consapevole che al suo ritorno non rivedrà l'anziano padre e sua zia Anna. Scorcio della città del futuro, percorsa in automobile da Henri Berton; scena girata ad Akasaka, distretto commerciale del quartiere di Tōkyō Minato Nel frattempo riceve la visita indesiderata di Henri Berton, un ex-astronauta amico del padre, che decenni anni prima, in missione su Solaris, avrebbe assistito a strani fenomeni che lo traumatizzarono rovinandogli la carriera.",
-   "genres": [
-    "Dramma",
-    "Fantascienza",
-    "Mistero"
-   ],
-   "cast": [
-    "Наталья Бондарчук",
-    "Donatas Banionis",
-    "Jüri Järvet",
-    "Владислав Дворжецкий",
-    "Микола Гринько",
-    "Анатолий Солоницын"
-   ],
-   "original_title": "Солярис",
-   "release_date": "1972-03-20"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "checked": "2026-11-19"
  },
  "hunger games l alba sulla mietitura": {
-  "title": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+  "title": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
   "url": "https://it.wikipedia.org/wiki/Hunger_Games_-_L%27alba_sulla_mietitura",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3c/Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg/250px-Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Francis Lawrence",
   "tmdb": {
    "id": 1300968,
+   "title": "Hunger Games - L'alba sulla mietitura",
    "url": "https://www.themoviedb.org/movie/1300968?language=it-IT",
    "poster_path": "/uR1lZA2ET3gf7uGVgbRwSeSkEsU.jpg",
    "runtime": 159,
@@ -1092,8 +869,13 @@
    "release_date": "2026-11-18"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Francis Lawrence",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "minnie and moscowitz": {
   "title": "Minnie and Moscowitz",
@@ -1112,8 +894,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 46435 (1999): nessun riscontro e uscita 1999 non recente; TMDB scartato id 160810 (1983): nessun riscontro e uscita 1983 non recente; TMDB scartato id 57723 (1989): titolo diverso (somiglianza 0.61: 'Galimatias, czyli kogel-mogel II' / 'Galimatias, czyli kogel-mogel II'); TMDB scartato id 987409 (1969): titolo diverso (somiglianza 0.73: '喜劇 逆転旅行' / '喜劇 逆転旅行'); TMDB scartato id 702562 (1953): nessun riscontro e uscita 1953 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "scomode verita": {
   "title": "Scomode verità",
@@ -1122,8 +909,13 @@
   "director": "Mike Leigh",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "silent friend": {
   "title": "SILENT FRIEND",
@@ -1163,8 +955,13 @@
   "director": "Makoto Shinkai",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 372058 (2016): regista 新海誠 != 'Makoto Shinkai'; TMDB scartato id 414085 (2016): titolo diverso (somiglianza 0.60: 'Taxi, em tên gì?' / 'Taxi, em tên gì?'); TMDB scartato id 777507 (2016): titolo diverso (somiglianza 0.72: 'What's Your Name?' / 'What's Your Name?')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "unicorni": {
   "title": "Unicorni",
@@ -1173,6 +970,7 @@
   "director": "Michela Andreozzi",
   "tmdb": {
    "id": 1438969,
+   "title": "Unicorni",
    "url": "https://www.themoviedb.org/movie/1438969?language=it-IT",
    "poster_path": "/nBUtKoEWqrtFWD0vyldo1p96a0Y.jpg",
    "runtime": 103,
@@ -1194,8 +992,13 @@
    "release_date": "2025-07-18"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 1153714 (2025): titolo diverso (somiglianza 0.57: 'Death of a Unicorn' / 'Death of a Unicorn'); TMDB scartato id 1078920 (2023): anno 2023 != 2025; TMDB scartato id 1573432 (2025): titolo diverso (somiglianza 0.33: 'Polly Pocket: Tiny Unicorn Adventure' / 'Polly Pocket: Tiny Unicorn Adventure')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "lorenzo l incredibile avventura di jovanotti": {
   "title": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
@@ -1204,6 +1007,7 @@
   "director": "Dario Zonta e Carlo Zoratti, dedicato alla vita e alla carriera di Jovanotti",
   "tmdb": {
    "id": 1726926,
+   "title": "Lorenzo - L’incredibile avventura di Jovanotti",
    "url": "https://www.themoviedb.org/movie/1726926?language=it-IT",
    "poster_path": "/bDaSr4TwA8jvKRuWBgEDCK6lJL.jpg",
    "runtime": 83,
@@ -1221,8 +1025,13 @@
    "release_date": "2026-11-26"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "dune parte tre": {
   "title": "DUNE – PARTE TRE",
@@ -1288,12 +1097,13 @@
   "checked": "2026-11-17"
  },
  "wildwood i segreti del bosco proibito": {
-  "title": "WILDWOOD: I SEGRETI DEL BOSCO PROIBITO",
+  "title": "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
   "url": "https://it.wikipedia.org/wiki/Wildwood_-_I_segreti_del_bosco_proibito",
   "poster": null,
   "director": "Travis Knight",
   "tmdb": {
    "id": 791523,
+   "title": "Wildwood - I segreti del bosco proibito",
    "url": "https://www.themoviedb.org/movie/791523?language=it-IT",
    "poster_path": "/kfczsvfehVNDwzWiPuKAuQclzl7.jpg",
    "runtime": 132,
@@ -1301,9 +1111,10 @@
    "year": 2026,
    "overview": "Wildwood, nei dintorni di Portland, è un posto da cui tenersi lontani e che dovrebbe rimanere nascosto a tutti. Prue McKeel, tuttavia, è costretta a raggiungerlo dopo che il fratellino Mac è stato rapito da uno stormo di corvi e trasportato nei meandri della foresta. Insieme allo sfortunato compagno di classe Curtis, Prue corre a salvare Mac da un pericolo che sembra uscito dalle pagine di una favola.",
    "genres": [
+    "Avventura",
     "Animazione",
-    "Fantasy",
-    "Avventura"
+    "Dramma",
+    "Fantasy"
    ],
    "cast": [
     "Peyton Elizabeth Lee",
@@ -1317,139 +1128,13 @@
    "release_date": "2026-10-19"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "ice cream man": {
-  "title": "Ice Cream Man",
-  "url": "https://it.wikipedia.org/wiki/Ice_Cream_Man_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Ari_Millen_Ice_Cream_Man.jpeg/250px-Ari_Millen_Ice_Cream_Man.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Eli Roth",
-  "tmdb": {
-   "id": 1477712,
-   "url": "https://www.themoviedb.org/movie/1477712?language=it-IT",
-   "poster_path": "/bnZUCOLv2Br3VOxnDMo5qPOncJF.jpg",
-   "runtime": 86,
-   "director": "Eli Roth",
-   "year": 2026,
-   "overview": "Un'idilliaca cittadina di villeggiatura estiva precipita nell’orrore, quando un gelataio offre ai bambini dolci prelibatezze dalle conseguenze terrificanti.",
-   "genres": [
-    "Horror",
-    "Commedia",
-    "Thriller"
-   ],
-   "cast": [
-    "Ari Millen",
-    "Charlie Zeltzer",
-    "Shiloh O’Reilly",
-    "Kiori Mirza Waldman",
-    "Sarah Abbott",
-    "Benjamin Byron Davis"
-   ],
-   "original_title": "Ice Cream Man",
-   "release_date": "2026-08-03"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
   },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "clayface": {
-  "title": "Clayface",
-  "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "James Watkins",
-  "tmdb": {
-   "id": 1400940,
-   "url": "https://www.themoviedb.org/movie/1400940?language=it-IT",
-   "poster_path": "/t6snh7pOxNjqs5rwP28TZmTQ0Ul.jpg",
-   "runtime": 109,
-   "director": "James Watkins",
-   "year": 2026,
-   "overview": "La terrificante discesa di un uomo, da astro nascente di Hollywood a mostro assetato di vendetta, in una storia che esplora la perdita di identità e umanità, l’amore corrosivo e il lato oscuro dell’ambizione scientifica.",
-   "genres": [
-    "Horror",
-    "Thriller",
-    "Fantascienza"
-   ],
-   "cast": [
-    "Tom Rhys Harries",
-    "Naomi Ackie",
-    "Eddie Marsan",
-    "Max Minghella",
-    "David Dencik",
-    "Francesca Corney"
-   ],
-   "original_title": "Clayface",
-   "release_date": "2026-10-19"
-  },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "shaun vita da pecora operazione z u c c a": {
-  "title": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
-  "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": null,
-  "tmdb": {
-   "id": 1477104,
-   "url": "https://www.themoviedb.org/movie/1477104?language=it-IT",
-   "poster_path": "/hIgvOtvwbNCUclH0uBvg2qn6Ye.jpg",
-   "runtime": 88,
-   "director": "Steve Cox, Matthew Walker",
-   "year": 2026,
-   "overview": "Halloween è alle porte. Shaun e tutti gli animali della fattoria si preparano per festeggiarlo al meglio coltivando un magnifico campo di zucche. Ma quando tutto sembrava ormai pronto, il contadino misteriosamente scompare e arriva dal bosco uno spaventoso mostro. Sarà compito di Shaun e i suoi amici salvare la fattoria dalla pelosa creatura e ritrovare l’amato contadino in tempo per la grande festa. Tra esperimenti impazziti e colpi di scena inaspettati, sarà un’avventura a tutta pecora per tutta la famiglia.",
-   "genres": [
-    "Animazione",
-    "Fantascienza",
-    "Commedia",
-    "Famiglia"
-   ],
-   "cast": [
-    "Justin Fletcher",
-    "John Sparkes",
-    "Nina Sosanya",
-    "Kate Harbour",
-    "Rich Webber",
-    "Emma Tate"
-   ],
-   "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
-   "release_date": "2026-09-17"
-  },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
- },
- "la vallee des fous": {
-  "title": "LA VALLÉE DES FOUS",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": {
-   "id": 1130413,
-   "url": "https://www.themoviedb.org/movie/1130413?language=it-IT",
-   "poster_path": "/gyrO98lkqD4G2DwoqOi1YOGWKMk.jpg",
-   "runtime": 121,
-   "director": "Xavier Beauvois",
-   "year": 2024,
-   "overview": null,
-   "genres": [
-    "Dramma"
-   ],
-   "cast": [
-    "Jean-Paul Rouve",
-    "Pierre Richard",
-    "Madeleine Beauvois",
-    "Joseph Olivennes",
-    "Xavier Maly",
-    "Abbes Zahmani"
-   ],
-   "original_title": "La Vallée des fous",
-   "release_date": "2024-11-13"
-  },
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  "la maison des femmes la casa delle donne": {
   "title": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
@@ -1458,6 +1143,7 @@
   "director": null,
   "tmdb": {
    "id": 1318417,
+   "title": "La maison des femmes - La casa delle donne",
    "url": "https://www.themoviedb.org/movie/1318417?language=it-IT",
    "poster_path": "/deNnRUbRnImW2n5RQrQHWwH5ox6.jpg",
    "runtime": 110,
@@ -1479,8 +1165,13 @@
    "release_date": "2026-03-01"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Mélisa Godet",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "wax gold": {
   "title": "Wax & Gold",
@@ -1489,6 +1180,7 @@
   "director": null,
   "tmdb": {
    "id": 1616130,
+   "title": "Wax & Gold",
    "url": "https://www.themoviedb.org/movie/1616130?language=it-IT",
    "poster_path": "/f9eRzaSG6W98i9sZhyT77LVsawF.jpg",
    "runtime": 97,
@@ -1505,8 +1197,13 @@
    "release_date": "2026-02-15"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 690170 (2020): nessun riscontro e uscita 2020 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "la guerra dei prezzi": {
   "title": "La guerra dei prezzi",
@@ -1547,6 +1244,7 @@
   "director": null,
   "tmdb": {
    "id": 1820083,
+   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
    "url": "https://www.themoviedb.org/movie/1820083?language=it-IT",
    "poster_path": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
    "runtime": 195,
@@ -1561,8 +1259,13 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "l hangar rosso": {
   "title": "L’HANGAR ROSSO",
@@ -1604,8 +1307,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "sospesi": {
   "title": "SOSPESI",
@@ -1614,8 +1322,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'",
+  "ref": {
+   "regia": "Luca Quaia e Francesco Sgrò",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "born to die in berlin": {
   "title": "BORN TO DIE IN BERLIN",
@@ -1624,8 +1337,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": "Maurizio Spagliardi",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "come ti muovi sbagli": {
   "title": "COME TI MUOVI, SBAGLI",
@@ -1634,6 +1352,7 @@
   "director": "Gianni Di Gregorio",
   "tmdb": {
    "id": 1520507,
+   "title": "Come ti muovi, sbagli",
    "url": "https://www.themoviedb.org/movie/1520507?language=it-IT",
    "poster_path": "/cjC8r0zjfQcSvXXEmXYamGlKfjJ.jpg",
    "runtime": 97,
@@ -1655,8 +1374,13 @@
    "release_date": "2025-09-05"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Gianni Di Gregorio",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "ciau cine": {
   "title": "CIAU CINE",
@@ -1665,8 +1389,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "domani il viaggio di maysoon majidi": {
   "title": "DOMANI, Il viaggio di Maysoon Majidi",
@@ -1675,6 +1404,7 @@
   "director": null,
   "tmdb": {
    "id": 1574232,
+   "title": "Domani. Il viaggio di Maysoon Majidi",
    "url": "https://www.themoviedb.org/movie/1574232?language=it-IT",
    "poster_path": "/jLDHbyvqnedebUxHbOxO26TK0lI.jpg",
    "runtime": 67,
@@ -1687,8 +1417,13 @@
    "release_date": null
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Vincenzo Caricari e Barbara Di Fabio",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "wind talk to me": {
   "title": "WIND TALK TO ME",
@@ -1705,10 +1440,38 @@
   "url": "https://it.wikipedia.org/wiki/Dune_-_Parte_tre",
   "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dune_part_three_title_with_orange_awesome_background.jpg/250px-Dune_part_three_title_with_orange_awesome_background.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Denis Villeneuve",
-  "tmdb": null,
+  "tmdb": {
+   "id": 1170608,
+   "title": "Dune - Parte tre",
+   "url": "https://www.themoviedb.org/movie/1170608?language=it-IT",
+   "poster_path": "/7TuK5ltI7fdjHz5XsbkbnzFcU7Z.jpg",
+   "runtime": 150,
+   "director": "Denis Villeneuve",
+   "year": 2026,
+   "overview": "Paul Atreides è diventato Imperatore dell’universo. Ma il suo dominio è minacciato dai numerosi nemici e pur avendo previsto questo futuro, Paul lo considera il meno distruttivo possibile per l’umanità. Sposato con la principessa Irulan ma innamorato di Chani, Paul non riesce ad avere figli a causa di un complotto delle Bene Gesserit. Intanto queste, insieme alla Gilda Spaziale e ai Tleilaxu, tramano per eliminarlo.",
+   "genres": [
+    "Fantascienza",
+    "Avventura"
+   ],
+   "cast": [
+    "Timothée Chalamet",
+    "Zendaya",
+    "Jason Momoa",
+    "Florence Pugh",
+    "Rebecca Ferguson",
+    "Isaach de Bankolé"
+   ],
+   "original_title": "Dune: Part Three",
+   "release_date": "2026-12-15"
+  },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "le cours de la vie": {
   "title": "LE COURS DE LA VIE",
@@ -1717,6 +1480,7 @@
   "director": null,
   "tmdb": {
    "id": 958857,
+   "title": "Le Cours de la vie",
    "url": "https://www.themoviedb.org/movie/958857?language=it-IT",
    "poster_path": "/wg92fUpEqy6ymuld69dBbDa3Arv.jpg",
    "runtime": 90,
@@ -1739,8 +1503,13 @@
    "release_date": "2023-05-10"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Frédéric Sojcher",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "belle speranze": {
   "title": "Belle speranze",
@@ -1749,6 +1518,7 @@
   "director": "Mike Leigh",
   "tmdb": {
    "id": 47870,
+   "title": "Belle speranze",
    "url": "https://www.themoviedb.org/movie/47870?language=it-IT",
    "poster_path": "/heQV100jWgl1IxiG6UHruusjXKK.jpg",
    "runtime": 102,
@@ -1771,16 +1541,22 @@
    "release_date": "1989-01-13"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "ti presento i fotter": {
   "title": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-  "url": null,
+  "url": "https://it.wikipedia.org/wiki/Ti_presento_i_Fotter",
   "poster": null,
   "director": null,
   "tmdb": {
    "id": 1400336,
+   "title": "Ti presento i Fotter",
    "url": "https://www.themoviedb.org/movie/1400336?language=it-IT",
    "poster_path": "/ekWQkK9aI41TUBX4nrmKUyfW5ly.jpg",
    "runtime": 105,
@@ -1803,8 +1579,13 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "avengers doomsday": {
   "title": "AVENGERS: DOOMSDAY",
@@ -1813,6 +1594,7 @@
   "director": "Anthony e Joe Russo",
   "tmdb": {
    "id": 1003596,
+   "title": "Avengers: Doomsday",
    "url": "https://www.themoviedb.org/movie/1003596?language=it-IT",
    "poster_path": "/6uOkzW0gF1ANWz2flhwXfTUQuLY.jpg",
    "runtime": 165,
@@ -1836,8 +1618,13 @@
    "release_date": "2026-12-16"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Anthony Russo, Joe Russo",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "pecore sotto copertura": {
   "title": "PECORE SOTTO COPERTURA",
@@ -1846,6 +1633,7 @@
   "director": "Kyle Balda",
   "tmdb": {
    "id": 1301421,
+   "title": "Pecore sotto copertura",
    "url": "https://www.themoviedb.org/movie/1301421?language=it-IT",
    "poster_path": "/hWELMex5ZbcdULp4M8CECiWBBkO.jpg",
    "runtime": 109,
@@ -1853,9 +1641,10 @@
    "year": 2026,
    "overview": "George (Hugh Jackman) è un pastore che ogni sera legge romanzi gialli alle sue amate pecore, convinto che non possano comprenderlo. Quando però un misterioso incidente sconvolge la tranquillità della fattoria, le pecore decidono di dover diventare loro stesse delle detective. Seguendo gli indizi e indagando sui sospetti umani, dimostrano che anche le pecore possono essere brillanti investigatrici.",
    "genres": [
+    "Avventura",
     "Commedia",
-    "Famiglia",
-    "Mistero"
+    "Crime",
+    "Famiglia"
    ],
    "cast": [
     "Hugh Jackman",
@@ -1869,8 +1658,13 @@
    "release_date": "2026-04-30"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Kyle Balda",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "strongher": {
   "title": "STRONGHER",
@@ -1879,6 +1673,7 @@
   "director": null,
   "tmdb": {
    "id": 1766073,
+   "title": "StrongHer",
    "url": "https://www.themoviedb.org/movie/1766073?language=it-IT",
    "poster_path": "/fGvO1BjCz57apR0SX6rinz83nqe.jpg",
    "runtime": 96,
@@ -1897,8 +1692,13 @@
    "release_date": "2026-06-01"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Massimo Ivan Falsetta",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "un topolino sotto l albero": {
   "title": "UN TOPOLINO SOTTO L’ALBERO",
@@ -1907,6 +1707,7 @@
   "director": "Henrik Martin Dahlsbakken",
   "tmdb": {
    "id": 1427833,
+   "title": "Un topolino sotto l’albero",
    "url": "https://www.themoviedb.org/movie/1427833?language=it-IT",
    "poster_path": "/bWgvTgcStRka2FO8kXI9isj2Imd.jpg",
    "runtime": 80,
@@ -1930,8 +1731,13 @@
    "release_date": "2025-11-06"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Henrik M. Dahlsbakken",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "jou scialpinismo nei picos de europa": {
   "title": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
@@ -1940,8 +1746,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "il fuoco che ti porti dentro": {
   "title": "IL FUOCO CHE TI PORTI DENTRO",
@@ -1950,6 +1761,7 @@
   "director": "Edoardo De Angelis",
   "tmdb": {
    "id": 1632188,
+   "title": "Il fuoco che ti porti dentro",
    "url": "https://www.themoviedb.org/movie/1632188?language=it-IT",
    "poster_path": "/kCfIZpqRsBe39Y1lUCxOAjgQ5VR.jpg",
    "runtime": 93,
@@ -1971,16 +1783,22 @@
    "release_date": "2026-11-19"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "fjord": {
   "title": "FJORD",
   "url": "https://it.wikipedia.org/wiki/Fjord_(film)",
-  "poster": null,
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d0/Fjord_%28film%29.scene.jpg/250px-Fjord_%28film%29.scene.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Cristian Mungiu",
   "tmdb": {
    "id": 1401459,
+   "title": "Fjord",
    "url": "https://www.themoviedb.org/movie/1401459?language=it-IT",
    "poster_path": "/e6qR7qbqxe66vh2ONZ8d5pCphA6.jpg",
    "runtime": 146,
@@ -2002,8 +1820,13 @@
    "release_date": "2026-06-13"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 1576359 (2025): titolo diverso (somiglianza 0.17: 'MGA MAGICAL 10 YEARS ANNIVERSARY LIVE ～FJORD～ ON SCREEN' / 'MGA MAGICAL 10 YEARS ANNIVERSARY LIVE ～FJORD～ ON SCREEN')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "i swear e piu forte di me": {
   "title": "I SWEAR – È PIÚ FORTE DI ME",
@@ -2012,6 +1835,7 @@
   "director": null,
   "tmdb": {
    "id": 1317149,
+   "title": "I Swear - È più forte di me",
    "url": "https://www.themoviedb.org/movie/1317149?language=it-IT",
    "poster_path": "/aEIT9GFMGYytuUFCiVSv21OhkWk.jpg",
    "runtime": 121,
@@ -2034,8 +1858,13 @@
    "release_date": "2025-09-22"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "la ballata del re delle api": {
   "title": "LA BALLATA DEL RE DELLE API",
@@ -2044,6 +1873,7 @@
   "director": "Andrew Patterson",
   "tmdb": {
    "id": 1124142,
+   "title": "La ballata del re delle api",
    "url": "https://www.themoviedb.org/movie/1124142?language=it-IT",
    "poster_path": "/bsUZIWpF5ZvU9oZTBL9pHw1DTP9.jpg",
    "runtime": 131,
@@ -2067,38 +1897,13 @@
    "release_date": "2026-08-13"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "21 00": {
-  "title": "21:00",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "e 20 45": {
-  "title": "e 20:45",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "18 00 e 20 45": {
-  "title": "18:00 e 20:45",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Andrew Patterson",
+   "anno": 2025
+  },
+  "checked": "2026-11-19"
  },
  "on our own": {
   "title": "ON OUR OWN",
@@ -2132,16 +1937,6 @@
   "v": 5,
   "checked": "2026-11-18"
  },
- "16 00": {
-  "title": "16:00",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
  "holy wood dust": {
   "title": "HOLY WOOD DUST",
   "url": null,
@@ -2149,6 +1944,7 @@
   "director": null,
   "tmdb": {
    "id": 1625362,
+   "title": "Holy Wood Dust",
    "url": "https://www.themoviedb.org/movie/1625362?language=it-IT",
    "poster_path": "/9pyQnb9hWr0ggm3Qwgka4ALGsBN.jpg",
    "runtime": 100,
@@ -2165,18 +1961,13 @@
    "release_date": "2026-11-23"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "minotauro": {
-  "title": "MINOTAURO",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "digger": {
   "title": "DIGGER",
@@ -2185,8 +1976,13 @@
   "director": "Alejandro González Iñárritu",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 1248832 (2026): regista Alejandro G. Iñárritu != 'Alejandro González Iñárritu'; TMDB scartato id 84875 (1940): titolo diverso (somiglianza 0.43: 'Patrizia' / 'La Fille du puisatier'); TMDB scartato id 1729762 (2026): titolo diverso (somiglianza 0.67: 'Poceiros' / 'Poceiros')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "mustang": {
   "title": "MUSTANG",
@@ -2195,17 +1991,12 @@
   "director": "Deniz Gamze Ergüven",
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
- },
- "hunger games l alba sulla mietitura film in inglese": {
-  "title": "HUNGER GAMES - L'ALBA SULLA MIETITURA | FILM IN INGLESE",
-  "url": "https://it.wikipedia.org/wiki/Hunger_Games_-_L%27alba_sulla_mietitura",
-  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3c/Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg/250px-Hunger_Games_L%27Alba_sulla_Mietitura_Screenshot.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "director": "Francis Lawrence",
-  "tmdb": null,
-  "t": true,
-  "v": 5,
+  "v": 6,
+  "why": "TMDB scartato id 11536 (1961): titolo diverso (somiglianza 0.82: 'Gli spostati' / 'The Misfits'); TMDB scartato id 336804 (2015): regista Deniz Gamze Ergüven != 'Deniz Gamze Ergüven'; TMDB scartato id 338614 (2015): titolo diverso (somiglianza 0.38: 'Unbranded' / 'Unbranded'); TMDB scartato id 278447 (2014): titolo diverso (somiglianza 0.39: 'The Last Lost Kingdom' / 'The Last Lost Kingdom'); TMDB scartato id 1087753 (2014): titolo diverso (somiglianza 0.70: 'Mustang Jeans' / 'Mustang Jeans')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
   "checked": "2026-11-19"
  },
  "il canto della foresta": {
@@ -2215,6 +2006,7 @@
   "director": null,
   "tmdb": {
    "id": 1309373,
+   "title": "Il canto della foresta",
    "url": "https://www.themoviedb.org/movie/1309373?language=it-IT",
    "poster_path": "/1Ty8uGoVEc4g4W7AFPdcOzXktG3.jpg",
    "runtime": 99,
@@ -2233,27 +2025,12 @@
    "release_date": "2025-12-17"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-19"
- },
- "condividi": {
-  "title": "Condividi:",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
-  "checked": "2026-11-19"
- },
- "prevendita": {
-  "title": "PREVENDITA",
-  "url": null,
-  "poster": null,
-  "director": null,
-  "tmdb": null,
-  "t": true,
-  "v": 5,
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Vincent Munier",
+   "anno": 2025
+  },
   "checked": "2026-11-19"
  },
  "jane austen ha stravolto la mia vita": {
