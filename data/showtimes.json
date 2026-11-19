@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T22:15:34+01:00",
- "today": "2026-11-18",
+ "generated_at": "2026-11-19T02:41:36+01:00",
+ "today": "2026-11-19",
  "cinemas": [
   {
    "id": "ideal",
@@ -10,11 +10,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 150,
+    "n": 131,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:41+01:00"
+    "fetched_at": "2026-11-19T02:40:47+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:44+01:00"
+    "fetched_at": "2026-11-19T02:40:50+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 149,
+    "n": 145,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:46+01:00"
+    "fetched_at": "2026-11-19T02:40:53+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:49+01:00"
+    "fetched_at": "2026-11-19T02:40:56+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:50+01:00"
+    "fetched_at": "2026-11-19T02:40:59+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:53+01:00"
+    "fetched_at": "2026-11-19T02:41:02+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:55+01:00"
+    "fetched_at": "2026-11-19T02:41:03+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:56+01:00"
+    "fetched_at": "2026-11-19T02:41:05+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 92,
+    "n": 91,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:14:58+01:00"
+    "fetched_at": "2026-11-19T02:41:06+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:01+01:00"
+    "fetched_at": "2026-11-19T02:41:10+01:00"
    }
   },
   {
@@ -160,11 +160,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 120,
+    "n": 107,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:04+01:00"
+    "fetched_at": "2026-11-19T02:41:13+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:07+01:00"
+    "fetched_at": "2026-11-19T02:41:15+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:12+01:00"
+    "fetched_at": "2026-11-19T02:41:20+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:15+01:00"
+    "fetched_at": "2026-11-19T02:41:23+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:16+01:00"
+    "fetched_at": "2026-11-19T02:41:25+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:18+01:00"
+    "fetched_at": "2026-11-19T02:41:28+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:30+01:00"
+    "fetched_at": "2026-11-19T02:41:32+01:00"
    }
   },
   {
@@ -269,860 +269,11 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-18T22:15:34+01:00"
+    "fetched_at": "2026-11-19T02:41:36+01:00"
    }
   }
  ],
  "showtimes": [
-  {
-   "cinema": "agnelli",
-   "film": "ZUSTISSIA",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "baretti",
-   "film": "LA VALLÉE DES FOUS",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": "VO",
-   "regia": "Xavier Beauvois"
-  },
-  {
-   "cinema": "centrale",
-   "film": "DAL NULLA",
-   "date": "2026-11-18",
-   "time": "19:00",
-   "tag": ""
-  },
-  {
-   "cinema": "esedra",
-   "film": "Persepolis",
-   "date": "2026-11-18",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "esedra",
-   "film": "Persepolis",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "ideal",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "17:30",
-   "tag": "",
-   "room": "3",
-   "regia": "Giovanni Veronesi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "21:40",
-   "tag": "",
-   "room": "3",
-   "regia": "Giovanni Veronesi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "21:30",
-   "tag": "",
-   "room": "1",
-   "regia": "Takashi Yamazaki"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "15:00",
-   "tag": "",
-   "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja",
-   "anno": 2026
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja",
-   "anno": 2026
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "15:00",
-   "tag": "",
-   "room": "4",
-   "regia": "Paolo Genovese"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "17:10",
-   "tag": "",
-   "room": "4",
-   "regia": "Paolo Genovese"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "21:35",
-   "tag": "",
-   "room": "4",
-   "regia": "Paolo Genovese"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IN UN BATTITO",
-   "date": "2026-11-18",
-   "time": "19:40",
-   "tag": "",
-   "room": "3",
-   "regia": "Giovanni Troilo"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "19:20",
-   "tag": "",
-   "room": "4",
-   "regia": "Ti West"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "15:25",
-   "tag": "",
-   "room": "2",
-   "regia": "Paola Randi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "17:30",
-   "tag": "",
-   "room": "2",
-   "regia": "Paola Randi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "19:30",
-   "tag": "",
-   "room": "2",
-   "regia": "Paola Randi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-18",
-   "time": "15:35",
-   "tag": "",
-   "room": "3",
-   "regia": "Massimiliano Bruno"
-  },
-  {
-   "cinema": "ideal",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "17:30",
-   "tag": "",
-   "room": "1",
-   "regia": "Leonardo Pieraccioni"
-  },
-  {
-   "cinema": "ideal",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "19:30",
-   "tag": "",
-   "room": "1",
-   "regia": "Leonardo Pieraccioni"
-  },
-  {
-   "cinema": "ideal",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "19:20",
-   "tag": "",
-   "room": "5",
-   "regia": "Martin McDonagh"
-  },
-  {
-   "cinema": "ideal",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "21:35",
-   "tag": "",
-   "room": "5",
-   "regia": "Martin McDonagh"
-  },
-  {
-   "cinema": "ideal",
-   "film": "Wildwood - I segreti del bosco proibito",
-   "date": "2026-11-18",
-   "time": "21:30",
-   "tag": "",
-   "room": "2",
-   "regia": "Travis Knight"
-  },
-  {
-   "cinema": "lux",
-   "film": "Come rapinare una banca",
-   "date": "2026-11-18",
-   "time": "18:35",
-   "tag": "",
-   "anno": 2026
-  },
-  {
-   "cinema": "lux",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "tag": "",
-   "anno": 2026
-  },
-  {
-   "cinema": "lux",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "21:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IN UN BATTITO",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-18",
-   "time": "18:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "18:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "film": "Fatherland",
-   "date": "2026-11-18",
-   "time": "15:45",
-   "tag": "VO",
-   "room": "2"
-  },
-  {
-   "cinema": "massimo",
-   "film": "La Gradiva",
-   "date": "2026-11-18",
-   "time": "17:30",
-   "tag": "VO",
-   "room": "2"
-  },
-  {
-   "cinema": "massimo",
-   "film": "La Gradiva",
-   "date": "2026-11-18",
-   "time": "20:45",
-   "tag": "VO",
-   "room": "2"
-  },
-  {
-   "cinema": "massimo",
-   "film": "LOOK BACK",
-   "date": "2026-11-18",
-   "time": "15:45",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "massimo",
-   "film": "LOOK BACK",
-   "date": "2026-11-18",
-   "time": "21:15",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "massimo",
-   "film": "Ragazze",
-   "date": "2026-11-18",
-   "time": "19:00",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "massimo",
-   "film": "Segreti & bugie",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "massimo",
-   "film": "Solaris",
-   "date": "2026-11-18",
-   "time": "18:00",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "21:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "L’ESTRANEA",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "22:05",
-   "tag": "Sala 5"
-  },
-  {
-   "cinema": "thespace",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "21:40",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "Come rapinare una banca",
-   "date": "2026-11-18",
-   "time": "17:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "15:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "15:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "22:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HOPE",
-   "date": "2026-11-18",
-   "time": "21:10",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "14:00",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "17:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "19:10",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "20:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "La storia infinita",
-   "date": "2026-11-18",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "La storia infinita",
-   "date": "2026-11-18",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LOOK BACK",
-   "date": "2026-11-18",
-   "time": "16:45",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LOOK BACK",
-   "date": "2026-11-18",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "14:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "18:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "22:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "14:10",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "16:30",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "19:25",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
-   "date": "2026-11-18",
-   "time": "14:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "19:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "18:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "19:10",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "2001: Odissea nello spazio",
-   "date": "2026-11-18",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "Clayface",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "Come rapinare una banca",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "DIO RIDE",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "16:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "19:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "GODZILLA MINUS ZERO",
-   "date": "2026-11-18",
-   "time": "21:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "14:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-18",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "15:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-18",
-   "time": "21:45",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "IN UN BATTITO",
-   "date": "2026-11-18",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "La storia infinita",
-   "date": "2026-11-18",
-   "time": "20:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LOOK BACK",
-   "date": "2026-11-18",
-   "time": "19:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "14:10",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "16:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "18:30",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "19:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-18",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "14:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "16:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "18:45",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-18",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
-   "date": "2026-11-18",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-18",
-   "time": "16:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-18",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "14:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "17:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "19:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-18",
-   "time": "21:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "15:00",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-18",
-   "time": "16:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "Wildwood - I segreti del bosco proibito",
-   "date": "2026-11-18",
-   "time": "17:45",
-   "tag": ""
-  },
   {
    "cinema": "centrale",
    "film": "21:00",
@@ -1395,7 +546,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "18:15",
    "tag": "",
@@ -1404,7 +555,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "21:15",
    "tag": "",
@@ -1531,6 +682,91 @@
    "regia": "Martin McDonagh"
   },
   {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-19",
+   "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-19",
@@ -1609,28 +845,28 @@
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "16:30",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "18:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "21:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "21:45",
    "tag": ""
@@ -1862,21 +1098,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-19",
    "time": "21:30",
    "tag": "Sala 3"
@@ -2055,6 +1291,454 @@
    "date": "2026-11-19",
    "time": "18:30",
    "tag": "Sala 1"
+  },
+  {
+   "cinema": "thespace",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-19",
+   "time": "21:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Come rapinare una banca",
+   "date": "2026-11-19",
+   "time": "17:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "DIO RIDE",
+   "date": "2026-11-19",
+   "time": "15:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "15:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "18:25",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "22:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HOPE",
+   "date": "2026-11-19",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-19",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "14:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "17:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "20:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "La storia infinita",
+   "date": "2026-11-19",
+   "time": "19:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "La storia infinita",
+   "date": "2026-11-19",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "16:45",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "14:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "14:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "16:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "19:25",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
+   "date": "2026-11-19",
+   "time": "14:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "19:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-19",
+   "time": "18:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-19",
+   "time": "19:10",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "2001: Odissea nello spazio",
+   "date": "2026-11-19",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Clayface",
+   "date": "2026-11-19",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Come rapinare una banca",
+   "date": "2026-11-19",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "DIO RIDE",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "16:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-19",
+   "time": "21:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-19",
+   "time": "14:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "15:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "19:15",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-19",
+   "time": "21:45",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "In un battito",
+   "date": "2026-11-19",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "La storia infinita",
+   "date": "2026-11-19",
+   "time": "20:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LOOK BACK",
+   "date": "2026-11-19",
+   "time": "19:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "14:10",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "16:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "18:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-19",
+   "time": "22:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "14:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "16:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "18:45",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-19",
+   "time": "16:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+   "date": "2026-11-19",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "14:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "17:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "19:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-19",
+   "time": "21:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "15:00",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "Wildwood - I segreti del bosco proibito",
+   "date": "2026-11-19",
+   "time": "17:45",
+   "tag": ""
   },
   {
    "cinema": "baretti",
@@ -2350,7 +2034,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "15:15",
    "tag": "",
@@ -2359,7 +2043,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "18:15",
    "tag": "",
@@ -2368,7 +2052,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "21:15",
    "tag": "",
@@ -2485,6 +2169,134 @@
    "regia": "Martin McDonagh"
   },
   {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "21:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-20",
+   "time": "16:55",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-20",
+   "time": "22:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-20",
+   "time": "19:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-20",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-20",
+   "time": "17:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-20",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-20",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-20",
+   "time": "17:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-20",
+   "time": "19:50",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-20",
+   "time": "22:10",
+   "tag": ""
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-20",
@@ -2563,21 +2375,21 @@
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "16:30",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "18:30",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "21:30",
    "tag": ""
@@ -2816,21 +2628,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
    "time": "21:30",
    "tag": "Sala 3"
@@ -3319,7 +3131,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "15:15",
    "tag": "",
@@ -3328,7 +3140,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "18:15",
    "tag": "",
@@ -3337,7 +3149,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "21:15",
    "tag": "",
@@ -3464,6 +3276,170 @@
    "regia": "Martin McDonagh"
   },
   {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-21",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-21",
+   "time": "14:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-21",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-21",
+   "time": "14:25",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-21",
+   "time": "16:55",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-21",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-21",
+   "time": "22:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-21",
+   "time": "14:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-21",
+   "time": "19:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-21",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-21",
+   "time": "14:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-21",
+   "time": "17:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-21",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-21",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-21",
+   "time": "14:50",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-21",
+   "time": "17:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-21",
+   "time": "19:50",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-21",
+   "time": "22:10",
+   "tag": ""
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-21",
@@ -3556,28 +3532,28 @@
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "14:50",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "16:35",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "18:30",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "21:30",
    "tag": ""
@@ -3845,21 +3821,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-21",
    "time": "21:30",
    "tag": "Sala 3"
@@ -4370,7 +4346,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "15:15",
    "tag": "",
@@ -4379,7 +4355,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "18:15",
    "tag": "",
@@ -4388,7 +4364,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "21:15",
    "tag": "",
@@ -4515,6 +4491,134 @@
    "regia": "Martin McDonagh"
   },
   {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-22",
+   "time": "19:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-22",
+   "time": "14:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-22",
+   "time": "19:40",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-22",
+   "time": "14:45",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-22",
+   "time": "17:20",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-22",
+   "time": "20:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-22",
+   "time": "14:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-22",
+   "time": "17:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-22",
+   "time": "20:05",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-22",
+   "time": "14:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-22",
+   "time": "20:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-22",
+   "time": "15:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-22",
+   "time": "20:20",
+   "tag": ""
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-22",
@@ -4593,21 +4697,21 @@
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "15:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "18:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "21:00",
    "tag": ""
@@ -4897,21 +5001,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-22",
    "time": "21:30",
    "tag": "Sala 3"
@@ -5342,7 +5446,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "15:15",
    "tag": "",
@@ -5351,7 +5455,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "21:15",
    "tag": "",
@@ -5457,6 +5561,91 @@
    "tag": "",
    "room": "2",
    "regia": "Martin McDonagh"
+  },
+  {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-23",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-23",
+   "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-23",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA | FILM IN INGLESE",
+   "date": "2026-11-23",
+   "time": "20:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-23",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-23",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-23",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-23",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-23",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-23",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-23",
+   "time": "21:20",
+   "tag": ""
   },
   {
    "cinema": "marx",
@@ -5684,21 +5873,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "21:30",
    "tag": "Sala 3"
@@ -6088,7 +6277,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "18:15",
    "tag": "",
@@ -6097,7 +6286,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "21:15",
    "tag": "",
@@ -6222,6 +6411,92 @@
    "tag": "",
    "room": "2",
    "regia": "Martin McDonagh"
+  },
+  {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-24",
+   "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-24",
+   "time": "18:30",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-24",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-24",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-24",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-24",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-24",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-24",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "YOUR NAME",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": "",
+   "rer": true
   },
   {
    "cinema": "marx",
@@ -6401,21 +6676,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "21:30",
    "tag": "Sala 3"
@@ -6776,6 +7051,92 @@
    "room": "2"
   },
   {
+   "cinema": "lux",
+   "film": "GODZILLA MINUS ZERO",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-25",
+   "time": "17:45",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "IL GATTO COL CAPPELLO",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "tag": "",
+   "anno": 2026
+  },
+  {
+   "cinema": "lux",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-25",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-25",
+   "time": "18:35",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-25",
+   "time": "21:10",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-25",
+   "time": "18:15",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-25",
+   "time": "18:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-25",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
+   "film": "YOUR NAME",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": "",
+   "rer": true
+  },
+  {
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-25",
@@ -6939,21 +7300,21 @@
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "15:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "18:30",
    "tag": "Sala 3"
   },
   {
    "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "21:30",
    "tag": "Sala 3"
