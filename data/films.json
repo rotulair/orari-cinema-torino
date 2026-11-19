@@ -256,12 +256,13 @@
   "checked": "2026-11-19"
  },
  "primetime": {
-  "title": "Primetime",
+  "title": "PRIMETIME",
   "url": "https://it.wikipedia.org/wiki/Primetime_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/83/Primetime_film_2026.png/250px-Primetime_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": null,
   "tmdb": {
    "id": 1375441,
+   "title": "Primetime",
    "url": "https://www.themoviedb.org/movie/1375441?language=it-IT",
    "poster_path": "/sqArsDFYFryd5iKuoxLvr4y5NZv.jpg",
    "runtime": 110,
@@ -285,8 +286,13 @@
    "release_date": "2026-09-23"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 1791730 (2026): titolo diverso (somiglianza 0.67: 'Primetime Preacher$: Storia di un telepredicatore' / 'Primetime Preacher$'); TMDB scartato id 1816764 (2026): titolo diverso (somiglianza 0.51: 'Primetime Production Diary' / 'Primetime Production Diary'); TMDB scartato id 1776007 (2026): titolo diverso (somiglianza 0.58: 'Primetime Mr. President' / 'Primetime Mr. President')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "godzilla minus zero": {
   "title": "GODZILLA MINUS ZERO",
@@ -530,12 +536,13 @@
   "checked": "2026-11-19"
  },
  "look back": {
-  "title": "Look Back",
+  "title": "LOOK BACK",
   "url": "https://it.wikipedia.org/wiki/Look_Back_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/76/Look_Back_2026.png/250px-Look_Back_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Hirokazu Kore'eda",
   "tmdb": {
    "id": 1591675,
+   "title": "Look Back",
    "url": "https://www.themoviedb.org/movie/1591675?language=it-IT",
    "poster_path": "/7Ou8VlAhPvYmtzRu7UhFdSjJs4j.jpg",
    "runtime": 101,
@@ -557,8 +564,13 @@
    "release_date": "2026-09-11"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 1244492 (2024): anno 2024 != 2026; TMDB scartato id 343611 (2016): titolo diverso (somiglianza 0.55: 'Jack Reacher - Punto di non ritorno' / 'Jack Reacher: Never Go Back'); TMDB scartato id 1447853 (2026): titolo diverso (somiglianza 0.55: 'Oasis: Don't Look Back in Anger' / 'Oasis: Don't Look Back in Anger'); TMDB scartato id 1732097 (2026): titolo diverso (somiglianza 0.62: 'Euphoria - Uno sguardo al passato' / 'Euphoria: A Look Back')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "naked": {
   "title": "Naked",
@@ -776,6 +788,7 @@
   "director": "Mike Leigh",
   "tmdb": {
    "id": 49462,
+   "title": "Ragazze",
    "url": "https://www.themoviedb.org/movie/49462?language=it-IT",
    "poster_path": "/jV4fPYvXI2OLGfVx9p56arrx61T.jpg",
    "runtime": 110,
@@ -798,8 +811,13 @@
    "release_date": "1997-06-01"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "TMDB scartato id 9603 (1995): titolo diverso (somiglianza 0.47: 'Ragazze a Beverly Hills' / 'Clueless'); TMDB scartato id 11287 (1992): titolo diverso (somiglianza 0.61: 'Ragazze vincenti' / 'A League of Their Own'); TMDB scartato id 37563 (1996): titolo diverso (somiglianza 0.54: 'Un ragazzo, tre ragazze - Racconto d'estate' / 'Conte d'été'); TMDB scartato id 29371 (1995): titolo diverso (somiglianza 0.48: 'Due ragazze innamorate' / 'The Incredibly True Adventure of Two Girls in Love')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "segreti bugie": {
   "title": "Segreti & bugie",
@@ -884,8 +902,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "topsy turvy": {
   "title": "Topsy-Turvy",
@@ -924,6 +947,7 @@
   "director": "Ildikó Enyedi",
   "tmdb": {
    "id": 1168719,
+   "title": "Silent Friend",
    "url": "https://www.themoviedb.org/movie/1168719?language=it-IT",
    "poster_path": "/bUUd6D7E0DuzxwSo4qnu136LW5v.jpg",
    "runtime": 147,
@@ -945,8 +969,13 @@
    "release_date": "2026-01-15"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "TMDB scartato id 1688981 (2025): regista Greg Osborne != 'Ildikó Enyedi'",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "your name": {
   "title": "YOUR NAME",
@@ -1040,6 +1069,7 @@
   "director": "Denis Villeneuve",
   "tmdb": {
    "id": 1170608,
+   "title": "Dune - Parte tre",
    "url": "https://www.themoviedb.org/movie/1170608?language=it-IT",
    "poster_path": "/7TuK5ltI7fdjHz5XsbkbnzFcU7Z.jpg",
    "runtime": 150,
@@ -1062,39 +1092,28 @@
    "release_date": "2026-12-15"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Denis Villeneuve",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "cleo": {
   "title": "CLEO",
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": {
-   "id": 485882,
-   "url": "https://www.themoviedb.org/movie/485882?language=it-IT",
-   "poster_path": "/d4vdVvcvFXrUnB4QN7bhP2Oq0xl.jpg",
-   "runtime": 99,
-   "director": "Erik Schmitt",
-   "year": 2019,
-   "overview": null,
-   "genres": [
-    "Commedia"
-   ],
-   "cast": [
-    "Marleen Lohse",
-    "Jeremy Mockridge",
-    "Max Mauff",
-    "Heiko Pinkowski",
-    "Fabian Busch",
-    "Anna Böttcher"
-   ],
-   "original_title": "Cleo",
-   "release_date": "2019-07-25"
-  },
+  "tmdb": null,
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "wikipedia scartata: il regista del cinema non compare nella scheda; TMDB scartato id 499 (1962): titolo diverso (somiglianza 0.47: 'Cleo dalle 5 alle 7' / 'Cléo de 5 à 7'); TMDB scartato id 39263 (1971): titolo diverso (somiglianza 0.24: 'Exorcismus - Cleo, la dea dell'amore' / 'Blood from the Mummy's Tomb'); TMDB scartato id 5066 (1964): titolo diverso (somiglianza 0.47: 'Ehi Cesare vai da Cleopatra? Hai chiuso...' / 'Carry On Cleo'); TMDB scartato id 1055854 (2022): titolo diverso (somiglianza 0.38: 'Call Me Miss Cleo' / 'Call Me Miss Cleo'); TMDB scartato id 1328071 (2024): titolo diverso (somiglianza 0.26: 'Miss Cleo: Her Rise and Fall' / 'Miss Cleo: Her Rise and Fall')",
+  "ref": {
+   "regia": "Erik Schmitt",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "wildwood i segreti del bosco proibito": {
   "title": "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
@@ -1212,6 +1231,7 @@
   "director": null,
   "tmdb": {
    "id": 1376412,
+   "title": "La guerra dei prezzi",
    "url": "https://www.themoviedb.org/movie/1376412?language=it-IT",
    "poster_path": "/uYErQw5TdQHTAg310y01ayDLOEw.jpg",
    "runtime": 96,
@@ -1234,8 +1254,13 @@
    "release_date": "2026-03-18"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "bts world tour arirang in kaohsiung live viewing": {
   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
@@ -1274,6 +1299,7 @@
   "director": "Juan Pablo Sallato, al debutto cinematografico",
   "tmdb": {
    "id": 1563588,
+   "title": "L'hangar rosso",
    "url": "https://www.themoviedb.org/movie/1563588?language=it-IT",
    "poster_path": "/owA1QtBUMmJ5DBN4eLL4fmrUxRH.jpg",
    "runtime": 81,
@@ -1297,8 +1323,13 @@
    "release_date": "2026-05-08"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": "Juan Pablo Sallato",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "in quota cambia tutto": {
   "title": "IN QUOTA CAMBIA TUTTO",
@@ -1430,10 +1461,38 @@
   "url": null,
   "poster": null,
   "director": null,
-  "tmdb": null,
+  "tmdb": {
+   "id": 1247811,
+   "title": "Vetre, pričaj sa mnom",
+   "url": "https://www.themoviedb.org/movie/1247811?language=it-IT",
+   "poster_path": "/yQZSiBdfSpVPdxCHHmUhiAE4fYb.jpg",
+   "runtime": 100,
+   "director": "Stefan Djordjevic",
+   "year": 2025,
+   "overview": null,
+   "genres": [
+    "Famiglia",
+    "Dramma"
+   ],
+   "cast": [
+    "Negrica Djordjevic",
+    "Stefan Djordjevic",
+    "Boško Đorđević",
+    "Djordje Davidovic",
+    "Budimir Jovanovic",
+    "Ljiljana Jovanovic"
+   ],
+   "original_title": "Vetre, pričaj sa mnom",
+   "release_date": "2025-02-04"
+  },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-17"
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Stefan Djordjevic",
+   "anno": null
+  },
+  "checked": "2026-11-19"
  },
  "dune parte 3": {
   "title": "DUNE PARTE 3",
@@ -1907,35 +1966,40 @@
  },
  "on our own": {
   "title": "ON OUR OWN",
-  "url": "https://it.wikipedia.org/wiki/On_Our_Own",
+  "url": null,
   "poster": null,
   "director": null,
   "tmdb": {
-   "id": 59083,
-   "url": "https://www.themoviedb.org/movie/59083?language=it-IT",
-   "poster_path": "/lfvmYhk2rsOgJ3K1jEcFUq5eIZ6.jpg",
-   "runtime": 84,
-   "director": "Lyman Dayton",
-   "year": 1988,
+   "id": 1564875,
+   "title": "De capul nostru",
+   "url": "https://www.themoviedb.org/movie/1564875?language=it-IT",
+   "poster_path": "/rU5pNjFTQDetVstKYpKosFOw6Lc.jpg",
+   "runtime": 94,
+   "director": "Tudor Cristian Jurgiu",
+   "year": 2026,
    "overview": null,
    "genres": [
-    "Dramma",
-    "Famiglia"
+    "Dramma"
    ],
    "cast": [
-    "Leigh Lombardi",
-    "Sam Hennings",
-    "Scott Warner",
-    "Amy Allred",
-    "Tom Dayton",
-    "Stephanie Kramer"
+    "Denisa Vraja",
+    "Vlad Furtună",
+    "Maria Diaconu-Ducica",
+    "Dominique Toma",
+    "Sofia Vasiliu",
+    "Steliana Bălăcianu"
    ],
-   "original_title": "On Our Own",
-   "release_date": "1988-01-01"
+   "original_title": "De capul nostru",
+   "release_date": "2026-06-26"
   },
   "t": true,
-  "v": 5,
-  "checked": "2026-11-18"
+  "v": 6,
+  "why": "wikipedia scartata: anno diverso da quello del cinema",
+  "ref": {
+   "regia": "Tudor Cristian Jurgiu",
+   "anno": 2026
+  },
+  "checked": "2026-11-19"
  },
  "holy wood dust": {
   "title": "HOLY WOOD DUST",
@@ -2040,7 +2104,12 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 5,
+  "v": 6,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
   "checked": "2026-11-19"
  }
 }
