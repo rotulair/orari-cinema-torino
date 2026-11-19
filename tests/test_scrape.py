@@ -128,8 +128,8 @@ Lunedì 14 dicembre 2026, ore 21.15: <span>DOMANI, Il viaggio di Maysoon Majidi<
 AGNELLI_HTML = """<h3>PETER PAN</h3><h2>Domenica 15 novembre ore 15:30 e 21:00</h2>
 <h3>NAZA</h3><h2>16-17-18 novembre ore 19:00</h2>"""
 
-CENTRALE_HTML = """<h2>Programmazione 12 - 18 novembre</h2><p><strong>CIVILTA PERDUTE</strong></p>
-<p>GIOV 12 – 21:00</p><p>SAB 14 – 13:15 e 18:30</p><p>LUN 16 – 20:00</p>"""
+CENTRALE_HTML = """<div class="entry-content"><p><strong>CIVILTA PERDUTE</strong><br>di Mario Rossi<br>(Italia 2026, 1h 30min)</p>
+<p><strong>GIOV 12 – 21:00</strong><br><strong>SAB 14 – 13:15 e 18:30</strong><br><strong>LUN 16 – 20:00</strong></p></div></article>"""
 
 
 def look_rows(r):
@@ -689,19 +689,23 @@ class RefusiETitoliTest(unittest.TestCase):
             self.assertTrue(scrape.is_junk_title(t), t)
         self.assertFalse(scrape.is_junk_title("2001: Odissea nello spazio"))
 
-    def test_centrale_orari_su_righe_separate_e_varianti(self):
-        html = """<html><body><h2>LA GRADIVA</h2>
-        <p><strong>GIOV 19 – 21:00</strong></p>
-        <p><strong>VEN 20 ore 16:00 e 21:00</strong></p>
-        <p><strong>SAB 21</strong></p><p><strong>16:00</strong></p><p><strong>21:00</strong></p>
-        <h2>FJORD</h2><p><strong>DOM 22 | 18:30 VO</strong></p></body></html>"""
-        rows = scrape.parse_centrale(html, "2026-11-18")
-        got = sorted((r["film"], r["date"], r["time"], r["tag"]) for r in rows)
-        self.assertEqual(got, [("FJORD", "2026-11-22", "18:30", "VO"),
-                               ("LA GRADIVA", "2026-11-19", "21:00", ""),
-                               ("LA GRADIVA", "2026-11-20", "16:00", ""), ("LA GRADIVA", "2026-11-20", "21:00", ""),
-                               ("LA GRADIVA", "2026-11-21", "16:00", ""), ("LA GRADIVA", "2026-11-21", "21:00", "")])
-        self.assertFalse(any(scrape.is_junk_title(r["film"]) for r in rows))
+    def test_centrale_post_reale(self):
+        html = (Path(__file__).resolve().parent / "fixtures" / "centrale_post.html").read_text(encoding="utf-8")
+        rows = scrape.parse_centrale(html, "2026-11-19")
+        films = {r["film"] for r in rows}
+        self.assertEqual(films, {"IL CANTO DELLA FORESTA", "LA BALLATA DEL RE DELLE API", "LA GRADIVA",
+                                 "LA NOSTRA ISOLA È IL MONDO INTERO", "ON OUR OWN"})   # niente "Prevendita", "Condividi", orari
+        g = {(r["film"], r["date"], r["time"]): r["tag"] for r in rows}
+        self.assertEqual(g[("IL CANTO DELLA FORESTA", "2026-11-21", "11:30")], "ITA")
+        self.assertEqual(g[("IL CANTO DELLA FORESTA", "2026-11-21", "16:00")], "ITA")
+        self.assertEqual(g[("LA BALLATA DEL RE DELLE API", "2026-11-21", "13:30")], "ITA")
+        self.assertEqual(g[("LA BALLATA DEL RE DELLE API", "2026-11-21", "18:00")], "VO")
+        self.assertEqual(g[("LA BALLATA DEL RE DELLE API", "2026-11-21", "20:45")], "VO")
+        self.assertEqual(g[("LA NOSTRA ISOLA È IL MONDO INTERO", "2026-11-22", "18:30")], "")
+        self.assertEqual(g[("ON OUR OWN", "2026-11-22", "21:00")], "VO")
+        self.assertEqual(len(rows), 19)
+        r = next(r for r in rows if r["film"] == "LA GRADIVA")
+        self.assertEqual((r["regia"], r["anno"]), ("Marine Atlan", 2026))
 
 if __name__ == "__main__":
     unittest.main()
