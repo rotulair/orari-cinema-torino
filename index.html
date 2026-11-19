@@ -42,7 +42,7 @@ h1{font-size:17px;margin:0;letter-spacing:-.03em;font-weight:800;flex:1;min-widt
 .ib.on::after{content:"";position:absolute;top:9px;right:9px;width:8px;height:8px;border-radius:50%;background:var(--amber)}
 .seg{display:inline-flex;background:var(--surface);border-radius:12px;padding:3px;height:44px}
 .seg button{border:0;background:transparent;color:var(--mute);font-size:15px;font-weight:600;padding:0 11px;border-radius:9px;cursor:pointer}
-.seg button[aria-pressed=true]{background:var(--raised);color:var(--ink)}
+.seg button[aria-pressed=true]{background:var(--amber);color:var(--amber-ink)}
 .panel{padding:2px 0 12px}
 #p-m{max-height:58vh;overflow-y:auto}
 .panel[hidden]{display:none}
@@ -113,9 +113,9 @@ summary.fh::after{content:"";position:absolute;top:22px;right:18px;width:9px;hei
 /* anteprima da chiusa: i prossimi orari */
 .prev{display:flex;flex-wrap:wrap;gap:6px;flex:1 0 100%;order:3;margin-top:-2px;align-items:center}
 .card[open] .prev{display:none}
-.pp{display:inline-flex;align-items:baseline;gap:6px;background:var(--raised);border-radius:10px;padding:6px 10px;
+.pp{display:inline-flex;align-items:baseline;gap:6px;background:var(--raised);border-radius:9px;padding:4px 9px;
   border:2px solid transparent;font-size:14px;min-width:0;max-width:100%}
-.pp b{font-weight:700;font-variant-numeric:tabular-nums;font-size:15px}
+.pp b{font-weight:700;font-variant-numeric:tabular-nums;font-size:14px}
 .pp em{font-style:normal;color:var(--mute);font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:84px}
 .pp sup{font-size:9px;font-weight:800;color:var(--mute)}
 .pp.next{border-color:var(--mint);background:transparent}
@@ -123,12 +123,16 @@ summary.fh::after{content:"";position:absolute;top:22px;right:18px;width:9px;hei
 .pm{font-size:13px;color:var(--mute);font-weight:500;padding:0 2px}
 
 /* corpo scheda film: info subito sotto locandina e titolo */
-.info{padding:0 16px 14px;font-size:15px;line-height:1.55}
+.info{padding:0 16px 12px;font-size:13px}
+.plotw{margin-top:8px}
+.card:not([open]) .plotw{display:none}
+.plotw .plot{font-size:14px;line-height:1.45;margin:0}
+.plotw .more{padding:0;min-height:36px;font-size:14px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
 .tag{background:var(--raised);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:500}
 .info p{margin:0 0 8px}
 .info .mut{color:var(--mute);font-size:13px;line-height:1.4}
-.plot{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;color:color-mix(in srgb,var(--ink) 90%,transparent)}
+.plot{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;color:color-mix(in srgb,var(--ink) 90%,transparent)}
 .plot.full{display:block}
 .info .more{padding:0;min-height:36px;font-size:14px}
 .dbar{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:0 16px;border-top:1px solid var(--line);min-height:52px}
@@ -138,17 +142,17 @@ summary.fh::after{content:"";position:absolute;top:22px;right:18px;width:9px;hei
 .dtabs::-webkit-scrollbar{display:none}
 .dt{flex:none;border:0;background:var(--raised);color:var(--ink);font-size:14px;font-weight:600;padding:0 14px;min-height:40px;border-radius:999px;cursor:pointer}
 .dt[aria-pressed=true]{background:var(--amber);color:var(--amber-ink)}
-.row{padding:14px 16px;border-top:1px solid var(--line)}
-.row .who{font-size:18px;font-weight:700;line-height:1.25;letter-spacing:-.015em;min-width:0}
+.row{padding:12px 16px;border-top:1px solid var(--line)}
+.row .who{font-size:20px;font-weight:700;line-height:1.25;letter-spacing:-.015em;min-width:0}
 .row .who a.cn{color:inherit;text-decoration:none}
 .row .who a.ext{color:var(--mute);font-size:14px;font-weight:400;text-decoration:none;margin-left:4px}
 .addr{display:block;font-size:13px;font-weight:400;color:var(--mute);letter-spacing:0;margin-top:1px;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--mute) 45%,transparent);text-underline-offset:3px}
-.times{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.t{background:var(--raised);border-radius:12px;padding:10px 14px;font-size:17px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;border:2px solid transparent}
+.times{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.t{background:var(--raised);border-radius:9px;padding:6px 11px;font-size:15px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;border:2px solid transparent}
 .t.past{color:var(--mute);text-decoration:line-through;font-weight:500;opacity:.55}
 .t.next{border-color:var(--mint);color:var(--mint);background:transparent}
-.t sup{font-size:10px;font-weight:800;margin-left:3px;color:var(--mute)}
-.t i{font-style:normal;font-size:11px;font-weight:600;color:var(--mute);margin-left:5px;text-transform:uppercase}
+.t sup{font-size:9px;font-weight:800;margin-left:3px;color:var(--mute)}
+.t i{font-style:normal;font-size:10px;font-weight:600;color:var(--mute);margin-left:5px;text-transform:uppercase}
 .t.next sup,.t.next i{color:inherit;opacity:.8}
 .none{color:var(--mute);font-size:14px;padding:4px 16px 16px}
 .foot-in{padding:12px 16px 16px;border-top:1px solid var(--line)}
@@ -373,11 +377,13 @@ function miniHtml(title, i){
 
 /* ---------- blocchi della scheda film ---------- */
 function infoTop(i, title){
-  const bits = [];
-  if(i.genres.length) bits.push(`<div class="tags">${i.genres.map(g=>`<span class="tag">${esc(g)}</span>`).join("")}</div>`);
-  if(i.original && filmKey(i.original) !== filmKey(title)) bits.push(`<p class="mut">Titolo originale: <i>${esc(i.original)}</i></p>`);
-  if(i.overview) bits.push(`<p class="plot${i.overview.length>190?"":" full"}">${esc(i.overview)}</p>` + (i.overview.length>190 ? `<button type="button" class="link more" data-more="1">Leggi tutto</button>` : ""));
-  return bits.length ? `<div class="info">${bits.join("")}</div>` : "";
+  if(i.original && filmKey(i.original) !== filmKey(title)) return `<div class="info"><p class="mut" style="margin:0">Titolo originale: <i>${esc(i.original)}</i></p></div>`;
+  return "";
+}
+function plotHtml(i){
+  if(!i.overview) return "";
+  const long = i.overview.length > 110;
+  return `<div class="plotw"><p class="plot${long?"":" full"}">${esc(i.overview)}</p>` + (long ? `<button type="button" class="link more" data-more="1">Leggi tutto</button>` : "") + `</div>`;
 }
 function infoBottom(i){
   const btns = `<div class="ibtns"><a class="ibtn" href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Wikipedia ↗":"Cerca su Google ↗"}</a>`
@@ -538,6 +544,10 @@ function render(){
   if(broken.length) html += `<div class="warn">Orari non aggiornati (sito non raggiungibile all’ultimo controllo): ${esc(broken.join(", "))}.</div>`;
   if(missing.length) html += `<div class="warn">Programmazione non rilevata automaticamente per: ${missing.map(n=>{const c=d.cinemas.find(x=>x.name===n);const u=c.site||c.info_url;return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`:esc(n)}).join(", ")}.</div>`;
 
+  if(!isToday){
+    const todayOnly = d.cinemas.filter(c=>!state.hidden.has(c.id) && c.status && c.status.source==="Movieplayer");
+    if(todayOnly.length) html += `<div class="warn">Per questo giorno non è disponibile la programmazione di: ${todayOnly.map(c=>{const u=c.site||c.info_url;return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(c.name)}</a>`:esc(c.name)}).join(", ")}. Di questi cinema leggiamo solo gli orari di oggi: controlla sul sito ufficiale.</div>`;
+  }
   if(state.only || state.onlyCinema){
     const nm = state.only ? d.showtimes.find(s=>filmKey(s.film)===state.only) : null;
     const label = state.only ? (nm?prettyTitle(nm.film):state.only) : ((cmap[state.onlyCinema]||{}).name || state.onlyCinema);
@@ -606,9 +616,9 @@ function renderFilms(rows, cmap, now, isToday, all, today){
     const regia = (flat.find(s=>s.regia)||{}).regia || i.director || "";
     const year = i.year || (flat.find(s=>s.anno)||{}).anno || "";
     const dir = regia ? `<div class="dir"><span class="lab">REGIA</span><b>${esc(regia)}</b></div>` : "";
-    const meta = i.runtime ? `<div class="meta">${i.runtime} min</div>` : "";
+    const meta = [i.runtime ? `${i.runtime}\u00a0min` : "", i.genres.slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · "); const metaH = meta ? `<div class="meta">${meta}</div>` : "";
     return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${posterHtml(f.title,i)}`
-      + `<div class="fm"><h2>${esc(f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${meta}</div>${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
+      + `<div class="fm"><h2>${esc(f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}${plotHtml(i)}</div>${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
       + `${infoTop(i,f.title)}${dbar}${rowsHtml}${infoBottom(i)}</details>`;
   }).join("");
 }
@@ -675,7 +685,7 @@ $("out").addEventListener("click", e => {
   const a = e.target.closest("[data-film]");
   if(a){ e.preventDefault(); navigate({only:a.dataset.film, onlyCinema:"", view:"film"}); return; }
   const cn = e.target.closest("[data-cinema]");
-  if(cn){ e.preventDefault(); navigate({onlyCinema:cn.dataset.cinema, only:"", view:"cinema"}); return; }
+  if(cn){ e.preventDefault(); collapsed.delete("c:"+cn.dataset.cinema); saveCollapsed(); navigate({onlyCinema:cn.dataset.cinema, only:"", view:"cinema"}); return; }
   if(e.target.closest("[data-back]")){ goBack(); return; }
   if(e.target.closest("[data-clear]")){ state.only=state.onlyCinema=""; state.depth=0; syncHist(); render(); return; }
   const mo = e.target.closest("[data-more]");
