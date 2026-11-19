@@ -1,0 +1,92 @@
+{
+ "agnelli": {
+  "addr": "Via Paolo Sarpi 111",
+  "lat": 45.03202,
+  "lon": 7.6433
+ },
+ "baretti": {
+  "addr": "Via Baretti 4",
+  "lat": 45.05816,
+  "lon": 7.67912
+ },
+ "centrale": {
+  "addr": "Via Carlo Alberto 27",
+  "lat": 45.06633,
+  "lon": 7.68514
+ },
+ "classico": {
+  "addr": "Piazza Vittorio Veneto 5",
+  "lat": 45.06614,
+  "lon": 7.69443
+ },
+ "duegiardini": {
+  "addr": "Via Monfalcone 62",
+  "lat": 45.05031,
+  "lon": 7.64227
+ },
+ "eliseo": {
+  "addr": "Via Monginevro 42",
+  "lat": 45.06513,
+  "lon": 7.65014
+ },
+ "esedra": {
+  "addr": "Via Bagetti 30",
+  "lat": 45.07464,
+  "lon": 7.66219
+ },
+ "greenwich": {
+  "addr": "Via Po 30",
+  "lat": 45.06708,
+  "lon": 7.69158
+ },
+ "ideal": {
+  "addr": "Corso Beccaria 4",
+  "lat": 45.07744,
+  "lon": 7.67084
+ },
+ "lux": {
+  "addr": "Galleria San Federico",
+  "lat": 45.06907,
+  "lon": 7.68281
+ },
+ "marx": {
+  "addr": "Corso Belgio 53",
+  "lat": 45.07245,
+  "lon": 7.70942
+ },
+ "massaua": {
+  "addr": "Piazza Massaua 9",
+  "lat": 45.07396,
+  "lon": 7.62005
+ },
+ "massimo": {
+  "addr": "Via Verdi 18",
+  "lat": 45.06827,
+  "lon": 7.69251
+ },
+ "nazionale": {
+  "addr": "Via Pomba 7",
+  "lat": 45.06266,
+  "lon": 7.68344
+ },
+ "reposi": {
+  "addr": "Reposi",
+  "lat": 45.06549,
+  "lon": 7.67889
+ },
+ "romano": {
+  "addr": "Piazza Castello 9",
+  "lat": 45.06994,
+  "lon": 7.68688
+ },
+ "thespace": {
+  "addr": "Salita M. Garove 24",
+  "lat": 45.08781,
+  "lon": 7.66834
+ },
+ "uci": {
+  "addr": "Via Nizza 230",
+  "lat": 45.03007,
+  "lon": 7.66461
+ }
+}
