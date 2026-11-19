@@ -67,6 +67,8 @@ h1{font-size:17px;margin:0;letter-spacing:-.03em;font-weight:800;flex:1;min-widt
 #days{display:block;padding:0 0 10px}
 .wk{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 4px;font-size:13px;color:var(--mute);font-weight:500;min-height:30px}
 .wk .link{font-size:13px;font-weight:600;padding:4px 0;min-height:30px}
+.updl{margin:6px 0 0;font-size:12px;color:var(--mute);text-align:center}
+.updl.old{color:var(--amber)}
 .wk .link[hidden]{visibility:hidden;display:inline}
 .dgrid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
 .dc{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;min-height:54px;padding:6px 0;border:0;border-radius:14px;
@@ -246,7 +248,7 @@ footer a{color:inherit}
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
-const REPO_URL = "https://github.com/rotulair/orari-cinema-torino";   // ← incolla qui il link al repository GitHub (es. "https://github.com/rotulair/NOME-REPO"): diventa il link nei crediti in fondo alla pagina
+const REPO_URL = "";   // ← incolla qui il link al repository GitHub (es. "https://github.com/rotulair/NOME-REPO"): diventa il link nei crediti in fondo alla pagina
 const TZ = "Europe/Rome";
 
 const ZONES = [
@@ -312,7 +314,7 @@ function filmInfo(title){
     posterBig: pp ? "https://image.tmdb.org/t/p/w780"+pp : (f.poster || ""),
     tmdb: t && t.url ? t.url : "", runtime: (t && t.runtime) || 0, director: (t && t.director) || f.director || "",
     overview: (t && t.overview) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
-    original: (t && t.original_title) || "", year: t && t.year ? t.year : ""};
+    original: (t && t.original_title) || "", title: (t && t.title) || "", year: t && t.year ? t.year : ""};
 }
 const xOpen = new Set();   // schede film con "Leggi tutto" aperto (trama intera, cast e link)
 const cardMore = new Set();   // schede film con le linguette degli altri giorni aperte
@@ -321,12 +323,12 @@ const cardDay = new Map();   // scheda film -> giorno scelto nelle sue linguette
 // Schede film: chiuse di default (si ricordano solo quelle aperte). Schede cinema: aperte di default.
 const collapsed = new Set(), expanded = new Set();
 try{ JSON.parse(lsGet("ct.collapsed")||"[]").forEach(k=>{ if(k[0]==="c") collapsed.add(k); }); }catch(e){}
-try{ JSON.parse(lsGet("ct.expanded")||"[]").forEach(k=>expanded.add(k)); }catch(e){}
 const isFilmCard = k => k[0]==="f";
+// cambiando giorno tutte le schede film tornano chiuse (e senza "Leggi tutto" né linguette dei giorni)
+function resetCards(){ expanded.clear(); xOpen.clear(); cardMore.clear(); cardDay.clear(); }
 const isOpen = k => (isFilmCard(k) ? (state.only || expanded.has(k)) : !collapsed.has(k)) ? " open" : "";
 function saveCollapsed(){
   lsSet("ct.collapsed", JSON.stringify([...collapsed].slice(-300)));
-  lsSet("ct.expanded", JSON.stringify([...expanded].slice(-300)));
 }
 function syncColAll(){
   const all = [...document.querySelectorAll("#out details.card")];
@@ -336,7 +338,7 @@ function syncColAll(){
 }
 
 /* ---------- locandina a tutto schermo ---------- */
-let lbOpen = false;
+let lbOpen = false, skipPop = false;
 function openLb(src, title){
   const im = $("lbimg"); im.alt = "Locandina: " + title; im.src = src;
   $("lb").hidden = false; lbOpen = true; document.body.style.overflow = "hidden";
@@ -346,7 +348,7 @@ function hideLb(){ $("lb").hidden = true; lbOpen = false; document.body.style.ov
 function closeLb(){
   if(!lbOpen) return;
   hideLb();
-  try{ if(history.state && history.state.lb) history.back(); }catch(e){}
+  try{ if(history.state && history.state.lb){ skipPop = true; history.back(); } }catch(e){ skipPop = false; }
 }
 $("lbx").onclick = e => { e.stopPropagation(); closeLb(); };
 $("lb").addEventListener("click", e => { if(e.target.id !== "lbimg") closeLb(); });
@@ -365,6 +367,7 @@ function goBack(){
   state.only = state.onlyCinema = ""; state.depth = 0; syncHist(); render();
 }
 window.addEventListener("popstate", e => {
+  if(skipPop){ skipPop = false; return; }          // chiusura della locandina con la X: la pagina resta com'e'
   if(lbOpen){ hideLb(); return; }                 // Indietro chiude prima la locandina
   const h = e.state; if(!h) return;
   Object.assign(state, {view:h.view, only:h.only||"", onlyCinema:h.onlyCinema||"", depth:h.depth||0});
@@ -437,8 +440,8 @@ function infoBottom(i){
     + (i.tmdb ? `<a class="ibtn" href="${esc(i.tmdb)}" target="_blank" rel="noopener">TMDB ↗</a>` : "") + `</div>`;
   return `<div class="xinfo">${i.cast.length ? `<p class="mut">Con: ${esc(i.cast.join(", "))}</p>` : ""}${btns}</div>`;
 }
-function cinemaFilmLink(title){   // nella scheda cinema: porta alla scheda film (tutti i cinema e gli orari)
-  return `<a class="ft" href="#film" data-film="${esc(filmKey(title))}" title="Vedi tutti i cinema e gli orari di questo film">${esc(title)}</a>`;
+function cinemaFilmLink(title, shown){   // nella scheda cinema: porta alla scheda film (tutti i cinema e gli orari)
+  return `<a class="ft" href="#film" data-film="${esc(filmKey(title))}" title="Vedi tutti i cinema e gli orari di questo film">${esc(shown||title)}</a>`;
 }
 const addrLink = c => { const k = distKm(c.id); const km = k===null ? "" : ` · ${fmtKm(k)}`;
   return `<a class="addr" href="${esc(mapsUrl(c))}" target="_blank" rel="noopener" title="Apri in Maps">${esc(c.address || "Apri in Maps")}${km}</a>`; };
@@ -557,7 +560,15 @@ function render(){
         const has = dates.includes(x), wd = fmt(x,{weekday:"short"}).replace(".","");
         return `<button type="button" class="dc" data-d="${x}" aria-pressed="${x===state.day}"${has?"":" disabled"}><span>${x===today?"Oggi":esc(wd.charAt(0).toUpperCase()+wd.slice(1))}</span><b>${new Date(x+"T12:00:00Z").getUTCDate()}</b></button>`;
       }).join("")}</div>`;
-  const setDay = x=>{ state.anim = x > state.day ? "l" : "r"; state.day = x; cardDay.clear(); cardMore.clear(); render(); };
+  const setDay = x=>{ state.anim = x > state.day ? "l" : "r"; state.day = x; resetCards(); render(); };
+  const g0 = new Date(d.generated_at), ageMin = isNaN(g0) ? null : Math.max(0, Math.round((Date.now() - g0)/60000));
+  if(ageMin !== null){
+    const hhmm = new Intl.DateTimeFormat("it-IT",{timeZone:TZ,hour:"2-digit",minute:"2-digit"}).format(g0);
+    const gd = new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(g0);
+    const when = gd===today ? `alle ${hhmm}` : `${new Intl.DateTimeFormat("it-IT",{timeZone:TZ,day:"numeric",month:"short"}).format(g0)} alle ${hhmm}`;
+    const ago = ageMin < 60 ? "meno di un’ora fa" : ageMin < 120 ? "1 ora fa" : ageMin < 1440 ? `${Math.floor(ageMin/60)} ore fa` : (ageMin < 2880 ? "1 giorno fa" : `${Math.floor(ageMin/1440)} giorni fa`);
+    $("days").insertAdjacentHTML("beforeend", `<div class="updl${ageMin>=360?" old":""}">Orari aggiornati ${esc(when)} · ${esc(ago)}</div>`);
+  }
   $("days").querySelectorAll("button[data-d]").forEach(b=>b.onclick=()=>setDay(b.dataset.d));
   $("days").querySelectorAll("button[data-wk]").forEach(b=>b.onclick=()=>{
     const ws = addDays(start, 7*(+b.dataset.wk)), we = addDays(ws,6);
@@ -669,7 +680,7 @@ function renderFilms(rows, cmap, now, isToday, all, today){
     const dir = regia ? `<div class="dir"><span class="lab">REGIA</span><b>${esc(regia)}</b></div>` : "";
     const meta = [i.runtime ? `${i.runtime}\u00a0min` : "", i.genres.slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · "); const metaH = meta ? `<div class="meta">${meta}</div>` : "";
     return `<details class="card${xOpen.has(k)?" xo":""}" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${posterHtml(f.title,i)}`
-      + `<div class="fm"><h2>${esc(f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}</div>${plotHtml(i, xOpen.has(k))}${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
+      + `<div class="fm"><h2>${esc(i.title||f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}</div>${plotHtml(i, xOpen.has(k))}${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
       + `${infoTop(i,f.title)}${infoBottom(i)}${dbar}${rowsHtml}</details>`;
   }).join("");
 }
@@ -690,7 +701,7 @@ function renderCinemas(rows, d, now, isToday){
     else body = [...films.values()].sort((a,b)=>effMin(a.arr[0].time)-effMin(b.arr[0].time)).map(f=>{
       f.arr.sort((x,y)=>effMin(x.time)-effMin(y.time));
       const fi = filmInfo(f.title);
-      return `<div class="row"><div class="who mw">${miniHtml(f.title,fi)}<div>${cinemaFilmLink(f.title)}</div></div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
+      return `<div class="row"><div class="who mw">${miniHtml(f.title,fi)}<div>${cinemaFilmLink(f.title, fi.title)}</div></div><div class="times">${timePills(f.arr,now,isToday)}</div></div>`;
     }).join("");
     const note = c.status && c.status.source==="Movieplayer" ? `<span class="addr" style="text-decoration:none">orari da Movieplayer, solo oggi: verifica sul sito</span>` : "";
     out += `<details class="card cin" data-k="c:${esc(c.id)}"${isOpen("c:"+c.id)}><summary class="fh chd">${logoHtml(c)}`
@@ -721,7 +732,14 @@ $("out").addEventListener("toggle", e => {
   const d = e.target; if(!d.dataset || !d.dataset.k) return;
   const k = d.dataset.k;
   if(d.open === (isOpen(k) !== "")){ syncColAll(); return; }   // evento causato dal disegno della pagina, non da un tocco
-  if(isFilmCard(k)){ d.open ? expanded.add(k) : expanded.delete(k); }
+  if(isFilmCard(k)){
+    if(d.open) expanded.add(k);
+    else{ const fk = k.slice(2); expanded.delete(k); xOpen.delete(fk);
+      const dirty = cardMore.delete(fk) | cardDay.delete(fk);          // linguette e giorno scelto tornano com'erano
+      if(dirty){ setTimeout(render, 0); return; }
+      d.classList.remove("xo"); const mo = d.querySelector("[data-more]"); if(mo) mo.textContent = "Leggi tutto";
+      const pl = d.querySelector(".plot"); if(pl) pl.classList.toggle("full", pl.textContent.length <= 110); }
+  }
   else { d.open ? collapsed.delete(k) : collapsed.add(k); }
   saveCollapsed(); syncColAll();
 }, true);
@@ -749,7 +767,7 @@ $("out").addEventListener("click", e => {
     mo.textContent = op ? "Mostra meno" : "Leggi tutto"; return;
   }
   const t = e.target.closest("[data-cd]");
-  if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); cardMore.delete(t.dataset.cd); render(); return; }
+  if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); render(); return; }
   const cm = e.target.closest("[data-cmore]");
   if(cm){ e.preventDefault(); const k = cm.dataset.cmore; cardMore.has(k) ? cardMore.delete(k) : cardMore.add(k); render(); }
 });
@@ -759,7 +777,7 @@ function gotoDay(step){
   const j = state.dates.indexOf(state.day) + step;
   if(j < 0 || j >= state.dates.length) return;
   state.anim = step > 0 ? "l" : "r";
-  state.day = state.dates[j]; cardDay.clear(); cardMore.clear(); render();
+  state.day = state.dates[j]; resetCards(); render();
   window.scrollTo({top:0});
 }
 let tx = 0, ty = 0, tok = false;
