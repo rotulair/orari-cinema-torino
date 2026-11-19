@@ -1204,6 +1204,12 @@ def main() -> int:
     except Exception as exc:  # noqa: BLE001
         print(f"schede film saltate: {exc}")
 
+    try:  # posizione dei cinema (ordinamento per zona): opzionale
+        import geo
+        geo.ensure(data["cinemas"], Path(args.out).with_name("coordinates.json"), fetch)
+    except Exception as exc:  # noqa: BLE001
+        print(f"coordinate saltate: {exc}")
+
     ok = [c for c in data["cinemas"] if c["status"]["n"] > 0]
     print(f"{len(data['showtimes'])} proiezioni da {len(ok)}/{len(data['cinemas'])} cinema")
     for c in data["cinemas"]:
