@@ -619,23 +619,39 @@ def parse_agnelli(html: str, day: str) -> list[dict]:
 # ------------------------------------------------------------------ parser: Centrale Arthouse (WordPress)
 # Post settimanale: titolo del film, poi righe "GIOV 12 – 21:00", "SAB 14 – 13:15 e 18:30".
 
-_CENTRALE = re.compile(r"^(lun|mar|mer|gio|ven|sab|dom)\w*\.?\s+(\d{1,2})\s*[–—-]\s*(.+)$", re.I)
+_CENTRALE = re.compile(r"^(lun|mar|mer|gio|ven|sab|dom)\w*\.?\s+(\d{1,2})\b\s*(.*)$", re.I)
+_TIME_LINE = re.compile(r"(?i)^(?:ore\s*)?\d{1,2}[:.]\d{2}\b")
 
 
 def parse_centrale(html: str, day: str) -> list[dict]:
+    """Un post per settimana: titolo del film e, sotto, righe come "GIOV 12 – 21:00", "SAB 14 – 13:15 e 18:30"
+    (anche "VEN 13 ore 21:00", o il giorno e gli orari su righe separate). Un orario non e' mai un titolo."""
     title = ""
+    pending = ""          # giorno visto senza orari: gli orari possono stare nelle righe successive
     out: list[dict] = []
     seen: set = set()
     for text, tag in lines_of(html):
         m = _CENTRALE.match(text)
         if m:
             date = date_by_weekday(day, m.group(1), int(m.group(2)))
-            if date and title:
-                for hhmm in times_in(m.group(3)):
-                    _add(out, seen, title, date, hhmm, "VO" if re.search(r"(?i)\bv\.?o\.?\b|originale", m.group(3)) else "")
+            rest = m.group(3)
+            times = times_in(rest)
+            if date and times:
+                if title:
+                    for hhmm in times:
+                        _add(out, seen, title, date, hhmm, "VO" if re.search(r"(?i)\bv\.?o\.?\b|originale", rest) else "")
+                pending = ""
+            else:
+                pending = date or ""
             continue
-        if tag and 2 < len(text) <= 100:
+        if times_in(text) and (_TIME_LINE.match(text) or _TIME_TITLE.match(text.strip())):
+            if pending and title:
+                for hhmm in times_in(text):
+                    _add(out, seen, title, pending, hhmm, "VO" if re.search(r"(?i)\bv\.?o\.?\b|originale", text) else "")
+            continue          # riga di soli orari: mai un titolo
+        if tag and 2 < len(text) <= 100 and not is_junk_title(text):
             title = clean(text)
+            pending = ""
     return out
 
 
@@ -769,6 +785,7 @@ def parse_grantorino_pdf(xml: str, day: str, venue: str) -> list[dict]:
                      rooms[c][1] if multi and c in rooms else "")
                 if len(out) > n0:
                     out[-1]["venue"] = venue
+                    out[-1]["manual"] = True      # PDF scritto a mano: i titoli vanno controllati con le altre fonti
     return out
 
 
@@ -814,11 +831,16 @@ _ARTICLES = {"il", "lo", "la", "l", "i", "gli", "le", "un", "uno", "una", "the"}
 _JUNK = re.compile(r"(?i)^(n\.?\s?/?\s?d\.?|n\.?a\.?|nd|tba|tbd|-+|\d{2,3}['’′]?)$")
 
 
+_TIME_TITLE = re.compile(r"(?i)^(?:ore\s*)?\d{1,2}[:.]\d{2}(?:\s*(?:e|-|–|/|,|&)\s*\d{1,2}[:.]\d{2})*$")
+
+
 def is_junk_title(t: str) -> bool:
     """Segnaposto o valori scambiati per titoli: 'n.d.', 'N/D', durate come 113', 'Sala 3'..."""
     t = (t or "").strip()
     if not re.search(r"[A-Za-zÀ-ÿ0-9]{2,}", t) or _JUNK.match(t):
         return True
+    if _TIME_TITLE.match(t):
+        return True        # "21:00", "ore 16.00 e 21:00": un orario scambiato per titolo
     return t.lower().startswith(("sala ", "in programmazione", "prossimamente", "film in programma"))
 
 
@@ -864,9 +886,58 @@ def _same_film(a: str, b: str) -> bool:
     return difflib.SequenceMatcher(None, a, b).ratio() >= 0.93
 
 
+def _subtitle_of(a: str, b: str) -> bool:
+    """'minotaur' / 'minotaur nel labirinto del potere': un titolo e' l'inizio dell'altro seguito da un
+    sottotitolo di almeno due parole (e senza numeri diversi)."""
+    ta, tb = a.split(), b.split()
+    if len(ta) > len(tb):
+        ta, tb = tb, ta
+    if len(" ".join(ta)) < 6 or len(tb) - len(ta) < 2 or tb[:len(ta)] != ta:
+        return False
+    return [w for w in tb[len(ta):] if w.isdigit()] == []
+
+
+def snap_manual_titles(rows: list[dict]) -> list[tuple[str, str]]:
+    """Controllo incrociato dei titoli dei PDF scritti a mano: se somiglia molto (>= 0.85) a un titolo
+    letto da un'altra fonte, e' un refuso e si usa quello. Rimuove poi il contrassegno 'manual'."""
+    auto = Counter(r["film"] for r in rows if not r.get("manual"))
+    akeys = {n: compare_key(n) for n in auto}
+    fixed: dict[str, str] = {}
+    log: list[tuple[str, str]] = []
+    for r in rows:
+        if not r.pop("manual", False):
+            continue
+        t = r["film"]
+        if t in fixed:
+            r["film"] = fixed[t]
+            continue
+        k = compare_key(t)
+        if t in auto or k in akeys.values():
+            continue
+        best, score = None, 0.0
+        for n, kn in akeys.items():
+            if min(len(k), len(kn)) < 6 or [w for w in k.split() if w.isdigit()] != [w for w in kn.split() if w.isdigit()]:
+                continue
+            ta, tb = k.split(), kn.split()
+            sc = difflib.SequenceMatcher(None, k, kn).ratio()
+            if len(ta) != len(tb):                       # titolo breve contro titolo con sottotitolo
+                short, long_ = (ta, tb) if len(ta) < len(tb) else (tb, ta)
+                sc = max(sc, difflib.SequenceMatcher(None, " ".join(short), " ".join(long_[:len(short)])).ratio())
+            if sc > score or (sc == score and best and auto[n] > auto[best]):
+                best, score = n, sc
+        if best and score >= 0.85:
+            fixed[t] = best
+            r["film"] = best
+            log.append((t, best))
+    return sorted(set(log))
+
+
 def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
     """Riscrive r['film'] col nome canonico di ogni gruppo. Restituisce le unificazioni fatte."""
     keys = {r["film"]: compare_key(r["film"]) for r in rows}
+    where: dict[str, set] = {}
+    for r in rows:
+        where.setdefault(r["film"], set()).add((r.get("cinema"), r.get("date")))
     names = sorted(keys, key=lambda n: (keys[n], n))
     parent = {n: n for n in names}
 
@@ -878,7 +949,9 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
 
     for i, a in enumerate(names):
         for b in names[i + 1:]:
-            if find(a) != find(b) and _same_film(keys[a], keys[b]):
+            if find(a) == find(b):
+                continue
+            if _same_film(keys[a], keys[b]) or (_subtitle_of(keys[a], keys[b]) and not (where[a] & where[b])):
                 parent[find(b)] = find(a)
 
     counts = Counter(r["film"] for r in rows)
@@ -898,6 +971,9 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
             mixed = letters != letters.upper() or len(letters) < 4
             return (-cleaned[t], not mixed, -len(t), t)
         best = sorted(cleaned, key=rank)[0]
+        longer = [t for t in cleaned if t != best and compare_key(t).startswith(compare_key(best) + " ")]
+        if longer:                                        # "Minotaur" + "Minotaur nel labirinto del potere": meglio il completo
+            best = max(longer, key=lambda t: (cleaned[t] > 0, len(t)))
         for n in members:
             canon[n] = best
             if n != best:
@@ -1033,6 +1109,8 @@ def run(config_path: Path, out_path: Path, only: str | None = None,
     if junk:
         print(f"  scartate {len(junk)} proiezioni senza titolo valido (es. {junk[0]['film']!r} a {junk[0]['cinema']})")
         all_rows = [r for r in all_rows if not is_junk_title(r["film"])]
+    for a, b in snap_manual_titles(all_rows):
+        print(f"  refuso nel PDF corretto: {a!r} -> {b!r}")
     for a, b in unify_titles(all_rows):
         print(f"  titoli unificati: {a!r} -> {b!r}")
     # dopo l'unificazione lo stesso spettacolo puo' comparire due volte nello stesso cinema
