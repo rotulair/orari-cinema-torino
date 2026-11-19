@@ -246,6 +246,7 @@ footer a{color:inherit}
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
+const REPO_URL = "";   // ← incolla qui il link al repository GitHub (es. "https://github.com/rotulair/NOME-REPO"): diventa il link nei crediti in fondo alla pagina
 const TZ = "Europe/Rome";
 
 const ZONES = [
@@ -610,6 +611,7 @@ function render(){
   const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
   const hasTmdb = Object.values(FILMS).some(f=>f && f.tmdb);
   $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`
+    + `<br>Creato da ${REPO_URL ? `<a href="${esc(REPO_URL)}" target="_blank" rel="noopener">rotulair</a> · <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">codice su GitHub</a>` : "rotulair"}`
     + (hasTmdb ? `<br>Locandine, durate e registi: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> e Wikipedia. This product uses the TMDB API but is not endorsed or certified by TMDB.` : "");
   if(state.anim){ const o=$("out"); o.classList.remove("sl","sr"); void o.offsetWidth; o.classList.add(state.anim==="l"?"sl":"sr"); state.anim=""; }
 }
