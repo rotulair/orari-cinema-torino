@@ -733,5 +733,40 @@ class GeoTest(unittest.TestCase):
             geo.ensure([{"id": "a", "name": "A", "address": "Via X 1"}], p, f, sleep=0)
             self.assertEqual(len(calls), 1)          # gia' in cache
 
+
+class TitoloUfficialeETmdbTest(unittest.TestCase):
+    def test_nota_lingua_non_diventa_titolo(self):
+        rows = [{"film": "The Hunger Games: Alba della mietitura", "cinema": "a", "date": "d1"},
+                {"film": "The Hunger Games: Alba della mietitura (Film in inglese)", "cinema": "b", "date": "d1"},
+                {"film": "Hunger Games - Alba della mietitura - Film in inglese", "cinema": "c", "date": "d2"}]
+        scrape.unify_titles(rows)
+        self.assertEqual({r["film"] for r in rows}, {"The Hunger Games: Alba della mietitura"})
+        self.assertEqual([r.get("tag") for r in rows], [None, "VO", "VO"])
+
+    def test_film_in_inglese_da_solo_e_scarto(self):
+        self.assertTrue(scrape.is_junk_title("Film in inglese"))
+        self.assertFalse(scrape.is_junk_title("In the mood for love"))
+
+    def test_tmdb_solo_titolo_originale_ma_regista_conferma(self):
+        import films
+        c = {"id": 1, "sim": 0.6, "year": 2026, "popularity": 50, "title": "The Hunger Games: Sunrise on the Reaping",
+             "poster_path": "/p.jpg", "runtime": 140, "directors": ["Francis Lawrence"], "overview": None,
+             "genres": [], "cast": [], "original_title": "The Hunger Games: Sunrise on the Reaping",
+             "release_date": "2026-11-20"}
+        w, t, note = films.decide("Alba della mietitura", "Francis Lawrence", 2026, None, [c], __import__("datetime").date(2026, 11, 19))
+        self.assertEqual(t["poster_path"], "/p.jpg")
+        self.assertIsNone(t["overview"])               # senza trama italiana si tengono comunque locandina e info
+        self.assertEqual(t["title"], "The Hunger Games: Sunrise on the Reaping")
+
+    def test_tmdb_titolo_diverso_senza_conferma_e_scartato_con_motivo(self):
+        import films
+        c = {"id": 2, "sim": 0.3, "year": 2026, "popularity": 5, "title": "Altro", "poster_path": None, "runtime": None,
+             "directors": ["Tizio Caio"], "overview": None, "genres": [], "cast": [], "original_title": "Altro",
+             "release_date": "2026-11-20"}
+        w, t, note = films.decide("Mio film", None, None, None, [c], __import__("datetime").date(2026, 11, 19))
+        self.assertIsNone(t)
+        self.assertIn("titolo diverso", note)
+
+
 if __name__ == "__main__":
     unittest.main()
