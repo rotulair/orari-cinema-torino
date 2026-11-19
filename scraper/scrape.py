@@ -881,6 +881,8 @@ def is_junk_title(t: str) -> bool:
         return True
     if _TIME_TITLE.match(t):
         return True        # "21:00", "ore 16.00 e 21:00": un orario scambiato per titolo
+    if re.fullmatch(r"(?i)(?:film\s+)?(?:" + _LANG + r")", t):
+        return True        # "Film in inglese" da solo non e' un titolo
     return t.lower().startswith(("sala ", "in programmazione", "prossimamente", "film in programma"))
 
 
@@ -889,9 +891,17 @@ _EDITION = re.compile(r"\s*[-–—]\s*[^-–—]*\b(?:anniversar\w*|restaurat\w
                       r"director'?s cut)\b.*$", re.I)
 
 
+# Note sulla lingua attaccate al titolo da un solo cinema: "Titolo (Film in inglese)", "Titolo - in lingua originale",
+# "Titolo sub ita": sono informazioni su QUELLA proiezione, non parte del titolo.
+_LANG = (r"(?:film\s+)?in\s+(?:lingua\s+)?(?:originale|inglese|francese|spagnolo|tedesco|giapponese|coreano|russo|cinese)"
+         r"(?:\s+(?:con|e)?\s*sott\w*[^)\]]*)?|(?:con\s+)?sottotitoli?\s+(?:in\s+)?italian\w*|sub\.?\s?ita|lingua originale")
+_LANG_NOTE = re.compile(r"\s*(?:[-–—:]\s*|[(\[]\s*)?\b(?:" + _LANG + r")\s*[)\]]?\s*$", re.I)
+
+
 def strip_noise(title: str) -> str:
-    """'Titolo - V. O.' -> 'Titolo'; 'Titolo 4K – WB 100th Anniversary (...)' -> 'Titolo'."""
-    t = _VO_SUFFIX.sub("", title)
+    """'Titolo - V. O.' -> 'Titolo'; 'Titolo (Film in inglese)' -> 'Titolo'; 'Titolo 4K – WB 100th Anniversary' -> 'Titolo'."""
+    t = _LANG_NOTE.sub("", title)
+    t = _VO_SUFFIX.sub("", t)
     t = _EDITION.sub("", t)
     t = re.sub(r"\s+4k\b", "", t, flags=re.I)
     return t.strip()
@@ -1021,7 +1031,7 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
     for r in rows:
         if re.search(r"(?i)\b4k\b|\bried\b|\brid\.|restaurat|rimasterizz|remaster|anniversar|riedizione|ritorna", r["film"]):
             r["rer"] = True                                   # riedizione di un film vecchio: serve a TMDB
-        if _VO_SUFFIX.search(r["film"]) and not r.get("tag"):
+        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"])) and not r.get("tag"):
             r["tag"] = "VO"                                   # "Titolo - V. O." = proiezione in originale
         y = re.search(r"[\[(]\s*((?:19|20)\d{2})\s*[\])]", r["film"])   # "Titolo [2026]": serve a TMDB
         if y and "anno" not in r:

@@ -20,7 +20,7 @@ from pathlib import Path
 API = "https://it.wikipedia.org/w/api.php"
 RETRY_DAYS = 7
 MAX_LOOKUPS = 150 # per esecuzione
-SCHEMA = 5        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
+SCHEMA = 6        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
 
 
 def film_key(title: str) -> str:
@@ -191,26 +191,41 @@ def surname_match(ref: str | None, names: list[str] | str | None) -> bool | None
     return False
 
 
-def tmdb_candidates(title: str, fetch, hint_year: int | None = None) -> list[dict]:
-    """Cerca il film e, per i risultati con titolo simile, scarica dettagli e regia."""
+def _all_titles(d: dict) -> list[str]:
+    """Titolo italiano, originale, alternativi e traduzioni: i titoli italiani spesso esistono solo qui."""
+    out = [d.get("title"), d.get("original_title")]
+    out += [a.get("title") for a in ((d.get("alternative_titles") or {}).get("titles") or [])]
+    out += [(t.get("data") or {}).get("title") for t in ((d.get("translations") or {}).get("translations") or [])]
+    return [t for t in out if t]
+
+
+def tmdb_candidates(title: str, fetch, hint_year: int | None = None, notes: list[str] | None = None) -> list[dict]:
+    """Cerca il film e, per i primi risultati, scarica dettagli, regia e titoli alternativi.
+    Il titolo conta se somiglia a UNO qualsiasi dei titoli noti (anche solo traduzioni o titoli alternativi):
+    una scheda TMDB senza traduzione italiana si trova comunque."""
+    notes = notes if notes is not None else []
     q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title).strip()
-    params = {"query": q, "language": "it-IT", "include_adult": "false"}
-    if hint_year:
-        params["year"] = str(hint_year)
-    res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(params)))
-    hits = []
-    for r in res.get("results", []):
-        sim = max(title_sim(q, r.get("title", "")), title_sim(q, r.get("original_title", "")))
-        if sim >= 0.85:
-            hits.append((sim, r))
-    hits.sort(key=lambda x: (-x[0], -(x[1].get("popularity") or 0)))
+    results: list[dict] = []
+    for year in ([hint_year, None] if hint_year else [None]):    # se con l'anno non c'e' nulla, riprova senza
+        params = {"query": q, "language": "it-IT", "include_adult": "false"}
+        if year:
+            params["year"] = str(year)
+        res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(params)))
+        results = res.get("results", [])
+        if results:
+            break
+    if not results:
+        notes.append("TMDB: la ricerca non ha restituito nessun film")
+        return []
     out = []
-    for sim, r in hits[:4]:
+    for r in sorted(results, key=lambda r: -(r.get("popularity") or 0))[:5]:
         d = json.loads(fetch(f"{TMDB_API}/movie/{r['id']}?" + urllib.parse.urlencode(
-            {"language": "it-IT", "append_to_response": "credits"})))
+            {"language": "it-IT", "append_to_response": "credits,alternative_titles,translations"})))
+        sim = max([title_sim(q, t) for t in _all_titles(d)] or [0.0])
         crew = (d.get("credits") or {}).get("crew") or []
         year = int((d.get("release_date") or "0000")[:4] or 0) or None
         out.append({"id": d["id"], "sim": sim, "year": year, "popularity": d.get("popularity") or 0,
+                    "title": (d.get("title") or "").strip() or None,
                     "poster_path": d.get("poster_path"), "runtime": d.get("runtime") or None,
                     "directors": [c["name"] for c in crew if c.get("job") == "Director"],
                     "overview": (d.get("overview") or "").strip()[:700] or None,
@@ -229,8 +244,8 @@ def _months_from(today: dt.date, release: str | None) -> float | None:
 
 
 def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | None,
-           cands: list[dict], today: dt.date | None = None, rerelease: bool = False
-           ) -> tuple[dict | None, dict | None, str]:
+           cands: list[dict], today: dt.date | None = None, rerelease: bool = False,
+           notes: list[str] | None = None) -> tuple[dict | None, dict | None, str]:
     """Controllo incrociato titolo + regista + anno. Meglio nessun dato che un dato di un film omonimo.
 
     Regole per TMDB (un candidato passa solo se):
@@ -243,7 +258,7 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
     Wikipedia viene scartata se regista o anno contraddicono quanto dichiarato dal cinema.
     """
     today = today or dt.date.today()
-    notes: list[str] = []
+    notes = notes if notes is not None else []
     wiki_dir = (wiki or {}).get("director")
 
     if wiki:
@@ -265,8 +280,8 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
     for c in cands:
         why = None
         m = surname_match(check_dir, c["directors"]) if check_dir else None
-        if c["sim"] < 0.85:
-            why = "titolo diverso"
+        if c["sim"] < 0.85 and not (m is True and c["sim"] >= 0.5):
+            why = f"titolo diverso (somiglianza {c['sim']:.2f}: '{c.get('title')}' / '{c.get('original_title')}')"
         elif year and c["year"] and abs(c["year"] - year) > 1:
             why = f"anno {c['year']} != {year}"
         elif m is False:
@@ -281,7 +296,7 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
         else:
             passed.append((m is True, c))
 
-    if not cands:
+    if not cands and not any(n.startswith("TMDB:") for n in notes):
         notes.append("TMDB: nessun risultato con titolo simile")
     chosen = None
     if len(passed) == 1:
@@ -298,7 +313,7 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
     t = None
     if chosen:
         runtime = chosen["runtime"] if chosen["runtime"] and 30 <= chosen["runtime"] <= 400 else None
-        t = {"id": chosen["id"], "url": f"{TMDB_PAGE}{chosen['id']}?language=it-IT",
+        t = {"id": chosen["id"], "title": chosen.get("title"), "url": f"{TMDB_PAGE}{chosen['id']}?language=it-IT",
              "poster_path": chosen["poster_path"], "runtime": runtime,
              "director": ", ".join(chosen["directors"]) or None, "year": chosen["year"],
              "overview": chosen["overview"], "genres": chosen["genres"], "cast": chosen["cast"],
@@ -350,21 +365,29 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
             wiki = lookup(title, fetcher, ref["anno"], ref["regia"] or None)
         except Exception:  # noqa: BLE001 - rete o API giu': si riprova al prossimo giro
             continue
-        cands, tmdb_ok = [], bool(tmdb)
+        cands, tmdb_ok, notes0 = [], bool(tmdb), []
+        if wiki is None:
+            notes0.append("Wikipedia: nessuna pagina che sia un film con questo titolo")
         if tmdb:
             try:
-                cands = tmdb_candidates(title, tmdb, ref["anno"] or (wiki or {}).get("year"))
+                cands = tmdb_candidates(title, tmdb, ref["anno"] or (wiki or {}).get("year"), notes0)
             except Exception as exc:  # noqa: BLE001 - errore TMDB: lo si vede nel log, i dati Wikipedia restano
                 if not tmdb_errors:
                     print(f"  TMDB errore: {exc}")
                 tmdb_errors.append(title)
                 tmdb_ok = False
-        wiki, t, note = decide(title, ref["regia"] or None, ref["anno"], wiki, cands, today_d, ref["rer"])
-        if note and printed < 40:
+                notes0.append(f"TMDB: errore di rete/API ({exc})")
+        elif not tmdb:
+            notes0.append("TMDB: chiave non configurata")
+        wiki, t, note = decide(title, ref["regia"] or None, ref["anno"], wiki, cands, today_d, ref["rer"], notes0)
+        if tmdb_ok and tmdb and not t and not note:
+            note = "TMDB: nessun candidato adatto"
+        if note and printed < 200:
             printed += 1
             print(f"  film '{title}': {note}")
         cache[key] = {"title": title, "url": (wiki or {}).get("url"), "poster": (wiki or {}).get("poster"),
                       "director": (wiki or {}).get("director"), "tmdb": t, "t": tmdb_ok, "v": SCHEMA,
+                      "why": note or None, "ref": {"regia": ref["regia"] or None, "anno": ref["anno"]},
                       "checked": today_d.isoformat()}
         time.sleep(delay)
     # tieni nel file solo i film ancora in programmazione (o cercati di recente)
@@ -372,4 +395,22 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
              (v.get("v") == SCHEMA and (today_d - dt.date.fromisoformat(v["checked"])).days < 30)}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    try:
+        write_report(cache, refs, path.with_name("tmdb_report.txt"), today_d)
+    except Exception as exc:  # noqa: BLE001 - il report e' solo un aiuto
+        print(f"  report TMDB non scritto: {exc}")
     return cache
+
+
+def write_report(cache: dict, refs: dict, out: Path, today: dt.date) -> None:
+    """Elenco leggibile dei film SENZA dati TMDB e del motivo (data/tmdb_report.txt)."""
+    ok = [k for k in refs if (cache.get(k) or {}).get("tmdb")]
+    bad = [k for k in refs if not (cache.get(k) or {}).get("tmdb")]
+    lines = [f"Report TMDB del {today.isoformat()}: {len(ok)} film con dati TMDB, {len(bad)} senza.", ""]
+    for k in sorted(bad, key=lambda k: refs[k]["title"].lower()):
+        e = cache.get(k) or {}
+        ref = refs[k]
+        lines.append(f"- {ref['title']}  [regia dichiarata: {ref['regia'] or '-'}; anno: {ref['anno'] or '-'}; "
+                     f"Wikipedia: {'si' if e.get('url') else 'no'}]")
+        lines.append(f"    motivo: {e.get('why') or 'non ancora cercato (limite di ricerche per giro o errore di rete)'}")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
