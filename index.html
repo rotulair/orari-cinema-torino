@@ -112,6 +112,13 @@ summary.fh::after{content:"";position:absolute;top:22px;right:18px;width:9px;hei
 
 /* anteprima da chiusa: i prossimi orari */
 .prev{display:flex;flex-wrap:wrap;gap:6px;flex:1 0 100%;order:3;margin-top:-2px;align-items:center}
+/* scheda film: locandina | titolo e trama; da telefono, a "Leggi tutto" aperto la trama passa sotto la locandina a tutta larghezza */
+summary.fh:not(.chd){display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:14px;row-gap:0;align-items:start}
+summary.fh:not(.chd)>.pbtn{grid-column:1;grid-row:1 / span 2}
+summary.fh:not(.chd)>.fm{grid-column:2;grid-row:1}
+summary.fh:not(.chd)>.plotw{grid-column:2;grid-row:2;min-width:0}
+summary.fh:not(.chd)>.prev{grid-column:1 / -1;grid-row:3;margin-top:10px}
+@media (max-width:639px){.card.xo>summary.fh>.plotw{grid-column:1 / -1;grid-row:3;margin-top:12px}}
 .card[open] .prev{display:none}
 .pp{display:inline-flex;align-items:baseline;gap:6px;background:var(--raised);border-radius:9px;padding:4px 9px;
   border:2px solid transparent;font-size:14px;min-width:0;max-width:100%}
@@ -128,6 +135,12 @@ summary.fh::after{content:"";position:absolute;top:22px;right:18px;width:9px;hei
 .card:not([open]) .plotw{display:none}
 .plotw .plot{font-size:14px;line-height:1.45;margin:0}
 .plotw .more{padding:0;min-height:36px;font-size:14px}
+.xinfo{display:none;padding:0 16px 14px}
+.card.xo .xinfo{display:block}
+.xinfo p.mut{color:var(--mute);font-size:13px;margin:0 0 10px;line-height:1.4}
+select.zone{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;height:48px;padding:0 12px}
+select.zone:focus{outline:2px solid var(--amber)}
+.zhint{color:var(--mute);font-size:12px;margin:4px 0 6px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
 .tag{background:var(--raised);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:500}
 .info p{margin:0 0 8px}
@@ -212,6 +225,11 @@ footer a{color:inherit}
       <input type="search" id="q" placeholder="Cerca un film…" aria-label="Cerca un film" autocomplete="off">
     </div>
     <div class="panel" id="p-m" hidden>
+      <div id="zonebox" hidden>
+        <div class="plab">La mia zona</div>
+        <select id="zone" class="zone" aria-label="La mia zona"></select>
+        <div class="zhint" id="zhint"></div>
+      </div>
       <div class="prow"><label class="toggle"><input type="checkbox" id="fromnow" checked> Solo da ora</label>
         <button type="button" class="link" id="colall" hidden>Comprimi tutto</button></div>
       <div class="plab">Cinema <span id="fsum" style="text-transform:none;letter-spacing:0;font-weight:500"></span></div>
@@ -230,7 +248,15 @@ footer a{color:inherit}
 const $ = id => document.getElementById(id);
 const TZ = "Europe/Rome";
 
-const state = { data:null, day:null, dates:[], anim:"", depth:0, view:"film", q:"", only:"", onlyCinema:"", fromNow:true, hidden:new Set() };
+const ZONES = [
+  ["centro","Centro",45.0703,7.6869],["crocetta","Crocetta / San Secondo",45.0580,7.6640],["salvario","San Salvario",45.0550,7.6800],
+  ["lingotto","Nizza Millefonti / Lingotto",45.0350,7.6650],["santarita","Santa Rita / Mirafiori Nord",45.0450,7.6430],
+  ["mirafiori","Mirafiori Sud",45.0170,7.6290],["cenisia","Cenisia / San Paolo",45.0630,7.6510],
+  ["sandonato","San Donato / Cit Turin / Campidoglio",45.0770,7.6600],["parella","Parella / Pozzo Strada",45.0700,7.6280],
+  ["vittoria","Borgo Vittoria / Lucento / Madonna di Campagna",45.1030,7.6600],["barriera","Barriera di Milano / Aurora / Parco Dora",45.0850,7.6920],
+  ["vanchiglia","Vanchiglia / Regio Parco",45.0780,7.7050],["borgopo","Borgo Po / Madonna del Pilone / Collina",45.0600,7.7060]];
+let COORDS = {};
+const state = { zone:"", data:null, day:null, dates:[], anim:"", depth:0, view:"film", q:"", only:"", onlyCinema:"", fromNow:true, hidden:new Set() };
 
 /* ---------- utilità ---------- */
 function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
@@ -287,6 +313,7 @@ function filmInfo(title){
     overview: (t && t.overview) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
     original: (t && t.original_title) || "", year: t && t.year ? t.year : ""};
 }
+const xOpen = new Set();   // schede film con "Leggi tutto" aperto (trama intera, cast e link)
 const cardMore = new Set();   // schede film con le linguette degli altri giorni aperte
 const cardDay = new Map();   // scheda film -> giorno scelto nelle sue linguette (si azzera cambiando giorno)
 /* ---------- schede comprimibili ---------- */
@@ -356,6 +383,25 @@ function logoErr(img){
   const p = img.parentNode; p.classList.add("mono"); p.classList.remove("big");
   p.style.setProperty("--h", hue(img.dataset.n)); p.textContent = initials(img.dataset.n);
 }
+/* ---------- la mia zona: ordinamento dei cinema per distanza (scelta salvata sul dispositivo, nessuna posizione letta) ---------- */
+function zoneObj(){ return ZONES.find(z=>z[0]===state.zone) || null; }
+function distKm(cid){
+  const z = zoneObj(), c = COORDS[cid];
+  if(!z || !c) return null;
+  const R = 6371, rad = x=>x*Math.PI/180;
+  const dLat = rad(c.lat - z[2]), dLon = rad(c.lon - z[3]);
+  const a = Math.sin(dLat/2)**2 + Math.cos(rad(z[2]))*Math.cos(rad(c.lat))*Math.sin(dLon/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));
+}
+const fmtKm = k => k < 1 ? `${Math.max(50, Math.round(k*1000/50)*50)} m` : `${k.toFixed(1).replace(".",",")} km`;
+const dOf = cid => { const k = distKm(cid); return k===null ? 99 : k; };
+function setupZone(){
+  const has = Object.keys(COORDS).length > 0;
+  $("zonebox").hidden = !has;
+  if(!has) return;
+  $("zone").innerHTML = `<option value="">Nessuna: ordina per orario</option>` + ZONES.map(z=>`<option value="${z[0]}"${z[0]===state.zone?" selected":""}>${esc(z[1])}</option>`).join("");
+  $("zhint").textContent = state.zone ? "Cinema ordinati per distanza (in linea d’aria) dal centro della zona scelta." : "Scegli dove ti trovi per vedere prima i cinema più vicini. La scelta resta salvata su questo dispositivo.";
+}
 let hostCount = {};
 const hostOf = c => { try{ return new URL(c.site || c.info_url).host; }catch(e){ return ""; } };
 function logoHtml(c){
@@ -380,22 +426,21 @@ function infoTop(i, title){
   if(i.original && filmKey(i.original) !== filmKey(title)) return `<div class="info"><p class="mut" style="margin:0">Titolo originale: <i>${esc(i.original)}</i></p></div>`;
   return "";
 }
-function plotHtml(i){
-  if(!i.overview) return "";
+function plotHtml(i, open){
   const long = i.overview.length > 110;
-  return `<div class="plotw"><p class="plot${long?"":" full"}">${esc(i.overview)}</p>` + (long ? `<button type="button" class="link more" data-more="1">Leggi tutto</button>` : "") + `</div>`;
+  return `<div class="plotw">` + (i.overview ? `<p class="plot${long && !open ? "" : " full"}">${esc(i.overview)}</p>` : "")
+    + `<button type="button" class="link more" data-more="1">${open ? "Mostra meno" : "Leggi tutto"}</button></div>`;
 }
 function infoBottom(i){
   const btns = `<div class="ibtns"><a class="ibtn" href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Wikipedia ↗":"Cerca su Google ↗"}</a>`
     + (i.tmdb ? `<a class="ibtn" href="${esc(i.tmdb)}" target="_blank" rel="noopener">TMDB ↗</a>` : "") + `</div>`;
-  return `<div class="foot-in">${i.cast.length ? `<p class="mut">Con: ${esc(i.cast.join(", "))}</p>` : ""}${btns}</div>`;
+  return `<div class="xinfo">${i.cast.length ? `<p class="mut">Con: ${esc(i.cast.join(", "))}</p>` : ""}${btns}</div>`;
 }
 function cinemaFilmLink(title){   // nella scheda cinema: porta alla scheda film (tutti i cinema e gli orari)
   return `<a class="ft" href="#film" data-film="${esc(filmKey(title))}" title="Vedi tutti i cinema e gli orari di questo film">${esc(title)}</a>`;
 }
-const addrLink = c => c.address
-  ? `<a class="addr" href="${esc(mapsUrl(c))}" target="_blank" rel="noopener" title="Apri in Maps">${esc(c.address)}</a>`
-  : `<a class="addr" href="${esc(mapsUrl(c))}" target="_blank" rel="noopener" title="Apri in Maps">Apri in Maps</a>`;
+const addrLink = c => { const k = distKm(c.id); const km = k===null ? "" : ` · ${fmtKm(k)}`;
+  return `<a class="addr" href="${esc(mapsUrl(c))}" target="_blank" rel="noopener" title="Apri in Maps">${esc(c.address || "Apri in Maps")}${km}</a>`; };
 
 /* ---------- dati ---------- */
 let lastLoad = 0;
@@ -425,6 +470,10 @@ async function load(){
   for(const c of state.data.cinemas){ const h = hostOf(c); if(h) hostCount[h] = (hostCount[h]||0) + 1; }
   const saved = lsGet("ct.hidden"); if(saved) try{ state.hidden = new Set(JSON.parse(saved)); }catch(e){}
   state.view = lsGet("ct.view") || "film";
+  state.zone = lsGet("ct.zone") || "";
+  if(!ZONES.some(z=>z[0]===state.zone)) state.zone = "";
+  try{ const r = await fetch("data/coordinates.json?t="+Date.now(),{cache:"no-store"}); if(r.ok) COORDS = await r.json(); }catch(e){}
+  setupZone();
   state.fromNow = lsGet("ct.fromnow") !== "0";
   $("fromnow").checked = state.fromNow;
   buildChips(); render(); syncHist();
@@ -468,13 +517,13 @@ function timePills(list, now, isToday){
 function previewHtml(byCinema, cmap, now, isToday){
   const items = [];
   byCinema.forEach((arr,cid)=>arr.forEach(s=>items.push({s,cid})));
-  items.sort((a,b)=>effMin(a.s.time)-effMin(b.s.time));
+  items.sort((a,b)=>(dOf(a.cid)-dOf(b.cid)) || (effMin(a.s.time)-effMin(b.s.time)));
   let pool = isToday ? items.filter(x=>effMin(x.s.time) >= now.min - 10) : items;
   if(!pool.length) pool = items;
   const shown = pool.slice(0,3);
   const pills = shown.map((x,n)=>{
     const c = cmap[x.cid] || {name:x.cid};
-    const isNext = isToday && n===0 && effMin(x.s.time) >= now.min - 10;
+    const isNext = isToday && !state.zone && n===0 && effMin(x.s.time) >= now.min - 10;
     return `<span class="pp${isNext?" next":""}"><b>${x.s.time}</b>${x.s.tag==="VO"?"<sup>VO</sup>":""}<em>${esc(shortName(c.name))}</em></span>`;
   }).join("");
   const rest = items.length - shown.length, nc = byCinema.size;
@@ -516,7 +565,7 @@ function render(){
   $("v-film").setAttribute("aria-pressed", String(state.view==="film"));
   $("v-cinema").setAttribute("aria-pressed", String(state.view==="cinema"));
   $("b-q").classList.toggle("on", !!state.q);
-  $("b-m").classList.toggle("on", state.hidden.size>0 || !state.fromNow);
+  $("b-m").classList.toggle("on", state.hidden.size>0 || !state.fromNow || !!state.zone);
 
   const g = new Date(d.generated_at);
   const gDay = isNaN(g) ? "" : new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(g);
@@ -604,7 +653,7 @@ function renderFilms(rows, cmap, now, isToday, all, today){
     const dbar = `<div class="dbar"><span>${esc(dayLabel(sel,today))} · ${n} cinema</span>`
       + (days.length > 1 ? `<button type="button" class="link altri" data-cmore="${esc(k)}" aria-expanded="${openTabs}">Altri giorni ${openTabs?"▴":"▾"}</button>` : "") + `</div>`
       + (days.length > 1 && openTabs ? `<div class="dtabs" role="group" aria-label="Giorni di programmazione">${days.map(x=>`<button type="button" class="dt" data-cd="${esc(k)}" data-date="${x}" aria-pressed="${x===sel}">${esc(dayLabel(x,today))}</button>`).join("")}</div>` : "");
-    const rowsHtml = n ? [...byCinema.entries()].sort((a,b)=>effMin(a[1][0].time)-effMin(b[1][0].time)).map(([cid,arr])=>{
+    const rowsHtml = n ? [...byCinema.entries()].sort((a,b)=>(dOf(a[0])-dOf(b[0])) || (effMin(a[1][0].time)-effMin(b[1][0].time))).map(([cid,arr])=>{
       const c = cmap[cid]; const link = c.site || c.info_url;
       const name = `<a class="cn" href="#cinema" data-cinema="${esc(cid)}" title="Tutta la programmazione di questo cinema">${esc(c.name)}</a>`
         + (link ? ` <a class="ext" href="${esc(link)}" target="_blank" rel="noopener" title="Sito ufficiale" aria-label="Sito ufficiale">↗</a>` : "")
@@ -617,9 +666,9 @@ function renderFilms(rows, cmap, now, isToday, all, today){
     const year = i.year || (flat.find(s=>s.anno)||{}).anno || "";
     const dir = regia ? `<div class="dir"><span class="lab">REGIA</span><b>${esc(regia)}</b></div>` : "";
     const meta = [i.runtime ? `${i.runtime}\u00a0min` : "", i.genres.slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · "); const metaH = meta ? `<div class="meta">${meta}</div>` : "";
-    return `<details class="card" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${posterHtml(f.title,i)}`
-      + `<div class="fm"><h2>${esc(f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}${plotHtml(i)}</div>${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
-      + `${infoTop(i,f.title)}${dbar}${rowsHtml}${infoBottom(i)}</details>`;
+    return `<details class="card${xOpen.has(k)?" xo":""}" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${posterHtml(f.title,i)}`
+      + `<div class="fm"><h2>${esc(f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}</div>${plotHtml(i, xOpen.has(k))}${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
+      + `${infoTop(i,f.title)}${infoBottom(i)}${dbar}${rowsHtml}</details>`;
   }).join("");
 }
 
@@ -629,7 +678,7 @@ function renderCinemas(rows, d, now, isToday){
     const m = by.get(s.cinema), k = filmKey(s.film);
     if(!m.has(k)) m.set(k,{title:prettyTitle(s.film),arr:[]}); m.get(k).arr.push(s); }
   let out = "";
-  for(const c of d.cinemas){
+  for(const c of [...d.cinemas].sort((a,b)=>dOf(a.id)-dOf(b.id))){
     if(state.hidden.has(c.id) || (state.onlyCinema && c.id!==state.onlyCinema)) continue;
     const films = by.get(c.id);
     if(!films && (state.q || state.only)) continue;
@@ -689,7 +738,14 @@ $("out").addEventListener("click", e => {
   if(e.target.closest("[data-back]")){ goBack(); return; }
   if(e.target.closest("[data-clear]")){ state.only=state.onlyCinema=""; state.depth=0; syncHist(); render(); return; }
   const mo = e.target.closest("[data-more]");
-  if(mo){ const p = mo.previousElementSibling; const full = p.classList.toggle("full"); mo.textContent = full ? "Mostra meno" : "Leggi tutto"; return; }
+  if(mo){
+    e.preventDefault();
+    const card = mo.closest("details"), k = card.dataset.k.slice(2), op = card.classList.toggle("xo");
+    op ? xOpen.add(k) : xOpen.delete(k);
+    const pl = card.querySelector(".plot");
+    if(pl) pl.classList.toggle("full", op || pl.textContent.length <= 110);
+    mo.textContent = op ? "Mostra meno" : "Leggi tutto"; return;
+  }
   const t = e.target.closest("[data-cd]");
   if(t){ e.preventDefault(); cardDay.set(t.dataset.cd, t.dataset.date); cardMore.delete(t.dataset.cd); render(); return; }
   const cm = e.target.closest("[data-cmore]");
@@ -720,6 +776,7 @@ document.addEventListener("keydown", e => {
   if(lbOpen || (e.target.closest && e.target.closest("input"))) return;
   if(e.key === "ArrowRight") gotoDay(1); else if(e.key === "ArrowLeft") gotoDay(-1);
 });
+$("zone").addEventListener("change", e => { state.zone = e.target.value; lsSet("ct.zone", state.zone); setupZone(); render(); });
 $("fromnow").addEventListener("change", e => { state.fromNow = e.target.checked; lsSet("ct.fromnow", e.target.checked?"1":"0"); render(); });
 // il browser del telefono riapre spesso la pagina "congelata": se i dati hanno più di 5 minuti li riscarico
 async function wake(){
