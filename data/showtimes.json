@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T09:51:51+01:00",
+ "generated_at": "2026-11-19T10:09:41+01:00",
  "today": "2026-11-19",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:10+01:00"
+    "fetched_at": "2026-11-19T10:08:56+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:12+01:00"
+    "fetched_at": "2026-11-19T10:08:59+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:15+01:00"
+    "fetched_at": "2026-11-19T10:09:01+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:17+01:00"
+    "fetched_at": "2026-11-19T10:09:03+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:20+01:00"
+    "fetched_at": "2026-11-19T10:09:05+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:22+01:00"
+    "fetched_at": "2026-11-19T10:09:08+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:24+01:00"
+    "fetched_at": "2026-11-19T10:09:10+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:25+01:00"
+    "fetched_at": "2026-11-19T10:09:11+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:27+01:00"
+    "fetched_at": "2026-11-19T10:09:13+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:30+01:00"
+    "fetched_at": "2026-11-19T10:09:16+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:32+01:00"
+    "fetched_at": "2026-11-19T10:09:19+01:00"
    }
   },
   {
@@ -175,11 +175,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 17,
+    "n": 19,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:34+01:00"
+    "fetched_at": "2026-11-19T10:09:22+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:38+01:00"
+    "fetched_at": "2026-11-19T10:09:26+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:41+01:00"
+    "fetched_at": "2026-11-19T10:09:29+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:43+01:00"
+    "fetched_at": "2026-11-19T10:09:30+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:46+01:00"
+    "fetched_at": "2026-11-19T10:09:33+01:00"
    }
   },
   {
@@ -250,11 +250,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 0,
-    "source": null,
+    "n": 22,
+    "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:48+01:00"
+    "fetched_at": "2026-11-19T10:09:36+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-19T09:51:51+01:00"
+    "fetched_at": "2026-11-19T10:09:41+01:00"
    }
   }
  ],
@@ -279,14 +279,27 @@
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-19",
    "time": "16:00",
-   "tag": ""
+   "tag": "ITA",
+   "regia": "Vincent Munier",
+   "anno": 2025
   },
   {
    "cinema": "centrale",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-19",
    "time": "18:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-19",
+   "time": "20:45",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
   },
   {
    "cinema": "classico",
@@ -1685,25 +1698,39 @@
    "tag": ""
   },
   {
-   "cinema": "centrale",
-   "film": "e 20:45",
+   "cinema": "baretti",
+   "film": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
    "date": "2026-11-20",
-   "time": "21:00",
-   "tag": ""
+   "time": "10:30",
+   "tag": "",
+   "regia": "Mélisa Godet"
   },
   {
    "cinema": "centrale",
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-20",
    "time": "19:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Vincent Munier",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
   },
   {
    "cinema": "centrale",
    "film": "La Gradiva",
    "date": "2026-11-20",
    "time": "16:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Marine Atlan",
+   "anno": 2026
   },
   {
    "cinema": "classico",
@@ -1840,7 +1867,7 @@
   },
   {
    "cinema": "esedra",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-20",
    "time": "21:15",
    "tag": ""
@@ -2759,25 +2786,65 @@
    "tag": "Sala 1"
   },
   {
-   "cinema": "centrale",
-   "film": "e 20:45",
+   "cinema": "baretti",
+   "film": "CLEO",
    "date": "2026-11-21",
-   "time": "13:30",
-   "tag": ""
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Erik Schmitt"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
   },
   {
    "cinema": "centrale",
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-21",
    "time": "11:30",
-   "tag": ""
+   "tag": "ITA",
+   "regia": "Vincent Munier",
+   "anno": 2025
   },
   {
    "cinema": "centrale",
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-21",
    "time": "16:00",
-   "tag": ""
+   "tag": "ITA",
+   "regia": "Vincent Munier",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-21",
+   "time": "13:30",
+   "tag": "ITA",
+   "regia": "Andrew Patterson",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-21",
+   "time": "20:45",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
   },
   {
    "cinema": "classico",
@@ -2921,7 +2988,7 @@
   },
   {
    "cinema": "esedra",
-   "film": "L’estranea",
+   "film": "L’ESTRANEA",
    "date": "2026-11-21",
    "time": "21:15",
    "tag": ""
@@ -3950,46 +4017,73 @@
    "tag": ""
   },
   {
-   "cinema": "centrale",
-   "film": "18:00 e 20:45",
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
    "date": "2026-11-22",
-   "time": "11:30",
-   "tag": ""
+   "time": "18:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
   },
   {
-   "cinema": "centrale",
-   "film": "Condividi:",
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
    "date": "2026-11-22",
-   "time": "18:30",
-   "tag": ""
+   "time": "21:00",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "PECORE SOTTO COPERTURA",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "tag": "",
+   "regia": "Kyle Balda"
   },
   {
    "cinema": "centrale",
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-22",
    "time": "14:00",
-   "tag": ""
+   "tag": "ITA",
+   "regia": "Vincent Munier",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-22",
+   "time": "11:30",
+   "tag": "ITA",
+   "regia": "Andrew Patterson",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
   },
   {
    "cinema": "centrale",
    "film": "LA NOSTRA ISOLA È IL MONDO INTERO",
    "date": "2026-11-22",
    "time": "18:30",
-   "tag": ""
+   "tag": "",
+   "regia": "Claudio Di Mambro, Luca Mandrile, Umberto Migliaccio",
+   "anno": 2026
   },
   {
    "cinema": "centrale",
    "film": "ON OUR OWN",
    "date": "2026-11-22",
    "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "centrale",
-   "film": "PREVENDITA",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Tudor Cristian Jurgiu",
+   "anno": 2026
   },
   {
    "cinema": "classico",
@@ -5120,25 +5214,47 @@
    "tag": ""
   },
   {
-   "cinema": "centrale",
-   "film": "16:00",
+   "cinema": "baretti",
+   "film": "L’ESTRANEA",
    "date": "2026-11-23",
-   "time": "18:45",
-   "tag": ""
+   "time": "10:30",
+   "tag": "",
+   "regia": "Paolo Strippoli"
+  },
+  {
+   "cinema": "baretti",
+   "film": "STRONGHER",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Massimo Ivan Falsetta"
   },
   {
    "cinema": "centrale",
    "film": "IL CANTO DELLA FORESTA",
    "date": "2026-11-23",
    "time": "21:15",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Vincent Munier",
+   "anno": 2025
+  },
+  {
+   "cinema": "centrale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-23",
+   "time": "18:45",
+   "tag": "VO",
+   "regia": "Andrew Patterson",
+   "anno": 2025
   },
   {
    "cinema": "centrale",
    "film": "La Gradiva",
    "date": "2026-11-23",
    "time": "16:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Marine Atlan",
+   "anno": 2026
   },
   {
    "cinema": "classico",
@@ -5904,6 +6020,14 @@
    "date": "2026-11-24",
    "time": "19:00",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’HANGAR ROSSO",
+   "date": "2026-11-24",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Juan Pablo Sallato"
   },
   {
    "cinema": "classico",
@@ -6708,6 +6832,13 @@
    "tag": ""
   },
   {
+   "cinema": "baretti",
+   "film": "IN QUOTA CAMBIA TUTTO",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
    "cinema": "classico",
    "film": "WILD HORSE NINE",
    "date": "2026-11-25",
@@ -7283,6 +7414,69 @@
    "tag": "Eventi Musicali"
   },
   {
+   "cinema": "baretti",
+   "film": "SOSPESI",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Luca Quaia e Francesco Sgrò"
+  },
+  {
+   "cinema": "baretti",
+   "film": "L’HANGAR ROSSO",
+   "date": "2026-11-28",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Juan Pablo Sallato"
+  },
+  {
+   "cinema": "baretti",
+   "film": "BORN TO DIE IN BERLIN",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Maurizio Spagliardi"
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-05",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "CIAU CINE",
+   "date": "2026-12-13",
+   "time": "11:00",
+   "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "DOMANI, Il viaggio di Maysoon Majidi",
+   "date": "2026-12-14",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Vincenzo Caricari e Barbara Di Fabio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-15",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
+  },
+  {
    "cinema": "duegiardini",
    "film": "DUNE – PARTE TRE",
    "date": "2026-12-15",
@@ -7311,6 +7505,14 @@
    "date": "2026-12-15",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "LE COURS DE LA VIE",
+   "date": "2026-12-16",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Frédéric Sojcher"
   },
   {
    "cinema": "ideal",
@@ -7611,6 +7813,14 @@
    "tag": "Sala 3"
   },
   {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-19",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
+  },
+  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
@@ -7685,6 +7895,14 @@
    "date": "2026-12-19",
    "time": "21:30",
    "tag": "Sala 3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "UN TOPOLINO SOTTO L’ALBERO",
+   "date": "2026-12-20",
+   "time": "15:30",
+   "tag": "",
+   "regia": "Henrik M. Dahlsbakken"
   },
   {
    "cinema": "ideal",
@@ -7833,6 +8051,13 @@
    "tag": "INFINITY VISION",
    "room": "1",
    "regia": "Anthony Russo, Joe Russo"
+  },
+  {
+   "cinema": "baretti",
+   "film": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
+   "date": "2027-01-21",
+   "time": "21:00",
+   "tag": ""
   }
  ]
 }
