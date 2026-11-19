@@ -2207,5 +2207,63 @@
   "t": true,
   "v": 5,
   "checked": "2026-11-19"
+ },
+ "il canto della foresta": {
+  "title": "IL CANTO DELLA FORESTA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1309373,
+   "url": "https://www.themoviedb.org/movie/1309373?language=it-IT",
+   "poster_path": "/1Ty8uGoVEc4g4W7AFPdcOzXktG3.jpg",
+   "runtime": 99,
+   "director": "Vincent Munier",
+   "year": 2025,
+   "overview": "Un nonno, suo figlio e il figlio del figlio: Michel, Vincent (il regista) e Simon. Tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua rarità, di osservare da vicinissimo la natura. Rispettandola. Nelle foreste di conifere del dipartimento francese dei Vosgi, come a una base sicura dopo le loro esplorazioni, tornano in una baita di legno illuminata solo da candele. Tra i tre si compie la trasmissione della passione per animali e ambiente, in uno scambio continuo di saperi e curiosità. Un patrimonio di storie tramandate per via orale e di esperienze, rilevazione sul campo. Per Michel la scintilla è scattata, tanti anni prima, con l'avvistamento di un gallo ce",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Michel Munier",
+    "Simon Munier",
+    "Vincent Munier"
+   ],
+   "original_title": "Le Chant des forêts",
+   "release_date": "2025-12-17"
+  },
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-19"
+ },
+ "condividi": {
+  "title": "Condividi:",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-19"
+ },
+ "prevendita": {
+  "title": "PREVENDITA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-19"
+ },
+ "jane austen ha stravolto la mia vita": {
+  "title": "Jane Austen ha stravolto la mia vita",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 5,
+  "checked": "2026-11-19"
  }
 }
