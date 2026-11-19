@@ -69,3 +69,4 @@ Creato da **rotulair**.
 - Coordinate dei cinema: © contributori di [OpenStreetMap](https://www.openstreetmap.org/copyright). Font: [Inter](https://rsms.me/inter/).
 - Progetto personale e non ufficiale, non affiliato ai cinema. Lo scraper fa poche richieste, con pause; controlla i termini d'uso dei siti prima di condividere pubblicamente la pagina.
 - Creato da **rotulair**, con l'aiuto di Claude (Anthropic).
+
