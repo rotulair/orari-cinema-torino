@@ -619,39 +619,79 @@ def parse_agnelli(html: str, day: str) -> list[dict]:
 # ------------------------------------------------------------------ parser: Centrale Arthouse (WordPress)
 # Post settimanale: titolo del film, poi righe "GIOV 12 – 21:00", "SAB 14 – 13:15 e 18:30".
 
-_CENTRALE = re.compile(r"^(lun|mar|mer|gio|ven|sab|dom)\w*\.?\s+(\d{1,2})\b\s*(.*)$", re.I)
-_TIME_LINE = re.compile(r"(?i)^(?:ore\s*)?\d{1,2}[:.]\d{2}\b")
+_CENTRALE_DAY = re.compile(r"^(lun|mar|mer|gio|ven|sab|dom)\w*\.?\s+(\d{1,2})\s*[–—-]\s*(.+)$", re.I)
+_CENTRALE_YEAR = re.compile(r"^\(.*\b((?:19|20)\d{2})\b.*\)$")
+
+
+def _centrale_times(rest: str) -> list[tuple[str, str]]:
+    """'13:30 (doppiato) – 18:00 e 20:45 (v.o. sott. it.)' -> [(13:30, ITA), (18:00, VO), (20:45, VO)].
+    La nota tra parentesi vale per gli orari che la precedono."""
+    out: list[tuple[str, str]] = []
+    pending: list[str] = []
+    for tok in re.finditer(r"(\d{1,2})[:.](\d{2})|\(([^)]*)\)", rest):
+        if tok.group(3) is None:
+            if _valid_time(int(tok.group(1)), int(tok.group(2))):
+                pending.append(f"{int(tok.group(1)):02d}:{tok.group(2)}")
+            continue
+        note = tok.group(3).lower()
+        tag = "VO" if re.search(r"v\.?\s?o\b|originale", note) else "ITA" if "doppiat" in note else ""
+        out += [(t, tag) for t in pending]
+        pending = []
+    out += [(t, "") for t in pending]
+    return out
+
+
+def _paragraphs(html: str) -> list[list[str]]:
+    """Righe di testo di ogni paragrafo (<br> = a capo) del solo contenuto del post: niente barra laterale."""
+    i = html.find('class="entry-content"')
+    if i >= 0:
+        j = html.find("</article>", i)
+        html = html[i:j if j > 0 else len(html)]
+    html = re.sub(r"(?is)<(script|style|figure)\b.*?</\1>", "", html)
+    html = re.sub(r"(?i)<br\s*/?>", "\n", html)
+    pars = []
+    for m in re.finditer(r"(?is)<p\b[^>]*>(.*?)</p>", html):
+        txt = html_unescape(re.sub(r"<[^>]+>", "", m.group(1)))
+        lines = [clean(x) for x in txt.splitlines() if clean(x)]
+        if lines:
+            pars.append(lines)
+    return pars
 
 
 def parse_centrale(html: str, day: str) -> list[dict]:
-    """Un post per settimana: titolo del film e, sotto, righe come "GIOV 12 – 21:00", "SAB 14 – 13:15 e 18:30"
-    (anche "VEN 13 ore 21:00", o il giorno e gli orari su righe separate). Un orario non e' mai un titolo."""
-    title = ""
-    pending = ""          # giorno visto senza orari: gli orari possono stare nelle righe successive
+    """Post "Programmazione": per ogni film un paragrafo con titolo / (titolo originale) / di REGISTA / (Paese anno, durata)
+    e un paragrafo con le righe "GIOV 19 – 18:00 e 20:45 (v.o. sott. it.)". Si ignorano barra laterale e avvisi."""
     out: list[dict] = []
     seen: set = set()
-    for text, tag in lines_of(html):
-        m = _CENTRALE.match(text)
-        if m:
-            date = date_by_weekday(day, m.group(1), int(m.group(2)))
-            rest = m.group(3)
-            times = times_in(rest)
-            if date and times:
-                if title:
-                    for hhmm in times:
-                        _add(out, seen, title, date, hhmm, "VO" if re.search(r"(?i)\bv\.?o\.?\b|originale", rest) else "")
-                pending = ""
-            else:
-                pending = date or ""
+    title = regia = ""
+    anno = 0
+    for lines in _paragraphs(html):
+        has_days = any(_CENTRALE_DAY.match(l) for l in lines)
+        di = next((l[3:].strip() for l in lines if re.match(r"(?i)^di\s+\S", l)), "")
+        yr = next((int(m.group(1)) for l in lines for m in [_CENTRALE_YEAR.match(l)] if m), 0)
+        if (di or yr) and not lines[0].startswith("(") and not _CENTRALE_DAY.match(lines[0]):
+            cand = lines[0]
+            if not is_junk_title(cand) and len(cand) <= 120:
+                title, regia, anno = cand, di, yr
+            if not has_days:
+                continue
+        if not has_days or not title:
             continue
-        if times_in(text) and (_TIME_LINE.match(text) or _TIME_TITLE.match(text.strip())):
-            if pending and title:
-                for hhmm in times_in(text):
-                    _add(out, seen, title, pending, hhmm, "VO" if re.search(r"(?i)\bv\.?o\.?\b|originale", text) else "")
-            continue          # riga di soli orari: mai un titolo
-        if tag and 2 < len(text) <= 100 and not is_junk_title(text):
-            title = clean(text)
-            pending = ""
+        for l in lines:
+            m = _CENTRALE_DAY.match(l)
+            if not m:
+                continue
+            date = date_by_weekday(day, m.group(1).lower(), int(m.group(2)))
+            if not date:
+                continue
+            for hhmm, tag in _centrale_times(m.group(3)):
+                n0 = len(out)
+                _add(out, seen, title, date, hhmm, tag)
+                if len(out) > n0:
+                    if regia:
+                        out[-1]["regia"] = regia
+                    if anno:
+                        out[-1]["anno"] = anno
     return out
 
 
