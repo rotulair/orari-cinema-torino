@@ -645,5 +645,63 @@ class GranTorinoPdfTest(unittest.TestCase):
             scrape.PDF_BBOX = old
         self.assertEqual({r["venue"] for r in rows}, {"greenwich"})
 
+
+class RefusiETitoliTest(unittest.TestCase):
+    def rows(self, spec):
+        return [{"cinema": c, "film": f, "date": d, "time": "20:00", "tag": "", **({"manual": True} if m else {})}
+                for c, f, d, m in spec]
+
+    def test_minotauro_del_pdf_si_unisce_a_minotaur(self):
+        rows = self.rows([("greenwich", "MINOTAURO", "2026-11-19", True),
+                          ("nazionale", "Minotaur", "2026-11-19", False),
+                          ("lux", "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)", "2026-11-19", False)])
+        scrape.snap_manual_titles(rows)
+        scrape.unify_titles(rows)
+        self.assertEqual(len({r["film"] for r in rows}), 1)
+        self.assertEqual(rows[0]["film"], "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)")
+        self.assertFalse(any("manual" in r for r in rows))
+
+    def test_refuso_lontano_dal_93_ma_vicino_all_85(self):
+        rows = self.rows([("greenwich", "WILD HORSE NIN", "2026-11-19", True),
+                          ("classico", "Wild Horse Nine", "2026-11-19", False)])
+        log = scrape.snap_manual_titles(rows)
+        self.assertEqual(rows[0]["film"], "Wild Horse Nine")
+        self.assertEqual(log, [("WILD HORSE NIN", "Wild Horse Nine")])
+
+    def test_titolo_del_pdf_senza_corrispondenza_resta(self):
+        rows = self.rows([("greenwich", "FILM RARISSIMO", "2026-11-19", True),
+                          ("classico", "Wild Horse Nine", "2026-11-19", False)])
+        scrape.snap_manual_titles(rows)
+        self.assertEqual(rows[0]["film"], "FILM RARISSIMO")
+
+    def test_numeri_diversi_non_si_correggono(self):
+        rows = self.rows([("greenwich", "TOY STORY 3", "2026-11-19", True), ("lux", "Toy Story 2", "2026-11-19", False)])
+        scrape.snap_manual_titles(rows)
+        self.assertEqual(rows[0]["film"], "TOY STORY 3")
+
+    def test_sottotitolo_non_unisce_se_nello_stesso_cinema(self):
+        rows = self.rows([("lux", "Avengers", "2026-11-19", False), ("lux", "Avengers Endgame Reunion Tour", "2026-11-19", False)])
+        scrape.unify_titles(rows)
+        self.assertEqual(len({r["film"] for r in rows}), 2)
+
+    def test_orari_non_sono_titoli(self):
+        for t in ("21:00", "ore 21.00", "16:00 e 21:00", "21.00 - 23.00"):
+            self.assertTrue(scrape.is_junk_title(t), t)
+        self.assertFalse(scrape.is_junk_title("2001: Odissea nello spazio"))
+
+    def test_centrale_orari_su_righe_separate_e_varianti(self):
+        html = """<html><body><h2>LA GRADIVA</h2>
+        <p><strong>GIOV 19 – 21:00</strong></p>
+        <p><strong>VEN 20 ore 16:00 e 21:00</strong></p>
+        <p><strong>SAB 21</strong></p><p><strong>16:00</strong></p><p><strong>21:00</strong></p>
+        <h2>FJORD</h2><p><strong>DOM 22 | 18:30 VO</strong></p></body></html>"""
+        rows = scrape.parse_centrale(html, "2026-11-18")
+        got = sorted((r["film"], r["date"], r["time"], r["tag"]) for r in rows)
+        self.assertEqual(got, [("FJORD", "2026-11-22", "18:30", "VO"),
+                               ("LA GRADIVA", "2026-11-19", "21:00", ""),
+                               ("LA GRADIVA", "2026-11-20", "16:00", ""), ("LA GRADIVA", "2026-11-20", "21:00", ""),
+                               ("LA GRADIVA", "2026-11-21", "16:00", ""), ("LA GRADIVA", "2026-11-21", "21:00", "")])
+        self.assertFalse(any(scrape.is_junk_title(r["film"]) for r in rows))
+
 if __name__ == "__main__":
     unittest.main()
