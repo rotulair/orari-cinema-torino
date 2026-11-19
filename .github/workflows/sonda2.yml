@@ -1,0 +1,17 @@
+name: Sonda 2 UCI e The Space (una tantum)
+on: workflow_dispatch
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scraper/sonda2.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sonda2
+          path: out/sonda2/
+          retention-days: 7
