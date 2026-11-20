@@ -758,6 +758,26 @@ class TitoloUfficialeETmdbTest(unittest.TestCase):
         self.assertIsNone(t["overview"])               # senza trama italiana si tengono comunque locandina e info
         self.assertEqual(t["title"], "The Hunger Games: Sunrise on the Reaping")
 
+    def test_cognomi_con_accenti_e_alfabeti_non_latini(self):
+        import films
+        m = films.surname_match
+        self.assertTrue(m("Alejandro González Iñárritu", ["Alejandro G. Iñárritu"]))
+        self.assertTrue(m("Deniz Gamze Ergüven", ["Deniz Gamze Ergüven"]))
+        self.assertIsNone(m("Na Hong-jin", ["나홍진"]))          # non confrontabile: non e' un "diverso"
+        self.assertIsNone(m("Makoto Shinkai", ["新海誠"]))
+        self.assertFalse(m("Mario Rossi", ["Luca Bianchi"]))
+
+    def test_film_vecchio_senza_riscontri_ma_wikipedia_conferma(self):
+        import films, datetime
+        c = {"id": 3, "sim": 1.0, "year": 1999, "popularity": 5, "title": "Topsy-Turvy", "poster_path": "/t.jpg",
+             "runtime": 160, "directors": ["Mike Leigh"], "overview": None, "genres": [], "cast": [],
+             "original_title": "Topsy-Turvy", "release_date": "1999-12-17"}
+        wiki = {"url": "https://it.wikipedia.org/wiki/Topsy-Turvy", "poster": None, "director": None, "year": None, "extract": "film"}
+        _, t, _ = films.decide("Topsy-Turvy", None, None, wiki, [c], datetime.date(2026, 11, 19))
+        self.assertEqual(t["id"], 3)
+        _, t, _ = films.decide("Topsy-Turvy", None, None, None, [c], datetime.date(2026, 11, 19))
+        self.assertIsNone(t)                                    # senza Wikipedia resta prudente
+
     def test_tmdb_titolo_diverso_senza_conferma_e_scartato_con_motivo(self):
         import films
         c = {"id": 2, "sim": 0.3, "year": 2026, "popularity": 5, "title": "Altro", "poster_path": None, "runtime": None,
