@@ -2241,5 +2241,42 @@
    "anno": null
   },
   "checked": "2026-11-20"
+ },
+ "e andata cosi": {
+  "title": "E' ANDATA COSI'",
+  "url": "https://it.wikipedia.org/wiki/%C3%88_andata_cos%C3%AC_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c1/%C3%88_andata_cos%C3%AC_film_2026.jpeg/250px-%C3%88_andata_cos%C3%AC_film_2026.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Gianni Zanasi",
+  "tmdb": {
+   "id": 1329664,
+   "title": "È andata così",
+   "url": "https://www.themoviedb.org/movie/1329664?language=it-IT",
+   "poster_path": "/IpSuXa9O1yWq38g0bzhEmlXUX6.jpg",
+   "runtime": 120,
+   "director": "Gianni Zanasi",
+   "year": 2026,
+   "overview": "Cecilia (Valentina Lodovini), determinata e appassionata, due figli a carico e tre relazioni fallite alle spalle. Per fronteggiare un’improvvisa situazione di crisi chiede aiuto agli uomini della sua vita: Christophe (Valerio Mastandrea), il suo primo grande amore e padre della sua figlia maggiore, regista teatrale che vive nel ricordo della sua sfolgorante carriera. Guido (Leonardo Lidi), padre del suo secondo figlio, ex manager promettente, che ha deciso di dare una svolta alla sua vita diventando un rider. E, infine, Tony (Michele Riondino), sedicente manager musicale, ma l’unico che l’ha sposata… per poi lasciarla per un’altra.",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Michele Riondino",
+    "Valerio Mastandrea",
+    "Valentina Lodovini",
+    "Leonardo Lidi",
+    "Alma Giardina",
+    "Pier Luigi Pasino"
+   ],
+   "original_title": "È andata così",
+   "release_date": "2026-11-26"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-20"
  }
 }
