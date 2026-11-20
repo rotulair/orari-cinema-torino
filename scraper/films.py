@@ -20,7 +20,7 @@ from pathlib import Path
 API = "https://it.wikipedia.org/w/api.php"
 RETRY_DAYS = 7
 MAX_LOOKUPS = 150 # per esecuzione
-SCHEMA = 6        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
+SCHEMA = 7        # alzare quando cambia il modo di estrarre i dati: rifa le ricerche gia' salvate
 
 
 def film_key(title: str) -> str:
@@ -167,28 +167,35 @@ def title_sim(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, x, y).ratio() if x and y else 0.0
 
 
-def _tokens(s: str) -> set[str]:
-    t = re.sub(r"['’`\-]", "", unicodedata.normalize("NFD", s.lower()))   # Kore'eda == Koreeda
+def _fold(s: str) -> str:
+    """Minuscolo, senza accenti ne' apostrofi/trattini: 'Iñárritu' -> 'inarritu', "Kore'eda" -> 'koreeda'."""
+    t = unicodedata.normalize("NFD", s.lower())
     t = "".join(c for c in t if not unicodedata.combining(c))
-    return set(re.sub(r"[^a-z0-9]+", " ", t).split())
+    return re.sub(r"['’`\-]", "", t)
+
+
+def _tokens(s: str) -> set[str]:
+    return set(re.sub(r"[^a-z0-9]+", " ", _fold(s)).split())
 
 
 def surname_match(ref: str | None, names: list[str] | str | None) -> bool | None:
-    """True/False se i registi coincidono (per cognome), None se uno dei due non e' noto."""
+    """True/False se i registi coincidono (per cognome), None se non si puo' dire: uno dei due non e' noto,
+    oppure i nomi sono in un alfabeto non latino (TMDB scrive 나홍진 o 新海誠, Wikipedia 'Na Hong-jin')."""
     if isinstance(names, str):
         names = [p for p in re.split(r",|\be\b|\band\b|&", names) if p.strip()]
     if not ref or not names:
         return None
     ref_t = _tokens(ref)
+    comparable = 0
     for n in names:
-        t = [w for w in re.sub(r"[^a-z0-9]+", " ", re.sub(r"['’`\-]", "", unicodedata.normalize("NFD", n.lower()))).split() if w]
-        t = ["".join(c for c in w if not unicodedata.combining(c)) for w in t]
+        t = re.sub(r"[^a-z0-9]+", " ", _fold(n)).split()
         if not t:
-            continue
+            continue                       # nome non latino: non confrontabile
+        comparable += 1
         sur = t[-1]
         if (len(sur) >= 3 and sur in ref_t) or (len(sur) < 3 and any(len(w) >= 3 and w in ref_t for w in t)):
             return True
-    return False
+    return False if comparable else None
 
 
 def _all_titles(d: dict) -> list[str]:
@@ -289,7 +296,10 @@ def decide(title: str, ref_dir: str | None, hint_year: int | None, wiki: dict | 
         elif m is None and not year:
             age = _months_from(today, c["release_date"])
             recent = age is not None and -18 <= age <= 8
-            if not recent and not (rerelease and c["sim"] >= 0.95):
+            # film non recente senza anno/regista: va bene se Wikipedia conferma che esiste un film con questo
+            # titolo e TMDB ne ha uno solo con titolo identico (le incongruenze si vedono poi nel confronto con wiki)
+            sole = wiki is not None and c["sim"] >= 0.95 and sum(1 for x in cands if x["sim"] >= 0.95) == 1
+            if not recent and not sole and not (rerelease and c["sim"] >= 0.95):
                 why = f"nessun riscontro e uscita {c['year'] or '?'} non recente"
         if why:
             notes.append(f"TMDB scartato id {c['id']} ({c['year']}): {why}")
