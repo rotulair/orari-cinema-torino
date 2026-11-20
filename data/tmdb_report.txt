@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-20: 51 film con dati TMDB, 17 senza.
+Report TMDB del 2026-11-20: 55 film con dati TMDB, 13 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -6,12 +6,8 @@ Report TMDB del 2026-11-20: 51 film con dati TMDB, 17 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - CLEO  [regia dichiarata: Erik Schmitt; anno: -; Wikipedia: no]
     motivo: wikipedia scartata: il regista del cinema non compare nella scheda; TMDB scartato id 499 (1962): titolo diverso (somiglianza 0.47: 'Cleo dalle 5 alle 7' / 'Cléo de 5 à 7'); TMDB scartato id 39263 (1971): titolo diverso (somiglianza 0.24: 'Exorcismus - Cleo, la dea dell'amore' / 'Blood from the Mummy's Tomb'); TMDB scartato id 5066 (1964): titolo diverso (somiglianza 0.47: 'Ehi Cesare vai da Cleopatra? Hai chiuso...' / 'Carry On Cleo'); TMDB scartato id 1055854 (2022): titolo diverso (somiglianza 0.38: 'Call Me Miss Cleo' / 'Call Me Miss Cleo'); TMDB scartato id 1328071 (2024): titolo diverso (somiglianza 0.26: 'Miss Cleo: Her Rise and Fall' / 'Miss Cleo: Her Rise and Fall')
-- DIGGER  [regia dichiarata: -; anno: -; Wikipedia: si]
-    motivo: TMDB scartato id 1248832 (2026): regista Alejandro G. Iñárritu != 'Alejandro González Iñárritu'; TMDB scartato id 84875 (1940): titolo diverso (somiglianza 0.43: 'Patrizia' / 'La Fille du puisatier'); TMDB scartato id 1729762 (2026): titolo diverso (somiglianza 0.67: 'Poceiros' / 'Poceiros')
 - Dolce è la vita  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 36843 (1991): anno 1991 != 1960; TMDB scartato id 71133 (1961): titolo diverso (somiglianza 0.47: 'Totò, Peppino e la dolce vita' / 'Totò, Peppino e la dolce vita')
-- HOPE  [regia dichiarata: -; anno: -; Wikipedia: si]
-    motivo: TMDB scartato id 1058424 (2026): regista 나홍진 != 'Na Hong-jin'; TMDB scartato id 339849 (2025): titolo diverso (somiglianza 0.40: 'Non senza speranza' / 'Not Without Hope'); TMDB scartato id 1153470 (2023): titolo diverso (somiglianza 0.62: 'The Last Hope' / 'W nich cała nadzieja'); TMDB scartato id 793442 (2021): titolo diverso (somiglianza 0.33: 'I consigli di Zia Hope' / 'The Clue to Love'); TMDB scartato id 1548749 (2026): titolo diverso (somiglianza 0.57: 'Still Hope' / 'Still Hope')
 - IN QUOTA CAMBIA TUTTO  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
@@ -22,8 +18,6 @@ Report TMDB del 2026-11-20: 51 film con dati TMDB, 17 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Minnie and Moscowitz  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- MUSTANG  [regia dichiarata: -; anno: -; Wikipedia: si]
-    motivo: TMDB scartato id 11536 (1961): titolo diverso (somiglianza 0.82: 'Gli spostati' / 'The Misfits'); TMDB scartato id 336804 (2015): regista Deniz Gamze Ergüven != 'Deniz Gamze Ergüven'; TMDB scartato id 338614 (2015): titolo diverso (somiglianza 0.38: 'Unbranded' / 'Unbranded'); TMDB scartato id 278447 (2014): titolo diverso (somiglianza 0.39: 'The Last Lost Kingdom' / 'The Last Lost Kingdom'); TMDB scartato id 1087753 (2014): titolo diverso (somiglianza 0.70: 'Mustang Jeans' / 'Mustang Jeans')
 - Naked  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1035259 (2025): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun'); TMDB scartato id 37136 (1988): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun: From the Files of Police Squad!'); TMDB scartato id 36593 (1994): titolo diverso (somiglianza 0.62: 'Una pallottola spuntata 33⅓ - L'insulto finale' / 'Naked Gun 33⅓: The Final Insult'); TMDB scartato id 8275 (2006): titolo diverso (somiglianza 0.31: 'American Pie presenta: Nudi alla meta' / 'American Pie Presents: The Naked Mile'); TMDB scartato id 21450 (1993): nessun riscontro e uscita 1993 non recente
 - Scomode verità  [regia dichiarata: -; anno: -; Wikipedia: si]
@@ -32,5 +26,3 @@ Report TMDB del 2026-11-20: 51 film con dati TMDB, 17 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
 - Topsy-Turvy  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 46435 (1999): nessun riscontro e uscita 1999 non recente; TMDB scartato id 160810 (1983): nessun riscontro e uscita 1983 non recente; TMDB scartato id 57723 (1989): titolo diverso (somiglianza 0.61: 'Galimatias, czyli kogel-mogel II' / 'Galimatias, czyli kogel-mogel II'); TMDB scartato id 987409 (1969): titolo diverso (somiglianza 0.73: '喜劇 逆転旅行' / '喜劇 逆転旅行'); TMDB scartato id 702562 (1953): nessun riscontro e uscita 1953 non recente
-- YOUR NAME  [regia dichiarata: -; anno: -; Wikipedia: si]
-    motivo: TMDB scartato id 372058 (2016): regista 新海誠 != 'Makoto Shinkai'; TMDB scartato id 414085 (2016): titolo diverso (somiglianza 0.60: 'Taxi, em tên gì?' / 'Taxi, em tên gì?'); TMDB scartato id 777507 (2016): titolo diverso (somiglianza 0.72: 'What's Your Name?' / 'What's Your Name?')

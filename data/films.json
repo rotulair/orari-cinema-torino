@@ -65,13 +65,13 @@
    "release_date": "2026-10-21"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Marine Atlan",
    "anno": 2026
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la nostra isola e il mondo intero": {
   "title": "LA NOSTRA ISOLA È IL MONDO INTERO",
@@ -80,13 +80,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": "Claudio Di Mambro, Luca Mandrile, Umberto Migliaccio",
    "anno": 2026
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "wild horse nine": {
   "title": "WILD HORSE NINE",
@@ -119,13 +119,13 @@
    "release_date": "2026-10-30"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Martin McDonagh",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "ragione e sentimento": {
   "title": "RAGIONE E SENTIMENTO",
@@ -157,13 +157,13 @@
    "release_date": "2026-09-23"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 4584 (1995): anno 1995 != 2026",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "dio ride": {
   "title": "DIO RIDE",
@@ -195,13 +195,13 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Giovanni Veronesi",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "l essere amato": {
   "title": "L'ESSERE AMATO (EL SER QUERIDO)",
@@ -245,15 +245,39 @@
   "url": "https://it.wikipedia.org/wiki/Hope_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/89/Hope_film_2026.png/250px-Hope_film_2026.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Na Hong-jin",
-  "tmdb": null,
+  "tmdb": {
+   "id": 1058424,
+   "title": "Hope",
+   "url": "https://www.themoviedb.org/movie/1058424?language=it-IT",
+   "poster_path": "/fbFxZSSw2kQoAkyXosVoOyBX0Z4.jpg",
+   "runtime": 157,
+   "director": "나홍진",
+   "year": 2026,
+   "overview": "Nel remoto villaggio sudcoreano di Hope Harbor, il capo della polizia Bum-seok e l'agente Sung-ae vengono chiamati a indagare su una creatura misteriosa che sta seminando il caos nella comunità. Tuttavia, non tutto è come sembra, e le percezioni possono essere fuorvianti. Ciò che si crede sia basato sull'ignoranza, semina il seme del disastro, che si trasforma attraverso il conflitto umano in una tragedia di proporzioni enormi.",
+   "genres": [
+    "Fantascienza",
+    "Mistero",
+    "Azione"
+   ],
+   "cast": [
+    "황정민",
+    "조인성",
+    "정호연",
+    "Alicia Vikander",
+    "Michael Fassbender",
+    "Taylor Russell"
+   ],
+   "original_title": "호프",
+   "release_date": "2026-07-15"
+  },
   "t": true,
-  "v": 6,
-  "why": "TMDB scartato id 1058424 (2026): regista 나홍진 != 'Na Hong-jin'; TMDB scartato id 339849 (2025): titolo diverso (somiglianza 0.40: 'Non senza speranza' / 'Not Without Hope'); TMDB scartato id 1153470 (2023): titolo diverso (somiglianza 0.62: 'The Last Hope' / 'W nich cała nadzieja'); TMDB scartato id 793442 (2021): titolo diverso (somiglianza 0.33: 'I consigli di Zia Hope' / 'The Clue to Love'); TMDB scartato id 1548749 (2026): titolo diverso (somiglianza 0.57: 'Still Hope' / 'Still Hope')",
+  "v": 7,
+  "why": "TMDB scartato id 339849 (2025): titolo diverso (somiglianza 0.40: 'Non senza speranza' / 'Not Without Hope'); TMDB scartato id 1153470 (2023): titolo diverso (somiglianza 0.62: 'The Last Hope' / 'W nich cała nadzieja'); TMDB scartato id 793442 (2021): titolo diverso (somiglianza 0.33: 'I consigli di Zia Hope' / 'The Clue to Love'); TMDB scartato id 1548749 (2026): titolo diverso (somiglianza 0.57: 'Still Hope' / 'Still Hope')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "primetime": {
   "title": "PRIMETIME",
@@ -286,13 +310,13 @@
    "release_date": "2026-09-23"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 1791730 (2026): titolo diverso (somiglianza 0.67: 'Primetime Preacher$: Storia di un telepredicatore' / 'Primetime Preacher$'); TMDB scartato id 1816764 (2026): titolo diverso (somiglianza 0.51: 'Primetime Production Diary' / 'Primetime Production Diary'); TMDB scartato id 1776007 (2026): titolo diverso (somiglianza 0.58: 'Primetime Mr. President' / 'Primetime Mr. President')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "godzilla minus zero": {
   "title": "GODZILLA MINUS ZERO",
@@ -325,13 +349,13 @@
    "release_date": "2026-11-03"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 940721 (2023): anno 2023 != 2026",
   "ref": {
    "regia": "Takashi Yamazaki",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "il rumore delle cose nuove": {
   "title": "IL RUMORE DELLE COSE NUOVE",
@@ -362,13 +386,13 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Paolo Genovese",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "scrooge e gli spiriti del natale": {
   "title": "SCROOGE E GLI SPIRITI DEL NATALE",
@@ -379,7 +403,7 @@
    "id": 1567605,
    "title": "Scrooge e gli spiriti del Natale",
    "url": "https://www.themoviedb.org/movie/1567605?language=it-IT",
-   "poster_path": "/drg45KOBksTrv9qQA0EmNuFgHG9.jpg",
+   "poster_path": "/nlf6gq2mGlbMmk1fKtp12xOVEvI.jpg",
    "runtime": 115,
    "director": "Ti West",
    "year": 2026,
@@ -400,13 +424,13 @@
    "release_date": "2026-11-11"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Ti West",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "se domani non torno": {
   "title": "SE DOMANI NON TORNO",
@@ -437,13 +461,13 @@
    "release_date": "2026-11-05"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Paola Randi",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "un tranquillo funerale di famiglia": {
   "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
@@ -618,13 +642,13 @@
    "release_date": "2026-10-14"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "l estranea": {
   "title": "L’ESTRANEA",
@@ -656,13 +680,13 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Paolo Strippoli",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "un weekend artificiale": {
   "title": "UN WEEKEND ARTIFICIALE",
@@ -694,13 +718,13 @@
    "release_date": "2026-11-12"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Leonardo Pieraccioni",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "come rapinare una banca": {
   "title": "Come rapinare una banca",
@@ -733,13 +757,13 @@
    "release_date": "2026-11-10"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "il gatto col cappello": {
   "title": "IL GATTO COL CAPPELLO",
@@ -773,13 +797,13 @@
    "release_date": "2026-10-31"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Alessandro Carloni, Erica Rivinoja",
    "anno": 2026
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "ragazze": {
   "title": "Ragazze",
@@ -811,13 +835,13 @@
    "release_date": "1997-06-01"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 9603 (1995): titolo diverso (somiglianza 0.47: 'Ragazze a Beverly Hills' / 'Clueless'); TMDB scartato id 11287 (1992): titolo diverso (somiglianza 0.61: 'Ragazze vincenti' / 'A League of Their Own'); TMDB scartato id 37563 (1996): titolo diverso (somiglianza 0.54: 'Un ragazzo, tre ragazze - Racconto d'estate' / 'Conte d'été'); TMDB scartato id 29371 (1995): titolo diverso (somiglianza 0.48: 'Due ragazze innamorate' / 'The Incredibly True Adventure of Two Girls in Love')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "segreti bugie": {
   "title": "Segreti & bugie",
@@ -887,13 +911,13 @@
    "release_date": "2026-11-18"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Francis Lawrence",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "minnie and moscowitz": {
   "title": "Minnie and Moscowitz",
@@ -902,13 +926,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "topsy turvy": {
   "title": "Topsy-Turvy",
@@ -932,13 +956,13 @@
   "director": "Mike Leigh",
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "silent friend": {
   "title": "SILENT FRIEND",
@@ -969,28 +993,52 @@
    "release_date": "2026-01-15"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 1688981 (2025): regista Greg Osborne != 'Ildikó Enyedi'",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "your name": {
   "title": "YOUR NAME",
   "url": "https://it.wikipedia.org/wiki/Your_Name.",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3b/Your_Name.jpg/250px-Your_Name.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Makoto Shinkai",
-  "tmdb": null,
+  "tmdb": {
+   "id": 372058,
+   "title": "Your Name.",
+   "url": "https://www.themoviedb.org/movie/372058?language=it-IT",
+   "poster_path": "/uyOd5E0dNTp2AJAJWv0V3asf31u.jpg",
+   "runtime": 106,
+   "director": "新海誠",
+   "year": 2016,
+   "overview": "Mitsuha è una studentessa che vive in una piccola città rurale e desidera trasferirsi a Tokyo, nella grande metropoli dove ogni sogno si può realizzare. Taki è uno studente di liceo che vive proprio a Tokyo, ha un lavoro part-time in un ristorante italiano, ma vorrebbe lavorare nel campo dell’arte o dell’architettura. Una notte, Mitsuha sogna di essere un giovane uomo, si ritrova in una stanza che non conosce, ha nuovi amici e lo skyline di Tokyo si apre dinnanzi al suo sguardo. Nello stesso momento Taki sogna di essere una ragazzina che vive in una piccola città di montagna che non ha mai visitato. Ma quale sarà il segreto che si cela dietro questi strani sogni incrociati?",
+   "genres": [
+    "Animazione",
+    "Romance",
+    "Dramma"
+   ],
+   "cast": [
+    "Ryūnosuke Kamiki",
+    "上白石萌音",
+    "成田凌",
+    "Aoi Yuuki",
+    "Nobunaga Shimazaki",
+    "Kaito Ishikawa"
+   ],
+   "original_title": "君の名は。",
+   "release_date": "2016-07-01"
+  },
   "t": true,
-  "v": 6,
-  "why": "TMDB scartato id 372058 (2016): regista 新海誠 != 'Makoto Shinkai'; TMDB scartato id 414085 (2016): titolo diverso (somiglianza 0.60: 'Taxi, em tên gì?' / 'Taxi, em tên gì?'); TMDB scartato id 777507 (2016): titolo diverso (somiglianza 0.72: 'What's Your Name?' / 'What's Your Name?')",
+  "v": 7,
+  "why": "TMDB scartato id 414085 (2016): titolo diverso (somiglianza 0.60: 'Taxi, em tên gì?' / 'Taxi, em tên gì?'); TMDB scartato id 777507 (2016): titolo diverso (somiglianza 0.72: 'What's Your Name?' / 'What's Your Name?')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "unicorni": {
   "title": "Unicorni",
@@ -1021,13 +1069,13 @@
    "release_date": "2025-07-18"
   },
   "t": true,
-  "v": 6,
-  "why": "TMDB scartato id 1153714 (2025): titolo diverso (somiglianza 0.57: 'Death of a Unicorn' / 'Death of a Unicorn'); TMDB scartato id 1078920 (2023): anno 2023 != 2025; TMDB scartato id 1573432 (2025): titolo diverso (somiglianza 0.33: 'Polly Pocket: Tiny Unicorn Adventure' / 'Polly Pocket: Tiny Unicorn Adventure')",
+  "v": 7,
+  "why": "TMDB scartato id 1153714 (2025): titolo diverso (somiglianza 0.57: 'Death of a Unicorn' / 'Death of a Unicorn'); TMDB scartato id 1573432 (2025): titolo diverso (somiglianza 0.33: 'Polly Pocket: Tiny Unicorn Adventure' / 'Polly Pocket: Tiny Unicorn Adventure'); TMDB scartato id 1078920 (2023): anno 2023 != 2025",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "lorenzo l incredibile avventura di jovanotti": {
   "title": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
@@ -1054,13 +1102,13 @@
    "release_date": "2026-11-26"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "dune parte tre": {
   "title": "DUNE – PARTE TRE",
@@ -1092,13 +1140,13 @@
    "release_date": "2026-12-15"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Denis Villeneuve",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "cleo": {
   "title": "CLEO",
@@ -1107,13 +1155,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "wikipedia scartata: il regista del cinema non compare nella scheda; TMDB scartato id 499 (1962): titolo diverso (somiglianza 0.47: 'Cleo dalle 5 alle 7' / 'Cléo de 5 à 7'); TMDB scartato id 39263 (1971): titolo diverso (somiglianza 0.24: 'Exorcismus - Cleo, la dea dell'amore' / 'Blood from the Mummy's Tomb'); TMDB scartato id 5066 (1964): titolo diverso (somiglianza 0.47: 'Ehi Cesare vai da Cleopatra? Hai chiuso...' / 'Carry On Cleo'); TMDB scartato id 1055854 (2022): titolo diverso (somiglianza 0.38: 'Call Me Miss Cleo' / 'Call Me Miss Cleo'); TMDB scartato id 1328071 (2024): titolo diverso (somiglianza 0.26: 'Miss Cleo: Her Rise and Fall' / 'Miss Cleo: Her Rise and Fall')",
   "ref": {
    "regia": "Erik Schmitt",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "wildwood i segreti del bosco proibito": {
   "title": "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
@@ -1184,13 +1232,13 @@
    "release_date": "2026-03-01"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Mélisa Godet",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "wax gold": {
   "title": "Wax & Gold",
@@ -1216,13 +1264,13 @@
    "release_date": "2026-02-15"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 690170 (2020): nessun riscontro e uscita 2020 non recente",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la guerra dei prezzi": {
   "title": "La guerra dei prezzi",
@@ -1254,13 +1302,13 @@
    "release_date": "2026-03-18"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "bts world tour arirang in kaohsiung live viewing": {
   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
@@ -1284,13 +1332,13 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "l hangar rosso": {
   "title": "L’HANGAR ROSSO",
@@ -1323,13 +1371,13 @@
    "release_date": "2026-05-08"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Juan Pablo Sallato",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "in quota cambia tutto": {
   "title": "IN QUOTA CAMBIA TUTTO",
@@ -1338,13 +1386,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "sospesi": {
   "title": "SOSPESI",
@@ -1448,13 +1496,13 @@
    "release_date": null
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Vincenzo Caricari e Barbara Di Fabio",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "wind talk to me": {
   "title": "WIND TALK TO ME",
@@ -1486,13 +1534,13 @@
    "release_date": "2025-02-04"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Stefan Djordjevic",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "dune parte 3": {
   "title": "DUNE PARTE 3",
@@ -1524,13 +1572,13 @@
    "release_date": "2026-12-15"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "le cours de la vie": {
   "title": "LE COURS DE LA VIE",
@@ -1562,13 +1610,13 @@
    "release_date": "2023-05-10"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Frédéric Sojcher",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "belle speranze": {
   "title": "Belle speranze",
@@ -1677,13 +1725,13 @@
    "release_date": "2026-12-16"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Anthony Russo, Joe Russo",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "pecore sotto copertura": {
   "title": "PECORE SOTTO COPERTURA",
@@ -1700,9 +1748,9 @@
    "year": 2026,
    "overview": "George (Hugh Jackman) è un pastore che ogni sera legge romanzi gialli alle sue amate pecore, convinto che non possano comprenderlo. Quando però un misterioso incidente sconvolge la tranquillità della fattoria, le pecore decidono di dover diventare loro stesse delle detective. Seguendo gli indizi e indagando sui sospetti umani, dimostrano che anche le pecore possono essere brillanti investigatrici.",
    "genres": [
-    "Avventura",
     "Commedia",
     "Crime",
+    "Mistero",
     "Famiglia"
    ],
    "cast": [
@@ -1717,13 +1765,13 @@
    "release_date": "2026-04-30"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Kyle Balda",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "strongher": {
   "title": "STRONGHER",
@@ -1842,13 +1890,13 @@
    "release_date": "2026-11-19"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "fjord": {
   "title": "FJORD",
@@ -1917,13 +1965,13 @@
    "release_date": "2025-09-22"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la ballata del re delle api": {
   "title": "LA BALLATA DEL RE DELLE API",
@@ -1956,13 +2004,13 @@
    "release_date": "2026-08-13"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Andrew Patterson",
    "anno": 2025
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "on our own": {
   "title": "ON OUR OWN",
@@ -1993,13 +2041,13 @@
    "release_date": "2026-06-26"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "wikipedia scartata: anno diverso da quello del cinema",
   "ref": {
    "regia": "Tudor Cristian Jurgiu",
    "anno": 2026
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "holy wood dust": {
   "title": "HOLY WOOD DUST",
@@ -2025,43 +2073,88 @@
    "release_date": "2026-11-23"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "digger": {
   "title": "DIGGER",
   "url": "https://it.wikipedia.org/wiki/Digger_(film_2026)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/88/Digger_%28film_2026%29.jpg/250px-Digger_%28film_2026%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Alejandro González Iñárritu",
-  "tmdb": null,
+  "tmdb": {
+   "id": 1248832,
+   "title": "Digger",
+   "url": "https://www.themoviedb.org/movie/1248832?language=it-IT",
+   "poster_path": "/wisikjQcsvw0XqyQQYBsxudb38Z.jpg",
+   "runtime": 129,
+   "director": "Alejandro G. Iñárritu",
+   "year": 2026,
+   "overview": "Su richiesta del presidente degli Stati Uniti, il magnate del petrolio Digger Rockwell deve salvare la Terra da un disastro ambientale causato dalla sua stessa azienda.",
+   "genres": [
+    "Commedia",
+    "Dramma"
+   ],
+   "cast": [
+    "Tom Cruise",
+    "Riz Ahmed",
+    "John Goodman",
+    "Sandra Hüller",
+    "Michael Stuhlbarg",
+    "Jesse Plemons"
+   ],
+   "original_title": "Digger",
+   "release_date": "2026-09-28"
+  },
   "t": true,
-  "v": 6,
-  "why": "TMDB scartato id 1248832 (2026): regista Alejandro G. Iñárritu != 'Alejandro González Iñárritu'; TMDB scartato id 84875 (1940): titolo diverso (somiglianza 0.43: 'Patrizia' / 'La Fille du puisatier'); TMDB scartato id 1729762 (2026): titolo diverso (somiglianza 0.67: 'Poceiros' / 'Poceiros')",
+  "v": 7,
+  "why": "TMDB scartato id 84875 (1940): titolo diverso (somiglianza 0.43: 'Patrizia' / 'La Fille du puisatier'); TMDB scartato id 1729762 (2026): titolo diverso (somiglianza 0.67: 'Poceiros' / 'Poceiros')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "mustang": {
   "title": "MUSTANG",
   "url": "https://it.wikipedia.org/wiki/Mustang_(film)",
   "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0b/Mustang_%28film%29.png/250px-Mustang_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "director": "Deniz Gamze Ergüven",
-  "tmdb": null,
+  "tmdb": {
+   "id": 336804,
+   "title": "Mustang",
+   "url": "https://www.themoviedb.org/movie/336804?language=it-IT",
+   "poster_path": "/r999TpiqMJdTAJ2bphJt4i7ZhOv.jpg",
+   "runtime": 97,
+   "director": "Deniz Gamze Ergüven",
+   "year": 2015,
+   "overview": "Mustang è l'opera prima della regista Deniz Gamze Ergüven, scelta per rappresentare la Francia ai Premi Oscar 2015. Racconta la storia di cinque giovani sorelle che lottano per la loro libertà contro un potere maschile e patriarcale soffocante.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Güneş Nezihe Şensoy",
+    "Doğa Zeynep Doğuşlu",
+    "Elit İşcan",
+    "Tuğba Sunguroğlu",
+    "İlayda Akdoğan",
+    "Ayberk Pekcan"
+   ],
+   "original_title": "Mustang",
+   "release_date": "2015-06-17"
+  },
   "t": true,
-  "v": 6,
-  "why": "TMDB scartato id 11536 (1961): titolo diverso (somiglianza 0.82: 'Gli spostati' / 'The Misfits'); TMDB scartato id 336804 (2015): regista Deniz Gamze Ergüven != 'Deniz Gamze Ergüven'; TMDB scartato id 338614 (2015): titolo diverso (somiglianza 0.38: 'Unbranded' / 'Unbranded'); TMDB scartato id 278447 (2014): titolo diverso (somiglianza 0.39: 'The Last Lost Kingdom' / 'The Last Lost Kingdom'); TMDB scartato id 1087753 (2014): titolo diverso (somiglianza 0.70: 'Mustang Jeans' / 'Mustang Jeans')",
+  "v": 7,
+  "why": "TMDB scartato id 11536 (1961): titolo diverso (somiglianza 0.82: 'Gli spostati' / 'The Misfits'); TMDB scartato id 338614 (2015): titolo diverso (somiglianza 0.38: 'Unbranded' / 'Unbranded'); TMDB scartato id 278447 (2014): titolo diverso (somiglianza 0.39: 'The Last Lost Kingdom' / 'The Last Lost Kingdom'); TMDB scartato id 1087753 (2014): titolo diverso (somiglianza 0.70: 'Mustang Jeans' / 'Mustang Jeans')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "il canto della foresta": {
   "title": "IL CANTO DELLA FORESTA",
@@ -2089,13 +2182,13 @@
    "release_date": "2025-12-17"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Vincent Munier",
    "anno": 2025
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "jane austen ha stravolto la mia vita": {
   "title": "Jane Austen ha stravolto la mia vita",
@@ -2104,13 +2197,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la notte delle fragole": {
   "title": "LA NOTTE DELLE FRAGOLE",
@@ -2141,7 +2234,7 @@
    "release_date": "2026-11-26"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
