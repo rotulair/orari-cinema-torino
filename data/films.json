@@ -2111,5 +2111,42 @@
    "anno": null
   },
   "checked": "2026-11-19"
+ },
+ "la notte delle fragole": {
+  "title": "LA NOTTE DELLE FRAGOLE",
+  "url": "https://it.wikipedia.org/wiki/La_notte_delle_fragole",
+  "poster": null,
+  "director": "Alessandro Genovesi e co-sceneggiato dallo stesso insieme",
+  "tmdb": {
+   "id": 1708090,
+   "title": "La notte delle fragole",
+   "url": "https://www.themoviedb.org/movie/1708090?language=it-IT",
+   "poster_path": "/zW9saC1YPpD4VPVCyDbhsGdzjxu.jpg",
+   "runtime": null,
+   "director": "Alessandro Genovesi",
+   "year": 2026,
+   "overview": "Valentino (Valentino Picone) ha una vita perfettamente organizzata, accanto alla moglie Elena (Anna Foglietta) e a Carolina (Giovanna Rosace), la figlia adolescente di lei. Il suo equilibrio viene però stravolto dall’arrivo di Salvo (Salvo Ficarra), ex marito di Elena e padre di Carolina, un uomo impulsivo, disordinato e imprevedibile. Dopo una lite con la compagna Tania (Giulia Fiume), Salvo chiede ospitalità per una sola notte, ma finisce per stabilirsi in casa, scatenando una serie di equivoci, bugie e situazioni esilaranti. L’arrivo di Francesca (Vittoria Puccini), la sua nuova fiamma, complica ulteriormente la situazione, mettendo a dura prova i già fragili equilibri familiari. Tra conv",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Salvatore Ficarra",
+    "Valentino Picone",
+    "Vittoria Puccini",
+    "Anna Foglietta",
+    "Giulia Fiume",
+    "Enzo Casertano"
+   ],
+   "original_title": "La notte delle fragole",
+   "release_date": "2026-11-26"
+  },
+  "t": true,
+  "v": 6,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-20"
  }
 }

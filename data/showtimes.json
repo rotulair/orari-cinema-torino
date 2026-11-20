@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T06:26:04+01:00",
+ "generated_at": "2026-11-20T10:24:53+01:00",
  "today": "2026-11-20",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:15+01:00"
+    "fetched_at": "2026-11-20T10:24:10+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:18+01:00"
+    "fetched_at": "2026-11-20T10:24:13+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 126,
+    "n": 154,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:21+01:00"
+    "fetched_at": "2026-11-20T10:24:15+01:00"
    }
   },
   {
@@ -55,11 +55,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 24,
+    "n": 27,
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:24+01:00"
+    "fetched_at": "2026-11-20T10:24:17+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:26+01:00"
+    "fetched_at": "2026-11-20T10:24:19+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:29+01:00"
+    "fetched_at": "2026-11-20T10:24:22+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:30+01:00"
+    "fetched_at": "2026-11-20T10:24:23+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:32+01:00"
+    "fetched_at": "2026-11-20T10:24:25+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:34+01:00"
+    "fetched_at": "2026-11-20T10:24:26+01:00"
    }
   },
   {
@@ -145,11 +145,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 41,
+    "n": 36,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:37+01:00"
+    "fetched_at": "2026-11-20T10:24:30+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:40+01:00"
+    "fetched_at": "2026-11-20T10:24:33+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:42+01:00"
+    "fetched_at": "2026-11-20T10:24:35+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:46+01:00"
+    "fetched_at": "2026-11-20T10:24:39+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:50+01:00"
+    "fetched_at": "2026-11-20T10:24:41+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:51+01:00"
+    "fetched_at": "2026-11-20T10:24:43+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:25:56+01:00"
+    "fetched_at": "2026-11-20T10:24:45+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:26:00+01:00"
+    "fetched_at": "2026-11-20T10:24:49+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T06:26:04+01:00"
+    "fetched_at": "2026-11-20T10:24:52+01:00"
    }
   }
  ],
@@ -1366,7 +1366,7 @@
    "cinema": "thespace",
    "film": "GODZILLA MINUS ZERO",
    "date": "2026-11-20",
-   "time": "22:15",
+   "time": "23:00",
    "tag": ""
   },
   {
@@ -1387,14 +1387,14 @@
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
-   "time": "16:00",
+   "time": "15:35",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
-   "time": "17:00",
+   "time": "16:45",
    "tag": ""
   },
   {
@@ -1408,6 +1408,13 @@
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
    "time": "18:30",
    "tag": ""
   },
@@ -1415,7 +1422,7 @@
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
-   "time": "19:00",
+   "time": "19:05",
    "tag": ""
   },
   {
@@ -1429,7 +1436,7 @@
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-20",
-   "time": "20:30",
+   "time": "20:10",
    "tag": ""
   },
   {
@@ -1455,9 +1462,16 @@
   },
   {
    "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-20",
+   "time": "22:35",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
    "film": "IL GATTO COL CAPPELLO",
    "date": "2026-11-20",
-   "time": "15:20",
+   "time": "14:15",
    "tag": ""
   },
   {
@@ -1471,63 +1485,70 @@
    "cinema": "thespace",
    "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-20",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LOOK BACK",
-   "date": "2026-11-20",
-   "time": "14:05",
+   "time": "20:00",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
-   "time": "15:50",
+   "time": "14:45",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
-   "time": "22:25",
+   "time": "20:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-20",
+   "time": "23:10",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-20",
-   "time": "16:35",
+   "time": "15:20",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-20",
-   "time": "18:50",
+   "time": "17:05",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-20",
-   "time": "21:20",
+   "time": "23:25",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-20",
-   "time": "14:15",
+   "time": "15:00",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-20",
-   "time": "16:30",
+   "time": "17:35",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-20",
+   "time": "23:35",
    "tag": ""
   },
   {
@@ -1563,6 +1584,13 @@
    "film": "GODZILLA MINUS ZERO",
    "date": "2026-11-20",
    "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HOPE",
+   "date": "2026-11-20",
+   "time": "22:30",
    "tag": ""
   },
   {
@@ -1695,7 +1723,7 @@
    "cinema": "uci",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-20",
-   "time": "19:20",
+   "time": "19:30",
    "tag": ""
   },
   {
@@ -1724,13 +1752,6 @@
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-20",
    "time": "18:45",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-20",
-   "time": "21:20",
    "tag": ""
   },
   {
@@ -6383,12 +6404,68 @@
    "tag": "Eventi Musicali"
   },
   {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
    "cinema": "baretti",
    "film": "SOSPESI",
    "date": "2026-11-27",
    "time": "21:00",
    "tag": "",
    "regia": "Luca Quaia e Francesco Sgrò"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "tag": "Sala 3"
   },
   {
    "cinema": "baretti",
@@ -6399,6 +6476,62 @@
    "regia": "Juan Pablo Sallato"
   },
   {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
    "cinema": "baretti",
    "film": "BORN TO DIE IN BERLIN",
    "date": "2026-11-30",
@@ -6407,12 +6540,96 @@
    "regia": "Maurizio Spagliardi"
   },
   {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
    "cinema": "baretti",
    "film": "COME TI MUOVI, SBAGLI",
    "date": "2026-12-01",
    "time": "21:00",
    "tag": "",
    "regia": "Gianni Di Gregorio"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "22:00",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "17:40",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "19:50",
+   "tag": "Sala 3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "22:00",
+   "tag": "Sala 3"
   },
   {
    "cinema": "baretti",
