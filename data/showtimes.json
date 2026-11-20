@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T02:35:12+01:00",
+ "generated_at": "2026-11-20T06:26:04+01:00",
  "today": "2026-11-20",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:23+01:00"
+    "fetched_at": "2026-11-20T06:25:15+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:26+01:00"
+    "fetched_at": "2026-11-20T06:25:18+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:29+01:00"
+    "fetched_at": "2026-11-20T06:25:21+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:32+01:00"
+    "fetched_at": "2026-11-20T06:25:24+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:35+01:00"
+    "fetched_at": "2026-11-20T06:25:26+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:38+01:00"
+    "fetched_at": "2026-11-20T06:25:29+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:39+01:00"
+    "fetched_at": "2026-11-20T06:25:30+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:41+01:00"
+    "fetched_at": "2026-11-20T06:25:32+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:43+01:00"
+    "fetched_at": "2026-11-20T06:25:34+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:47+01:00"
+    "fetched_at": "2026-11-20T06:25:37+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:50+01:00"
+    "fetched_at": "2026-11-20T06:25:40+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:52+01:00"
+    "fetched_at": "2026-11-20T06:25:42+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:34:57+01:00"
+    "fetched_at": "2026-11-20T06:25:46+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:35:01+01:00"
+    "fetched_at": "2026-11-20T06:25:50+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:35:02+01:00"
+    "fetched_at": "2026-11-20T06:25:51+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:35:05+01:00"
+    "fetched_at": "2026-11-20T06:25:56+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:35:09+01:00"
+    "fetched_at": "2026-11-20T06:26:00+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-20T02:35:12+01:00"
+    "fetched_at": "2026-11-20T06:26:04+01:00"
    }
   }
  ],
