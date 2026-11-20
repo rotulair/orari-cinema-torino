@@ -28,13 +28,13 @@
    "release_date": "2026-10-08"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la gradiva": {
   "title": "La Gradiva",
@@ -232,13 +232,13 @@
    "release_date": "2026-05-16"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "hope": {
   "title": "HOPE",
@@ -498,13 +498,13 @@
    "release_date": "2026-10-29"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "dolce e la vita": {
   "title": "Dolce è la vita",
@@ -513,13 +513,13 @@
   "director": "Federico Fellini",
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 36843 (1991): anno 1991 != 1960; TMDB scartato id 71133 (1961): titolo diverso (somiglianza 0.47: 'Totò, Peppino e la dolce vita' / 'Totò, Peppino e la dolce vita')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "fatherland": {
   "title": "Fatherland",
@@ -551,13 +551,13 @@
    "release_date": "2026-06-19"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 1705136 (2026): titolo diverso (somiglianza 0.48: 'Руини' / 'Руини'); TMDB scartato id 1802918 (2026): regista Tulani Hlalo != 'Paweł Pawlikowski'",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "look back": {
   "title": "LOOK BACK",
@@ -588,13 +588,13 @@
    "release_date": "2026-09-11"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 1244492 (2024): anno 2024 != 2026; TMDB scartato id 343611 (2016): titolo diverso (somiglianza 0.55: 'Jack Reacher - Punto di non ritorno' / 'Jack Reacher: Never Go Back'); TMDB scartato id 1447853 (2026): titolo diverso (somiglianza 0.55: 'Oasis: Don't Look Back in Anger' / 'Oasis: Don't Look Back in Anger'); TMDB scartato id 1732097 (2026): titolo diverso (somiglianza 0.62: 'Euphoria - Uno sguardo al passato' / 'Euphoria: A Look Back')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "naked": {
   "title": "Naked",
@@ -603,13 +603,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
-  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1035259 (2025): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun'); TMDB scartato id 37136 (1988): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun: From the Files of Police Squad!'); TMDB scartato id 36593 (1994): titolo diverso (somiglianza 0.62: 'Una pallottola spuntata 33⅓ - L'insulto finale' / 'Naked Gun 33⅓: The Final Insult'); TMDB scartato id 8275 (2006): titolo diverso (somiglianza 0.31: 'American Pie presenta: Nudi alla meta' / 'American Pie Presents: The Naked Mile'); TMDB scartato id 21450 (1993): nessun riscontro e uscita 1993 non recente",
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1035259 (2025): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun'); TMDB scartato id 37136 (1988): titolo diverso (somiglianza 0.71: 'Una pallottola spuntata' / 'The Naked Gun: From the Files of Police Squad!'); TMDB scartato id 8275 (2006): titolo diverso (somiglianza 0.31: 'American Pie presenta: Nudi alla meta' / 'American Pie Presents: The Naked Mile'); TMDB scartato id 36593 (1994): titolo diverso (somiglianza 0.62: 'Una pallottola spuntata 33⅓ - L'insulto finale' / 'Naked Gun 33⅓: The Final Insult'); TMDB scartato id 21450 (1993): nessun riscontro e uscita 1993 non recente",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "minotaur nel labirinto del potere": {
   "title": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
@@ -1178,8 +1178,8 @@
    "year": 2026,
    "overview": "Wildwood, nei dintorni di Portland, è un posto da cui tenersi lontani e che dovrebbe rimanere nascosto a tutti. Prue McKeel, tuttavia, è costretta a raggiungerlo dopo che il fratellino Mac è stato rapito da uno stormo di corvi e trasportato nei meandri della foresta. Insieme allo sfortunato compagno di classe Curtis, Prue corre a salvare Mac da un pericolo che sembra uscito dalle pagine di una favola.",
    "genres": [
-    "Avventura",
     "Animazione",
+    "Avventura",
     "Dramma",
     "Fantasy"
    ],
@@ -1195,13 +1195,13 @@
    "release_date": "2026-10-19"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "la maison des femmes la casa delle donne": {
   "title": "LA MAISON DES FEMMES – LA CASA DELLE DONNE",
@@ -1401,13 +1401,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'",
   "ref": {
    "regia": "Luca Quaia e Francesco Sgrò",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "born to die in berlin": {
   "title": "BORN TO DIE IN BERLIN",
@@ -1416,13 +1416,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": "Maurizio Spagliardi",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "come ti muovi sbagli": {
   "title": "COME TI MUOVI, SBAGLI",
@@ -1453,13 +1453,13 @@
    "release_date": "2025-09-05"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Gianni Di Gregorio",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "ciau cine": {
   "title": "CIAU CINE",
@@ -1468,13 +1468,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "domani il viaggio di maysoon majidi": {
   "title": "DOMANI, Il viaggio di Maysoon Majidi",
@@ -1648,13 +1648,13 @@
    "release_date": "1989-01-13"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "ti presento i fotter": {
   "title": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
@@ -1686,13 +1686,13 @@
    "release_date": "2026-11-21"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "avengers doomsday": {
   "title": "AVENGERS: DOOMSDAY",
@@ -1799,13 +1799,13 @@
    "release_date": "2026-06-01"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
   "ref": {
    "regia": "Massimo Ivan Falsetta",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "un topolino sotto l albero": {
   "title": "UN TOPOLINO SOTTO L’ALBERO",
@@ -1908,7 +1908,7 @@
    "title": "Fjord",
    "url": "https://www.themoviedb.org/movie/1401459?language=it-IT",
    "poster_path": "/e6qR7qbqxe66vh2ONZ8d5pCphA6.jpg",
-   "runtime": 146,
+   "runtime": 147,
    "director": "Cristian Mungiu",
    "year": 2026,
    "overview": "Una famiglia rumeno-norvegese profondamente religiosa si trasferisce in un remoto villaggio tra i fiordi della Norvegia per ricominciare una nuova vita. Quando la figlia maggiore arriva a scuola con alcuni lividi, la comunità e le autorità iniziano a sospettare che l'educazione tradizionale impartita dai genitori possa nascondere abusi. Ne nasce un intenso dramma giudiziario e morale che mette a confronto valori, fede, identità culturale e i limiti della tolleranza.",
@@ -1927,13 +1927,13 @@
    "release_date": "2026-06-13"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 1576359 (2025): titolo diverso (somiglianza 0.17: 'MGA MAGICAL 10 YEARS ANNIVERSARY LIVE ～FJORD～ ON SCREEN' / 'MGA MAGICAL 10 YEARS ANNIVERSARY LIVE ～FJORD～ ON SCREEN')",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "i swear e piu forte di me": {
   "title": "I SWEAR – È PIÚ FORTE DI ME",
