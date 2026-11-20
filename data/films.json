@@ -872,13 +872,13 @@
    "release_date": "1996-05-24"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "hunger games l alba sulla mietitura": {
   "title": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
@@ -941,13 +941,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "TMDB scartato id 46435 (1999): nessun riscontro e uscita 1999 non recente; TMDB scartato id 160810 (1983): nessun riscontro e uscita 1983 non recente; TMDB scartato id 57723 (1989): titolo diverso (somiglianza 0.61: 'Galimatias, czyli kogel-mogel II' / 'Galimatias, czyli kogel-mogel II'); TMDB scartato id 987409 (1969): titolo diverso (somiglianza 0.73: '喜劇 逆転旅行' / '喜劇 逆転旅行'); TMDB scartato id 702562 (1953): nessun riscontro e uscita 1953 non recente",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "scomode verita": {
   "title": "Scomode verità",
@@ -1838,13 +1838,13 @@
    "release_date": "2025-11-06"
   },
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": null,
   "ref": {
    "regia": "Henrik M. Dahlsbakken",
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "jou scialpinismo nei picos de europa": {
   "title": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
@@ -1853,13 +1853,13 @@
   "director": null,
   "tmdb": null,
   "t": true,
-  "v": 6,
+  "v": 7,
   "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
   "ref": {
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-19"
+  "checked": "2026-11-20"
  },
  "il fuoco che ti porti dentro": {
   "title": "IL FUOCO CHE TI PORTI DENTRO",
