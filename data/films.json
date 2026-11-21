@@ -2278,5 +2278,99 @@
    "anno": null
   },
   "checked": "2026-11-20"
+ },
+ "clayface": {
+  "title": "Clayface",
+  "url": "https://it.wikipedia.org/wiki/Clayface_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Clayface_%28film%29.jpg/250px-Clayface_%28film%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "James Watkins",
+  "tmdb": {
+   "id": 1400940,
+   "title": "Clayface",
+   "url": "https://www.themoviedb.org/movie/1400940?language=it-IT",
+   "poster_path": "/t6snh7pOxNjqs5rwP28TZmTQ0Ul.jpg",
+   "runtime": 109,
+   "director": "James Watkins",
+   "year": 2026,
+   "overview": "La terrificante discesa di un uomo, da astro nascente di Hollywood a mostro assetato di vendetta, in una storia che esplora la perdita di identità e umanità, l’amore corrosivo e il lato oscuro dell’ambizione scientifica.",
+   "genres": [
+    "Horror",
+    "Thriller",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Tom Rhys Harries",
+    "Naomi Ackie",
+    "Eddie Marsan",
+    "Max Minghella",
+    "David Dencik",
+    "Francesca Corney"
+   ],
+   "original_title": "Clayface",
+   "release_date": "2026-10-19"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-21"
+ },
+ "shaun vita da pecora operazione z u c c a": {
+  "title": "Shaun, Vita da pecora: Operazione Z.U.C.C.A.",
+  "url": "https://it.wikipedia.org/wiki/Shaun,_vita_da_pecora:_Operazione_Z.U.C.C.A.",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg/250px-Shaun%2C_vita_da_pecora_-_Operazione_Z.U.C.C.A..jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
+  "tmdb": {
+   "id": 1477104,
+   "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
+   "url": "https://www.themoviedb.org/movie/1477104?language=it-IT",
+   "poster_path": "/hIgvOtvwbNCUclH0uBvg2qn6Ye.jpg",
+   "runtime": 88,
+   "director": "Steve Cox, Matthew Walker",
+   "year": 2026,
+   "overview": "Halloween è alle porte. Shaun e tutti gli animali della fattoria si preparano per festeggiarlo al meglio coltivando un magnifico campo di zucche. Ma quando tutto sembrava ormai pronto, il contadino misteriosamente scompare e arriva dal bosco uno spaventoso mostro. Sarà compito di Shaun e i suoi amici salvare la fattoria dalla pelosa creatura e ritrovare l’amato contadino in tempo per la grande festa. Tra esperimenti impazziti e colpi di scena inaspettati, sarà un’avventura a tutta pecora per tutta la famiglia.",
+   "genres": [
+    "Animazione",
+    "Fantascienza",
+    "Commedia",
+    "Famiglia"
+   ],
+   "cast": [
+    "Justin Fletcher",
+    "John Sparkes",
+    "Nina Sosanya",
+    "Kate Harbour",
+    "Rich Webber",
+    "Emma Tate"
+   ],
+   "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "release_date": "2026-09-17"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-21"
+ },
+ "jumbo la voce di don": {
+  "title": "JUMBO - La voce di Don",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1049082 (2025): nessun riscontro e uscita 2025 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-21"
  }
 }

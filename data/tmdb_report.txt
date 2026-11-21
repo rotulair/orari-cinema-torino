@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-21: 54 film con dati TMDB, 12 senza.
+Report TMDB del 2026-11-21: 56 film con dati TMDB, 13 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -14,6 +14,8 @@ Report TMDB del 2026-11-21: 54 film con dati TMDB, 12 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- JUMBO - La voce di Don  [regia dichiarata: -; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1049082 (2025): nessun riscontro e uscita 2025 non recente
 - LA NOSTRA ISOLA È IL MONDO INTERO  [regia dichiarata: Claudio Di Mambro, Luca Mandrile, Umberto Migliaccio; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Minnie and Moscowitz  [regia dichiarata: -; anno: -; Wikipedia: no]
