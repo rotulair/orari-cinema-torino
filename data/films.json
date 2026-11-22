@@ -2372,5 +2372,122 @@
    "anno": null
   },
   "checked": "2026-11-21"
+ },
+ "delitto sulle nevi": {
+  "title": "Delitto sulle nevi",
+  "url": "https://it.wikipedia.org/wiki/Agata_Christian_-_Delitto_sulle_nevi",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0d/Agata_Christian_-_Delitto_sulle_nevi.jpg/250px-Agata_Christian_-_Delitto_sulle_nevi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Eros Puglielli",
+  "tmdb": {
+   "id": 1449709,
+   "title": "Agata Christian - Delitto sulle nevi",
+   "url": "https://www.themoviedb.org/movie/1449709?language=it-IT",
+   "poster_path": "/nLOF571J6YOTAmryyO5qOwSyURm.jpg",
+   "runtime": 109,
+   "director": "Eros Puglielli",
+   "year": 2026,
+   "overview": "Christian Agata, celebre criminologo dal sarcasmo affilato e dall'intuito infallibile, viene invitato da Cullman, magnati dei giochi da tavolo, a trascorrere un fine settimana sulla neve nella loro lussuosa residenza in montagna. Lo scopo? Prestare volto e fama al rilancio di Crime Castle, il celebre gioco che ha reso la famiglia famosa in tutto il mondo. Ma quella che doveva essere una tranquilla operazione promozionale da trasformare presto in un vero caso da risolvere. Quando Carlo Cullman, patriarca della famiglia, annuncia di voler bloccare la cessione dell'azienda a una start-up aggressiva, i nervi saltano. La mattina dopo l'uomo viene ritrovato senza vita, col corpo riverso sul tabell",
+   "genres": [
+    "Commedia",
+    "Mistero"
+   ],
+   "cast": [
+    "Christian De Sica",
+    "Lillo",
+    "Paolo Calabresi",
+    "Maccio Capatonda",
+    "Giorgio Colangeli",
+    "Sara Croce"
+   ],
+   "original_title": "Agata Christian - Delitto sulle nevi",
+   "release_date": "2026-02-05"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-22"
+ },
+ "paw patrol missione dinosauri": {
+  "title": "PAW Patrol - Missione Dinosauri",
+  "url": "https://it.wikipedia.org/wiki/PAW_Patrol_-_Missione_dinosauri",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/c5/PawPatrol_Missione_Dinosauri.png/250px-PawPatrol_Missione_Dinosauri.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Cal Brunker",
+  "tmdb": {
+   "id": 1185806,
+   "title": "PAW Patrol - Missione Dinosauri",
+   "url": "https://www.themoviedb.org/movie/1185806?language=it-IT",
+   "poster_path": "/r5XkrcTtb7O2YeblRDpkuwh9ued.jpg",
+   "runtime": 88,
+   "director": "Cal Brunker",
+   "year": 2026,
+   "overview": "Dopo essere stati travolti da una misteriosa tempesta, i cuccioli della PAW Patrol si ritrovano catapultati su un’isola tropicale inesplorata, un luogo fuori dal tempo dove i dinosauri dominano incontrastati. Qui incontrano Rex, un cucciolo rimasto isolato per anni, che ha trasformato la sopravvivenza in una missione, diventando il massimo esperto di quel mondo primordiale. Ma la tregua dura poco. Il loro storico rivale, il sindaco Humdinger, arriva sull’isola deciso a sfruttarne le risorse naturali senza alcun riguardo. Le sue azioni scatenano però una catastrofe: il risveglio di un gigantesco vulcano dormiente. Tra giungle selvagge, creature preistoriche e pericoli inarrestabili, la PAW Pa",
+   "genres": [
+    "Animazione",
+    "Avventura",
+    "Famiglia",
+    "Fantasy"
+   ],
+   "cast": [
+    "Carter Young",
+    "Mckenna Grace",
+    "Terry Crews",
+    "Meredith MacNeill",
+    "Ron Pardo",
+    "Jennifer Hudson"
+   ],
+   "original_title": "PAW Patrol: The Dino Movie",
+   "release_date": "2026-07-23"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-22"
+ },
+ "ramayana la nascita di una leggenda": {
+  "title": "Ramayana - La Nascita di una Leggenda",
+  "url": "https://it.wikipedia.org/wiki/Ramayana_-_La_nascita_di_una_leggenda",
+  "poster": null,
+  "director": "Nitesh Tiwari",
+  "tmdb": {
+   "id": 656908,
+   "title": "Ramayana - La nascita di una leggenda",
+   "url": "https://www.themoviedb.org/movie/656908?language=it-IT",
+   "poster_path": "/ovi5mxUCbSdFPv73rn6aXP9x9UC.jpg",
+   "runtime": 195,
+   "director": "Nitesh Tiwari",
+   "year": 2026,
+   "overview": "In un’epoca di dèi e re, il destino di interi mondi è in bilico. Rama, principe votato al dovere, al sacrificio e alla rettitudine, deve affrontare Ravana, sovrano immortale accecato dall’orgoglio e dalla sete di vendetta, tanto potente da poter frantumare il cosmo.",
+   "genres": [
+    "Fantasy",
+    "Azione",
+    "Avventura"
+   ],
+   "cast": [
+    "Ranbir Kapoor",
+    "Yash",
+    "Sai Pallavi",
+    "Ravi Dubey",
+    "अरुण गोविल",
+    "Shobana"
+   ],
+   "original_title": "रामायणम्",
+   "release_date": "2026-11-05"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-22"
  }
 }
