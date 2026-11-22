@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:07:08+01:00",
+ "generated_at": "2026-11-22T22:04:46+01:00",
  "today": "2026-11-22",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:22+01:00"
+    "fetched_at": "2026-11-22T22:04:00+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 80,
+    "n": 70,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:25+01:00"
+    "fetched_at": "2026-11-22T22:04:03+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 110,
+    "n": 101,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:27+01:00"
+    "fetched_at": "2026-11-22T22:04:05+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:31+01:00"
+    "fetched_at": "2026-11-22T22:04:08+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:33+01:00"
+    "fetched_at": "2026-11-22T22:04:11+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 33,
+    "n": 28,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:36+01:00"
+    "fetched_at": "2026-11-22T22:04:13+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 41,
+    "n": 35,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:37+01:00"
+    "fetched_at": "2026-11-22T22:04:15+01:00"
    }
   },
   {
@@ -115,11 +115,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 6,
-    "source": "Sito ufficiale",
+    "n": 0,
+    "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:39+01:00"
+    "fetched_at": "2026-11-22T22:04:16+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 48,
+    "n": 41,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:40+01:00"
+    "fetched_at": "2026-11-22T22:04:18+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:44+01:00"
+    "fetched_at": "2026-11-22T22:04:21+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:46+01:00"
+    "fetched_at": "2026-11-22T22:04:24+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:48+01:00"
+    "fetched_at": "2026-11-22T22:04:26+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:53+01:00"
+    "fetched_at": "2026-11-22T22:04:31+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:57+01:00"
+    "fetched_at": "2026-11-22T22:04:35+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 23,
+    "n": 20,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:06:58+01:00"
+    "fetched_at": "2026-11-22T22:04:36+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:07:01+01:00"
+    "fetched_at": "2026-11-22T22:04:39+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:07:05+01:00"
+    "fetched_at": "2026-11-22T22:04:42+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-22T18:07:08+01:00"
+    "fetched_at": "2026-11-22T22:04:46+01:00"
    }
   }
  ],
@@ -323,7 +323,7 @@
   },
   {
    "cinema": "centrale",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-22",
    "time": "11:30",
    "tag": "ITA",
@@ -332,7 +332,7 @@
   },
   {
    "cinema": "centrale",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-22",
    "time": "16:00",
    "tag": "VO",
@@ -382,20 +382,6 @@
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-22",
-   "time": "17:30",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-22",
-   "time": "19:30",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-22",
    "time": "21:30",
    "tag": "Nirvana"
   },
@@ -403,29 +389,8 @@
    "cinema": "duegiardini",
    "film": "WILD HORSE NINE",
    "date": "2026-11-22",
-   "time": "18:50",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
    "time": "21:15",
    "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "DIO RIDE",
-   "date": "2026-11-22",
-   "time": "18:30",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "FJORD",
-   "date": "2026-11-22",
-   "time": "18:15",
-   "tag": "Grande"
   },
   {
    "cinema": "eliseo",
@@ -433,27 +398,6 @@
    "date": "2026-11-22",
    "time": "21:15",
    "tag": "Grande"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-22",
-   "time": "20:45",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "18:45",
-   "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": "Blu"
   },
   {
    "cinema": "esedra",
@@ -861,122 +805,10 @@
   },
   {
    "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-22",
-   "time": "18:50",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-22",
-   "time": "18:15",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-22",
-   "time": "17:30",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-22",
-   "time": "19:30",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-22",
    "time": "21:30",
    "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "SILENT FRIEND",
-   "date": "2026-11-22",
-   "time": "20:30",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "massaua",
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-22",
-   "time": "18:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-22",
-   "time": "20:45",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-22",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-22",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-22",
-   "time": "18:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-22",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-   "date": "2026-11-22",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-22",
-   "time": "20:10",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "Wildwood - I segreti del bosco proibito",
-   "date": "2026-11-22",
-   "time": "21:45",
-   "tag": ""
   },
   {
    "cinema": "massimo",
@@ -1060,34 +892,6 @@
   },
   {
    "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-22",
-   "time": "18:15",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LOOK BACK",
-   "date": "2026-11-22",
-   "time": "17:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LOOK BACK",
-   "date": "2026-11-22",
-   "time": "19:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-22",
    "time": "21:30",
@@ -1095,52 +899,10 @@
   },
   {
    "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-22",
-   "time": "18:45",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "18:30",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "20:45",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-22",
    "time": "21:30",
    "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "date": "2026-11-22",
-   "time": "18:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "date": "2026-11-22",
-   "time": "21:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-22",
-   "time": "17:40",
-   "tag": "Sala 4"
   },
   {
    "cinema": "reposi",
@@ -1153,43 +915,8 @@
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-22",
-   "time": "17:40",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-22",
-   "time": "19:50",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-22",
    "time": "22:00",
    "tag": "Sala 2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-22",
-   "time": "17:40",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-22",
-   "time": "19:55",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-22",
-   "time": "19:50",
-   "tag": "Sala 5"
   },
   {
    "cinema": "reposi",
@@ -1202,56 +929,7 @@
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-22",
-   "time": "19:45",
-   "tag": "Sala 4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-22",
    "time": "22:05",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-22",
-   "time": "18:30",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "DIO RIDE",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": "Sala 3"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-22",
-   "time": "18:20",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-22",
-   "time": "20:45",
-   "tag": "Sala 2"
-  },
-  {
-   "cinema": "romano",
-   "film": "LA BALLATA DEL RE DELLE API",
-   "date": "2026-11-22",
-   "time": "21:00",
-   "tag": "Sala 1"
-  },
-  {
-   "cinema": "romano",
-   "film": "RAGIONE E SENTIMENTO",
-   "date": "2026-11-22",
-   "time": "18:30",
    "tag": "Sala 1"
   },
   {
@@ -1410,7 +1088,7 @@
   },
   {
    "cinema": "thespace",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-22",
    "time": "21:40",
    "tag": ""
@@ -1669,14 +1347,14 @@
   },
   {
    "cinema": "uci",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-22",
    "time": "13:20",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-22",
    "time": "22:20",
    "tag": ""
@@ -1855,7 +1533,7 @@
   },
   {
    "cinema": "centrale",
-   "film": "LA BALLATA DEL RE DELLE API",
+   "film": "La ballata del re delle api",
    "date": "2026-11-23",
    "time": "18:45",
    "tag": "VO",
@@ -2354,28 +2032,28 @@
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-23",
    "time": "16:50",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-23",
    "time": "18:20",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-23",
    "time": "20:00",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-23",
    "time": "21:15",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
@@ -2396,21 +2074,21 @@
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-23",
    "time": "16:50",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-23",
    "time": "18:50",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-23",
    "time": "21:15",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
@@ -3303,28 +2981,28 @@
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-24",
    "time": "16:50",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-24",
    "time": "18:20",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-24",
    "time": "20:00",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-24",
    "time": "21:15",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
@@ -3345,21 +3023,21 @@
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "16:50",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "18:50",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "21:15",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
@@ -4032,35 +3710,35 @@
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-25",
    "time": "16:40",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-25",
    "time": "18:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-25",
    "time": "19:00",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-25",
    "time": "21:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "Hunger Games: L'alba sulla mietitura",
    "date": "2026-11-25",
    "time": "21:45",
-   "tag": ""
+   "tag": "Sala 4"
   },
   {
    "cinema": "massaua",
@@ -4081,14 +3759,14 @@
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-25",
    "time": "17:10",
-   "tag": ""
+   "tag": "Sala 1"
   },
   {
    "cinema": "massaua",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-25",
    "time": "21:30",
-   "tag": ""
+   "tag": "Sala 3"
   },
   {
    "cinema": "massaua",
