@@ -887,6 +887,27 @@ def is_junk_title(t: str) -> bool:
 
 
 _VO_SUFFIX = re.compile(r"\s*[-–—(]\s*(?:v\.?\s?o\.?s?|versione originale|lingua originale|sottotitolat\w*[^)]*)\s*\)?\s*$", re.I)
+# Cinema che pubblicano la versione originale come "film a parte" ("Look Back - Versione originale sottotitolata",
+# "LOOK BACK (V.O. sott. ita)", "Look Back VOST", "Look Back [OV]"): coda con sigla o dicitura di lingua originale.
+_VO_WORDS = (r"(?:v\.?\s?o\.?(?:\s?s(?:t(?:\.?\s?it\w*)?)?\.?)?|o\.?\s?v\.?|vost(?:it)?|vos|"
+             r"versione\s+originale|versione\s+in\s+lingua\s+originale|lingua\s+originale|original\s+version|"
+             r"in\s+originale|originale)")
+_VO_TAIL = re.compile(r"(?:\s*[-–—:|/]\s*|\s*[(\[]\s*|\s+)(?:" + _VO_WORDS + r")\b\.?(?:[^)\]\n]*?)\s*[)\]]?\s*$", re.I)
+
+
+def _vo_tail_match(title: str):
+    """Riconosce la coda VO; la sola parola 'originale' (o 'in originale') vale solo dopo un separatore o una parentesi,
+    cosi' un titolo come 'Il Gattopardo originale' non perde parole per sbaglio."""
+    m = _VO_TAIL.search(title)
+    if not m:
+        return None
+    head = title[:m.start()].strip()
+    if not head or len(re.sub(r"[^A-Za-zÀ-ÿ0-9]", "", head)) < 2:
+        return None                         # il titolo sarebbe vuoto: e' tutto titolo
+    word = re.sub(r"^[\s\-–—:|/(\[]+", "", m.group(0)).lower()
+    if re.match(r"(?:in\s+)?originale\b", word) and not re.match(r"\s*[-–—:|/(\[]", m.group(0)):
+        return None
+    return m
 _EDITION = re.compile(r"\s*[-–—]\s*[^-–—]*\b(?:anniversar\w*|restaurat\w*|rimasterizzat\w*|remaster\w*|edition|special|"
                       r"director'?s cut)\b.*$", re.I)
 
@@ -902,6 +923,9 @@ def strip_noise(title: str) -> str:
     """'Titolo - V. O.' -> 'Titolo'; 'Titolo (Film in inglese)' -> 'Titolo'; 'Titolo 4K – WB 100th Anniversary' -> 'Titolo'."""
     t = _LANG_NOTE.sub("", title)
     t = _VO_SUFFIX.sub("", t)
+    m = _vo_tail_match(t)
+    if m:
+        t = t[:m.start()]
     t = _EDITION.sub("", t)
     t = re.sub(r"\s+4k\b", "", t, flags=re.I)
     return t.strip()
@@ -1031,7 +1055,7 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
     for r in rows:
         if re.search(r"(?i)\b4k\b|\bried\b|\brid\.|restaurat|rimasterizz|remaster|anniversar|riedizione|ritorna", r["film"]):
             r["rer"] = True                                   # riedizione di un film vecchio: serve a TMDB
-        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"])) and not r.get("tag"):
+        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"]) or _vo_tail_match(r["film"])) and not r.get("tag"):
             r["tag"] = "VO"                                   # "Titolo - V. O." = proiezione in originale
         y = re.search(r"[\[(]\s*((?:19|20)\d{2})\s*[\])]", r["film"])   # "Titolo [2026]": serve a TMDB
         if y and "anno" not in r:
