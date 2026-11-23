@@ -248,7 +248,7 @@ footer a{color:inherit}
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
-const REPO_URL = "https://github.com/rotulair/orari-cinema-torino";   // ← incolla qui il link al repository GitHub (es. "https://github.com/rotulair/NOME-REPO"): diventa il link nei crediti in fondo alla pagina
+const REPO_URL = "";   // ← incolla qui il link al repository GitHub (es. "https://github.com/rotulair/NOME-REPO"): diventa il link nei crediti in fondo alla pagina
 const TZ = "Europe/Rome";
 
 const ZONES = [
@@ -511,7 +511,8 @@ function timePills(list, now, isToday){
     if(isPast) cls += " past";
     else if(isToday && !nextMarked){ cls += " next"; nextMarked = true; }
     const vo = s.tag==="VO" ? "<sup>VO</sup>" : "";
-    const extra = s.tag && s.tag!=="VO" ? `<i>${esc(s.tag)}</i>` : "";
+    const hallTxt = s.hall || (s.tag && s.tag!=="VO" ? s.tag : "");
+    const extra = hallTxt ? `<i>${esc(hallTxt)}</i>` : "";
     const room = s.room ? `<i title="Sala ${esc(s.room)}">S${esc(s.room)}</i>` : "";
     return `<span class="${cls}">${s.time}${vo}${room}${extra}</span>`;
   }).join("");
