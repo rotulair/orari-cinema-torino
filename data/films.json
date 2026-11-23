@@ -2489,5 +2489,75 @@
    "anno": null
   },
   "checked": "2026-11-22"
+ },
+ "whalefall nella balena": {
+  "title": "Whalefall: nella Balena",
+  "url": "https://it.wikipedia.org/wiki/Whalefall_-_Nella_balena",
+  "poster": null,
+  "director": "Brian Duffield",
+  "tmdb": {
+   "id": 1255833,
+   "title": "Whalefall - Nella balena",
+   "url": "https://www.themoviedb.org/movie/1255833?language=it-IT",
+   "poster_path": "/auhdhcoWhQzMovY2pa71BTgDAa7.jpg",
+   "runtime": 106,
+   "director": "Brian Duffield",
+   "year": 2026,
+   "overview": "Dopo la morte di suo padre (Josh Brolin), Jay Gardiner (Austin Abrams) si immerge al largo della costa centrale della California alla ricerca dei suoi resti, ma viene inghiottito da un'enorme balena. Mentre è intrappolato nel suo ventre con solo un’ora di ossigeno a disposizione, Jay si rende conto che le lezioni apprese a fatica dal padre potrebbero essere la chiave per la sua fuga.",
+   "genres": [
+    "Thriller"
+   ],
+   "cast": [
+    "Austin Abrams",
+    "Josh Brolin",
+    "Elisabeth Shue",
+    "John Ortiz",
+    "Jane Levy",
+    "Emily Rudd"
+   ],
+   "original_title": "Whalefall",
+   "release_date": "2026-10-14"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-23"
+ },
+ "lost land": {
+  "title": "LOST LAND",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1517120,
+   "title": "Lost Land",
+   "url": "https://www.themoviedb.org/movie/1517120?language=it-IT",
+   "poster_path": "/sykR3tfyn33YiwKbmxDoJi9vnlW.jpg",
+   "runtime": 99,
+   "director": "Akio Fujimoto",
+   "year": 2026,
+   "overview": "Nella speranza di ricongiungersi con la loro famiglia, il piccolo Shafi, quattro anni, e la sorella Somira, nove, lasciano un campo profughi Rohingya in Bangladesh per intraprendere un pericoloso viaggio verso la Malesia.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Muhammad Shofik Rias Uddin",
+    "Shomira Rias Uddin"
+   ],
+   "original_title": "Harà Watan",
+   "release_date": "2026-04-22"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 324544 (2025): titolo diverso (somiglianza 0.69: 'In the Lost Lands' / 'In the Lost Lands'); TMDB scartato id 18162 (2009): titolo diverso (somiglianza 0.45: 'Land of the Lost' / 'Land of the Lost'); TMDB scartato id 237245 (1948): titolo diverso (somiglianza 0.32: 'The Land of the Lost' / 'The Land of the Lost'); TMDB scartato id 886583 (1951): titolo diverso (somiglianza 0.41: 'Land of Lost Watches' / 'Land of Lost Watches')",
+  "ref": {
+   "regia": "Akio Fujimoto",
+   "anno": null
+  },
+  "checked": "2026-11-23"
  }
 }

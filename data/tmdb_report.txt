@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-23: 47 film con dati TMDB, 7 senza.
+Report TMDB del 2026-11-23: 44 film con dati TMDB, 6 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -10,7 +10,5 @@ Report TMDB del 2026-11-23: 47 film con dati TMDB, 7 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- JUMBO - La voce di Don  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1049082 (2025): nessun riscontro e uscita 2025 non recente
 - SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
