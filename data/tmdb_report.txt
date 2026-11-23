@@ -1,10 +1,8 @@
-Report TMDB del 2026-11-23: 44 film con dati TMDB, 6 senza.
+Report TMDB del 2026-11-23: 43 film con dati TMDB, 5 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - CIAU CINE  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- IN QUOTA CAMBIA TUTTO  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente

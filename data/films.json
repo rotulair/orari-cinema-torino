@@ -2559,5 +2559,43 @@
    "anno": null
   },
   "checked": "2026-11-23"
+ },
+ "nel silenzio delle stanze": {
+  "title": "NEL SILENZIO DELLE STANZE",
+  "url": "https://it.wikipedia.org/wiki/Nel_silenzio_delle_stanze",
+  "poster": null,
+  "director": "Jérôme Bonnell",
+  "tmdb": {
+   "id": 1119548,
+   "title": "Nel silenzio delle stanze",
+   "url": "https://www.themoviedb.org/movie/1119548?language=it-IT",
+   "poster_path": "/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+   "runtime": 103,
+   "director": "Jérôme Bonnell",
+   "year": 2025,
+   "overview": "Normandia, 1908. Céleste è una giovane domestica che lavora nella grande villa di André, un ricco notaio, e sua moglie Victoire, una donna oppressa dalle convenzioni borghesi che la vogliono moglie modello. Un giorno Victoire scopre che Céleste è incinta e intuisce che il padre è Andre. Per evitare lo scandalo e proteggere la reputazione della coppia, la donna impone al marito una condizione: l’integrità dell’uomo sarà preservata ma un accordo segreto legherà Victoire e Céleste in un’inaspettata alleanza che porterà le due donne a sfidare il rigido ordine sociale del tempo.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Swann Arlaud",
+    "Galatea Bellugi",
+    "Louise Chevillotte",
+    "Emmanuelle Devos",
+    "Aymeline Alix",
+    "Pierre Philippe"
+   ],
+   "original_title": "La Condition",
+   "release_date": "2025-12-10"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Jérôme Bonnell",
+   "anno": null
+  },
+  "checked": "2026-11-23"
  }
 }
