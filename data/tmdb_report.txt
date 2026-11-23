@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-22: 53 film con dati TMDB, 10 senza.
+Report TMDB del 2026-11-23: 47 film con dati TMDB, 7 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -12,11 +12,5 @@ Report TMDB del 2026-11-22: 53 film con dati TMDB, 10 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - JUMBO - La voce di Don  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1049082 (2025): nessun riscontro e uscita 2025 non recente
-- LA NOSTRA ISOLA È IL MONDO INTERO  [regia dichiarata: Claudio Di Mambro, Luca Mandrile, Umberto Migliaccio; anno: 2026; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- Minnie and Moscowitz  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
-- Topsy-Turvy  [regia dichiarata: -; anno: -; Wikipedia: si]
-    motivo: TMDB scartato id 46435 (1999): nessun riscontro e uscita 1999 non recente; TMDB scartato id 160810 (1983): nessun riscontro e uscita 1983 non recente; TMDB scartato id 57723 (1989): titolo diverso (somiglianza 0.61: 'Galimatias, czyli kogel-mogel II' / 'Galimatias, czyli kogel-mogel II'); TMDB scartato id 987409 (1969): titolo diverso (somiglianza 0.73: '喜劇 逆転旅行' / '喜劇 逆転旅行'); TMDB scartato id 702562 (1953): nessun riscontro e uscita 1953 non recente
