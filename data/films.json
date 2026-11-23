@@ -2597,5 +2597,20 @@
    "anno": null
   },
   "checked": "2026-11-23"
+ },
+ "ken il guerriero": {
+  "title": "KEN IL GUERRIERO",
+  "url": "https://it.wikipedia.org/wiki/Ken_il_guerriero_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/dd/Ken_il_guerriero_1986.png/250px-Ken_il_guerriero_1986.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Toyoo Ashida",
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-23"
  }
 }
