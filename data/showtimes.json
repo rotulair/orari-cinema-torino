@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T18:25:12+01:00",
+ "generated_at": "2026-11-23T19:00:30+01:00",
  "today": "2026-11-23",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:24+01:00"
+    "fetched_at": "2026-11-23T18:59:45+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 64,
+    "n": 63,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:26+01:00"
+    "fetched_at": "2026-11-23T18:59:48+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:29+01:00"
+    "fetched_at": "2026-11-23T18:59:51+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:32+01:00"
+    "fetched_at": "2026-11-23T18:59:53+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:35+01:00"
+    "fetched_at": "2026-11-23T18:59:56+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:38+01:00"
+    "fetched_at": "2026-11-23T18:59:58+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:40+01:00"
+    "fetched_at": "2026-11-23T19:00:00+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:41+01:00"
+    "fetched_at": "2026-11-23T19:00:01+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:43+01:00"
+    "fetched_at": "2026-11-23T19:00:03+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:47+01:00"
+    "fetched_at": "2026-11-23T19:00:06+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:50+01:00"
+    "fetched_at": "2026-11-23T19:00:09+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:52+01:00"
+    "fetched_at": "2026-11-23T19:00:11+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:24:56+01:00"
+    "fetched_at": "2026-11-23T19:00:16+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:25:00+01:00"
+    "fetched_at": "2026-11-23T19:00:19+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:25:02+01:00"
+    "fetched_at": "2026-11-23T19:00:21+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:25:04+01:00"
+    "fetched_at": "2026-11-23T19:00:24+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:25:08+01:00"
+    "fetched_at": "2026-11-23T19:00:27+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-23T18:25:12+01:00"
+    "fetched_at": "2026-11-23T19:00:30+01:00"
    }
   }
  ],
@@ -771,14 +771,8 @@
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-23",
    "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-23",
-   "time": "18:50",
-   "tag": ""
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massaua",
@@ -799,7 +793,7 @@
    "film": "YOUR NAME.",
    "date": "2026-11-23",
    "time": "19:15",
-   "tag": "Sala 3 Anime"
+   "tag": "Anime"
   },
   {
    "cinema": "massimo",
@@ -854,119 +848,136 @@
    "film": "FJORD",
    "date": "2026-11-23",
    "time": "18:15",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-23",
    "time": "21:00",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-23",
    "time": "19:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-23",
    "time": "21:30",
-   "tag": "Sala 4"
+   "tag": "VO",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-23",
    "time": "18:45",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-23",
    "time": "21:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-23",
    "time": "18:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "HOLY WOOD DUST",
    "date": "2026-11-23",
    "time": "19:50",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-23",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-23",
    "time": "22:00",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-23",
    "time": "19:50",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-23",
    "time": "22:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-23",
    "time": "19:55",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-23",
    "time": "21:50",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-23",
    "time": "19:45",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-23",
    "time": "22:05",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "thespace",
@@ -1957,14 +1968,16 @@
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "16:40",
-   "tag": ""
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "21:00",
-   "tag": ""
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massaua",
@@ -2006,238 +2019,270 @@
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-24",
    "time": "16:40",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "YOUR NAME.",
    "date": "2026-11-24",
    "time": "19:15",
-   "tag": "Sala 3 Anime"
+   "tag": "Anime"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-24",
    "time": "15:31",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-24",
    "time": "18:15",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-24",
    "time": "21:00",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-24",
    "time": "17:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-24",
    "time": "19:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-24",
    "time": "21:30",
-   "tag": "Sala 4"
+   "tag": "VO",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-24",
    "time": "16:00",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-24",
    "time": "18:45",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-24",
    "time": "15:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-24",
    "time": "21:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-24",
    "time": "16:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-24",
    "time": "18:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-24",
    "time": "20:45",
-   "tag": "Sala 2"
+   "tag": "VO",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "HOLY WOOD DUST",
    "date": "2026-11-24",
    "time": "19:50",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-24",
    "time": "15:30",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-24",
    "time": "17:40",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-24",
    "time": "22:00",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "15:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "17:40",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "19:50",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
    "time": "22:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "15:25",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "17:40",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
    "time": "19:55",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-24",
    "time": "15:30",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-24",
    "time": "17:35",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-24",
    "time": "21:50",
-   "tag": "Sala 5"
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-24",
    "time": "19:45",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-24",
    "time": "22:05",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "agnelli",
@@ -2849,14 +2894,16 @@
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "16:50",
-   "tag": ""
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "19:20",
-   "tag": ""
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massaua",
@@ -2891,196 +2938,220 @@
    "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-25",
    "time": "19:15",
-   "tag": "Sala 2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-25",
    "time": "21:30",
-   "tag": "Sala 1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-25",
    "time": "16:20",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "YOUR NAME.",
    "date": "2026-11-25",
    "time": "19:30",
-   "tag": "Sala 3 Anime"
+   "tag": "Anime"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-25",
    "time": "15:31",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-25",
    "time": "18:15",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "FJORD",
    "date": "2026-11-25",
    "time": "21:00",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-25",
    "time": "17:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-25",
    "time": "19:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-25",
    "time": "21:30",
-   "tag": "Sala 4"
+   "tag": "VO",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-25",
    "time": "16:00",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-25",
    "time": "18:45",
-   "tag": "Sala 4"
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-25",
    "time": "15:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-25",
    "time": "21:30",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-25",
    "time": "16:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-25",
    "time": "18:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-25",
    "time": "20:45",
-   "tag": "Sala 2"
+   "tag": "VO",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-25",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "15:30",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "17:40",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "19:50",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
    "time": "22:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-25",
    "time": "15:25",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-25",
    "time": "17:40",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-25",
    "time": "19:55",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "WILD HORSE NINE",
    "date": "2026-11-25",
    "time": "22:05",
-   "tag": "Sala 1"
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "ideal",
@@ -3250,7 +3321,7 @@
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-26",
    "time": "20:00",
-   "tag": "Emozioni Eventi Musicali"
+   "tag": "Eventi Musicali"
   },
   {
    "cinema": "baretti",
@@ -4263,7 +4334,7 @@
    "film": "DUNE PARTE 3",
    "date": "2026-12-15",
    "time": "21:15",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "baretti",
@@ -4305,119 +4376,123 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:01",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:05",
-   "tag": "Sala 4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:10",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "09:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "10:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "12:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "13:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "15:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "16:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "18:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "19:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "21:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "22:30",
-   "tag": "Sala 3"
+   "tag": ""
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "20:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "baretti",
@@ -4467,49 +4542,53 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "20:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "ideal",
@@ -4543,49 +4622,53 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "20:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "baretti",
@@ -4627,49 +4710,53 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "20:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "baretti",
@@ -4711,49 +4798,53 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "15:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "18:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "20:00",
-   "tag": "Sala 2"
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "reposi",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "21:30",
-   "tag": "Sala 3"
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "ideal",
