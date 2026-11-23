@@ -755,6 +755,24 @@ class TitoloUfficialeETmdbTest(unittest.TestCase):
         self.assertEqual({r["film"] for r in rows}, {"Look Back"})        # un solo film, anche nello stesso giorno e cinema
         self.assertEqual([r.get("tag") for r in rows], [None, "VO"])      # ma la proiezione delle 21:30 e' in originale
 
+    def test_cctorino_vo_come_film_a_parte_sul_sito_reale(self):
+        html = (Path(__file__).parent / "fixtures" / "cctorino_vo.html").read_text(encoding="utf-8", errors="replace")
+        rows = [r for r in scrape.parse_18tickets(html, "2026-11-23") if r["venue"].startswith("nazionale")]
+        scrape.unify_titles(rows)
+        lb = [r for r in rows if r["film"].upper() == "LOOK BACK"]
+        self.assertEqual({r["film"] for r in rows if "LOOK BACK" in r["film"].upper()}, {"LOOK BACK"})
+        vo = [r for r in lb if r["tag"] == "VO"]
+        self.assertEqual([(r["date"], r["time"], r["room"]) for r in vo],
+                         [("2026-11-23", "21:30", "4"), ("2026-11-24", "21:30", "4"), ("2026-11-25", "21:30", "4")])
+        doppiato = [r for r in lb if r["tag"] != "VO"]
+        self.assertEqual(len(doppiato), 6)
+        self.assertTrue(all(r["time"] in ("17:30", "19:30") for r in doppiato))
+
+    def test_cctorino_sala_con_nome_proprio_resta_visibile(self):
+        html = (Path(__file__).parent / "fixtures" / "cctorino_vo.html").read_text(encoding="utf-8", errors="replace")
+        rows = [r for r in scrape.parse_18tickets(html, "2026-11-23") if r["venue"].startswith("eliseo")]
+        self.assertTrue(any(r["tag"] == "Blu" for r in rows))
+
     def test_film_in_inglese_da_solo_e_scarto(self):
         self.assertTrue(scrape.is_junk_title("Film in inglese"))
         self.assertFalse(scrape.is_junk_title("In the mood for love"))
