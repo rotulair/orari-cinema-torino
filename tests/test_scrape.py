@@ -743,6 +743,18 @@ class TitoloUfficialeETmdbTest(unittest.TestCase):
         self.assertEqual({r["film"] for r in rows}, {"The Hunger Games: Alba della mietitura"})
         self.assertEqual([r.get("tag") for r in rows], [None, "VO", "VO"])
 
+    def test_versione_originale_come_film_a_parte(self):
+        for t in ["LOOK BACK - Versione originale", "Look Back (Versione Originale sottotitolata in italiano)",
+                  "LOOK BACK V.O.", "Look Back VOST", "Look Back [OV]", "Look Back – In lingua originale"]:
+            self.assertEqual(scrape.display_title(t).lower(), "look back", t)
+        for t in ["Il Gattopardo originale", "Original Sin", "Vostro onore", "Mio fratello è figlio unico"]:
+            self.assertEqual(scrape.display_title(t), t)
+        rows = [{"film": "Look Back", "cinema": "nazionale", "date": "d", "time": "18:00"},
+                {"film": "LOOK BACK - Versione originale", "cinema": "nazionale", "date": "d", "time": "21:30"}]
+        scrape.unify_titles(rows)
+        self.assertEqual({r["film"] for r in rows}, {"Look Back"})        # un solo film, anche nello stesso giorno e cinema
+        self.assertEqual([r.get("tag") for r in rows], [None, "VO"])      # ma la proiezione delle 21:30 e' in originale
+
     def test_film_in_inglese_da_solo_e_scarto(self):
         self.assertTrue(scrape.is_junk_title("Film in inglese"))
         self.assertFalse(scrape.is_junk_title("In the mood for love"))
