@@ -2612,5 +2612,60 @@
    "anno": null
   },
   "checked": "2026-11-23"
+ },
+ "hexe il regno delle streghe": {
+  "title": "HEXE - IL REGNO DELLE STREGHE",
+  "url": "https://it.wikipedia.org/wiki/Hexe_-_Il_regno_delle_streghe",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/6d/DisneyHexedMovie.png/250px-DisneyHexedMovie.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Fawn Veerasunthorn e Jason Hand",
+  "tmdb": {
+   "id": 1538497,
+   "title": "Hexe - Il regno delle streghe",
+   "url": "https://www.themoviedb.org/movie/1538497?language=it-IT",
+   "poster_path": "/qR6ABfdY3NLLkkN1L5UusJ5TlHU.jpg",
+   "runtime": 103,
+   "director": "Jason Hand, ฝน วีระสุนทร",
+   "year": 2026,
+   "overview": "Billie Doe, un'adolescente impulsiva e non convenzionale, scopre di avere abilità magiche che la portano dalla periferia a Hexe, un regno di streghe. Con la cauta madre Alice indaga sui segreti di famiglia legati al mondo delle streghe.",
+   "genres": [
+    "Avventura",
+    "Animazione",
+    "Famiglia",
+    "Fantasy"
+   ],
+   "cast": [
+    "Hailee Steinfeld",
+    "Rashida Jones",
+    "Jodie Foster",
+    "Walton Goggins",
+    "Tracey Ullman",
+    "Stephen Fry"
+   ],
+   "original_title": "Hexed",
+   "release_date": "2026-11-25"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Jason Hand, Fawn Veerasunthorn",
+   "anno": null
+  },
+  "checked": "2026-11-23"
+ },
+ "eandata cosi": {
+  "title": "ÈANDATA COSÌ",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": "Gianni Zanasi",
+   "anno": null
+  },
+  "checked": "2026-11-23"
  }
 }

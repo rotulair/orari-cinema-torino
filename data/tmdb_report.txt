@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-23: 43 film con dati TMDB, 6 senza.
+Report TMDB del 2026-11-23: 43 film con dati TMDB, 7 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -12,3 +12,5 @@ Report TMDB del 2026-11-23: 43 film con dati TMDB, 6 senza.
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
 - SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
+- ÈANDATA COSÌ  [regia dichiarata: Gianni Zanasi; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
