@@ -192,8 +192,14 @@ def parse_18tickets(html: str, day: str) -> list[dict]:
                     key = (title, cur_date, hhmm, venue)
                     if key not in seen:
                         seen.add(key)
-                        out.append({"film": title, "date": cur_date, "time": hhmm,
-                                    "tag": _norm_tag(m.group(3)), "venue": venue})
+                        row = {"film": title, "date": cur_date, "time": hhmm, "tag": "", "venue": venue}
+                        extra = _norm_tag(m.group(3))
+                        sala = re.fullmatch(r"(?i)sala\s*(\w+)", extra)
+                        if sala:
+                            row["room"] = sala.group(1)               # "Sala 4" -> S4, come gli altri cinema
+                        else:
+                            row["tag"] = extra                        # "VO", oppure sala con nome ("Blu") o etichetta ("CULT")
+                        out.append(row)
         elif kind == "text":
             if in_head:
                 head_buf.append(a)
@@ -1055,7 +1061,9 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
     for r in rows:
         if re.search(r"(?i)\b4k\b|\bried\b|\brid\.|restaurat|rimasterizz|remaster|anniversar|riedizione|ritorna", r["film"]):
             r["rer"] = True                                   # riedizione di un film vecchio: serve a TMDB
-        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"]) or _vo_tail_match(r["film"])) and not r.get("tag"):
+        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"]) or _vo_tail_match(r["film"])) and r.get("tag") != "VO":
+            if r.get("tag") and r["tag"] != "ITA":
+                r["hall"] = r.get("hall") or r["tag"]         # l'indicazione precedente (sala, formato) non va persa
             r["tag"] = "VO"                                   # "Titolo - V. O." = proiezione in originale
         y = re.search(r"[\[(]\s*((?:19|20)\d{2})\s*[\])]", r["film"])   # "Titolo [2026]": serve a TMDB
         if y and "anno" not in r:
