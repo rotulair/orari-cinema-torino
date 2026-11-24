@@ -2667,5 +2667,941 @@
    "anno": null
   },
   "checked": "2026-11-23"
+ },
+ "cenere e diamanti": {
+  "title": "Cenere e diamanti",
+  "url": "https://it.wikipedia.org/wiki/Cenere_e_diamanti",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d2/Cenere_%D0%B5_diamanti.png/250px-Cenere_%D0%B5_diamanti.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Andrzej Wajda",
+  "tmdb": {
+   "id": 5055,
+   "title": "Cenere e diamanti",
+   "url": "https://www.themoviedb.org/movie/5055?language=it-IT",
+   "poster_path": "/hq2JUR1WewMovr6yGRE39i7iHeo.jpg",
+   "runtime": 103,
+   "director": "Andrzej Wajda",
+   "year": 1958,
+   "overview": "Maciek e Andrzej, due combattenti dell'esercito nazionale, furono abbinati e ordinarono di uccidere un gruppo di partito comunista in arrivo. Presso l'hotel dove si tiene la festa di benvenuto del loro obiettivo. Maciek incontra la barista Krystyna ei due hanno una breve relazione appassionata, prima di essere trascinato via da questa fugace felicità nella sua missione mortale.",
+   "genres": [
+    "Dramma",
+    "Guerra",
+    "Romance"
+   ],
+   "cast": [
+    "Zbigniew Cybulski",
+    "Ewa Krzyżewska",
+    "Wacław Zastrzeżynski",
+    "Adam Pawlikowski",
+    "Bogumił Kobiela",
+    "Jan Ciecierski"
+   ],
+   "original_title": "Popiół i diament",
+   "release_date": "1958-10-03"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "girl in the night": {
+  "title": "Girl in the Night",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1095027,
+   "title": "Dekle noči",
+   "url": "https://www.themoviedb.org/movie/1095027?language=it-IT",
+   "poster_path": "/jLFhYixdhBX8lMf1xqLvVOvjqAs.jpg",
+   "runtime": 94,
+   "director": "Luka Marčetič",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Commedia",
+    "Thriller",
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Urban Kuntarič",
+    "Lara Wolf",
+    "Rok Roudi",
+    "Doroteja Nadrah",
+    "Nejc Jezernik",
+    "Marko Mandić"
+   ],
+   "original_title": "Dekle noči",
+   "release_date": "2027-02-11"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 157058 (2013): titolo diverso (somiglianza 0.30: '30 notti di attività paranormale con l'altra faccia del diavolo dentro la ragazza con il drago tatuato' / '30 Nights of Paranormal Activity With the Devil Inside the Girl With the Dragon Tattoo'); TMDB scartato id 1739598 (2026): titolo diverso (somiglianza 0.46: 'IMPACT x Nightline: The Girl in the Trunk' / 'IMPACT x Nightline: The Girl in the Trunk'); TMDB scartato id 473530 (1931): nessun riscontro e uscita 1931 non recente; TMDB scartato id 606977 (2016): titolo diverso (somiglianza 0.76: '行李箱里的少女' / '行李箱里的少女')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "a foggy tale": {
+  "title": "A Foggy Tale",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1174334,
+   "title": "A Foggy Tale",
+   "url": "https://www.themoviedb.org/movie/1174334?language=it-IT",
+   "poster_path": "/5nXkeQHSHPccTMllRZMURs790fR.jpg",
+   "runtime": 134,
+   "director": "陳玉勳",
+   "year": 2025,
+   "overview": "1953, a Taiwan vige la corte marziale. Nonostante il costo enorme per riscattare il corpo del fratello giustiziato dalla polizia, la giovane Yue parte per Taipei. Quando cade nella trappola di un trafficante di esseri umani, viene salvata da un ex soldato. Ispirato alle testimonianze dei familiari delle vittime, A Foggy Tale è un’odissea coinvolgente e dolorosa durante il Terrore bianco ma con una giusta dose di umorismo. Perché la vita sa resiste anche in un periodo così buio.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "方郁婷",
+    "柯煒林",
+    "9m88",
+    "陳以文",
+    "蔡昌憲",
+    "胡智強"
+   ],
+   "original_title": "大濛",
+   "release_date": "2025-11-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "detention": {
+  "title": "Detention",
+  "url": "https://it.wikipedia.org/wiki/Detention_(film_2003)",
+  "poster": null,
+  "director": "Sidney J. Furie",
+  "tmdb": {
+   "id": 95140,
+   "title": "Detention - Duro a morire",
+   "url": "https://www.themoviedb.org/movie/95140?language=it-IT",
+   "poster_path": "/8E9wbuATNtZBX3p2P9aPZ980fqI.jpg",
+   "runtime": 98,
+   "director": "Sidney J. Furie",
+   "year": 2003,
+   "overview": "Reduce dal Golfo e dai Balcani, Sam Decker torna nella città d'origine per insegnare nell'istituto più \"difficile\" della zona. Di lì a poco, frustrato dagli intoppi del sistema scolastico, decide di dimettersi. Ma l'ultimo giorno, assegnato a una classe punitiva, dovrà far fronte all'imprevista irruzione di un gruppo di uomini armati...",
+   "genres": [
+    "Azione",
+    "Thriller"
+   ],
+   "cast": [
+    "Dolph Lundgren",
+    "Alex Karzis",
+    "Dobó Kata",
+    "Danielle Hampton",
+    "Jennifer Baxter",
+    "Shawn Roberts"
+   ],
+   "original_title": "Detention",
+   "release_date": "2003-07-05"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 311415 (2003): titolo diverso (somiglianza 0.41: 'Eastenders: The Slaters In Detention' / 'Eastenders: The Slaters In Detention'); TMDB scartato id 260424 (2003): titolo diverso (somiglianza 0.75: 'ขังหญิง' / 'ขังหญิง')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "tavola rotonda": {
+  "title": "Tavola rotonda",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 19957 (1953): titolo diverso (somiglianza 0.64: 'I cavalieri della tavola rotonda' / 'Knights of the Round Table'); TMDB scartato id 124057 (1995): titolo diverso (somiglianza 0.67: 'I ragazzi della Tavola Rotonda' / 'Kids of the Round Table'); TMDB scartato id 65596 (1979): titolo diverso (somiglianza 0.64: 'Un astronauta alla tavola rotonda' / 'Unidentified Flying Oddball')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "la terra della grande promessa": {
+  "title": "La terra della grande promessa",
+  "url": "https://it.wikipedia.org/wiki/La_terra_della_grande_promessa",
+  "poster": null,
+  "director": "Andrzej Wajda",
+  "tmdb": {
+   "id": 511,
+   "title": "La terra della grande promessa",
+   "url": "https://www.themoviedb.org/movie/511?language=it-IT",
+   "poster_path": "/uwMs9axSBS0opiO7Ih2J3AjUvMv.jpg",
+   "runtime": 179,
+   "director": "Andrzej Wajda",
+   "year": 1975,
+   "overview": "Fine Ottocento. Karol Borowiecki (Daniel Olbrychski), giovane nobile di Lodz impiegato come capo ingegnere tessile, progetta di costruire una fabbrica propria e viene aiutato nell'impresa dal tedesco Maks (Andrzej Seweryn) e dall'ebreo Moryc (Wojciech Pszoniak). Grazie a un'informazione carpita da Anka (Anna Nehrebecka), amante di Karol, i tre speculano con successo sul mercato di Amburgo, ma la relazione finirà con il mettere tutti in pericolo.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Daniel Olbrychski",
+    "Wojciech Pszoniak",
+    "Andrzej Seweryn",
+    "Kalina Jędrusik",
+    "Anna Nehrebecka",
+    "Bożena Dykiel"
+   ],
+   "original_title": "Ziemia obiecana",
+   "release_date": "1975-02-21"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "le signorine di wilko": {
+  "title": "Le signorine di Wilko",
+  "url": "https://it.wikipedia.org/wiki/Le_signorine_di_Wilko",
+  "poster": null,
+  "director": "Andrzej Wajda",
+  "tmdb": {
+   "id": 117483,
+   "title": "Le signorine di Wilko",
+   "url": "https://www.themoviedb.org/movie/117483?language=it-IT",
+   "poster_path": "/kYVZkCMgfnxzAUPVPBJvPQ935lZ.jpg",
+   "runtime": 116,
+   "director": "Andrzej Wajda",
+   "year": 1979,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Daniel Olbrychski",
+    "Anna Seniuk",
+    "Christine Pascal",
+    "Maja Komorowska",
+    "Stanisława Celińska",
+    "Krystyna Zachwatowicz"
+   ],
+   "original_title": "Panny z Wilka",
+   "release_date": "1979-09-04"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "danton": {
+  "title": "Danton",
+  "url": "https://it.wikipedia.org/wiki/Danton_(film_1983)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3d/Danton_%28Andrzej_Wajda%29.PNG/250px-Danton_%28Andrzej_Wajda%29.PNG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Andrzej Wajda",
+  "tmdb": {
+   "id": 4202,
+   "title": "Danton",
+   "url": "https://www.themoviedb.org/movie/4202?language=it-IT",
+   "poster_path": "/dm1MFuMrufX3TuFFW1tr6xCbAl8.jpg",
+   "runtime": 136,
+   "director": "Andrzej Wajda",
+   "year": 1983,
+   "overview": "Danton torna a Parigi dopo un breve periodo passato nella natale Arcis-sur-Aube. Deciso a lottare contro la violenza del Terrore, non riuscirà però a convincere Robespierre che la pace, il benessere e la tranquillità sono tutto quello che il popolo desidera. Per essersi opposto alle istituzioni rivoluzionarie ed al Comitato di salute pubblica, finirà condannato alla ghigliottina dopo un processo politico.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Gérard Depardieu",
+    "Wojciech Pszoniak",
+    "Patrice Chéreau",
+    "Angela Winkler",
+    "Roland Blanche",
+    "Alain Macé"
+   ],
+   "original_title": "Danton",
+   "release_date": "1983-01-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 472690 (1983): titolo diverso (somiglianza 0.60: 'Wajda's Danton' / 'Wajda's Danton')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "ragazzi al cinema": {
+  "title": "Ragazzi al cinema",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "i dannati di varsavia": {
+  "title": "I dannati di Varsavia",
+  "url": "https://it.wikipedia.org/wiki/I_dannati_di_Varsavia",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/6f/I_dannati_di_Varsavia.png/250px-I_dannati_di_Varsavia.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
+  "tmdb": {
+   "id": 29933,
+   "title": "I dannati di Varsavia",
+   "url": "https://www.themoviedb.org/movie/29933?language=it-IT",
+   "poster_path": "/horh5qca5BO0H5P86EZ5gFGA31E.jpg",
+   "runtime": 91,
+   "director": "Andrzej Wajda",
+   "year": 1957,
+   "overview": "Nel settembre del 1944, con la forza della disperazione, Varsavia insorge contro gli occupanti tedeschi, che contrattaccano con tutto il peso della loro struttura militare. Un gruppo di patrioti cerca di sfuggire all'accerchiamento tedesco attraverso le fogne ed è una terribile odissea che si carica progressivamente di toni da tragedia, man mano che le fila di questi ardimentosi si assottigliano.",
+   "genres": [
+    "Guerra",
+    "Dramma"
+   ],
+   "cast": [
+    "Teresa Iżewska",
+    "Tadeusz Janczar",
+    "Wieńczysław Gliński",
+    "Tadeusz Gwiazdowski",
+    "Stanisław Mikulski",
+    "Emil Karewicz"
+   ],
+   "original_title": "Kanał",
+   "release_date": "1957-04-20"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "la battaglia di algeri": {
+  "title": "La battaglia di Algeri",
+  "url": "https://it.wikipedia.org/wiki/La_battaglia_di_Algeri",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/2c/La_battaglia_di_Algeri.png/250px-La_battaglia_di_Algeri.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Gillo Pontecorvo",
+  "tmdb": {
+   "id": 17295,
+   "title": "La battaglia di Algeri",
+   "url": "https://www.themoviedb.org/movie/17295?language=it-IT",
+   "poster_path": "/ohqf21dJ8PBFmNLXwNCGAajJ1Tv.jpg",
+   "runtime": 121,
+   "director": "Gillo Pontecorvo",
+   "year": 1966,
+   "overview": "Nell'ottobre 1957, mentre i paracadutisti del colonnello Mathieu rastrellano la Casbah, Ali La Pointe, uno dei capi della guerriglia algerina, rievoca il passato, l'organizzazione dell'FLN (Fronte di Liberazione Nazionale), gli attentati, gli scioperi, le delazioni. Ali La Pointe è ucciso, ma tre anni dopo, in dicembre, il popolo algerino scende in piazza, proclamando la propria volontà di indipendenza.",
+   "genres": [
+    "Dramma",
+    "Guerra",
+    "Storia"
+   ],
+   "cast": [
+    "Brahim Hadjadj",
+    "Jean Martin",
+    "Saadi Yacef",
+    "Samia Kerbash",
+    "Ugo Paletti",
+    "Fouzia El Kader"
+   ],
+   "original_title": "La battaglia di Algeri",
+   "release_date": "1966-09-08"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "l innocente": {
+  "title": "L’innocente",
+  "url": "https://it.wikipedia.org/wiki/L%27innocente_(film_1976)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ed/Laura_Antonelli_-_L%27innocente.jpg/250px-Laura_Antonelli_-_L%27innocente.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Luchino Visconti",
+  "tmdb": {
+   "id": 4286,
+   "title": "L'innocente",
+   "url": "https://www.themoviedb.org/movie/4286?language=it-IT",
+   "poster_path": "/1FJpP0DlksLwnnHa6yIz8ivnJSa.jpg",
+   "runtime": 125,
+   "director": "Luchino Visconti",
+   "year": 1976,
+   "overview": "Tratto dall'omonimo romanzo scritto nel 1892 da Gabriele D'Annunzio, l'ultimo film di Luchino Visconti è un grande affresco della società decadente di fine '800 espressa nelle cose, nella magnifica ambientazione oltre che naturalmente nei personaggi.  Il dramma è focalizzato sulla deviazione della paternità non riconosciuta.  Pur essendo incompleto (o meglio: primo e non riveduto montaggio), causa morte improvvisa del grande Visconti, il film si presenta ottimamente risolto (con toni decadenti e tragici) sia sul versante visivo, sia su quello puramente letterario.",
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Giancarlo Giannini",
+    "Laura Antonelli",
+    "Rina Morelli",
+    "Massimo Girotti",
+    "Didier Haudepin",
+    "Marie Dubois"
+   ],
+   "original_title": "L'innocente",
+   "release_date": "1976-05-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "marcia trionfale": {
+  "title": "Marcia trionfale",
+  "url": "https://it.wikipedia.org/wiki/Marcia_trionfale",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/30/Marcia_trionfale.png/250px-Marcia_trionfale.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Marco Bellocchio",
+  "tmdb": {
+   "id": 42866,
+   "title": "Marcia trionfale",
+   "url": "https://www.themoviedb.org/movie/42866?language=it-IT",
+   "poster_path": "/jNfhnKOwCuRQGa3DCQyvPCiUDS6.jpg",
+   "runtime": 118,
+   "director": "Marco Bellocchio",
+   "year": 1976,
+   "overview": "Un giovane laureato, destinato al servizio di leva benché abbia fatto di tutto per essere ammesso all'accademia, si trova a disagio nell'ambiente rozzo tanto lontano dalla sua sensibilità. Il suo superiore, in crisi depressiva, ne fa il proprio confidente e, senza saperlo, l'amante della moglie.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Michele Placido",
+    "Franco Nero",
+    "Miou-Miou",
+    "Patrick Dewaere",
+    "Massimo Boldi",
+    "Luciano Crovato"
+   ],
+   "original_title": "Marcia trionfale",
+   "release_date": "1976-03-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "l agnese va a morire": {
+  "title": "L’Agnese va a morire",
+  "url": "https://it.wikipedia.org/wiki/L%27Agnese_va_a_morire_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4b/L%27Agnese_va_a_morire.png/250px-L%27Agnese_va_a_morire.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Giuliano Montaldo",
+  "tmdb": {
+   "id": 57341,
+   "title": "L'Agnese va a morire",
+   "url": "https://www.themoviedb.org/movie/57341?language=it-IT",
+   "poster_path": "/acYT1yTkVb9mEeRzQECsNSZnJNL.jpg",
+   "runtime": 135,
+   "director": "Giuliano Montaldo",
+   "year": 1976,
+   "overview": "La storia di Agnese, una donna di mezza età, che da una vita tranquilla accanto al marito passa dapprima a una vita sotterranea di collaboratrice dei partigiani e poi a una vita clandestina insieme alle truppe della Resistenza.",
+   "genres": [
+    "Dramma",
+    "Guerra",
+    "Storia"
+   ],
+   "cast": [
+    "Ingrid Thulin",
+    "Stefano Satta Flores",
+    "Michele Placido",
+    "Aurore Clément",
+    "Ninetto Davoli",
+    "William Berger"
+   ],
+   "original_title": "L'Agnese va a morire",
+   "release_date": "1976-09-26"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "il postino suona sempre due volte": {
+  "title": "Il postino suona sempre due volte",
+  "url": "https://it.wikipedia.org/wiki/Il_postino_suona_sempre_due_volte_(film_1981)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/1/13/Postino_suona_sempre_due_volte.png/250px-Postino_suona_sempre_due_volte.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Bob Rafelson e",
+  "tmdb": {
+   "id": 11027,
+   "title": "Il postino suona sempre due volte",
+   "url": "https://www.themoviedb.org/movie/11027?language=it-IT",
+   "poster_path": "/IInN9xmXKnxejfqH9wslQWKwSp.jpg",
+   "runtime": 122,
+   "director": "Bob Rafelson",
+   "year": 1981,
+   "overview": "Durante gli anni Trenta, in un posto di ristoro per camionisti gestito da Mich e dalla moglie Cora, capita Frank, un vagabondo. Dopo non molto tempo Frank e Cora diventano amanti e, spinti dalla passione, decidono di attuare un'idea criminale: uccidere il marito di lei per potersi godere l'assicurazione. Quarta versione del romanzo di Cain, scritta da David Mamet e diretta da Rafelson che inserisce un tocco in più di realismo. Lo aiutano uno scatenato Nicholson e una convincente Lange. Memorabile la scena d'amore sul tavolo della cucina.",
+   "genres": [
+    "Crime",
+    "Romance",
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Jack Nicholson",
+    "Jessica Lange",
+    "John Colicos",
+    "Michael Lerner",
+    "John P. Ryan",
+    "Anjelica Huston"
+   ],
+   "original_title": "The Postman Always Rings Twice",
+   "release_date": "1981-03-20"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "todo modo": {
+  "title": "Todo modo",
+  "url": "https://it.wikipedia.org/wiki/Todo_modo_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/42/Todo_Modo.jpg/250px-Todo_Modo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Elio Petri",
+  "tmdb": {
+   "id": 47096,
+   "title": "Todo modo",
+   "url": "https://www.themoviedb.org/movie/47096?language=it-IT",
+   "poster_path": "/s4mA63Bo5gmhvP2FQnNDgvg0Pm4.jpg",
+   "runtime": 125,
+   "director": "Elio Petri",
+   "year": 1976,
+   "overview": "Mentre nel paese infuria un'epidemia, un centinaio di \"notabili\" del partito che da trent'anni governa l'Italia si riunisce in un albergo convento per seguire un corso di esercizi spirituali condotto da un gesuita, don Gaetano. In realtà ai convenuti preme soltanto concordare una nuova spartizione del potere. Ben presto, dopo un furto sacrilego, la riunione si trasforma in rissa e cominciano i morti.",
+   "genres": [
+    "Dramma",
+    "Thriller",
+    "Mistero"
+   ],
+   "cast": [
+    "Gian Maria Volonté",
+    "Marcello Mastroianni",
+    "Mariangela Melato",
+    "Ciccio Ingrassia",
+    "Franco Citti",
+    "Cesare Gelli"
+   ],
+   "original_title": "Todo modo",
+   "release_date": "1976-04-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "sul sentiero dei mostri": {
+  "title": "Sul sentiero dei mostri",
+  "url": "https://it.wikipedia.org/wiki/Sul_sentiero_dei_mostri",
+  "poster": null,
+  "director": "Hal Roach e Hal Roach Jr",
+  "tmdb": {
+   "id": 3592,
+   "title": "Sul sentiero dei mostri",
+   "url": "https://www.themoviedb.org/movie/3592?language=it-IT",
+   "poster_path": "/nwy6jzOlh1MLMoJKVFsfFm2QpeF.jpg",
+   "runtime": 80,
+   "director": "Hal Roach, Jr., Hal Roach",
+   "year": 1940,
+   "overview": "Tumak, membro della tribù preistorica delle Rocce, viene esiliato e si unisce alla più pacifica tribù delle Conchigli, dove si la  bella Loana gi insegna le buone maniere. Costretto a lasciare la tribù delle Conchiglie per combattere, Tumak, insieme a Loana, tornare alla tribù delle Rocce, ai quali Loana mostra loro l'errore dei loro modi brutali - fino a quando il vulcano erutta!",
+   "genres": [
+    "Fantasy",
+    "Azione",
+    "Avventura",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Victor Mature",
+    "Carole Landis",
+    "Lon Chaney Jr.",
+    "John Hubbard",
+    "Mamo Clark",
+    "Inez Palange"
+   ],
+   "original_title": "One Million B.C.",
+   "release_date": "1940-04-05"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "susanna": {
+  "title": "Susanna!",
+  "url": "https://it.wikipedia.org/wiki/Susanna!",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bringing_Up_Baby_%281938_poster%29.jpg/250px-Bringing_Up_Baby_%281938_poster%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Howard Hawks",
+  "tmdb": {
+   "id": 900,
+   "title": "Susanna!",
+   "url": "https://www.themoviedb.org/movie/900?language=it-IT",
+   "poster_path": "/waZvs4WNpjbE24nSzEs83cd2h4V.jpg",
+   "runtime": 102,
+   "director": "Howard Hawks",
+   "year": 1938,
+   "overview": "Il paleontologo David Huxley, in procinto di sposarsi e sul punto di concludere la ricostruzione di uno scheletro di dinosauro, è alla ricerca di finanziamenti. Conosce Susanna, una testarda ma adorabile ereditiera, e da quel momento per lui è un susseguirsi di guai. La ragazza infatti, anche se David non lo capisce immediatamente, decide di sposarlo...",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Katharine Hepburn",
+    "Cary Grant",
+    "Charles Ruggles",
+    "Walter Catlett",
+    "Barry Fitzgerald",
+    "May Robson"
+   ],
+   "original_title": "Bringing Up Baby",
+   "release_date": "1938-02-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "la fine di oak street": {
+  "title": "La fine di Oak Street",
+  "url": "https://it.wikipedia.org/wiki/La_fine_di_Oak_Street",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_End_Of_Oak_Street_Logo.svg/250px-The_End_Of_Oak_Street_Logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "David Robert Mitchell",
+  "tmdb": {
+   "id": 1101383,
+   "title": "La fine di Oak Street",
+   "url": "https://www.themoviedb.org/movie/1101383?language=it-IT",
+   "poster_path": "/3sBzqJcVjl4VKb9ULS569IIiUwu.jpg",
+   "runtime": 99,
+   "director": "David Robert Mitchell",
+   "year": 2026,
+   "overview": "Quando un misterioso evento cosmico strappa Oak Street dalla periferia e trasporta l’intero quartiere in un luogo sconosciuto, la famiglia Platt si rende presto conto che la propria sopravvivenza dipende dalla capacità di restare uniti cercando di orientarsi in un ambiente ormai irriconoscibile.",
+   "genres": [
+    "Fantascienza",
+    "Mistero",
+    "Thriller"
+   ],
+   "cast": [
+    "Anne Hathaway",
+    "Ewan McGregor",
+    "Maisy Stella",
+    "Christian Convery",
+    "Jordan Alexa Davis",
+    "P.J. Byrne"
+   ],
+   "original_title": "The End of Oak Street",
+   "release_date": "2026-08-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "un milione di anni fa": {
+  "title": "Un milione di anni fa",
+  "url": "https://it.wikipedia.org/wiki/Un_milione_di_anni_fa",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/21/Un_milione_di_anni_fa.jpg/250px-Un_milione_di_anni_fa.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Don Chaffey",
+  "tmdb": {
+   "id": 3591,
+   "title": "Un milione di anni fa",
+   "url": "https://www.themoviedb.org/movie/3591?language=it-IT",
+   "poster_path": "/tJdfNeDnnHdyG3aLpXp7DRCgc1Y.jpg",
+   "runtime": 100,
+   "director": "Don Chaffey",
+   "year": 1966,
+   "overview": "Agli albori dell'umanità Tumack, figlio del feroce capotribù Aknoma, tenta di ribellarsi all'autorità del padre, ma gli va male ed è costretto a fuggire. In riva al mare incontra Loana che lo salva dall'attacco di una tartaruga marina. Nel frattempo Aknoma è stato destituito da Sekoma, fratello del nostro eroe, anche se per lui il ritorno a casa non sarà comunque agevole.",
+   "genres": [
+    "Avventura",
+    "Fantasy"
+   ],
+   "cast": [
+    "Raquel Welch",
+    "John Richardson",
+    "Percy Herbert",
+    "Robert Brown",
+    "Martine Beswick",
+    "Jean Wladon"
+   ],
+   "original_title": "One Million Years B.C.",
+   "release_date": "1966-11-24"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "toy story": {
+  "title": "Toy Story",
+  "url": "https://it.wikipedia.org/wiki/Toy_Story_5",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/8a/Toy_Story_5.jpg/250px-Toy_Story_5.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Andrew Stanton",
+  "tmdb": {
+   "id": 1084244,
+   "title": "Toy Story 5",
+   "url": "https://www.themoviedb.org/movie/1084244?language=it-IT",
+   "poster_path": "/i7eQGriXCmNpScSVzepNHn9nMPM.jpg",
+   "runtime": 102,
+   "director": "Andrew Stanton",
+   "year": 2026,
+   "overview": "Quando Bonnie riceve in regalo un tablet Lilypad e ne diventa ossessionata, per Buzz, Woody, Jessie e il resto della banda, il lavoro si complica enormemente: dovranno affrontare una nuova, temibile minaccia al mondo del gioco.",
+   "genres": [
+    "Animazione",
+    "Famiglia",
+    "Commedia",
+    "Avventura"
+   ],
+   "cast": [
+    "Joan Cusack",
+    "Tom Hanks",
+    "Tim Allen",
+    "Conan O'Brien",
+    "Scarlett Spears",
+    "Greta Lee"
+   ],
+   "original_title": "Toy Story 5",
+   "release_date": "2026-06-17"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 301528 (2019): anno 2019 != 2026; TMDB scartato id 1713524 (2026): titolo diverso (somiglianza 0.37: 'Toy Story: 30 Years and Beyond - A Special Edition of 20/20' / 'Toy Story: 30 Years and Beyond - A Special Edition of 20/20'); TMDB scartato id 1698874 (2026): titolo diverso (somiglianza 0.82: 'New Toy Story' / 'New Toy Story'); TMDB scartato id 1714130 (2026): titolo diverso (somiglianza 0.62: 'Toy Story 5: Zhuazhou' / '抓周')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "a spasso con i dinosauri": {
+  "title": "A spasso con i dinosauri",
+  "url": "https://it.wikipedia.org/wiki/A_spasso_con_i_dinosauri",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fc/Patchi_contro_Gorgon.jpg/250px-Patchi_contro_Gorgon.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Neil Nightingale e Barry Cook",
+  "tmdb": {
+   "id": 77951,
+   "title": "A spasso con i dinosauri",
+   "url": "https://www.themoviedb.org/movie/77951?language=it-IT",
+   "poster_path": "/feUDRYP1JIij233occQz402VEgy.jpg",
+   "runtime": 87,
+   "director": "Neil Nightingale, Barry Cook",
+   "year": 2013,
+   "overview": "Patchi è un cucciolo di dinosauro erbivoro, gracile e pacifico, suo padre è il capo del branco e il suo fratello maggiore e spaccone è predestinato a seguirne le orme. I due si ritroveranno però ben presto orfani in una foresta incendiata attraversata durante la migrazione. Patchi non dovrà solo crescere in fretta ma anche prendere coscienza del fatto che per essere la guida del branco non è necessario solo battere fisicamente gli avversari ma anche essere in grado di assumersi le responsabilità delle decisioni più difficili.",
+   "genres": [
+    "Animazione",
+    "Famiglia",
+    "Avventura"
+   ],
+   "cast": [
+    "Karl Urban",
+    "Charlie Rowe",
+    "Angourie Rice",
+    "Justin Long",
+    "John Leguizamo",
+    "Tiya Sircar"
+   ],
+   "original_title": "Walking with Dinosaurs",
+   "release_date": "2013-12-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "dinosauri": {
+  "title": "Dinosauri",
+  "url": "https://it.wikipedia.org/wiki/Dinosauri_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/cb/Dinosauri_%28film%29.png/250px-Dinosauri_%28film%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Ralph Zondag ed Eric Leighton",
+  "tmdb": {
+   "id": 10567,
+   "title": "Dinosauri",
+   "url": "https://www.themoviedb.org/movie/10567?language=it-IT",
+   "poster_path": "/siBSIs7xMvU2KdAqsfrlyNxLAUq.jpg",
+   "runtime": 82,
+   "director": "Ralph Zondag, Eric Leighton",
+   "year": 2000,
+   "overview": "Siamo nel tardo Cretaceo, 65 milioni di anni fa. L'iguanodonte Aladar è stato separato dal branco quando era ancora un ovetto ed è stato allevato su un'isola da un clan di lemuri. Quando una devastante pioggia di meteoriti getta il suo mondo nel caos, Aladar, insieme alla sua famiglia adottiva, cerca rifugio sulla terraferma. Si unisce ad un gruppo di dinosauri in fuga verso un luogo sicuro. Avendo poco cibo e poca acqua e con la minaccia costante di predatori, il branco si mette in cammino e affronta pericoli di ogni genere. Il capobranco Kron impone ritmi faticosissimi, ed è disposto ad eliminare chi non riesce a tenere il passo. Aladar si sente in dovere di intervenire e, così facendo, si",
+   "genres": [
+    "Avventura",
+    "Animazione",
+    "Dramma",
+    "Famiglia"
+   ],
+   "cast": [
+    "D. B. Sweeney",
+    "Alfre Woodard",
+    "Ossie Davis",
+    "Max Casella",
+    "Hayden Panettiere",
+    "Samuel E. Wright"
+   ],
+   "original_title": "Dinosaur",
+   "release_date": "2000-05-19"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 66601 (2000): titolo diverso (somiglianza 0.67: 'La Valle Dei Dinosauri' / 'The Dinosaur Hunter'); TMDB scartato id 179185 (1953): titolo diverso (somiglianza 0.34: 'I predoni delle grandi paludi' / 'Prowlers of the Everglades'); TMDB scartato id 328220 (2000): regista Roswitha Haas != 'Ralph Zondag ed Eric Leighton'",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "baby il segreto della leggenda perduta": {
+  "title": "Baby. Il segreto della leggenda perduta",
+  "url": "https://it.wikipedia.org/wiki/Baby_-_Il_segreto_della_leggenda_perduta",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/56/Baby_-_Il_segreto_della_leggenda_perduta.jpg/250px-Baby_-_Il_segreto_della_leggenda_perduta.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Bill W. L. Norton",
+  "tmdb": {
+   "id": 19736,
+   "title": "Baby - Il segreto della leggenda perduta",
+   "url": "https://www.themoviedb.org/movie/19736?language=it-IT",
+   "poster_path": "/dpWkEjZj9cGFLadZXIfVnYdtgkK.jpg",
+   "runtime": 95,
+   "director": "Bill L. Norton",
+   "year": 1985,
+   "overview": "Un paleontologo assetato di celebrità uccide un collega per avere le foto che provano la sopravvivenza, in Africa, di un'ultima generazione di brontosauri. Poi si fa appoggiare da un esercito guerrigliero per catturarne un cucciolo con la madre, ma una sua ex allieva con il marito gli mettono i bastoni tra le ruote.",
+   "genres": [
+    "Avventura",
+    "Azione",
+    "Famiglia",
+    "Fantascienza"
+   ],
+   "cast": [
+    "William Katt",
+    "Sean Young",
+    "Patrick McGoohan",
+    "Julian Fellowes",
+    "Edward Hardwicke",
+    "Kyalo Mativo"
+   ],
+   "original_title": "Baby: Secret of the Lost Legend",
+   "release_date": "1985-03-29"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "gojira": {
+  "title": "Gojira",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1669088 (None): titolo diverso (somiglianza 0.48: 'Gojira: sur la route' / 'Gojira: sur la route'); TMDB scartato id 596411 (2017): titolo diverso (somiglianza 0.32: 'Gojira: Bloodstock Open Air 2016' / 'Gojira: Bloodstock Open Air 2016'); TMDB scartato id 706969 (2020): titolo diverso (somiglianza 0.40: 'Gojira - Live at Red Rocks' / 'Gojira - Live at Red Rocks'); TMDB scartato id 131669 (2012): titolo diverso (somiglianza 0.43: 'Gojira: The Flesh Alive' / 'Gojira: The Flesh Alive'); TMDB scartato id 782939 (2020): titolo diverso (somiglianza 0.34: 'Gojira: Live At Red Rocks 2017' / 'Gojira: Live At Red Rocks 2017')",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
+ },
+ "gojira il re dei mostri": {
+  "title": "Gojira il re dei mostri",
+  "url": "https://it.wikipedia.org/wiki/Il_re_dei_mostri",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Gojira_no_gyakushu_poster.jpg/250px-Gojira_no_gyakushu_poster.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Motoyoshi Oda",
+  "tmdb": {
+   "id": 1679,
+   "title": "Godzilla - Il Re Dei Mostri",
+   "url": "https://www.themoviedb.org/movie/1679?language=it-IT",
+   "poster_path": "/azduOL0fZdGIz1ZB8Oos4sTB2oG.jpg",
+   "runtime": 82,
+   "director": "小田基義",
+   "year": 1955,
+   "overview": "In attesa di soccorsi su un'isola deserta, due uomini assistono al combattimento tra Godzilla e un altro mostro preistorico. I due uomini fanno giusto in tempo a fotografare le due creature prima che precipitino in mare. Le foto vengono consegnate al professor Yamane, che riconosce nell'avversario di Godzilla un Anchilosauro probabilmente mutato anch'esso dalle radiazioni, che viene battezzato Angilas. I due mostri riemergono ad Osaka, trasformandola in un campo di battaglia sotto i colpi dell'esercito...",
+   "genres": [
+    "Fantascienza",
+    "Horror",
+    "Azione"
+   ],
+   "cast": [
+    "小泉博",
+    "若山セツ子",
+    "千秋実",
+    "Takashi Shimura",
+    "清水将夫",
+    "恩田清二郎"
+   ],
+   "original_title": "ゴジラの逆襲",
+   "release_date": "1955-04-24"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-24"
  }
 }
