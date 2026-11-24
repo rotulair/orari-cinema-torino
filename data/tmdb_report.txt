@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-24: 41 film con dati TMDB, 7 senza.
+Report TMDB del 2026-11-24: 40 film con dati TMDB, 7 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
