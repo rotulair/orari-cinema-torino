@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T14:42:02+01:00",
+ "generated_at": "2026-11-24T18:22:56+01:00",
  "today": "2026-11-24",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:17+01:00"
+    "fetched_at": "2026-11-24T18:22:13+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 132,
+    "n": 126,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:20+01:00"
+    "fetched_at": "2026-11-24T18:22:16+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 57,
+    "n": 178,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:22+01:00"
+    "fetched_at": "2026-11-24T18:22:18+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:25+01:00"
+    "fetched_at": "2026-11-24T18:22:20+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:27+01:00"
+    "fetched_at": "2026-11-24T18:22:23+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 18,
+    "n": 79,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:29+01:00"
+    "fetched_at": "2026-11-24T18:22:26+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 24,
+    "n": 46,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:31+01:00"
+    "fetched_at": "2026-11-24T18:22:27+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:32+01:00"
+    "fetched_at": "2026-11-24T18:22:29+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 26,
+    "n": 106,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:34+01:00"
+    "fetched_at": "2026-11-24T18:22:30+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:37+01:00"
+    "fetched_at": "2026-11-24T18:22:33+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:40+01:00"
+    "fetched_at": "2026-11-24T18:22:36+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:42+01:00"
+    "fetched_at": "2026-11-24T18:22:38+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:45+01:00"
+    "fetched_at": "2026-11-24T18:22:42+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:48+01:00"
+    "fetched_at": "2026-11-24T18:22:45+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 18,
+    "n": 56,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:50+01:00"
+    "fetched_at": "2026-11-24T18:22:47+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:55+01:00"
+    "fetched_at": "2026-11-24T18:22:49+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:41:58+01:00"
+    "fetched_at": "2026-11-24T18:22:52+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-24T14:42:02+01:00"
+    "fetched_at": "2026-11-24T18:22:56+01:00"
    }
   }
  ],
@@ -321,20 +321,6 @@
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-24",
-   "time": "17:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-24",
    "time": "19:30",
    "tag": "Ombrerosse"
   },
@@ -344,13 +330,6 @@
    "date": "2026-11-24",
    "time": "21:30",
    "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-24",
-   "time": "16:30",
-   "tag": "Nirvana"
   },
   {
    "cinema": "duegiardini",
@@ -377,13 +356,6 @@
    "cinema": "eliseo",
    "film": "FJORD",
    "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "Grande"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "FJORD",
-   "date": "2026-11-24",
    "time": "18:15",
    "tag": "Grande"
   },
@@ -398,22 +370,8 @@
    "cinema": "eliseo",
    "film": "L'ESSERE AMATO (EL SER QUERIDO)",
    "date": "2026-11-24",
-   "time": "16:00",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-24",
    "time": "20:45",
    "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-24",
-   "time": "16:15",
-   "tag": "Blu"
   },
   {
    "cinema": "eliseo",
@@ -786,13 +744,6 @@
    "cinema": "marx",
    "film": "DIO RIDE",
    "date": "2026-11-24",
-   "time": "16:30",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-24",
    "time": "18:50",
    "tag": "Harpo"
   },
@@ -807,13 +758,6 @@
    "cinema": "marx",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
-   "time": "16:00",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-24",
    "time": "18:15",
    "tag": "Groucho"
   },
@@ -823,20 +767,6 @@
    "date": "2026-11-24",
    "time": "20:45",
    "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-24",
-   "time": "17:30",
-   "tag": "Chico"
   },
   {
    "cinema": "marx",
@@ -863,21 +793,6 @@
    "cinema": "massaua",
    "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
-   "time": "16:50",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
-   "date": "2026-11-24",
-   "time": "18:20",
-   "tag": "Emozioni"
-  },
-  {
-   "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
-   "date": "2026-11-24",
    "time": "20:00",
    "tag": "",
    "room": "4"
@@ -893,21 +808,7 @@
    "cinema": "massaua",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-24",
-   "time": "16:40",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-24",
    "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-24",
-   "time": "16:50",
    "tag": ""
   },
   {
@@ -928,21 +829,7 @@
    "cinema": "massaua",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-24",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-24",
    "time": "21:05",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-24",
-   "time": "16:40",
    "tag": ""
   },
   {
@@ -951,14 +838,6 @@
    "date": "2026-11-24",
    "time": "19:15",
    "tag": "Anime"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-24",
-   "time": "15:31",
-   "tag": "",
-   "room": "3"
   },
   {
    "cinema": "nazionale",
@@ -980,14 +859,6 @@
    "cinema": "nazionale",
    "film": "LOOK BACK",
    "date": "2026-11-24",
-   "time": "17:30",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LOOK BACK",
-   "date": "2026-11-24",
    "time": "19:30",
    "tag": "",
    "room": "1"
@@ -1004,14 +875,6 @@
    "cinema": "nazionale",
    "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
    "date": "2026-11-24",
-   "time": "16:00",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MINOTAUR NEL LABIRINTO DEL POTERE (MINOTAURE)",
-   "date": "2026-11-24",
    "time": "18:45",
    "tag": "",
    "room": "4"
@@ -1020,25 +883,9 @@
    "cinema": "nazionale",
    "film": "MUSTANG",
    "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MUSTANG",
-   "date": "2026-11-24",
    "time": "21:30",
    "tag": "",
    "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-24",
-   "time": "16:00",
-   "tag": "",
-   "room": "2"
   },
   {
    "cinema": "nazionale",
@@ -1068,14 +915,6 @@
    "cinema": "reposi",
    "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
    "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
-   "date": "2026-11-24",
    "time": "18:30",
    "tag": "",
    "room": "3"
@@ -1092,41 +931,9 @@
    "cinema": "reposi",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-24",
-   "time": "17:40",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-24",
    "time": "22:00",
    "tag": "",
    "room": "4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-24",
-   "time": "17:40",
-   "tag": "",
-   "room": "2"
   },
   {
    "cinema": "reposi",
@@ -1148,41 +955,9 @@
    "cinema": "reposi",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-24",
-   "time": "15:25",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-24",
-   "time": "17:40",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-24",
    "time": "19:55",
    "tag": "",
    "room": "1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-24",
-   "time": "15:30",
-   "tag": "",
-   "room": "5"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-24",
-   "time": "17:35",
-   "tag": "",
-   "room": "5"
   },
   {
    "cinema": "reposi",
@@ -1315,7 +1090,7 @@
   },
   {
    "cinema": "thespace",
-   "film": "La ballata del re delle api",
+   "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-24",
    "time": "17:10",
    "tag": ""
@@ -1483,7 +1258,7 @@
   },
   {
    "cinema": "uci",
-   "film": "La ballata del re delle api",
+   "film": "LA BALLATA DEL RE DELLE API",
    "date": "2026-11-24",
    "time": "18:00",
    "tag": ""
@@ -2421,37 +2196,13 @@
    "date": "2026-11-25",
    "time": "15:30",
    "tag": "",
-   "room": "2"
+   "room": "1"
   },
   {
    "cinema": "reposi",
    "film": "IL RUMORE DELLE COSE NUOVE",
    "date": "2026-11-25",
-   "time": "17:40",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-25",
-   "time": "19:50",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-25",
-   "time": "22:00",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-25",
-   "time": "15:25",
+   "time": "22:05",
    "tag": "",
    "room": "1"
   },
@@ -2489,15 +2240,169 @@
   },
   {
    "cinema": "reposi",
-   "film": "WILD HORSE NINE",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-25",
-   "time": "22:05",
+   "time": "15:30",
    "tag": "",
-   "room": "1"
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-25",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-25",
+   "time": "19:50",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-25",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-26",
+   "time": "17:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-26",
+   "time": "19:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-26",
+   "time": "21:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "21:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-26",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-26",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-26",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "20:50",
+   "tag": "Blu"
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-26",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-26",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-26",
    "time": "15:00",
    "tag": "",
@@ -2506,7 +2411,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-26",
    "time": "17:10",
    "tag": "",
@@ -2515,7 +2420,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-26",
    "time": "19:20",
    "tag": "",
@@ -2641,38 +2546,39 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-26",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Groucho"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-26",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-26",
+   "time": "20:30",
+   "tag": "Groucho"
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-26",
    "time": "17:15",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-26",
    "time": "19:15",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -2708,24 +2614,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "15:50",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "19:45",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "21:35",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -2784,12 +2687,372 @@
    "tag": ""
   },
   {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-26",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-26",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-26",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-26",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-26",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-26",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-26",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-26",
+   "time": "19:50",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-26",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-26",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-26",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-26",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-26",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-26",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-26",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-26",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-26",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-26",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-26",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
    "cinema": "baretti",
    "film": "SOSPESI",
    "date": "2026-11-27",
    "time": "21:00",
    "tag": "",
    "regia": "Luca Quaia e Francesco Sgrò"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-27",
+   "time": "17:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-27",
+   "time": "19:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-27",
+   "time": "21:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-27",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-27",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "20:50",
+   "tag": "Blu"
   },
   {
    "cinema": "esedra",
@@ -2800,7 +3063,25 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-27",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-27",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
    "time": "15:00",
    "tag": "",
@@ -2809,7 +3090,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
    "time": "17:10",
    "tag": "",
@@ -2818,7 +3099,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
    "time": "19:20",
    "tag": "",
@@ -2953,45 +3234,39 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-27",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-27",
    "time": "20:30",
    "tag": "Groucho"
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
    "time": "17:00",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
    "time": "19:30",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3027,24 +3302,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "16:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "20:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "21:45",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3103,6 +3375,254 @@
    "tag": ""
   },
   {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-27",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-27",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-27",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-27",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-27",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-27",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-27",
+   "time": "19:50",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-27",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-27",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-27",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-27",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-27",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-27",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
    "cinema": "baretti",
    "film": "L’HANGAR ROSSO",
    "date": "2026-11-28",
@@ -3117,6 +3637,118 @@
    "time": "21:00",
    "tag": "",
    "regia": "Jérôme Bonnell"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-28",
+   "time": "17:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-28",
+   "time": "19:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-28",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-28",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "20:50",
+   "tag": "Blu"
   },
   {
    "cinema": "esedra",
@@ -3141,7 +3773,25 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "15:00",
    "tag": "",
@@ -3150,7 +3800,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:10",
    "tag": "",
@@ -3159,7 +3809,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:20",
    "tag": "",
@@ -3294,22 +3944,25 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-28",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Groucho"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-28",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "20:30",
+   "tag": "Groucho"
   },
   {
    "cinema": "massaua",
@@ -3320,26 +3973,24 @@
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "14:50",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:00",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:30",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3375,24 +4026,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "16:05",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "20:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "21:45",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3462,7 +4110,8 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-28",
    "time": "18:00",
-   "tag": ""
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massaua",
@@ -3470,6 +4119,254 @@
    "date": "2026-11-28",
    "time": "14:25",
    "tag": ""
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-28",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-28",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-28",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-28",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-28",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "19:50",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-28",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-28",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-28",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-28",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "baretti",
@@ -3486,6 +4383,118 @@
    "time": "21:00",
    "tag": "VO",
    "regia": "Jérôme Bonnell"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-29",
+   "time": "17:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-29",
+   "time": "19:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-29",
+   "time": "21:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "21:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-29",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-29",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-29",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "20:50",
+   "tag": "Blu"
   },
   {
    "cinema": "esedra",
@@ -3510,7 +4519,25 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "15:00",
    "tag": "",
@@ -3519,7 +4546,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "17:10",
    "tag": "",
@@ -3528,7 +4555,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "19:20",
    "tag": "",
@@ -3663,22 +4690,25 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-29",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Groucho"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-29",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "21:15",
+   "tag": "Groucho"
   },
   {
    "cinema": "massaua",
@@ -3689,18 +4719,17 @@
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "16:10",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "19:35",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3736,23 +4765,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "14:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "17:50",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "20:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3822,7 +4849,8 @@
    "film": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
    "date": "2026-11-29",
    "time": "14:40",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
@@ -3830,6 +4858,254 @@
    "date": "2026-11-29",
    "time": "14:30",
    "tag": ""
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-29",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-29",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-29",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-29",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-29",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-29",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-29",
+   "time": "19:50",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-29",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-29",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-29",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-29",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-29",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-29",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-29",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-29",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-29",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-29",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "baretti",
@@ -3849,14 +5125,123 @@
   },
   {
    "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-30",
+   "time": "16:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-30",
    "time": "21:00",
    "tag": "Ombrerosse"
   },
   {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-30",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-30",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-11-30",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "20:50",
+   "tag": "Blu"
+  },
+  {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "17:35",
    "tag": "",
@@ -3865,7 +5250,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "19:20",
    "tag": "",
@@ -3982,22 +5367,32 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-30",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Harpo"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-30",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "20:30",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-30",
+   "time": "18:45",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -4007,12 +5402,259 @@
    "tag": "Groucho"
   },
   {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-30",
+   "time": "16:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-30",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-11-30",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-11-30",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-30",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-11-30",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-11-30",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-11-30",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-11-30",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
    "cinema": "reposi",
    "film": "KEN IL GUERRIERO",
    "date": "2026-11-30",
    "time": "19:50",
    "tag": "Sala 4 EVENTO",
    "rer": true
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-30",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-30",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-30",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-30",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-30",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-30",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-30",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "baretti",
@@ -4024,14 +5666,116 @@
   },
   {
    "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-01",
+   "time": "16:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-12-01",
    "time": "21:00",
    "tag": "Ombrerosse"
   },
   {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-01",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-01",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "20:50",
+   "tag": "Blu"
+  },
+  {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "15:00",
    "tag": "",
@@ -4040,7 +5784,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "17:10",
    "tag": "",
@@ -4049,7 +5793,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "19:20",
    "tag": "",
@@ -4166,22 +5910,32 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-12-01",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "16:00",
+   "tag": "Harpo"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-12-01",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "20:30",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-01",
+   "time": "18:45",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -4189,6 +5943,173 @@
    "date": "2026-12-01",
    "time": "21:00",
    "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-01",
+   "time": "16:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-12-01",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-12-01",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-12-01",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-12-01",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-12-01",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-12-01",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-01",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-01",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-01",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
   },
   {
    "cinema": "reposi",
@@ -4199,11 +6120,224 @@
    "rer": true
   },
   {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-01",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-12-01",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-12-01",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-01",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-01",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-01",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-01",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-02",
+   "time": "17:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-02",
+   "time": "19:30",
+   "tag": "Ombrerosse"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-02",
+   "time": "21:30",
+   "tag": "Ombrerosse"
+  },
+  {
    "cinema": "duegiardini",
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-12-02",
    "time": "21:00",
-   "tag": "Ombrerosse"
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "16:00",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "duegiardini",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "Nirvana"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "21:15",
+   "tag": "Grande"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-02",
+   "time": "15:45",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-02",
+   "time": "18:20",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
+   "date": "2026-12-02",
+   "time": "21:00",
+   "tag": "Rosso"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "16:00",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "eliseo",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "20:50",
+   "tag": "Blu"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "16:00",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "20:30",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-02",
+   "time": "18:45",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -4211,6 +6345,261 @@
    "date": "2026-12-02",
    "time": "21:00",
    "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-02",
+   "time": "16:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "21:00",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-12-02",
+   "time": "16:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA BALLATA DEL RE DELLE API",
+   "date": "2026-12-02",
+   "time": "20:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LA GRADIVA",
+   "date": "2026-12-02",
+   "time": "18:45",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-12-02",
+   "time": "16:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "LOOK BACK",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "MUSTANG",
+   "date": "2026-12-02",
+   "time": "21:15",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "16:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "20:45",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
+   "date": "2026-12-02",
+   "time": "17:40",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
+   "date": "2026-12-02",
+   "time": "21:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL FUOCO CHE TI PORTI DENTRO",
+   "date": "2026-12-02",
+   "time": "17:40",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "IL RUMORE DELLE COSE NUOVE",
+   "date": "2026-12-02",
+   "time": "19:50",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "KEN IL GUERRIERO",
+   "date": "2026-12-02",
+   "time": "19:50",
+   "tag": "Sala 4 EVENTO",
+   "rer": true
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "20:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-12-02",
+   "time": "22:00",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-12-02",
+   "time": "17:40",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-12-02",
+   "time": "22:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-02",
+   "time": "17:40",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-12-02",
+   "time": "22:00",
+   "tag": "",
+   "room": "5"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-02",
+   "time": "19:55",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "reposi",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-12-02",
+   "time": "22:00",
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massimo",
@@ -4227,14 +6616,6 @@
    "time": "18:00",
    "tag": "VO",
    "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "KEN IL GUERRIERO",
-   "date": "2026-12-03",
-   "time": "19:50",
-   "tag": "Sala 4 EVENTO",
-   "rer": true
   },
   {
    "cinema": "baretti",
@@ -4309,6 +6690,13 @@
    "room": "3"
   },
   {
+   "cinema": "eliseo",
+   "film": "SUCCEDERA' QUESTA NOTTE",
+   "date": "2026-12-08",
+   "time": "20:45",
+   "tag": "Grande"
+  },
+  {
    "cinema": "massimo",
    "film": "Danton",
    "date": "2026-12-08",
@@ -4331,6 +6719,14 @@
    "time": "20:30",
    "tag": "",
    "room": "3"
+  },
+  {
+   "cinema": "nazionale",
+   "film": "SUCCEDERA' QUESTA NOTTE",
+   "date": "2026-12-08",
+   "time": "20:45",
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massimo",
@@ -4471,7 +6867,7 @@
    "film": "DUNE PARTE 3",
    "date": "2026-12-15",
    "time": "21:15",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massimo",
@@ -4521,98 +6917,91 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:01",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:05",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:10",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "09:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "10:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "12:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "13:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "15:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "16:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "18:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "19:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "21:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "22:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massimo",
@@ -4710,21 +7099,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
@@ -4790,21 +7179,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
@@ -4878,21 +7267,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",
@@ -4966,21 +7355,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "15:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "18:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "21:00",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "reposi",

@@ -1,38 +1,28 @@
-Report TMDB del 2026-11-24: 64 film con dati TMDB, 18 senza.
+Report TMDB del 2026-11-24: 72 film con dati TMDB, 13 senza.
 
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- Brutti, sporchi e cattivi  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
-- Cadaveri eccellenti  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - CIAU CINE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Doraemon  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 682153 (2020): titolo diverso (somiglianza 0.42: 'Doraemon: Il film - Nobita e il nuovo dinosauro' / '映画ドラえもん のび太の新恐竜'); TMDB scartato id 86184 (2010): titolo diverso (somiglianza 0.50: 'Doraemon: Nobita no ningyo taikaisen' / '映画ドラえもん のび太の人魚大海戦'); TMDB scartato id 52795 (2007): titolo diverso (somiglianza 0.52: 'Doraemon: Nobita no shin makai daibōken' / '映画ドラえもん のび太の新魔界大冒険 〜7人の魔法使い〜'); TMDB scartato id 265712 (2014): nessun riscontro e uscita 2014 non recente; TMDB scartato id 70841 (2006): titolo diverso (somiglianza 0.48: 'Doraemon: Il film - Il dinosauro di Nobita' / '映画ドラえもん のび太の恐竜2006')
 - Gojira  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1669088 (None): titolo diverso (somiglianza 0.48: 'Gojira: sur la route' / 'Gojira: sur la route'); TMDB scartato id 596411 (2017): titolo diverso (somiglianza 0.32: 'Gojira: Bloodstock Open Air 2016' / 'Gojira: Bloodstock Open Air 2016'); TMDB scartato id 706969 (2020): titolo diverso (somiglianza 0.40: 'Gojira - Live at Red Rocks' / 'Gojira - Live at Red Rocks'); TMDB scartato id 131669 (2012): titolo diverso (somiglianza 0.43: 'Gojira: The Flesh Alive' / 'Gojira: The Flesh Alive'); TMDB scartato id 782939 (2020): titolo diverso (somiglianza 0.34: 'Gojira: Live At Red Rocks 2017' / 'Gojira: Live At Red Rocks 2017')
-- Il viaggio di Arlo  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - KEN IL GUERRIERO  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
-- Lost Paradise  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Novecento Atto II  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Prima visione  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 137051 (1989): titolo diverso (somiglianza 0.67: 'Prima visione con la morte' / 'Midnight Matinee')
 - Ragazzi al cinema  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Scooby Doo e la leggenda del Fantosauro  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 67900 (2011): nessun riscontro e uscita 2011 non recente
 - SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
 - Tavola rotonda  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 19957 (1953): titolo diverso (somiglianza 0.64: 'I cavalieri della tavola rotonda' / 'Knights of the Round Table'); TMDB scartato id 124057 (1995): titolo diverso (somiglianza 0.67: 'I ragazzi della Tavola Rotonda' / 'Kids of the Round Table'); TMDB scartato id 65596 (1979): titolo diverso (somiglianza 0.64: 'Un astronauta alla tavola rotonda' / 'Unidentified Flying Oddball')
-- ÈANDATA COSÌ  [regia dichiarata: Gianni Zanasi; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
