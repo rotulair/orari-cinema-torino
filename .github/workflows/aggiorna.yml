@@ -50,6 +50,8 @@ jobs:
           git add data/showtimes.json data/films.json
           [ -f data/coordinates.json ] && git add data/coordinates.json || true
           [ -f data/tmdb_report.txt ] && git add data/tmdb_report.txt || true
+          [ -f data/tff.json ] && git add data/tff.json || true
+          [ -f data/tff_report.txt ] && git add data/tff_report.txt || true
           if git diff --cached --quiet; then
             echo "Nessuna modifica"
           else
