@@ -6570,5 +6570,534 @@
    "anno": 2026
   },
   "checked": "2026-11-25"
+ },
+ "truly naked": {
+  "title": "TRULY NAKED",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1281195,
+   "title": "Truly Naked",
+   "url": "https://www.themoviedb.org/movie/1281195?language=it-IT",
+   "poster_path": "/y23B9EnC0LDw8zMKlpXJauyLH7k.jpg",
+   "runtime": 102,
+   "director": "Muriel d'Ansembourg",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Caolán O'Gorman",
+    "Andrew Howard",
+    "Alessa Savage",
+    "Safiya Benaddi",
+    "Lyndsey Marshal",
+    "Kate Kennedy"
+   ],
+   "original_title": "Truly Naked",
+   "release_date": "2026-04-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Muriel d’Ansembourg",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "pulp fiction": {
+  "title": "PULP FICTION",
+  "url": "https://it.wikipedia.org/wiki/Pulp_Fiction",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/06/Pulp_Fiction.png/250px-Pulp_Fiction.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Quentin Tarantino",
+  "tmdb": {
+   "id": 680,
+   "title": "Pulp Fiction",
+   "url": "https://www.themoviedb.org/movie/680?language=it-IT",
+   "poster_path": "/hOpN58hkQGZph5LHhyRrryy1hzF.jpg",
+   "runtime": 154,
+   "director": "Quentin Tarantino",
+   "year": 1994,
+   "overview": "Le vite di due gangster, di un pugile e della moglie di un potente boss della malavita finiscono per intrecciarsi in una paradossale storia di violenza, vendetta e redenzione.",
+   "genres": [
+    "Thriller",
+    "Crime",
+    "Commedia"
+   ],
+   "cast": [
+    "John Travolta",
+    "Samuel L. Jackson",
+    "Uma Thurman",
+    "Bruce Willis",
+    "Ving Rhames",
+    "Harvey Keitel"
+   ],
+   "original_title": "Pulp Fiction",
+   "release_date": "1994-09-10"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Quentin Tarantino",
+   "anno": 1994
+  },
+  "checked": "2026-11-25"
+ },
+ "strong son": {
+  "title": "STRONG SON",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1737831,
+   "title": "Strong Son",
+   "url": "https://www.themoviedb.org/movie/1737831?language=it-IT",
+   "poster_path": "/6dXSDxew877wyy1tHWcx0Dx5EQd.jpg",
+   "runtime": 88,
+   "director": "Ian Bawa",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "Mandeep Sodhi",
+    "Amirit Parbhakar",
+    "Yuvraj Dhesi",
+    "Michaela Kurimsky",
+    "Quinn Greene",
+    "Erik Athavale"
+   ],
+   "original_title": "Strong Son",
+   "release_date": "2026-09-14"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Ian Bawa",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "caro nanni": {
+  "title": "CARO NANNI",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1329800,
+   "title": "Caro Nanni",
+   "url": "https://www.themoviedb.org/movie/1329800?language=it-IT",
+   "poster_path": "/l2snSH8MoZNklpWcsQog2bFR2yw.jpg",
+   "runtime": 89,
+   "director": "Pablo Maqueda",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Pablo Maqueda"
+   ],
+   "original_title": "Caro Nanni",
+   "release_date": "2026-10-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Pablo Maqueda",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "la berma": {
+  "title": "LA BERMA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1770717,
+   "title": "La Berma",
+   "url": "https://www.themoviedb.org/movie/1770717?language=it-IT",
+   "poster_path": "/jATFcNazVciHmqzJ8ChLHNEV2NK.jpg",
+   "runtime": 90,
+   "director": "Agustin Dominguez",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Yauguiha Mohamed Embarec",
+    "Matamulana Sidi Brahim"
+   ],
+   "original_title": "La Berma",
+   "release_date": "2026-09-11"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Agustin Dominguez Cordero",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "seize moments de ma vie": {
+  "title": "SEIZE MOMENTS DE MA VIE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1728686,
+   "title": "Seize moments de ma vie",
+   "url": "https://www.themoviedb.org/movie/1728686?language=it-IT",
+   "poster_path": "/8DPBBV9EdT7Ynvkhi6eqZHex576.jpg",
+   "runtime": 85,
+   "director": "Albert Serra",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Ingrid Caven",
+    "Ferran Font",
+    "Enric Juncà",
+    "Marc Verdaguer",
+    "Joe Robinson"
+   ],
+   "original_title": "Seize moments de ma vie",
+   "release_date": "2026-08-09"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Albert Serra",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "you can see everything": {
+  "title": "YOU CAN SEE EVERYTHING",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1765072,
+   "title": "You Can See Everything",
+   "url": "https://www.themoviedb.org/movie/1765072?language=it-IT",
+   "poster_path": "/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+   "runtime": 175,
+   "director": "Nathan Fielder, Lance Oppenheim",
+   "year": 2026,
+   "overview": "Trentaquattro giorni prima di entrare in prigione, Elizabeth Holmes, la controversa fondatrice di una società della Silicon Valley, invita una troupe cinematografica scettica a documentare ogni suo passo. Quello che inizia come un ritratto intimo di una figura enigmatica condannata per frode si trasforma in un sorprendente viaggio di tre anni negli abissi di una realtà sempre più inquietante e difficile da decifrare.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Elizabeth Holmes",
+    "Nathan Fielder",
+    "Billy Evans",
+    "Amanda Seyfried",
+    "Christopher Abbott",
+    "Lance Oppenheim"
+   ],
+   "original_title": "You Can See Everything",
+   "release_date": "2026-10-16"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Nathan Fielder, Lance Oppenheim",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "niagara": {
+  "title": "NIAGARA",
+  "url": "https://it.wikipedia.org/wiki/Niagara_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Monroe_teases_Cotten_in_Niagara_trailer_1.jpg/250px-Monroe_teases_Cotten_in_Niagara_trailer_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Henry Hathaway",
+  "tmdb": {
+   "id": 19997,
+   "title": "Niagara",
+   "url": "https://www.themoviedb.org/movie/19997?language=it-IT",
+   "poster_path": "/bIQ0lL3jlz6lK7EgJHmCOWDEIXI.jpg",
+   "runtime": 89,
+   "director": "Henry Hathaway",
+   "year": 1953,
+   "overview": "Il matrimonio tra George e Rose non procede bene, tanto che lei ha un amante col quale progetta di uccidere il marito durante un week-end alle cascate del Niagara. Ray, l'amante, dovrà annegare George...",
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Joseph Cotten",
+    "Jean Peters",
+    "Max Showalter",
+    "Denis O'Dea",
+    "Richard Allan"
+   ],
+   "original_title": "Niagara",
+   "release_date": "1953-02-17"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Henry Hathaway",
+   "anno": 1953
+  },
+  "checked": "2026-11-25"
+ },
+ "mariinka": {
+  "title": "MARIINKA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1625655,
+   "title": "Mariinka",
+   "url": "https://www.themoviedb.org/movie/1625655?language=it-IT",
+   "poster_path": "/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg",
+   "runtime": 94,
+   "director": "Pieter-Jan De Pue",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Mariinka",
+   "release_date": "2026-08-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Pieter-Jan De Pue",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "sguardi": {
+  "title": "SGUARDI",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818380,
+   "title": "Sguardi",
+   "url": "https://www.themoviedb.org/movie/1818380?language=it-IT",
+   "poster_path": "/QUYjyM9K1KNHm27bhIpZxRWKbi.jpg",
+   "runtime": 52,
+   "director": "Marco Ponti",
+   "year": 2026,
+   "overview": "Un piccolo atlante per chi cerca direzione. Una mappa da cui ripartire. In un mondo dove la malattia spesso isola, definisce, ingabbia, Casa Oz propone un’altra via: quella della cura come quotidianità. Una cura che non è lotta, ma attenzione. Non è resistenza, ma coesistenza. Una cura fatta di relazioni, sport, educazione, gioco, arte. Una normalità vissuta non come illusione, ma come radice profonda dell’identità di ciascuno. Sguardi nasce da questa filosofia e la espande, cercando nei volti e nelle vite di persone straordinarie, eppure profondamente umane, nuovi modi di guardare alla fragilità, alla crisi, al futuro. Sono storie vere, attraversate da dolore, ma anche da visione. Esperienz",
+   "genres": [],
+   "cast": [
+    "Jovanotti",
+    "Valeria Bruni Tedeschi",
+    "Alessandro Baricco",
+    "Luciana Littizzetto"
+   ],
+   "original_title": "Sguardi",
+   "release_date": "2026-11-28"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Marco Ponti",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "under the rain": {
+  "title": "UNDER THE RAIN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818534,
+   "title": "Under the Rain",
+   "url": "https://www.themoviedb.org/movie/1818534?language=it-IT",
+   "poster_path": "/iYWDAc7lL6gbgo92N6VMPQ1EaJA.jpg",
+   "runtime": 95,
+   "director": "Fabrizio Maria Cortese",
+   "year": 2026,
+   "overview": "Il film racconta una storia d’amore impossibile tra potere e passione, sullo sfondo di una Città Eterna notturna.",
+   "genres": [],
+   "cast": [
+    "Vincent Riotta",
+    "Giuseppe Battiston",
+    "Connie Nielsen",
+    "Francesco Pannofino"
+   ],
+   "original_title": "Under the Rain",
+   "release_date": "2026-11-29"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1618205 (2026): titolo diverso (somiglianza 0.39: 'Under the Rainbow: The Curious Crimes of the Ruby Slippers' / 'Under the Rainbow: The Curious Crimes of the Ruby Slippers'); TMDB scartato id 1618698 (2026): titolo diverso (somiglianza 0.82: 'Un gato bajo la lluvia.' / 'Un gato bajo la lluvia.'); TMDB scartato id 1698826 (2026): regista Lai Tai Yan != 'Fabrizio Maria Cortese'",
+  "ref": {
+   "regia": "Fabrizio Maria Cortese",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "i corti del poli": {
+  "title": "I CORTI DEL POLI",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-25"
+ },
+ "back in black": {
+  "title": "BACK IN BLACK",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1575391,
+   "title": "Back in Black",
+   "url": "https://www.themoviedb.org/movie/1575391?language=it-IT",
+   "poster_path": "/pvOW7uXLgLxxa9eRpc2kJciNi2h.jpg",
+   "runtime": 92,
+   "director": "Ron Murphy",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia",
+    "Thriller"
+   ],
+   "cast": [
+    "Christopher Walken",
+    "Ella Ballentine",
+    "Jane Curtin",
+    "Cooper Levy",
+    "Deborah Grover",
+    "Tony Nappo"
+   ],
+   "original_title": "Back in Black",
+   "release_date": "2026-09-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1515139 (2026): titolo diverso (somiglianza 0.39: 'Ozzy & Black Sabbath: Back To The Beginning' / 'Back to the Beginning: Ozzy's Final Bow'); TMDB scartato id 608 (2002): titolo diverso (somiglianza 0.84: 'Men in Black II' / 'Men in Black II')",
+  "ref": {
+   "regia": "Ron Murphy",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "audrey la mer": {
+  "title": "AUDREY LA MER",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1574157,
+   "title": "Audrey La Mer",
+   "url": "https://www.themoviedb.org/movie/1574157?language=it-IT",
+   "poster_path": "/hh5orXKMbn7N02wo1KUx0FyvoWl.jpg",
+   "runtime": 111,
+   "director": "Sebastiano Riso",
+   "year": 2026,
+   "overview": "Nuovo film Levi Riso",
+   "genres": [],
+   "cast": [
+    "Dario Guidi",
+    "Gregorio Arcieri",
+    "Sara Serraiocco",
+    "Max Krause",
+    "Anna Ferruzzo",
+    "Matilde Piana"
+   ],
+   "original_title": "Audrey La Mer",
+   "release_date": "2026-11-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Levi Riso",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "norma jean marilyn": {
+  "title": "NORMA JEAN & MARILYN",
+  "url": "https://it.wikipedia.org/wiki/Norma_Jean_%26_Marilyn",
+  "poster": null,
+  "director": "Tim Fywell",
+  "tmdb": {
+   "id": 41127,
+   "title": "Norma Jean e Marilyn",
+   "url": "https://www.themoviedb.org/movie/41127?language=it-IT",
+   "poster_path": "/uQ1ZrGxA0N6cgeTTl1vZhrdp30C.jpg",
+   "runtime": 139,
+   "director": "Tim Fywell",
+   "year": 1996,
+   "overview": null,
+   "genres": [
+    "televisione film",
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Ashley Judd",
+    "Mira Sorvino",
+    "Josh Charles",
+    "Ron Rifkin",
+    "David Dukes",
+    "Peter Dobson"
+   ],
+   "original_title": "Norma Jean & Marilyn",
+   "release_date": "1996-05-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Tim Fywell",
+   "anno": 1996
+  },
+  "checked": "2026-11-25"
+ },
+ "la furia": {
+  "title": "LA FURIA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 389 (1957): titolo diverso (somiglianza 0.40: 'La parola ai giurati' / '12 Angry Men'); TMDB scartato id 76341 (2015): titolo diverso (somiglianza 0.36: 'Mad Max: Fury Road' / 'Mad Max: Fury Road'); TMDB scartato id 637649 (2021): titolo diverso (somiglianza 0.48: 'La furia di un uomo - Wrath of Man' / 'Wrath of Man'); TMDB scartato id 580489 (2021): titolo diverso (somiglianza 0.33: 'Venom - La furia di Carnage' / 'Venom: Let There Be Carnage'); TMDB scartato id 594767 (2023): titolo diverso (somiglianza 0.42: 'Shazam! Furia degli dei' / 'Shazam! Fury of the Gods')",
+  "ref": {
+   "regia": "Gemma Blasco",
+   "anno": 2025
+  },
+  "checked": "2026-11-25"
  }
 }
