@@ -818,5 +818,114 @@ class TitoloUfficialeETmdbTest(unittest.TestCase):
         self.assertIn("titolo diverso", note)
 
 
+
+class FestivalTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import festival
+        cls.f = festival
+        xml = (Path(__file__).parent / "fixtures" / "tff_bbox.xml").read_text(encoding="utf-8")
+        cls.rows = festival.parse_program(xml, 2026)
+
+    @staticmethod
+    def same(a, b):
+        ka, kb = scrape.compare_key(a), scrape.compare_key(b)
+        return scrape._same_film(ka, kb) or scrape._subtitle_of(ka, kb)
+
+    def test_pdf_reale_giorni_e_sale(self):
+        days = sorted({r["date"] for r in self.rows})
+        self.assertEqual(days[0], "2026-11-25")
+        self.assertEqual(days[-1], "2026-12-02")
+        self.assertEqual(len(days), 8)
+        self.assertGreaterEqual(len(self.rows), 230)
+        self.assertEqual({(r["cinema"], r["room"]) for r in self.rows},
+                         {(c, str(n)) for c in ("massimo", "romano") for n in (1, 2, 3)})
+        self.assertTrue(all(r["fest"] == "TFF" and r["time"][2] == ":" for r in self.rows))
+
+    def test_pdf_reale_dettagli(self):
+        krux = [r for r in self.rows if r["film"] == "KRUX"]
+        self.assertEqual((krux[0]["date"], krux[0]["time"], krux[0]["cinema"], krux[0]["room"]),
+                         ("2026-11-25", "15:00", "massimo", "1"))
+        self.assertEqual((krux[0]["regia"], krux[0]["anno"], krux[0]["sez"]), ("Tony Vahl", 2026, "Concorso Lungometraggi"))
+        misfits = [r for r in self.rows if r["film"] == "THE MISFITS"]
+        self.assertTrue(all(r.get("regia") and "Huston" in r["regia"] for r in misfits))   # anche le repliche senza scheda
+        self.assertTrue(any(r.get("alt") == "Gli spostati" for r in misfits))
+        corti = [r for r in self.rows if r["film"].startswith("CORTOMETRAGGI - PROGRAMMA")]
+        self.assertTrue(corti and all(r.get("nofilm") for r in corti))
+        self.assertTrue(all("Programma" not in r["film"] or r["film"].startswith("CORTO") for r in self.rows))
+
+    def test_nessun_doppione_se_il_cinema_pubblica_lo_stesso_film(self):
+        fest = [r for r in self.rows if r["film"] == "KRUX" and r["date"] == "2026-11-25"]
+        cinema = [{"cinema": "massimo", "film": "Krux", "date": "2026-11-25", "time": "15:05", "tag": ""},
+                  {"cinema": "massimo", "film": "Altro film", "date": "2026-11-25", "time": "21:00", "tag": ""}]
+        out, merged = self.f.merge(cinema, fest, "2026-11-25", self.same)
+        self.assertEqual(merged, 1)
+        self.assertEqual(len(out), 2)
+        self.assertEqual(out[0]["fest"], "TFF")
+        self.assertEqual(out[0]["film"], "Krux")                 # resta la riga del cinema
+        self.assertNotIn("fest", out[1])
+
+    def test_titolo_italiano_del_cinema_riconosciuto(self):
+        fest = [r for r in self.rows if r["film"] == "THE MISFITS" and r["date"] == "2026-11-25"]
+        cinema = [{"cinema": "massimo", "film": "Gli spostati", "date": "2026-11-25", "time": "11:30", "tag": ""}]
+        out, merged = self.f.merge(cinema, fest, "2026-11-25", self.same)
+        self.assertEqual((merged, len(out)), (1, 1))
+
+    def test_proiezione_nuova_viene_aggiunta_e_passate_ignorate(self):
+        fest = [r for r in self.rows if r["date"] in ("2026-11-25", "2026-11-26") and r["cinema"] == "romano"]
+        out, merged = self.f.merge([], fest, "2026-11-26", self.same)
+        self.assertEqual(merged, 0)
+        self.assertTrue(out and all(r["date"] >= "2026-11-26" for r in out))
+        self.assertTrue(all(r["fest"] == "TFF" and "alt" not in r for r in out))
+
+    def test_modifiche_manuali(self):
+        rows = [dict(r) for r in self.rows]
+        n = len(rows)
+        txt = """# commento
+annulla 25/11 15:00 Massimo 1
+sposta 25/11 17.45 Massimo 1 -> 18.15
+sposta 25/11 19.15 Massimo 1 -> 26/11 20.00 Romano 3
+aggiungi 28/11 23.30 Massimo 3 | FILM SORPRESA | Mario Rossi | ospite in sala
+annulla 25/11 03.00 Massimo 1
+sposta 25/11 11:00 Pluto 9 -> 12.00
+"""
+        out, done, bad = self.f.apply_mods(rows, txt, 2026)
+        self.assertEqual(len(done), 4)
+        self.assertEqual(len(bad), 2)
+        self.assertEqual(len(out), n - 1 + 1)
+        self.assertFalse(any(r["film"] == "KRUX" and r["date"] == "2026-11-25" for r in out))
+        prop = next(r for r in out if r["film"].startswith("PROPELLER") and r["date"] == "2026-11-25")
+        self.assertEqual(prop["time"], "18:15")
+        fragole = next(r for r in out if r["film"] == "LA NOTTE DELLE FRAGOLE" and r["time"] == "20:00")
+        self.assertEqual((fragole["date"], fragole["time"], fragole["cinema"], fragole["room"]),
+                         ("2026-11-26", "20:00", "romano", "3"))
+        new = next(r for r in out if r["film"] == "FILM SORPRESA")
+        self.assertEqual((new["regia"], new["fest"], new["nota"]), ("Mario Rossi", "TFF", "ospite in sala"))
+
+    def test_registro_variazioni(self):
+        prev = [dict(r) for r in self.rows]
+        cur = [dict(r) for r in self.rows]
+        cur = [r for r in cur if not (r["film"] == "KRUX" and r["date"] == "2026-11-25")]
+        spost = next(r for r in cur if r["film"].startswith("PROPELLER") and r["date"] == "2026-11-25")
+        spost["time"] = "18:00"
+        notes = self.f.diff(prev, cur, "2026-11-25")
+        self.assertTrue(any(n.startswith("TOLTA") and "KRUX" in n for n in notes))
+        self.assertTrue(any(n.startswith("SPOSTATA") and "PROPELLER" in n and "18:00" in n for n in notes))
+        self.assertEqual(len(notes), 2)
+
+    def test_run_integra_il_festival_senza_pdf_con_lo_snapshot(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            base = Path(d)
+            snap = [r for r in self.rows if r["date"] == "2026-11-26" and r["cinema"] == "romano"]
+            (base / "tff.json").write_text(json.dumps({"rows": snap}), encoding="utf-8")
+            res = scrape.apply_festival([{"cinema": "ideal", "film": "X film", "date": "2026-11-26", "time": "20:00", "tag": ""}],
+                                        base, "2026-11-26")
+            fest = [r for r in res["rows"] if r.get("fest")]
+            self.assertEqual(len(fest), len(snap))
+            self.assertEqual(len(res["rows"]), len(snap) + 1)
+            self.assertTrue((base / "tff_report.txt").exists())
+
+
 if __name__ == "__main__":
     unittest.main()
