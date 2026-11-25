@@ -52,6 +52,7 @@ jobs:
           [ -f data/tmdb_report.txt ] && git add data/tmdb_report.txt || true
           [ -f data/tff.json ] && git add data/tff.json || true
           [ -f data/tff_report.txt ] && git add data/tff_report.txt || true
+          [ -f data/tff/schede.json ] && git add data/tff/schede.json data/tff/img || true
           if git diff --cached --quiet; then
             echo "Nessuna modifica"
           else
