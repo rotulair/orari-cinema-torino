@@ -306,18 +306,19 @@ const mapsUrl = c => "https://www.google.com/maps/search/?api=1&query=" + encode
   [c.address ? c.name : "Cinema " + c.name, c.address, "Torino"].filter(Boolean).join(", "));
 
 /* ---------- schede film (opzionale: data/films.json) ---------- */
-let FILMS = {};
+let FILMS = {}, TFFS = {};   // TFFS: sinossi e fotogramma dal catalogo del Torino Film Festival (data/tff/schede.json)
 let LOGOS = {};   // opzionale: logos/index.json  →  {"ideal":"ideal.png", ...}
 function filmInfo(title){
   const f = FILMS[filmKey(title)] || {};
   const q = encodeURIComponent(title.replace(/\([^)]*\)|\[[^\]]*\]/g," ").trim()+" film");
   const t = f.tmdb || null;
+  const sc = TFFS[filmKey(title)] || null;
   const pp = t && t.poster_path;
   return {url: f.url || `https://www.google.com/search?q=${q}`, wiki: !!f.url,
-    poster: pp ? "https://image.tmdb.org/t/p/w342"+pp : (f.poster || ""),
-    posterBig: pp ? "https://image.tmdb.org/t/p/w780"+pp : (f.poster || ""),
+    poster: pp ? "https://image.tmdb.org/t/p/w342"+pp : (f.poster || (sc && sc.img) || ""),
+    posterBig: pp ? "https://image.tmdb.org/t/p/w780"+pp : (f.poster || (sc && sc.img) || ""),
     tmdb: t && t.url ? t.url : "", runtime: (t && t.runtime) || 0, director: (t && t.director) || f.director || "",
-    overview: (t && t.overview) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
+    overview: (t && t.overview) || (sc && sc.sinossi) || "", genres: (t && t.genres) || [], cast: (t && t.cast) || [],
     original: (t && t.original_title) || "", title: (t && t.title) || "", year: t && t.year ? t.year : ""};
 }
 const xOpen = new Set();   // schede film con "Leggi tutto" aperto (trama intera, cast e link)
@@ -462,6 +463,7 @@ async function refreshData(){
     const changed = !state.data || state.data.generated_at !== j.generated_at;
     state.data = j; lastLoad = Date.now();
     try{ const r2 = await fetch("data/films.json"+bust,{cache:"no-store"}); if(r2.ok) FILMS = await r2.json(); }catch(e){}
+    try{ const r3 = await fetch("data/tff/schede.json"+bust,{cache:"no-store"}); if(r3.ok) TFFS = await r3.json(); }catch(e){}
     return changed;
   }catch(e){ return false; }
 }
@@ -630,7 +632,7 @@ function render(){
   const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
   const hasTmdb = Object.values(FILMS).some(f=>f && f.tmdb);
   $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`
-    + (d.showtimes.some(s=>s.fest) ? `<br><span class="tff">TFF</span> proiezioni del Torino Film Festival, dal programma ufficiale: possono subire variazioni.` : "")
+    + (d.showtimes.some(s=>s.fest) ? `<br><span class="tff">TFF</span> proiezioni del Torino Film Festival, dal programma ufficiale: possono subire variazioni. Sinossi e fotogrammi mancanti: dal catalogo del festival.` : "")
     + `<br>Creato da ${REPO_URL ? `<a href="${esc(REPO_URL)}" target="_blank" rel="noopener">rotulair</a> · <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">codice su GitHub</a>` : "rotulair"}`
     + (hasTmdb ? `<br>Locandine, durate e registi: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> e Wikipedia. This product uses the TMDB API but is not endorsed or certified by TMDB.` : "");
   if(state.anim){ const o=$("out"); o.classList.remove("sl","sr"); void o.offsetWidth; o.classList.add(state.anim==="l"?"sl":"sr"); state.anim=""; }
