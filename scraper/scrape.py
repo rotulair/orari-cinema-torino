@@ -1143,6 +1143,14 @@ def apply_festival(all_rows: list[dict], base: Path, day: str) -> dict:
         return _same_film(ka, kb) or _subtitle_of(ka, kb)
 
     try:
+        import tff_schede
+        from films import film_key
+        pdf = base / "tff" / "programma.pdf"
+        if pdf.exists():
+            try:
+                tff_schede.build(pdf, base / "tff", film_key)   # sinossi e fotogrammi dal catalogo (solo se il PDF e' cambiato)
+            except Exception as exc:  # noqa: BLE001
+                print(f"  TFF schede non lette: {exc}")
         fest_rows, info = festival.build(base, day, same, cfg)
         merged_rows, merged = festival.merge(all_rows, fest_rows, day, same)
         festival.save(base, fest_rows, info, day, dt.datetime.now(TZ).isoformat(timespec="seconds"))
