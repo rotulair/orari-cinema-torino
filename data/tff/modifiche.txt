@@ -1,0 +1,9 @@
+# Modifiche al programma del Torino Film Festival, giorno per giorno.
+# Una riga per modifica. Le righe che iniziano con # sono commenti. Orari come 21.30 oppure 21:30.
+# Si applicano sopra il PDF a ogni aggiornamento (quando le correzioni sono già nel PDF nuovo, si possono togliere).
+# Il risultato di ogni controllo è in data/tff_report.txt: lì si vedono anche le modifiche non applicate.
+#
+#   annulla 27/11 21.00 Romano 2
+#   sposta 27/11 21.00 Romano 2 -> 21.30
+#   sposta 27/11 21.00 Romano 2 -> 28/11 18.00 Massimo 1
+#   aggiungi 28/11 18.00 Massimo 3 | TITOLO DEL FILM | Nome del regista | nota facoltativa
