@@ -5597,5 +5597,978 @@
    "anno": 2026
   },
   "checked": "2026-11-25"
+ },
+ "ladies of the chorus": {
+  "title": "LADIES OF THE CHORUS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 39949 (1948): regista Phil Karlson != 'Orchidea bionda, Phil Carlson'",
+  "ref": {
+   "regia": "Orchidea bionda, Phil Carlson",
+   "anno": 1948
+  },
+  "checked": "2026-11-25"
+ },
+ "millennium mambo": {
+  "title": "MILLENNIUM MAMBO",
+  "url": "https://it.wikipedia.org/wiki/Millennium_Mambo",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/2d/Millennium_Mambo-%28Hou_Hsiao-Hsien_2001%29-Qi_Shu_nella_scena_iniziale_del_film.jpg/250px-Millennium_Mambo-%28Hou_Hsiao-Hsien_2001%29-Qi_Shu_nella_scena_iniziale_del_film.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Hou Hsiao-hsien",
+  "tmdb": {
+   "id": 11553,
+   "title": "Millennium Mambo",
+   "url": "https://www.themoviedb.org/movie/11553?language=it-IT",
+   "poster_path": "/feD6mQSi1C9E4PKo5B5L8neJVGR.jpg",
+   "runtime": 119,
+   "director": "侯孝賢",
+   "year": 2001,
+   "overview": "Taipei: la giovane Vicky lavora in un locale notturno ed è divisa fra due uomini innamorati di lei, Hao-Hao e Jack. L'attenzione soffocante del primo la spinge a scappare e a rifugiarsi dal più maturo Jack, che si trova in grosse difficoltà economiche e di punto in bianco parte per il Giappone...",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "舒淇",
+    "高捷",
+    "段鈞豪",
+    "鈕承澤",
+    "Jun Takeuchi",
+    "Yi-Hsuan Chen"
+   ],
+   "original_title": "千禧曼波",
+   "release_date": "2001-10-31"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Hou Hsiao-hsien",
+   "anno": 2001
+  },
+  "checked": "2026-11-25"
+ },
+ "november 1963": {
+  "title": "NOVEMBER 1963",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1287520,
+   "title": "Novembre 1963 - L’assassinio di J.F. Kennedy",
+   "url": "https://www.themoviedb.org/movie/1287520?language=it-IT",
+   "poster_path": "/2ijWA6uoodXUme0SdpVVU0xJoUz.jpg",
+   "runtime": 120,
+   "director": "Roland Joffé",
+   "year": 2026,
+   "overview": "Il film narra le 48 ore successive all'assassinio del presidente John F. Kennedy, l'ipotetico coinvolgimento di Sam Giancana e della \"Chicago Outfit\", e una presunta promessa non mantenuta dopo che la mafia aveva contribuito all'elezione di Kennedy.",
+   "genres": [
+    "Crime",
+    "Thriller",
+    "Dramma"
+   ],
+   "cast": [
+    "John Travolta",
+    "Robert Carlyle",
+    "Dermot Mulroney",
+    "Jefferson White",
+    "Mandy Patinkin",
+    "Thomas Fiscella"
+   ],
+   "original_title": "November 1963",
+   "release_date": "2026-11-20"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Novembre 1963, Roland Joffé",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "there s no business like show business": {
+  "title": "THERE’S NO BUSINESS LIKE SHOW BUSINESS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 21468,
+   "title": "Follie dell'anno",
+   "url": "https://www.themoviedb.org/movie/21468?language=it-IT",
+   "poster_path": "/7xpuj4InfQLCr5T3j1WOjcdaF8r.jpg",
+   "runtime": 117,
+   "director": "Walter Lang",
+   "year": 1954,
+   "overview": "Terence e Molly Donahues formano da sempre una coppia ben assortita, sia sul palcoscenico che nella vita. I loro figli, crescendo, ne hanno seguito le orme. Ma un giorno uno di loro, Steve, si fa prete; e l’altro, Tim, innamorato di una bellissima ballerna, Vicky, la segue insieme alla sorella Katy per calcare le scene in una grande rivista…",
+   "genres": [
+    "Musica",
+    "Commedia"
+   ],
+   "cast": [
+    "Ethel Merman",
+    "Marilyn Monroe",
+    "Mitzi Gaynor",
+    "Dan Dailey",
+    "Donald O'Connor",
+    "Johnnie Ray"
+   ],
+   "original_title": "There's No Business Like Show Business",
+   "release_date": "1954-12-16"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Follie dell’anno, Walter Lang",
+   "anno": 1954
+  },
+  "checked": "2026-11-25"
+ },
+ "ancora e presto": {
+  "title": "ANCORA È PRESTO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1817940,
+   "title": "Ancora è presto",
+   "url": "https://www.themoviedb.org/movie/1817940?language=it-IT",
+   "poster_path": "/ndDmjd1lNz37yMSQPhPtKV4GHEr.jpg",
+   "runtime": 100,
+   "director": "Antonio Valerio Spera",
+   "year": null,
+   "overview": "Mauro ha 78 anni e non ha mai smesso di inseguire i propri sogni. Dopo una vita trascorsa tra barche a vela, imprese in canoa, spedizioni nel Sahara, pesca e avventure solitarie, prepara il viaggio che coltiva da anni: quattro mesi in camper attraverso l'Europa per scoprire il Nord del continente. Mentre amici e familiari cercano di dissuaderlo, Mauro continua ostinatamente a organizzare la partenza, sospeso tra i ricordi di un passato straordinario e una quotidianità fatta di affetti, rituali e piccole solitudini. Con il viaggio che si avvicina, Mauro continua a guardare avanti, determinato a non rinunciare a questo suo nuovo sogno. Forse l’ultimo.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Ancora è presto",
+   "release_date": null
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Antonio Valerio Spera",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "donnie brasco": {
+  "title": "DONNIE BRASCO",
+  "url": "https://it.wikipedia.org/wiki/Donnie_Brasco_(film)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/8/84/Donnie_Brasco.png/250px-Donnie_Brasco.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Mike Newell",
+  "tmdb": {
+   "id": 9366,
+   "title": "Donnie Brasco",
+   "url": "https://www.themoviedb.org/movie/9366?language=it-IT",
+   "poster_path": "/kqLuBeLxFFCXAdrsfY91CfKVxQY.jpg",
+   "runtime": 122,
+   "director": "Mike Newell",
+   "year": 1997,
+   "overview": "Pistone, agente del FBI si infiltra in un'organizzazione mafiosa di Little Italy come Donnie Brasco, ricettatore di gioielli, e conquista la fiducia di Lefty, anziano mafioso e manovale del crimine. Tra i due nasce un'amicizia, fatta di rispetto e di stima ma anche di affinità caratteriali. Un'amicizia impossibile, destinata a una tragica fine.",
+   "genres": [
+    "Crime",
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Johnny Depp",
+    "Al Pacino",
+    "Michael Madsen",
+    "Bruno Kirby",
+    "James Russo",
+    "Anne Heche"
+   ],
+   "original_title": "Donnie Brasco",
+   "release_date": "1997-02-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Mike Newell",
+   "anno": 1997
+  },
+  "checked": "2026-11-25"
+ },
+ "instinct de famille": {
+  "title": "INSTINCT DE FAMILLE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1736156,
+   "title": "Instinct de famille",
+   "url": "https://www.themoviedb.org/movie/1736156?language=it-IT",
+   "poster_path": "/t7WF1jTi6thnB4rkQU6hkBLYUAF.jpg",
+   "runtime": null,
+   "director": "Maurice Hermet",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Alice Dufour",
+    "Charlotte Gabris",
+    "Jérémy Lopez",
+    "Éric Caravaca",
+    "Josiane Stoléru",
+    "Sarah Bramms"
+   ],
+   "original_title": "Instinct de famille",
+   "release_date": "2026-08-26"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Maurice Hermet",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "les survivants du che": {
+  "title": "LES SURVIVANTS DU CHE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1666700,
+   "title": "Gli ultimi giorni del Che",
+   "url": "https://www.themoviedb.org/movie/1666700?language=it-IT",
+   "poster_path": "/qTiIhMhbE9i9LN4R9E1fCquW9c1.jpg",
+   "runtime": 98,
+   "director": "Christophe Dimitri Réveille",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario",
+    "Animazione"
+   ],
+   "cast": [
+    "Vincent Lindon"
+   ],
+   "original_title": "Les Survivants du Che",
+   "release_date": "2026-09-09"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Christophe Dimitri Réveille",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "los nadadores": {
+  "title": "LOS NADADORES",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1523304,
+   "title": "Los Nadadores",
+   "url": "https://www.themoviedb.org/movie/1523304?language=it-IT",
+   "poster_path": "/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
+   "runtime": 76,
+   "director": "Sol Iglesias SK",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Fantasy"
+   ],
+   "cast": [
+    "Sol Iglesias SK",
+    "Joaquín Fretes",
+    "Tobias Reizes",
+    "David Lucarino",
+    "Iván Ursul",
+    "Valentina D'Emilio"
+   ],
+   "original_title": "Los Nadadores",
+   "release_date": "2026-03-06"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Sol Iglesias",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "monkey business": {
+  "title": "MONKEY BUSINESS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 24008,
+   "title": "Il magnifico scherzo",
+   "url": "https://www.themoviedb.org/movie/24008?language=it-IT",
+   "poster_path": "/bfAHcuc9ybKomTQGVD6OIX3CAoO.jpg",
+   "runtime": 97,
+   "director": "Howard Hawks",
+   "year": 1952,
+   "overview": "Barnaby Fulton è un ricercatore che lavora ad una pillola della giovinezza per conto di una azienda chimica. Una delle scimmie cavie, Esther, fugge dal laboratorio e, avendo osservato il Dott. Fulton fare qualcosa di simile, mescola alcune provette, dopodichè verso l'intruglio nel recipiente dell'acqua potabile.  Più tardi, sperimentando uno dei propri campioni, sciacquato con l'acqua del recipiente, Fulton inizia a comportarsi come un ragazzo di 20 anni e crede che la pozione funzioni. Ben presto anche la moglie ed il capo dello scienziato iniziano a comportarsi come bambini.",
+   "genres": [
+    "Commedia",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Cary Grant",
+    "Ginger Rogers",
+    "Charles Coburn",
+    "Marilyn Monroe",
+    "Hugh Marlowe",
+    "Henri Letondal"
+   ],
+   "original_title": "Monkey Business",
+   "release_date": "1952-09-03"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema",
+  "ref": {
+   "regia": "Il magnifico scherzo, Howard Hawks",
+   "anno": 1952
+  },
+  "checked": "2026-11-25"
+ },
+ "if pigeons turned to gold": {
+  "title": "IF PIGEONS TURNED TO GOLD",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1616833,
+   "title": "Kdyby se holubi proměnili ve zlato",
+   "url": "https://www.themoviedb.org/movie/1616833?language=it-IT",
+   "poster_path": "/gr0cfKkOFwv9FJkk7jN40FJLrw0.jpg",
+   "runtime": 110,
+   "director": "Pepa Lubojacki",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Pepa Lubojacki",
+    "David Lubojacki",
+    "David Richter",
+    "Marco Arnone"
+   ],
+   "original_title": "Kdyby se holubi proměnili ve zlato",
+   "release_date": "2026-09-24"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Pepa Lubojacki",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "how to marry a millionaire": {
+  "title": "HOW TO MARRY A MILLIONAIRE",
+  "url": "https://it.wikipedia.org/wiki/How_to_Marry_a_Millionaire_(serie_televisiva)",
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 10297,
+   "title": "Come sposare un milionario",
+   "url": "https://www.themoviedb.org/movie/10297?language=it-IT",
+   "poster_path": "/20ftDltry39rmN4L53GnNNO7hZw.jpg",
+   "runtime": 96,
+   "director": "Jean Negulesco",
+   "year": 1953,
+   "overview": "Tre belle ragazze, Shatze, Loco e Pola, indossatrici presso una casa di moda di New York, messi in comune i propri risparmi, prendono in affitto un sontuoso appartamento, come base di operazione per la conquista di tre mariti milionari.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Lauren Bacall",
+    "Betty Grable",
+    "David Wayne",
+    "Rory Calhoun",
+    "Cameron Mitchell"
+   ],
+   "original_title": "How to Marry a Millionaire",
+   "release_date": "1953-11-10"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Come sposare un milionario, Jean Negulesco",
+   "anno": 1953
+  },
+  "checked": "2026-11-25"
+ },
+ "la libertad doble": {
+  "title": "LA LIBERTAD DOBLE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1387981,
+   "title": "La libertad doble",
+   "url": "https://www.themoviedb.org/movie/1387981?language=it-IT",
+   "poster_path": "/eJwrCjeHCu3hLYveVHM9Do5HLBF.jpg",
+   "runtime": 100,
+   "director": "Lisandro Alonso",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Misael Saavedra",
+    "Catalina Saavedra",
+    "Adrián Fondari",
+    "Alcides Fink",
+    "Laura López Moyano",
+    "Alberto Villarroel"
+   ],
+   "original_title": "La libertad doble",
+   "release_date": "2026-11-25"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Lisandro Alonso",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the fertilizer home": {
+  "title": "THE FERTILIZER HOME",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1511291,
+   "title": "오가",
+   "url": "https://www.themoviedb.org/movie/1511291?language=it-IT",
+   "poster_path": "/jjUq18AfXhN1J0zD6hmCDLqGxJQ.jpg",
+   "runtime": 97,
+   "director": "정효정",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Mistero",
+    "Dramma"
+   ],
+   "cast": [
+    "김승화",
+    "박아인",
+    "정동환",
+    "허준석",
+    "기소유"
+   ],
+   "original_title": "오가",
+   "release_date": "2026-03-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Hyo-jung Jeong",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "costanera": {
+  "title": "COSTANERA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1622565,
+   "title": "Costanera",
+   "url": "https://www.themoviedb.org/movie/1622565?language=it-IT",
+   "poster_path": "/nVt8VHkxiGMWp1jHw4TvHt0tOqe.jpg",
+   "runtime": null,
+   "director": "Mauro Diez",
+   "year": 2026,
+   "overview": "Diego è un giovane trombettista talentuoso ma irrequieto, che decide di lasciare Roma e la sua fidanzata Alice per seguire il suo amico musicista Nacho a Buenos Aires, dove potrà testare la sua capacità in una nuova registrazione jazz, che sarà il trampolino di lancio per la sua carriera musicale. In Argentina, Diego si immerge gradualmente nel paese, trovando nuovi amori e nuovi stimoli, ma senza riuscire ad allontanare le solite domande: vuole davvero fare il musicista? E se non avesse ancora scoperto i suoi veri obiettivi?",
+   "genres": [
+    "Dramma",
+    "Musica",
+    "Romance"
+   ],
+   "cast": [
+    "Celeste Dalla Porta",
+    "Michele Sallicandro",
+    "Cecilia Bertozzi",
+    "Fabrizio Ferracane",
+    "Marcelo Subiotto"
+   ],
+   "original_title": "Costanera",
+   "release_date": "2026-11-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Mauro Díez Concari",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "river of no return": {
+  "title": "RIVER OF NO RETURN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1936,
+   "title": "La magnifica preda",
+   "url": "https://www.themoviedb.org/movie/1936?language=it-IT",
+   "poster_path": "/zhtmLLbtnNLETUhCwRDXoxaaTTK.jpg",
+   "runtime": 91,
+   "director": "Otto Preminger",
+   "year": 1954,
+   "overview": "Matt Carter, un agricoltore che vive solo col figlio Mark, salva dal fiume un uomo e una donna. Il primo gli prende cavallo e fucile, per recarsi in città a registrare la proprietà di una miniera vinta al gioco. La donna, May, (Monroe) resta invece con Matt. Fuggiti per un attacco indiano, i tre riescono a raggiungere la città, dove ritrovano l'avventuriero.",
+   "genres": [
+    "Avventura",
+    "Western"
+   ],
+   "cast": [
+    "Robert Mitchum",
+    "Marilyn Monroe",
+    "Rory Calhoun",
+    "Tommy Rettig",
+    "Murvyn Vye",
+    "Douglas Spencer"
+   ],
+   "original_title": "River of No Return",
+   "release_date": "1954-04-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "La magnifica preda, Otto Preminger",
+   "anno": 1954
+  },
+  "checked": "2026-11-25"
+ },
+ "the seven year itch": {
+  "title": "THE SEVEN YEAR ITCH",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 10653,
+   "title": "Quando la moglie è in vacanza",
+   "url": "https://www.themoviedb.org/movie/10653?language=it-IT",
+   "poster_path": "/iJApa10t2nWUCemt0I0VhWZDDjf.jpg",
+   "runtime": 105,
+   "director": "Billy Wilder",
+   "year": 1955,
+   "overview": "È il desiderio del settimo anno. Rimasto solo in casa (la famiglia è in villeggiatura), funzionario editoriale è messo a dura prova dalla procace e svampita vicina di casa. Resisterà la sua virtù? Commedia satirica sulle ossessioni erotiche dell'americano medio con cui Wilder traccia una feroce critica del consumismo e dei miti del mezzo secolo sulla scorta di una commedia (1952) di George Axelrod di cui mantiene l'impianto teatrale, pur facendone il film più metacinematografico della sua carriera con frequenti citazioni e rimandi parodistici ad altri film. Una delle migliori interpretazioni di M. Monroe.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Tom Ewell",
+    "Evelyn Keyes",
+    "Sonny Tufts",
+    "Robert Strauss",
+    "Oskar Homolka"
+   ],
+   "original_title": "The Seven Year Itch",
+   "release_date": "1955-06-03"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Quando la moglie è in vacanza, Billy Wilder",
+   "anno": 1955
+  },
+  "checked": "2026-11-25"
+ },
+ "wishful thinking": {
+  "title": "WISHFUL THINKING",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1514328,
+   "title": "Wishful Thinking",
+   "url": "https://www.themoviedb.org/movie/1514328?language=it-IT",
+   "poster_path": "/36vsIO0FkNNm9CfzDQargqWjktC.jpg",
+   "runtime": 105,
+   "director": "Graham Parkes",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Romance",
+    "Commedia",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Maya Hawke",
+    "Lewis Pullman",
+    "Amita Rao",
+    "Eric Rahill",
+    "Sophie Lachman",
+    "Randall Park"
+   ],
+   "original_title": "Wishful Thinking",
+   "release_date": "2027-02-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Graham Parkes",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "paradise": {
+  "title": "PARADISE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1231623 (2024): titolo diverso (somiglianza 0.40: 'A Christmas Castle Proposal: A Royal in Paradise 2' / 'A Christmas Castle Proposal: A Royal in Paradise 2'); TMDB scartato id 1492 (1992): titolo diverso (somiglianza 0.48: '1492 - La conquista del paradiso' / '1492: Conquest of Paradise'); TMDB scartato id 800939 (2022): titolo diverso (somiglianza 0.62: 'Ticket to Paradise' / 'Ticket to Paradise'); TMDB scartato id 939979 (2022): titolo diverso (somiglianza 0.67: 'Paradise Highway' / 'Paradise Highway'); TMDB scartato id 30347 (2006): titolo diverso (somiglianza 0.67: 'Missing - Dispersa' / 'Jesse Stone: Death in Paradise')",
+  "ref": {
+   "regia": "Jérémy Comte",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the prince and the showgirl": {
+  "title": "THE PRINCE AND THE SHOWGIRL",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 24012,
+   "title": "Il principe e la ballerina",
+   "url": "https://www.themoviedb.org/movie/24012?language=it-IT",
+   "poster_path": "/pnf7t7XXGVzbHSQmOfc3tYdfivo.jpg",
+   "runtime": 117,
+   "director": "Laurence Olivier",
+   "year": 1957,
+   "overview": "Il film è ambientato nella Londra del 1911, alla vigilia dell'incoronazione di re Giorgio V (1910-1936). Tra i vari reali pervenuti nella città c'è anche Carlo, principe reggente del piccolo stato della Carpazia, che incontra ad uno spettacolo Elsa, vivace ed esuberante ballerina americana. Grazie alle sue inaspettate doti di acume e sensibilità, la ballerina risolve abilmente un intrigo di corte e la coppia si scopre innamorata, lasciandosi con la promessa di sposarsi non appena Nicolas, il giovane figlio del reggente, salirà al trono.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Laurence Olivier",
+    "Sybil Thorndike",
+    "Richard Wattis",
+    "Jeremy Spenser",
+    "David Horne"
+   ],
+   "original_title": "The Prince and the Showgirl",
+   "release_date": "1957-06-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Il principe e la ballerina, Laurence Olivier",
+   "anno": 1957
+  },
+  "checked": "2026-11-25"
+ },
+ "viva": {
+  "title": "VIVA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1474225,
+   "title": "Viva",
+   "url": "https://www.themoviedb.org/movie/1474225?language=it-IT",
+   "poster_path": "/84mHPH7DXBBviZKbPA3EZL4YGHa.jpg",
+   "runtime": 113,
+   "director": "Aina Clotet",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia",
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Aina Clotet",
+    "Naby Dakhli",
+    "Marc Soler Rull",
+    "Guillermo Toledo",
+    "Lloll Bertran",
+    "Zaïra Pérez"
+   ],
+   "original_title": "Viva",
+   "release_date": "2026-06-19"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 137113 (2014): titolo diverso (somiglianza 0.29: 'Edge of Tomorrow - Senza domani' / 'Edge of Tomorrow'); TMDB scartato id 888 (1994): titolo diverso (somiglianza 0.31: 'I Flintstones' / 'The Flintstones'); TMDB scartato id 11799 (1965): titolo diverso (somiglianza 0.57: 'Viva Maria!' / 'Viva Maria!'); TMDB scartato id 42359 (1925): titolo diverso (somiglianza 0.47: 'Viva lo sport' / 'The Freshman')",
+  "ref": {
+   "regia": "Aina Clotet",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "clarissa": {
+  "title": "CLARISSA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1630464,
+   "title": "Clarissa",
+   "url": "https://www.themoviedb.org/movie/1630464?language=it-IT",
+   "poster_path": "/9qS8heXhQdLoyGsqZHHb3HkrK62.jpg",
+   "runtime": 125,
+   "director": "Chuko Esiri, Arie Esiri",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Sophie Okonedo",
+    "David Oyelowo",
+    "India Ria Amarteifio",
+    "Ayo Edebiri",
+    "Toheeb Jimoh",
+    "Nikki Amuka-Bird"
+   ],
+   "original_title": "Clarissa",
+   "release_date": "2026-12-11"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1760400 (2026): titolo diverso (somiglianza 0.39: 'Le trio inséparable : show da Clarissa' / 'Le trio inséparable : show da Clarissa')",
+  "ref": {
+   "regia": "Arie Esiri, Chuko Esiri",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "my week with marilyn": {
+  "title": "MY WEEK WITH MARILYN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 75900,
+   "title": "Marilyn",
+   "url": "https://www.themoviedb.org/movie/75900?language=it-IT",
+   "poster_path": "/dDrDPjKOyQci6aD6AD8znYwNxhG.jpg",
+   "runtime": 99,
+   "director": "Simon Curtis",
+   "year": 2011,
+   "overview": "Nel 1956, fresco di studi compiuti in scuole, Colin Clarke lavorava come assistente di Sir Lawrence Olivier sul set del film «Il principe e la ballerina», nel quale Marilyn Monroe recitava al fianco del grande attore inglese.",
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Michelle Williams",
+    "Kenneth Branagh",
+    "Eddie Redmayne",
+    "Dominic Cooper",
+    "Philip Jackson",
+    "Derek Jacobi"
+   ],
+   "original_title": "My Week with Marilyn",
+   "release_date": "2011-11-23"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Marilyn, Simon Curtis",
+   "anno": 2011
+  },
+  "checked": "2026-11-25"
+ },
+ "the world before": {
+  "title": "THE WORLD BEFORE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1159810,
+   "title": "첫세계",
+   "url": "https://www.themoviedb.org/movie/1159810?language=it-IT",
+   "poster_path": "/oSRvKfFoqmvFAXQL8hroetMmoUs.jpg",
+   "runtime": 115,
+   "director": "윤단비",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "심수빈",
+    "김어진"
+   ],
+   "original_title": "첫세계",
+   "release_date": "2026-09-16"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1709132 (2026): titolo diverso (somiglianza 0.38: 'THE LAST DAY BEFORE THE END OF THE WORLD' / 'THE LAST DAY BEFORE THE END OF THE WORLD'); TMDB scartato id 1822836 (2026): titolo diverso (somiglianza 0.38: 'Avant que le monde rétrécisse' / 'Avant que le monde rétrécisse')",
+  "ref": {
+   "regia": "Yoon Dan-bi",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "piccolo mondo antico": {
+  "title": "PICCOLO MONDO ANTICO",
+  "url": "https://it.wikipedia.org/wiki/Piccolo_mondo_antico_(film_1941)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/P-m-antico_valli%2Bserato%2Bpas.jpg/250px-P-m-antico_valli%2Bserato%2Bpas.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Mario Soldati",
+  "tmdb": {
+   "id": 213615,
+   "title": "Piccolo mondo antico",
+   "url": "https://www.themoviedb.org/movie/213615?language=it-IT",
+   "poster_path": "/3DBMTft5cM9Q2a3BcWRCAiqaQpU.jpg",
+   "runtime": 106,
+   "director": "Mario Soldati",
+   "year": 1941,
+   "overview": "In Italia vi è un generale fermento contro la dominazione austriaca. Il giovane rampollo di una nobile famiglia aderisce alle idee di progresso ed entra in conflitto con la zia, sua tutrice, soprattutto quando sposa una ragazza del popolo. Per ritorsione, la zia fa perdere il lavoro al padre della ragazza. In seguito la bambina dei due giovani annega.",
+   "genres": [
+    "Dramma",
+    "Romance",
+    "Storia"
+   ],
+   "cast": [
+    "Alida Valli",
+    "Massimo Serato",
+    "Ada Dondini",
+    "Annibale Betrone",
+    "Mariu Pascoli",
+    "Giacinto Molteni"
+   ],
+   "original_title": "Piccolo mondo antico",
+   "release_date": "1941-04-10"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Mario Soldati",
+   "anno": 1941
+  },
+  "checked": "2026-11-25"
+ },
+ "soy mario": {
+  "title": "SOY MARIO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1651231,
+   "title": "Soy Mario",
+   "url": "https://www.themoviedb.org/movie/1651231?language=it-IT",
+   "poster_path": "/gjeWXZ2O7aD9xoKilncp6K8DmkT.jpg",
+   "runtime": 98,
+   "director": "Sharon Kleinberg",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Oustin León",
+    "Héctor Kotsifakis",
+    "Mayra Batalla",
+    "Mercedes Hernández",
+    "Kristyan Ferrer",
+    "Ruth Ramos"
+   ],
+   "original_title": "Soy Mario",
+   "release_date": "2026-04-20"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Sharon Kleinberg",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "sugar": {
+  "title": "SUGAR",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1710886 (2026): titolo diverso (somiglianza 0.62: 'Sugar Mommy' / 'Sugar Mommy'); TMDB scartato id 1815447 (2026): titolo diverso (somiglianza 0.42: 'My Son’s Sugar Mama' / 'My Son’s Sugar Mama'); TMDB scartato id 1101401 (2024): titolo diverso (somiglianza 0.67: 'Sugar Baby' / 'Sugar Baby'); TMDB scartato id 1484708 (2026): titolo diverso (somiglianza 0.62: 'Sugar Beach' / 'Sugar Beach'); TMDB scartato id 1627985 (2026): titolo diverso (somiglianza 0.25: 'Sugar & Vice: A Hannah Swensen Mystery' / 'Sugar & Vice: A Hannah Swensen Mystery')",
+  "ref": {
+   "regia": "Amira Duynhouwer",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "ela olhava sem nada ver": {
+  "title": "ELA OLHAVA SEM NADA VER",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1474815,
+   "title": "Ela Olhava Sem Nada Ver",
+   "url": "https://www.themoviedb.org/movie/1474815?language=it-IT",
+   "poster_path": "/eLCDgUMHGeUDVwXcxUescnKDwdd.jpg",
+   "runtime": null,
+   "director": "Fanny Ardant",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Gérard Depardieu",
+    "Ricardo Pereira",
+    "Paulo Pires",
+    "Ana Padrão",
+    "Anabela Moreira",
+    "Carolina Amaral"
+   ],
+   "original_title": "Ela Olhava Sem Nada Ver",
+   "release_date": "2026-10-19"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Fanny Ardant",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
  }
 }
