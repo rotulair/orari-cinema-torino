@@ -1130,6 +1130,35 @@ def scrape_cinema(cfg: dict, day: str, fetcher, debug_dir: Path | None) -> tuple
     return rows, status
 
 
+def apply_festival(all_rows: list[dict], base: Path, day: str) -> dict:
+    """Torino Film Festival: aggiunge le proiezioni dal PDF (data/tff/programma.pdf) senza doppioni."""
+    import festival
+    if not (base / "tff" / "programma.pdf").exists() and not (base / "tff.json").exists():
+        return {"rows": all_rows}
+    cfg_path = ROOT / "scraper" / "festival.json"
+    cfg = json.loads(cfg_path.read_text(encoding="utf-8")) if cfg_path.exists() else {}
+
+    def same(a: str, b: str) -> bool:
+        ka, kb = compare_key(a), compare_key(b)
+        return _same_film(ka, kb) or _subtitle_of(ka, kb)
+
+    try:
+        fest_rows, info = festival.build(base, day, same, cfg)
+        merged_rows, merged = festival.merge(all_rows, fest_rows, day, same)
+        festival.save(base, fest_rows, info, day, dt.datetime.now(TZ).isoformat(timespec="seconds"))
+    except Exception as exc:  # noqa: BLE001 - il festival non deve mai bloccare gli orari dei cinema
+        print(f"  TFF non aggiunto: {exc}")
+        return {"rows": all_rows}
+    n_new = sum(1 for r in merged_rows if r.get("fest")) - merged
+    print(f"  TFF: {len(fest_rows)} proiezioni lette ({info['source']}); {merged} gia' sui siti dei cinema, "
+          f"{max(n_new, 0)} aggiunte")
+    for n in info["changes"]:
+        print(f"  TFF variazione: {n}")
+    for n in info["unapplied"]:
+        print(f"  TFF modifica NON applicata: {n}")
+    return {"rows": merged_rows}
+
+
 def run(config_path: Path, out_path: Path, only: str | None = None,
         debug_dir: Path | None = None, fetcher=fetch, today: str | None = None) -> dict:
     cinemas = json.loads(config_path.read_text(encoding="utf-8"))
@@ -1191,6 +1220,8 @@ def run(config_path: Path, out_path: Path, only: str | None = None,
     if junk:
         print(f"  scartate {len(junk)} proiezioni senza titolo valido (es. {junk[0]['film']!r} a {junk[0]['cinema']})")
         all_rows = [r for r in all_rows if not is_junk_title(r["film"])]
+    if not only:
+        all_rows = apply_festival(all_rows, out_path.parent, day)["rows"]
     for a, b in snap_manual_titles(all_rows):
         print(f"  refuso nel PDF corretto: {a!r} -> {b!r}")
     for a, b in unify_titles(all_rows):

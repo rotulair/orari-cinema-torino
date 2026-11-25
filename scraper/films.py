@@ -343,6 +343,8 @@ def _refs(showtimes: list[dict]) -> dict[str, dict]:
     refs: dict[str, dict] = {}
     for r in showtimes:
         k = film_key(r["film"])
+        if r.get("nofilm"):
+            continue                               # programmi di corti, cerimonie: niente scheda
         e = refs.setdefault(k, {"title": r["film"], "regia": "", "anno": None, "rer": False})
         e["regia"] = e["regia"] or r.get("regia", "")
         e["anno"] = e["anno"] or r.get("anno")
