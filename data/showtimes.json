@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:20:45+01:00",
+ "generated_at": "2026-11-25T22:20:48+01:00",
  "today": "2026-11-25",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:19:59+01:00"
+    "fetched_at": "2026-11-25T22:20:05+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 106,
+    "n": 103,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:02+01:00"
+    "fetched_at": "2026-11-25T22:20:07+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 157,
+    "n": 156,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:04+01:00"
+    "fetched_at": "2026-11-25T22:20:10+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:07+01:00"
+    "fetched_at": "2026-11-25T22:20:11+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:09+01:00"
+    "fetched_at": "2026-11-25T22:20:13+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 67,
+    "n": 64,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:11+01:00"
+    "fetched_at": "2026-11-25T22:20:16+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 64,
+    "n": 62,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:13+01:00"
+    "fetched_at": "2026-11-25T22:20:17+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:14+01:00"
+    "fetched_at": "2026-11-25T22:20:19+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 89,
+    "n": 85,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:16+01:00"
+    "fetched_at": "2026-11-25T22:20:20+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:19+01:00"
+    "fetched_at": "2026-11-25T22:20:24+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:22+01:00"
+    "fetched_at": "2026-11-25T22:20:27+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:24+01:00"
+    "fetched_at": "2026-11-25T22:20:28+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:29+01:00"
+    "fetched_at": "2026-11-25T22:20:33+01:00"
    }
   },
   {
@@ -205,11 +205,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 84,
+    "n": 77,
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:32+01:00"
+    "fetched_at": "2026-11-25T22:20:36+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:33+01:00"
+    "fetched_at": "2026-11-25T22:20:37+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:36+01:00"
+    "fetched_at": "2026-11-25T22:20:40+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:39+01:00"
+    "fetched_at": "2026-11-25T22:20:43+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T21:20:43+01:00"
+    "fetched_at": "2026-11-25T22:20:47+01:00"
    }
   }
  ],
@@ -289,27 +289,6 @@
    "tag": ""
   },
   {
-   "cinema": "eliseo",
-   "film": "FJORD",
-   "date": "2026-11-25",
-   "time": "21:15",
-   "tag": "Grande"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-25",
-   "time": "20:45",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-25",
-   "time": "21:00",
-   "tag": "Blu"
-  },
-  {
    "cinema": "esedra",
    "film": "Jane Austen ha stravolto la mia vita",
    "date": "2026-11-25",
@@ -322,102 +301,6 @@
    "date": "2026-11-25",
    "time": "21:15",
    "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "DIGGER",
-   "date": "2026-11-25",
-   "time": "18:00",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-25",
-   "time": "15:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-25",
-   "time": "18:15",
-   "tag": "VO",
-   "room": "4"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-25",
-   "time": "21:00",
-   "tag": "VO",
-   "room": "4"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "HOPE",
-   "date": "2026-11-25",
-   "time": "21:15",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-25",
-   "time": "15:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-25",
-   "time": "15:45",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-25",
-   "time": "18:30",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-25",
-   "time": "21:15",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "MINOTAURO",
-   "date": "2026-11-25",
-   "time": "15:30",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-25",
-   "time": "18:15",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-25",
-   "time": "20:45",
-   "tag": "",
-   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -670,41 +553,6 @@
    "rer": true
   },
   {
-   "cinema": "marx",
-   "film": "DIO RIDE",
-   "date": "2026-11-25",
-   "time": "21:00",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "massaua",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
-   "date": "2026-11-25",
-   "time": "21:45",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
    "cinema": "massimo",
    "room": "2",
    "date": "2026-11-25",
@@ -879,46 +727,6 @@
    "anno": 2026,
    "regia": "Muriel d’Ansembourg",
    "tag": ""
-  },
-  {
-   "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-25",
-   "time": "21:00",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LOOK BACK",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": "VO",
-   "room": "4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MUSTANG",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-25",
-   "time": "20:45",
-   "tag": "VO",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "HUNGER GAMES L'ALBA SULLA MIETITURA",
-   "date": "2026-11-25",
-   "time": "21:30",
-   "tag": "",
-   "room": "3"
   },
   {
    "cinema": "reposi",
@@ -1577,6 +1385,94 @@
    "date": "2026-11-26",
    "time": "20:50",
    "tag": "Blu"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-26",
+   "time": "20:45",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-26",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-26",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-26",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-26",
+   "time": "21:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-26",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -2662,6 +2558,94 @@
    "date": "2026-11-27",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-27",
+   "time": "20:45",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-27",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-27",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "YOU CAN SEE EVERYTHING",
+   "date": "2026-11-27",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
   },
   {
    "cinema": "ideal",
@@ -3799,6 +3783,94 @@
    "date": "2026-11-28",
    "time": "21:15",
    "tag": ""
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-28",
+   "time": "20:45",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-28",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-28",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "YOU CAN SEE EVERYTHING",
+   "date": "2026-11-28",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
   },
   {
    "cinema": "ideal",
@@ -4965,6 +5037,94 @@
    "tag": ""
   },
   {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-29",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-29",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-29",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-29",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "YOU CAN SEE EVERYTHING",
+   "date": "2026-11-29",
+   "time": "20:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
    "cinema": "ideal",
    "film": "E' ANDATA COSI'",
    "date": "2026-11-29",
@@ -6129,6 +6289,94 @@
    "tag": "Blu"
   },
   {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "20:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-11-30",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-30",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-30",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-30",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-11-30",
+   "time": "21:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
    "cinema": "ideal",
    "film": "E' ANDATA COSI'",
    "date": "2026-11-30",
@@ -7112,6 +7360,94 @@
    "date": "2026-12-01",
    "time": "20:50",
    "tag": "Blu"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "20:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-01",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-01",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-01",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-01",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "ideal",
@@ -8114,6 +8450,94 @@
    "date": "2026-12-02",
    "time": "20:50",
    "tag": "Blu"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "",
+   "room": "2"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "20:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "FJORD",
+   "date": "2026-12-02",
+   "time": "20:45",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "IL CANTO DELLA FORESTA",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-02",
+   "time": "15:30",
+   "tag": "VO",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-02",
+   "time": "17:30",
+   "tag": "VO",
+   "room": "3"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": "",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
+   "date": "2026-12-02",
+   "time": "21:00",
+   "tag": "VO",
+   "room": "4"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "",
+   "room": "1"
+  },
+  {
+   "cinema": "greenwich",
+   "film": "WILD HORSE NINE",
+   "date": "2026-12-02",
+   "time": "21:15",
+   "tag": "",
+   "room": "2"
   },
   {
    "cinema": "marx",

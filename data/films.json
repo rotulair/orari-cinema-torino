@@ -7438,5 +7438,128 @@
    "anno": null
   },
   "checked": "2026-11-25"
+ },
+ "diamond": {
+  "title": "DIAMOND",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 681 (1971): titolo diverso (somiglianza 0.53: 'Agente 007 - Una cascata di diamanti' / 'Diamonds Are Forever'); TMDB scartato id 17101 (2007): titolo diverso (somiglianza 0.36: 'Bleach the Movie: The DiamondDust Rebellion' / '劇場版 BLEACH The DiamondDust Rebellion もう一つの氷輪丸'); TMDB scartato id 1005076 (2024): titolo diverso (somiglianza 0.41: 'Duchess' / 'Duchess'); TMDB scartato id 1425725 (2025): titolo diverso (somiglianza 0.29: 'Hans Zimmer & Friends: Diamond in the Desert' / 'Hans Zimmer & Friends: Diamond in the Desert'); TMDB scartato id 1013446 (2025): titolo diverso (somiglianza 0.40: 'Reflection in a Dead Diamond' / 'Reflet dans un diamant mort')",
+  "ref": {
+   "regia": "Andy Garcia",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "amoosed a moose odyssey": {
+  "title": "AMOOSED: A MOOSE ODYSSEY",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1571218,
+   "title": "AMOOSED: losí odysea",
+   "url": "https://www.themoviedb.org/movie/1571218?language=it-IT",
+   "poster_path": "/o3lh9bI8tWqGcLrcNYV1IwbeR89.jpg",
+   "runtime": 76,
+   "director": "Hana Nováková",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "AMOOSED: losí odysea",
+   "release_date": "2026-06-04"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Hana Nováková",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the blood countess": {
+  "title": "THE BLOOD COUNTESS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1251608,
+   "title": "Die Blutgräfin",
+   "url": "https://www.themoviedb.org/movie/1251608?language=it-IT",
+   "poster_path": "/umVTLVc7sjLqEMClbkvIA2SjOLg.jpg",
+   "runtime": 119,
+   "director": "Ulrike Ottinger",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia",
+    "Horror",
+    "Mistero",
+    "Fantasy"
+   ],
+   "cast": [
+    "Isabelle Huppert",
+    "Birgit Minichmayr",
+    "Thomas Schubert",
+    "Lars Eidinger",
+    "André Jung",
+    "Sophie Rois"
+   ],
+   "original_title": "Die Blutgräfin",
+   "release_date": "2026-10-29"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Ulrike Ottinger",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "heysel 85": {
+  "title": "HEYSEL 85",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1447885,
+   "title": "Heysel 85",
+   "url": "https://www.themoviedb.org/movie/1447885?language=it-IT",
+   "poster_path": "/crjeeLqHv6Pj9ntGntCufLfoiiU.jpg",
+   "runtime": 92,
+   "director": "Teodora Ana Mihai",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Matteo Simoni",
+    "Violet Braeckman",
+    "Josse De Pauw",
+    "Ben Segers",
+    "Fabrizio Rongione",
+    "Bobby Schofield"
+   ],
+   "original_title": "Heysel 85",
+   "release_date": "2026-11-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Teodora Ana Mihai",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
  }
 }
