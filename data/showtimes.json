@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T02:47:43+01:00",
+ "generated_at": "2026-11-25T06:29:38+01:00",
  "today": "2026-11-25",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:46:58+01:00"
+    "fetched_at": "2026-11-25T06:28:55+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:01+01:00"
+    "fetched_at": "2026-11-25T06:28:58+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:03+01:00"
+    "fetched_at": "2026-11-25T06:29:00+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:06+01:00"
+    "fetched_at": "2026-11-25T06:29:02+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:09+01:00"
+    "fetched_at": "2026-11-25T06:29:05+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:11+01:00"
+    "fetched_at": "2026-11-25T06:29:07+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:13+01:00"
+    "fetched_at": "2026-11-25T06:29:09+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:14+01:00"
+    "fetched_at": "2026-11-25T06:29:10+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:16+01:00"
+    "fetched_at": "2026-11-25T06:29:12+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:19+01:00"
+    "fetched_at": "2026-11-25T06:29:15+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:22+01:00"
+    "fetched_at": "2026-11-25T06:29:18+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:24+01:00"
+    "fetched_at": "2026-11-25T06:29:20+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:28+01:00"
+    "fetched_at": "2026-11-25T06:29:24+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:31+01:00"
+    "fetched_at": "2026-11-25T06:29:27+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:33+01:00"
+    "fetched_at": "2026-11-25T06:29:28+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:36+01:00"
+    "fetched_at": "2026-11-25T06:29:31+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:39+01:00"
+    "fetched_at": "2026-11-25T06:29:34+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-25T02:47:43+01:00"
+    "fetched_at": "2026-11-25T06:29:38+01:00"
    }
   }
  ],
@@ -1943,24 +1943,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "15:50",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "19:45",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-26",
    "time": "21:35",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -2675,24 +2672,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "16:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "20:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "21:45",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -3443,24 +3437,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "16:05",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "20:00",
-   "tag": "",
-   "room": "4"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-28",
    "time": "21:45",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -4225,23 +4216,21 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "14:30",
-   "tag": "Emozioni"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "17:50",
-   "tag": "",
-   "room": "2"
+   "tag": ""
   },
   {
    "cinema": "massaua",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-29",
    "time": "20:30",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
