@@ -7099,5 +7099,344 @@
    "anno": 2025
   },
   "checked": "2026-11-25"
+ },
+ "minotauro": {
+  "title": "MINOTAURO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 848700,
+   "title": "Minotaur - Nel labirinto del potere",
+   "url": "https://www.themoviedb.org/movie/848700?language=it-IT",
+   "poster_path": "/gMPqcNmJaEmIArwxzvnuPI7H1Ob.jpg",
+   "runtime": 142,
+   "director": "Andrej Zvjagincev",
+   "year": 2026,
+   "overview": "Russia, 2022. Quando Gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della sua vita ordinata precipita verso la violenza.",
+   "genres": [
+    "Dramma",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": [
+    "Дмитрий Мазуров",
+    "Ирис Лебедева",
+    "Варвара Шмыкова",
+    "Juris Žagars",
+    "Анатолий Белый",
+    "ולדימיר פרידמן"
+   ],
+   "original_title": "Minotaure",
+   "release_date": "2026-10-14"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 18870 (2006): nessun riscontro e uscita 2006 non recente; TMDB scartato id 70811 (1994): titolo diverso (somiglianza 0.45: 'Hercules nel labirinto del Minotauro' / 'Hercules in the Maze of the Minotaur'); TMDB scartato id 921253 (2022): titolo diverso (somiglianza 0.62: 'Icare' / 'Icare'); TMDB scartato id 142282 (1960): nessun riscontro e uscita 1960 non recente",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-25"
+ },
+ "don t bother to knock": {
+  "title": "DON’T BOTHER TO KNOCK",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 24005,
+   "title": "La tua bocca brucia",
+   "url": "https://www.themoviedb.org/movie/24005?language=it-IT",
+   "poster_path": "/f7zjYjm74ELStlcTI7sI88jmMqV.jpg",
+   "runtime": 76,
+   "director": "Roy Ward Baker",
+   "year": 1952,
+   "overview": "Un pilota di linea, Jed, viene abbandonato dalla fidanzata, la cantante Lyn, la quale lo accusa di essere cinico. Dalla stanza di albergo nella quale alloggia intravede nell'appartamento di fronte un'avvenente baby sitter che desta la sua curiosità. Decide di telefonarle e di andarle a fare visita nella sua camera. Una volta conosciuta, Jed scopre che Nell è la baby-sitter della piccola Bunny, anche lei ospite dell'hotel insieme ai suoi genitori. Nell è molto attratta da Jed, che le ricorda il fidanzato morto in un incidente. Ben presto, però, Nell inizia ad avere dei comportamenti bizzarri e Jed viene a conoscere la verità sul conto di lei: la ragazza, nipote di un impiegato dell'albergo, E",
+   "genres": [
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Richard Widmark",
+    "Marilyn Monroe",
+    "Anne Bancroft",
+    "Donna Corcoran",
+    "Jeanne Cagney",
+    "Lurene Tuttle"
+   ],
+   "original_title": "Don't Bother to Knock",
+   "release_date": "1952-07-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema",
+  "ref": {
+   "regia": "La tua bocca brucia, Roy Ward Baker",
+   "anno": 1952
+  },
+  "checked": "2026-11-25"
+ },
+ "gentlemen prefer blondes": {
+  "title": "GENTLEMEN PREFER BLONDES",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 759,
+   "title": "Gli uomini preferiscono le bionde",
+   "url": "https://www.themoviedb.org/movie/759?language=it-IT",
+   "poster_path": "/fnjSIY0RXudqb9VR9qemXhMaE3u.jpg",
+   "runtime": 91,
+   "director": "Howard Hawks",
+   "year": 1953,
+   "overview": "Due ballerine americane - la bionda Lorelei e la bruna Dorothy s'imbarcano su una nave diretta in Francia, la prima per farsi sposare dal figlio di un miliardario, la seconda per motivi professionali.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Jane Russell",
+    "Marilyn Monroe",
+    "Charles Coburn",
+    "Elliott Reid",
+    "Tommy Noonan",
+    "George Winslow"
+   ],
+   "original_title": "Gentlemen Prefer Blondes",
+   "release_date": "1953-07-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Gli uomini preferiscono le bionde, Howard Hawks",
+   "anno": 1953
+  },
+  "checked": "2026-11-25"
+ },
+ "heil jupiter": {
+  "title": "HEIL JUPITER!",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1153093,
+   "title": "Estela de sombra",
+   "url": "https://www.themoviedb.org/movie/1153093?language=it-IT",
+   "poster_path": "/oYxBJuatx5pJPmbmNOQPiC5Gdrm.jpg",
+   "runtime": 158,
+   "director": "Carlos Reygadas",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Fantasy"
+   ],
+   "cast": [
+    "Neli de la Rosa",
+    "Alexis Sánchez Alonso",
+    "Flor de León",
+    "Alexis Said Villa de León",
+    "Morgan Krantz",
+    "Monica Calle"
+   ],
+   "original_title": "Estela de sombra",
+   "release_date": "2026-09-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Carlos Reygadas",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "la u di svanire": {
+  "title": "LA U DI SVANIRE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1817949,
+   "title": "La U di Svanire",
+   "url": "https://www.themoviedb.org/movie/1817949?language=it-IT",
+   "poster_path": "/zQaGFPbeEmSXyAzm3XqsmUe9S57.jpg",
+   "runtime": 110,
+   "director": "Augusto Contento",
+   "year": 2026,
+   "overview": "La terza parte della trilogia sulla storia contemporanea del regista Augusto Contento, dopo Viaggio nel Crepuscolo e Strade nella Malerba. Attraverso animazione, ricostruzioni fittizie, elementi documentaristici e interviste a personalità del mondo della cultura internazionale, la protagonista, Neva, rivive interiormente il suo passato, che l'ha portata dalla sua città natale, Kiev, passando per la Siberia e l'esperienza nel gulag, fino alla turbolenta Bologna degli anni Settanta e all'Oregon, dove, sulle rive dell'oceano, riflette in un lungo flashback sulla sua epica storia e su quella degli ideali del sistema sovietico, traditi dalla sete di potere imperialista in un mondo che sembra ripr",
+   "genres": [],
+   "cast": [],
+   "original_title": "S for Vanishing",
+   "release_date": "2026-11-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Augusto Contento",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "moscas": {
+  "title": "MOSCAS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1437703,
+   "title": "Moscas",
+   "url": "https://www.themoviedb.org/movie/1437703?language=it-IT",
+   "poster_path": "/zBwSaw3sEwqH9vSijiPbUdbHNQz.jpg",
+   "runtime": 101,
+   "director": "Fernando Eimbcke",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "Bastián Escobar",
+    "Teresa Sánchez",
+    "Hugo Ramirez",
+    "Enrique Arreola",
+    "Liam Rivera",
+    "Evelyn Velazquez"
+   ],
+   "original_title": "Moscas",
+   "release_date": "2026-07-01"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1716389 (2026): regista Bernardo Cantuaria != 'Fernando Eimbcke'",
+  "ref": {
+   "regia": "Fernando Eimbcke",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "a long winter": {
+  "title": "A LONG WINTER",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1534221,
+   "title": "A Long Winter",
+   "url": "https://www.themoviedb.org/movie/1534221?language=it-IT",
+   "poster_path": "/wj4CICdz6ikL37KzFG3D5MNk4LC.jpg",
+   "runtime": 119,
+   "director": "Andrew Haigh",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Fred Hechinger",
+    "Ebon Moss-Bachrach",
+    "Caitríona Balfe",
+    "Kit Connor",
+    "D'Pharaoh Woon-A-Tai",
+    "David Furr"
+   ],
+   "original_title": "A Long Winter",
+   "release_date": "2026-12-04"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Andrew Haigh",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "alice nel paese dei coloni": {
+  "title": "ALICE NEL PAESE DEI COLONI",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": "Yanis Mhamdi",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "radio praga le onde della liberta": {
+  "title": "RADIO PRAGA – LE ONDE DELLA LIBERTA’",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1251621 (2024): anno 2024 != 2026",
+  "ref": {
+   "regia": "Jirí Mádl",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "les clochettes de kaboul": {
+  "title": "LES CLOCHETTES DE KABOUL",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1000848,
+   "title": "Les Clochettes de Kaboul",
+   "url": "https://www.themoviedb.org/movie/1000848?language=it-IT",
+   "poster_path": "/jUFJb3s0jihskScT8W04pims7Dy.jpg",
+   "runtime": 83,
+   "director": "Chabname Zariab",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Azione"
+   ],
+   "cast": [
+    "Golshifteh Farahani",
+    "Rohed Khan",
+    "Sayed Hashimi",
+    "Azizullah Hamrah",
+    "Zobair Padash",
+    "فروزان جمشیدنژاد"
+   ],
+   "original_title": "Les Clochettes de Kaboul",
+   "release_date": "2026-11-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Chabname Zariab",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "il caso marie claire": {
+  "title": "IL CASO MARIE-CLAIRE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film",
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-25"
  }
 }

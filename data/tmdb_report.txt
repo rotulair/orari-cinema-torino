@@ -1,9 +1,7 @@
-Report TMDB del 2026-11-25: 159 film con dati TMDB, 32 senza.
+Report TMDB del 2026-11-25: 166 film con dati TMDB, 26 senza.
 
-- A LONG WINTER  [regia dichiarata: Andrew Haigh; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - ALICE NEL PAESE DEI COLONI  [regia dichiarata: Yanis Mhamdi; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - AMOOSED: A MOOSE ODYSSEY  [regia dichiarata: Hana Nováková; anno: 2026; Wikipedia: no]
     motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
@@ -12,21 +10,17 @@ Report TMDB del 2026-11-25: 159 film con dati TMDB, 32 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - DIAMOND  [regia dichiarata: Andy Garcia; anno: 2026; Wikipedia: no]
     motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
-- DON’T BOTHER TO KNOCK  [regia dichiarata: La tua bocca brucia, Roy Ward Baker; anno: 1952; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Doraemon  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 682153 (2020): titolo diverso (somiglianza 0.42: 'Doraemon: Il film - Nobita e il nuovo dinosauro' / '映画ドラえもん のび太の新恐竜'); TMDB scartato id 86184 (2010): titolo diverso (somiglianza 0.50: 'Doraemon: Nobita no ningyo taikaisen' / '映画ドラえもん のび太の人魚大海戦'); TMDB scartato id 52795 (2007): titolo diverso (somiglianza 0.52: 'Doraemon: Nobita no shin makai daibōken' / '映画ドラえもん のび太の新魔界大冒険 〜7人の魔法使い〜'); TMDB scartato id 265712 (2014): nessun riscontro e uscita 2014 non recente; TMDB scartato id 70841 (2006): titolo diverso (somiglianza 0.48: 'Doraemon: Il film - Il dinosauro di Nobita' / '映画ドラえもん のび太の恐竜2006')
-- GENTLEMEN PREFER BLONDES  [regia dichiarata: Gli uomini preferiscono le bionde, Howard Hawks; anno: 1953; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Gojira  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1669088 (None): titolo diverso (somiglianza 0.48: 'Gojira: sur la route' / 'Gojira: sur la route'); TMDB scartato id 596411 (2017): titolo diverso (somiglianza 0.32: 'Gojira: Bloodstock Open Air 2016' / 'Gojira: Bloodstock Open Air 2016'); TMDB scartato id 706969 (2020): titolo diverso (somiglianza 0.40: 'Gojira - Live at Red Rocks' / 'Gojira - Live at Red Rocks'); TMDB scartato id 131669 (2012): titolo diverso (somiglianza 0.43: 'Gojira: The Flesh Alive' / 'Gojira: The Flesh Alive'); TMDB scartato id 782939 (2020): titolo diverso (somiglianza 0.34: 'Gojira: Live At Red Rocks 2017' / 'Gojira: Live At Red Rocks 2017')
 - HEAT  [regia dichiarata: Jacqueline Zünd; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 949 (1995): anno 1995 != 2026; TMDB scartato id 265208 (2015): anno 2015 != 2026; TMDB scartato id 9604 (1988): titolo diverso (somiglianza 0.67: 'Danko' / 'Red Heat'); TMDB scartato id 1015963 (2022): titolo diverso (somiglianza 0.62: 'High Heat - Fuoco mortale' / 'High Heat'); TMDB scartato id 26030 (1956): titolo diverso (somiglianza 0.57: 'Bob il giocatore' / 'Bob le flambeur')
-- HEIL JUPITER!  [regia dichiarata: Carlos Reygadas; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - HEYSEL 85  [regia dichiarata: Teodora Ana Mihai; anno: 2026; Wikipedia: no]
     motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - I CORTI DEL POLI  [regia dichiarata: -; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- IL CASO MARIE-CLAIRE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
@@ -36,14 +30,8 @@ Report TMDB del 2026-11-25: 159 film con dati TMDB, 32 senza.
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
 - LA FURIA  [regia dichiarata: Gemma Blasco; anno: 2025; Wikipedia: no]
     motivo: wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 389 (1957): titolo diverso (somiglianza 0.40: 'La parola ai giurati' / '12 Angry Men'); TMDB scartato id 76341 (2015): titolo diverso (somiglianza 0.36: 'Mad Max: Fury Road' / 'Mad Max: Fury Road'); TMDB scartato id 637649 (2021): titolo diverso (somiglianza 0.48: 'La furia di un uomo - Wrath of Man' / 'Wrath of Man'); TMDB scartato id 580489 (2021): titolo diverso (somiglianza 0.33: 'Venom - La furia di Carnage' / 'Venom: Let There Be Carnage'); TMDB scartato id 594767 (2023): titolo diverso (somiglianza 0.42: 'Shazam! Furia degli dei' / 'Shazam! Fury of the Gods')
-- LA U DI SVANIRE  [regia dichiarata: Augusto Contento; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - LADIES OF THE CHORUS  [regia dichiarata: Orchidea bionda, Phil Carlson; anno: 1948; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 39949 (1948): regista Phil Karlson != 'Orchidea bionda, Phil Carlson'
-- LES CLOCHETTES DE KABOUL  [regia dichiarata: Chabname Zariab; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
-- MOSCAS  [regia dichiarata: Fernando Eimbcke; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Novecento Atto II  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - PARADISE  [regia dichiarata: Jérémy Comte; anno: 2026; Wikipedia: no]
@@ -51,7 +39,7 @@ Report TMDB del 2026-11-25: 159 film con dati TMDB, 32 senza.
 - Prima visione  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 137051 (1989): titolo diverso (somiglianza 0.67: 'Prima visione con la morte' / 'Midnight Matinee')
 - RADIO PRAGA – LE ONDE DELLA LIBERTA’  [regia dichiarata: Jirí Mádl; anno: 2026; Wikipedia: no]
-    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1251621 (2024): anno 2024 != 2026
 - Ragazzi al cinema  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Scooby Doo e la leggenda del Fantosauro  [regia dichiarata: -; anno: -; Wikipedia: no]
