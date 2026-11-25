@@ -15,12 +15,12 @@
    ambra = selezionato / azione principale · menta = prossimo spettacolo · azzurro = link · il resto è neutro */
 :root{
   --bg:#12161b; --surface:#1a2028; --raised:#252d38; --line:#2c3541; --ink:#e9eef3; --mute:#8896a5;
-  --amber:#ffab2e; --amber-ink:#1c1200; --mint:#3ddc84; --sky:#58b7ff;
+  --amber:#ffab2e; --fest:#ff5c93; --amber-ink:#1c1200; --mint:#3ddc84; --sky:#58b7ff;
   --warn-bg:#3a2f10; --warn-ink:#ffd37a; --r:16px;
 }
 @media (prefers-color-scheme:light){
   :root{--bg:#f1f3f5; --surface:#ffffff; --raised:#eceff3; --line:#dde2e8; --ink:#14181c; --mute:#5d6b79;
-  --amber:#e07b00; --amber-ink:#ffffff; --mint:#08904a; --sky:#1565c0; --warn-bg:#fff4d6; --warn-ink:#6a4b00}
+  --amber:#e07b00; --fest:#c2185b; --amber-ink:#ffffff; --mint:#08904a; --sky:#1565c0; --warn-bg:#fff4d6; --warn-ink:#6a4b00}
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%}
@@ -164,6 +164,10 @@ select.zone:focus{outline:2px solid var(--amber)}
 .addr{display:block;font-size:13px;font-weight:400;color:var(--mute);letter-spacing:0;margin-top:1px;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--mute) 45%,transparent);text-underline-offset:3px}
 .times{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .t{background:var(--raised);border-radius:9px;padding:6px 11px;font-size:15px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;border:2px solid transparent}
+.t.fest{border-color:color-mix(in srgb,var(--fest) 65%,transparent)}
+.t.fest.next{border-color:var(--mint)}
+.tff{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.05em;line-height:1;color:#fff;background:var(--fest);border-radius:4px;padding:2px 4px;margin-left:5px;vertical-align:2px;font-style:normal}
+h2 .tff{font-size:11px;padding:3px 6px;margin-left:8px;vertical-align:3px}
 .t.past{color:var(--mute);text-decoration:line-through;font-weight:500;opacity:.55}
 .t.next{border-color:var(--mint);color:var(--mint);background:transparent}
 .t sup{font-size:9px;font-weight:800;margin-left:3px;color:var(--mute)}
@@ -511,10 +515,13 @@ function timePills(list, now, isToday){
     if(isPast) cls += " past";
     else if(isToday && !nextMarked){ cls += " next"; nextMarked = true; }
     const vo = s.tag==="VO" ? "<sup>VO</sup>" : "";
+    if(s.fest) cls += " fest";
+    const ff = s.fest ? `<b class="tff">TFF</b>` : "";
+    const tip = s.fest ? ` title="${esc("Torino Film Festival"+(s.sez?" · "+s.sez:"")+(s.nota?" · "+s.nota:""))}"` : "";
     const hallTxt = s.hall || (s.tag && s.tag!=="VO" ? s.tag : "");
     const extra = hallTxt ? `<i>${esc(hallTxt)}</i>` : "";
     const room = s.room ? `<i title="Sala ${esc(s.room)}">S${esc(s.room)}</i>` : "";
-    return `<span class="${cls}">${s.time}${vo}${room}${extra}</span>`;
+    return `<span class="${cls}"${tip}>${s.time}${ff}${vo}${room}${extra}</span>`;
   }).join("");
 }
 
@@ -529,7 +536,7 @@ function previewHtml(byCinema, cmap, now, isToday){
   const pills = shown.map((x,n)=>{
     const c = cmap[x.cid] || {name:x.cid};
     const isNext = isToday && !state.zone && n===0 && effMin(x.s.time) >= now.min - 10;
-    return `<span class="pp${isNext?" next":""}"><b>${x.s.time}</b>${x.s.tag==="VO"?"<sup>VO</sup>":""}<em>${esc(shortName(c.name))}</em></span>`;
+    return `<span class="pp${isNext?" next":""}"><b>${x.s.time}</b>${x.s.fest?'<span class="tff">TFF</span>':""}${x.s.tag==="VO"?"<sup>VO</sup>":""}<em>${esc(shortName(c.name))}</em></span>`;
   }).join("");
   const rest = items.length - shown.length, nc = byCinema.size;
   const txt = (rest>0 ? `+${rest} orari · ` : "") + `${nc} ${nc===1?"cinema":"cinema"}`;
@@ -623,6 +630,7 @@ function render(){
   const sources = [...new Set(d.cinemas.map(c=>c.status.source).filter(Boolean))];
   const hasTmdb = Object.values(FILMS).some(f=>f && f.tmdb);
   $("foot").innerHTML = `Fonti: ${esc(sources.join(", ")||"—")}. Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.`
+    + (d.showtimes.some(s=>s.fest) ? `<br><span class="tff">TFF</span> proiezioni del Torino Film Festival, dal programma ufficiale: possono subire variazioni.` : "")
     + `<br>Creato da ${REPO_URL ? `<a href="${esc(REPO_URL)}" target="_blank" rel="noopener">rotulair</a> · <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">codice su GitHub</a>` : "rotulair"}`
     + (hasTmdb ? `<br>Locandine, durate e registi: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> e Wikipedia. This product uses the TMDB API but is not endorsed or certified by TMDB.` : "");
   if(state.anim){ const o=$("out"); o.classList.remove("sl","sr"); void o.offsetWidth; o.classList.add(state.anim==="l"?"sl":"sr"); state.anim=""; }
@@ -681,7 +689,7 @@ function renderFilms(rows, cmap, now, isToday, all, today){
     const dir = regia ? `<div class="dir"><span class="lab">REGIA</span><b>${esc(regia)}</b></div>` : "";
     const meta = [i.runtime ? `${i.runtime}\u00a0min` : "", i.genres.slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · "); const metaH = meta ? `<div class="meta">${meta}</div>` : "";
     return `<details class="card${xOpen.has(k)?" xo":""}" data-k="f:${esc(k)}"${isOpen("f:"+k)}><summary class="fh">${posterHtml(f.title,i)}`
-      + `<div class="fm"><h2>${esc(i.title||f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}</h2>${dir}${metaH}</div>${plotHtml(i, xOpen.has(k))}${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
+      + `<div class="fm"><h2>${esc(i.title||f.title)}${year?`<span class="yr">${esc(year)}</span>`:""}${[...perDay.values()].some(a=>a.some(s=>s.fest))?`<span class="tff" title="Proiezioni del Torino Film Festival">TFF</span>`:""}</h2>${dir}${metaH}</div>${plotHtml(i, xOpen.has(k))}${previewHtml(f.byCinema,cmap,now,isToday)}</summary>`
       + `${infoTop(i,f.title)}${infoBottom(i)}${dbar}${rowsHtml}</details>`;
   }).join("");
 }
