@@ -3892,5 +3892,1710 @@
    "anno": null
   },
   "checked": "2026-11-24"
+ },
+ "die bleierne zeit": {
+  "title": "DIE BLEIERNE ZEIT",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 42142,
+   "title": "Anni di piombo",
+   "url": "https://www.themoviedb.org/movie/42142?language=it-IT",
+   "poster_path": "/dilqrWubidL7cHAeWG4Q2BYOjUZ.jpg",
+   "runtime": 106,
+   "director": "Margarethe von Trotta",
+   "year": 1981,
+   "overview": "Il difficile rapporto tra due sorelle, Juliane e Marianne, data dalla loro adolescenza. Una è giornalista, l'altra è in un carcere di massima sicurezza perché terrorista. Le rispettive scelte hanno radici lontane e mescolano questioni private (il rapporto con la famiglia e il severo padre, un pastore protestante) e pubbliche (il passato nazista della Germania). Alla notizia del suicidio in carcere della sorella, la cronista non si accontenta della versione ufficiale, ma la prova dell'omicidio politico non interessa più un'opinione pubblica distratta e desiderosa solo di dimenticare.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Jutta Lampe",
+    "Barbara Sukowa",
+    "Ina Robinski",
+    "Julia Biedermann",
+    "Rüdiger Vogler",
+    "Doris Schade"
+   ],
+   "original_title": "Die bleierne Zeit",
+   "release_date": "1981-09-04"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Anni di piombo, Margarethe von Trotta",
+   "anno": 1981
+  },
+  "checked": "2026-11-25"
+ },
+ "good people": {
+  "title": "GOOD PEOPLE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1736470,
+   "title": "Добри луѓе",
+   "url": "https://www.themoviedb.org/movie/1736470?language=it-IT",
+   "poster_path": "/we8rCgkKRBWMI6PT7c6rV6ZFciA.jpg",
+   "runtime": 86,
+   "director": "Milcho Manchevski",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Добри луѓе",
+   "release_date": "2026-08-26"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema",
+  "ref": {
+   "regia": "Milcho Manchevski",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "krux": {
+  "title": "KRUX",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1653830,
+   "title": "Krux",
+   "url": "https://www.themoviedb.org/movie/1653830?language=it-IT",
+   "poster_path": "/xtvXm2vX3VIW8u3j8bImZJOp4ir.jpg",
+   "runtime": 92,
+   "director": "Ulrike Vahl",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Storia",
+    "Guerra"
+   ],
+   "cast": [
+    "Jella Haase",
+    "Frida Lovisa Hamann",
+    "Clemens Schick",
+    "Lukas Miko",
+    "Martin Wuttke",
+    "Steffi Kühnert"
+   ],
+   "original_title": "Krux",
+   "release_date": "2027-02-04"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Tony Vahl",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "la rabbia": {
+  "title": "LA RABBIA",
+  "url": "https://it.wikipedia.org/wiki/La_rabbia_(film_1963)",
+  "poster": null,
+  "director": "Pier Paolo Pasolini e Giovannino Guareschi",
+  "tmdb": {
+   "id": 49152,
+   "title": "La rabbia",
+   "url": "https://www.themoviedb.org/movie/49152?language=it-IT",
+   "poster_path": "/thP95HJ5eOx0HrZ5jXhDUpqLaA5.jpg",
+   "runtime": 101,
+   "director": "Pier Paolo Pasolini, Giovannino Guareschi",
+   "year": 1963,
+   "overview": "Partendo da posizioni del tutto divergenti,  Pasolini e Guareschi tentano di dare risposta, attraverso un film di montaggio, a uno dei quesiti più importanti sull'esistenza umana: perché le nostre vite sono segnate dal malcontento e dalla paura? Sia Pasolini che Guareschi rispondono commentando soggettivamente documenti cinematografici e fotografici del dopoguerra, come gli episodi dell'intervento sovietico in Ungheria, l'assassinio di Lumumba, indipendenza del Tanganika, l'attacco israeliano in Egitto, l'ascesa al potere di Castro a Cuba, Ava Gardner a Roma e Sophia Loren nel Polesine, l'inoronazione della regina Elisabetta d'Inghilterr, l'elezione di Eisenhower, De Gaulle al potere, l'indi",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Giorgio Bassani",
+    "Renato Guttuso",
+    "Gigi Artuso",
+    "Carlo Romano",
+    "Charles de Gaulle",
+    "Dwight D. Eisenhower"
+   ],
+   "original_title": "La rabbia",
+   "release_date": "1963-04-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Pier Paolo Pasolini, Giovanni Guareschi",
+   "anno": 1963
+  },
+  "checked": "2026-11-25"
+ },
+ "propeller one way night coach": {
+  "title": "PROPELLER: ONE-WAY NIGHT COACH",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1662414,
+   "title": "Volo notturno per Los Angeles",
+   "url": "https://www.themoviedb.org/movie/1662414?language=it-IT",
+   "poster_path": "/vAHBciNtxN3l4sPob8n0BHXnvQr.jpg",
+   "runtime": 62,
+   "director": "John Travolta",
+   "year": 2026,
+   "overview": "Durante l’età d’oro dell’aviazione, un giovane appassionato di aerei e sua madre attraversano il Paese per raggiungere Hollywood. Il loro semplice volo si trasforma in un viaggio indimenticabile.",
+   "genres": [
+    "Avventura",
+    "Dramma",
+    "Famiglia"
+   ],
+   "cast": [
+    "Clark Shotwell",
+    "Kelly Eviston-Quinnett",
+    "Ella Bleu Travolta",
+    "Olga Hoffmann",
+    "Charlie Berger",
+    "Margaret Travolta"
+   ],
+   "original_title": "Propeller One-Way Night Coach",
+   "release_date": "2026-05-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "John Travolta",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "some like it hot": {
+  "title": "SOME LIKE IT HOT",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 239,
+   "title": "A qualcuno piace caldo",
+   "url": "https://www.themoviedb.org/movie/239?language=it-IT",
+   "poster_path": "/7zJgYmByjb9R3Gmi1HaK7OUhrCu.jpg",
+   "runtime": 120,
+   "director": "Billy Wilder",
+   "year": 1959,
+   "overview": "Joe e Jerry, due musicisti assistono per errore al massacro del giorno di San Valentino, a Chicago, nel 1929 e sono costretti a scappare. Per nascondersi si inseriscono un una piccola orchestra tutta femminile, fingendosi donne. Ma per per \"Josephine\" e \"Daphne\" sarà l'inizio di una lunga serie di equivoci...",
+   "genres": [
+    "Commedia",
+    "Romance",
+    "Crime"
+   ],
+   "cast": [
+    "Tony Curtis",
+    "Jack Lemmon",
+    "Marilyn Monroe",
+    "George Raft",
+    "Pat O'Brien",
+    "Joe E. Brown"
+   ],
+   "original_title": "Some Like It Hot",
+   "release_date": "1959-03-19"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "A qualcuno piace caldo, Billy Wilder",
+   "anno": 1959
+  },
+  "checked": "2026-11-25"
+ },
+ "the asphalt jungle": {
+  "title": "THE ASPHALT JUNGLE",
+  "url": "https://it.wikipedia.org/wiki/The_Asphalt_Jungle",
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 16958,
+   "title": "Giungla d'asfalto",
+   "url": "https://www.themoviedb.org/movie/16958?language=it-IT",
+   "poster_path": "/6VqW7uZVveTgkyPdY3EMuB2Ksid.jpg",
+   "runtime": 113,
+   "director": "John Huston",
+   "year": 1950,
+   "overview": "Durante la permanenza in carcere Doc ha studiato un piano infallibile per rubare una partita di gioielli. Quando esce si prepara a eseguirlo. Alonzo Emmerich, un avvocato di pochi scrupoli, accetta di aiutarlo procurandogli i soldi necessari, ottenendoli in prestito dallo strozzino Cobby. Il colpo riesce, anche se uno dei componenti della banda viene ucciso. Poi però le cose precipitano: tra scontri interni durante la divisione del bottino e intervento della polizia, la banda si sgretola.",
+   "genres": [
+    "Crime",
+    "Dramma"
+   ],
+   "cast": [
+    "Sterling Hayden",
+    "Louis Calhern",
+    "Jean Hagen",
+    "James Whitmore",
+    "Sam Jaffe",
+    "John McIntire"
+   ],
+   "original_title": "The Asphalt Jungle",
+   "release_date": "1950-05-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Giungla d’asfalto, John Huston",
+   "anno": 1950
+  },
+  "checked": "2026-11-25"
+ },
+ "the misfits": {
+  "title": "THE MISFITS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 11536,
+   "title": "Gli spostati",
+   "url": "https://www.themoviedb.org/movie/11536?language=it-IT",
+   "poster_path": "/kgFRSwrOUJkVz6CP0QJnJ07j32G.jpg",
+   "runtime": 125,
+   "director": "John Huston",
+   "year": 1961,
+   "overview": "Roslyn è a Reno per divorziare. Perce, Guido e Gay invece a Reno ci vivono, catturando cavalli selvaggi e partecipando a rodei. Tutti e tre sono attratti dalla bella Roslyn. Durante una caccia ai mustang, Perce si fa male e Roslyn ne è sconvolta: quel mondo duro e violento le fa vedere sotto un diverso aspetto Gay. Così quando Guido e Gay partecipano ad una nuova caccia a un branco di cavalli selvaggi, aiutata da Perce, la donna libera l'animale che i due hanno con tanta fatica catturato. Gay allora lo ricattura, per liberarlo però a sua volta, in omaggio a Roslyn...",
+   "genres": [
+    "Dramma",
+    "Romance",
+    "Western"
+   ],
+   "cast": [
+    "Clark Gable",
+    "Marilyn Monroe",
+    "Montgomery Clift",
+    "Thelma Ritter",
+    "Eli Wallach",
+    "James Barton"
+   ],
+   "original_title": "The Misfits",
+   "release_date": "1961-02-01"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema",
+  "ref": {
+   "regia": "Gli spostati, John Huston",
+   "anno": 1961
+  },
+  "checked": "2026-11-25"
+ },
+ "dream of another summer": {
+  "title": "DREAM OF ANOTHER SUMMER",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1635420,
+   "title": "Dream of Another Summer",
+   "url": "https://www.themoviedb.org/movie/1635420?language=it-IT",
+   "poster_path": "/mmVLZJ8IgBRfZuI899adNhVwa3o.jpg",
+   "runtime": 70,
+   "director": "Irene Bartolome",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Dream of Another Summer",
+   "release_date": "2026-03-12"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Irene Bartolomé",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "heat": {
+  "title": "HEAT",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": null,
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 949 (1995): anno 1995 != 2026; TMDB scartato id 265208 (2015): anno 2015 != 2026; TMDB scartato id 9604 (1988): titolo diverso (somiglianza 0.67: 'Danko' / 'Red Heat'); TMDB scartato id 1015963 (2022): titolo diverso (somiglianza 0.62: 'High Heat - Fuoco mortale' / 'High Heat'); TMDB scartato id 26030 (1956): titolo diverso (somiglianza 0.57: 'Bob il giocatore' / 'Bob le flambeur')",
+  "ref": {
+   "regia": "Jacqueline Zünd",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "if luck will come": {
+  "title": "IF LUCK WILL COME",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1635445,
+   "title": "If Luck Will Come",
+   "url": "https://www.themoviedb.org/movie/1635445?language=it-IT",
+   "poster_path": "/4fuceopPcE7g6TgerVrlQGSynlo.jpg",
+   "runtime": 85,
+   "director": "Camille Bildsøe",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "If Luck Will Come",
+   "release_date": "2026-03-11"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Camille Bildsøe",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the end of it": {
+  "title": "THE END OF IT",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1476532,
+   "title": "The End of It",
+   "url": "https://www.themoviedb.org/movie/1476532?language=it-IT",
+   "poster_path": "/4bqOzG5whbPO2ekS2DwPIEr2a87.jpg",
+   "runtime": 102,
+   "director": "Maria Martinez Bayona",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Fantascienza"
+   ],
+   "cast": [
+    "Rebecca Hall",
+    "Noomi Rapace",
+    "Gael García Bernal",
+    "Beanie Feldstein",
+    "David Verdaguer",
+    "Susan Wokoma"
+   ],
+   "original_title": "The End of It",
+   "release_date": "2026-05-21"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1439169 (2026): titolo diverso (somiglianza 0.32: 'Don't They Know It's the End of the World?' / 'Don't They Know It's the End of the World?'); TMDB scartato id 1461329 (2026): titolo diverso (somiglianza 0.39: 'It's Always the End of the World' / 'It's Always the End of the World')",
+  "ref": {
+   "regia": "Maria Martinez Bayona",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "12 years a slave": {
+  "title": "12 YEARS A SLAVE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 76203,
+   "title": "12 anni schiavo",
+   "url": "https://www.themoviedb.org/movie/76203?language=it-IT",
+   "poster_path": "/8ppARMwWA8VOHuNbZWCp1lMNRYk.jpg",
+   "runtime": 134,
+   "director": "Steve McQueen",
+   "year": 2013,
+   "overview": "Il film è basato sull'autobiografia del 1853 di Solomon Northup, un uomo di colore libero che è stato costretto alla schiavitù. L'uomo, istruito, sposato e cittadino di New York, venne attirato a Washington con una offerta di lavoro, per poi essere rapito e ridotto in schiavitù per anni sotto vari padroni. Tornò libero quando un carpentiere canadese e anti-schiavista riuscì a ottenere, assieme alla moglie di Northup, la sua liberazione.",
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Chiwetel Ejiofor",
+    "Michael Fassbender",
+    "Lupita Nyong'o",
+    "Benedict Cumberbatch",
+    "Paul Dano",
+    "Sarah Paulson"
+   ],
+   "original_title": "12 Years a Slave",
+   "release_date": "2013-10-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "12 anni schiavo, Steve McQueen",
+   "anno": 2013
+  },
+  "checked": "2026-11-25"
+ },
+ "butterfly": {
+  "title": "BUTTERFLY",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1261032,
+   "title": "Butterfly",
+   "url": "https://www.themoviedb.org/movie/1261032?language=it-IT",
+   "poster_path": "/eV8uf3zgtrsyy0ffdg0R93WEkfj.jpg",
+   "runtime": 117,
+   "director": "Itonje Søimer Guttormsen",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia",
+    "Dramma"
+   ],
+   "cast": [
+    "Renate Reinsve",
+    "Helene Bjørneby",
+    "Lillian Müller",
+    "Numan Acar",
+    "Zuleica Gabas",
+    "Julia Weden"
+   ],
+   "original_title": "Butterfly",
+   "release_date": "2026-09-25"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1954 (2004): titolo diverso (somiglianza 0.72: 'The Butterfly Effect' / 'The Butterfly Effect'); TMDB scartato id 1654313 (2026): titolo diverso (somiglianza 0.62: 'Unanswered//butterfly' / 'Unanswered//butterfly'); TMDB scartato id 8426 (1996): titolo diverso (somiglianza 0.60: 'スワロウテイル' / 'スワロウテイル'); TMDB scartato id 920647 (2026): titolo diverso (somiglianza 0.82: 'Butterfly Jam' / 'Butterfly Jam')",
+  "ref": {
+   "regia": "Itonje Søimer Guttormsen",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "rondolino docet": {
+  "title": "RONDOLINO DOCET",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818583,
+   "title": "Rondolino Docet",
+   "url": "https://www.themoviedb.org/movie/1818583?language=it-IT",
+   "poster_path": "/9IYE81ViFWgEVVswHQuc0qXFY8Y.jpg",
+   "runtime": 62,
+   "director": "Mimmo Calopresti",
+   "year": 2026,
+   "overview": "Calopresti compone, tra testimonianze, immagini d’archivio, filmati di famiglia, musica e ricordi, un ritratto corale che si concede il gusto delle deviazioni: dai cineclub all’università, dalla musica punk alle grandi passioni cinematografiche, e poi le amicizie e i ricordi più intimi. Seguendo le tracce lasciate nei luoghi, nei libri e nella memoria di chi lo ha conosciuto, il documentario cerca anche l’uomo dietro il professore.",
+   "genres": [],
+   "cast": [],
+   "original_title": "Rondolino Docet",
+   "release_date": "2026-11-26"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Mimmo Calopresti",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "thirteen in gaza": {
+  "title": "THIRTEEN IN GAZA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1744009,
+   "title": "غزة 13",
+   "url": "https://www.themoviedb.org/movie/1744009?language=it-IT",
+   "poster_path": "/5YaPI7KPiPlNhc3liS7REJJfdwE.jpg",
+   "runtime": 77,
+   "director": "Hosam Abu Dan",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Guerra",
+    "Dramma"
+   ],
+   "cast": [
+    "Mary Ziyara",
+    "Feras Al Masri",
+    "Ghassan Salem",
+    "Nawaf Abu Amra"
+   ],
+   "original_title": "غزة 13",
+   "release_date": "2026-09-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Hosam Abu Dan",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "dirty pretty things": {
+  "title": "DIRTY PRETTY THINGS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 3472,
+   "title": "Piccoli affari sporchi",
+   "url": "https://www.themoviedb.org/movie/3472?language=it-IT",
+   "poster_path": "/dzitAMTO5o4oMMfYhrnE75W3j11.jpg",
+   "runtime": 107,
+   "director": "Stephen Frears",
+   "year": 2002,
+   "overview": "Okwe è un immigrato clandestino dall'Africa a Londra. Lavora di giorno come taxista e di notte come portiere in un hotel. Quando scopre in una camera un cuore umano per lui le cose cambiano. Si trova così ad indagare e a scoprire un traffico di organi umani. Stephen Frears sembra fare film a corrente alternata: uno interessante e uno molto meno a turno. Questa volta la corrente alternata scorre all'interno di un'unica opera. Infatti alla prima parte che mescola noir e film di denuncia fa seguito una seconda melò e potenzialmente strappalacrime che ha scarse relazioni con la prima.",
+   "genres": [
+    "Crime",
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Audrey Tautou",
+    "Chiwetel Ejiofor",
+    "Sergi López",
+    "Benedict Wong",
+    "Sophie Okonedo",
+    "Zlatko Burić"
+   ],
+   "original_title": "Dirty Pretty Things",
+   "release_date": "2002-09-05"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Piccoli affari sporchi, Stephen Frears",
+   "anno": 2002
+  },
+  "checked": "2026-11-25"
+ },
+ "dogman": {
+  "title": "DOGMAN",
+  "url": "https://it.wikipedia.org/wiki/Dogman_(film_2023)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Dogman_Besson_trailer.png/250px-Dogman_Besson_trailer.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Luc Besson",
+  "tmdb": {
+   "id": 944401,
+   "title": "Dogman",
+   "url": "https://www.themoviedb.org/movie/944401?language=it-IT",
+   "poster_path": "/vL7hKTCHUuysN9kNeOBpmEysVkT.jpg",
+   "runtime": 113,
+   "director": "Luc Besson",
+   "year": 2023,
+   "overview": "Cresciuto nel New Jersey tra le violente angherie del padre e del fratello, che lo tengono prigioniero nella gabbia dei cani da combattimento, il giovane Douglas arriva all'età adulta con enormi ferite psicologiche e fisiche, essendo confinato alla sedia a rotelle con il precario uso delle gambe. Solo i suoi adorati cani gli danno sollievo: sono addestrati a rispondere a ogni suo comando, e per conto del loro padrone aiutano i bisognosi e rubano nelle case dei ricchi.",
+   "genres": [
+    "Azione",
+    "Dramma",
+    "Crime"
+   ],
+   "cast": [
+    "Caleb Landry Jones",
+    "Jojo T. Gibbs",
+    "Christopher Denham",
+    "Clemens Schick",
+    "John Charles Aguilar",
+    "Grace Palma"
+   ],
+   "original_title": "Dogman",
+   "release_date": "2023-09-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 30718 (1995): anno 1995 != 2023; TMDB scartato id 1216600 (2023): titolo diverso (somiglianza 0.40: 'Dogman: Beyond the Legend' / 'Dogman: Beyond the Legend'); TMDB scartato id 1146686 (2023): titolo diverso (somiglianza 0.22: 'The Dogman Triangle: Werewolves in the Lone Star State' / 'The Dogman Triangle: Werewolves in the Lone Star State'); TMDB scartato id 1187474 (2023): regista Grace Heckenlively, Gavin Carroll != 'Luc Besson'",
+  "ref": {
+   "regia": "Luc Besson",
+   "anno": 2023
+  },
+  "checked": "2026-11-25"
+ },
+ "all about eve": {
+  "title": "ALL ABOUT EVE",
+  "url": "https://it.wikipedia.org/wiki/All_About_Eve_(opera_teatrale)",
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 705,
+   "title": "Eva contro Eva",
+   "url": "https://www.themoviedb.org/movie/705?language=it-IT",
+   "poster_path": "/w66lytVc7qNp1WBGz4Ox1TVVFpI.jpg",
+   "runtime": 138,
+   "director": "Joseph L. Mankiewicz",
+   "year": 1950,
+   "overview": "Eva Harrington, ragazza di modesta condizione, piena d'entusiasmo per il teatro, riesce, per mezzo di Karen Lloyd, moglie d'un celebre commediografo, ad avvicinare Margo Channing, grande attrice quarantenne, ancora bella e trionfante. Coi suoi modi insinuanti, spacciandosi per la vedova d'un caduto, Eva riesce ad accaparrarsi le simpatie e ad assicurarsi la protezione di Margo, che l'accoglie in casa sua come segretaria. Una sera Margo arriva in ritardo per la recita e trova Eva, che sta leggendo la sua parte. Quando il giornalista Addison De Witt, il regista Bill Simpson e Karen esaltano il talento d'Eva, Margo sente il morso della gelosia. Qualche tempo dopo, Karen, con uno stratagemma, re",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Bette Davis",
+    "Anne Baxter",
+    "George Sanders",
+    "Celeste Holm",
+    "Gary Merrill",
+    "Hugh Marlowe"
+   ],
+   "original_title": "All About Eve",
+   "release_date": "1950-11-09"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Eva contro Eva, Joseph L. Mankiewicz",
+   "anno": 1950
+  },
+  "checked": "2026-11-25"
+ },
+ "bad lieutenant tokyo": {
+  "title": "BAD LIEUTENANT: TOKYO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1473439,
+   "title": "バッド・ルーテナント：トウキョウ",
+   "url": "https://www.themoviedb.org/movie/1473439?language=it-IT",
+   "poster_path": "/rWiwfGrHgTd2bqOtJ1UxhtpOZQM.jpg",
+   "runtime": 108,
+   "director": "Takashi Miike",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Thriller",
+    "Crime",
+    "Azione"
+   ],
+   "cast": [
+    "Shun Oguri",
+    "Lily James",
+    "間宮祥太朗",
+    "Gionna Daddio",
+    "野村周平",
+    "西野七瀬"
+   ],
+   "original_title": "バッド・ルーテナント：トウキョウ",
+   "release_date": "2026-10-23"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Takashi Miike",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "clash by night": {
+  "title": "CLASH BY NIGHT",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 24003,
+   "title": "La confessione della signora Doyle",
+   "url": "https://www.themoviedb.org/movie/24003?language=it-IT",
+   "poster_path": "/uJubefmVlv2iSJIEWrtQ8nKyVD9.jpg",
+   "runtime": 105,
+   "director": "Fritz Lang",
+   "year": 1952,
+   "overview": "Mae Doyle dopo essere tornata nella sua città natale, Monterey, in California, sposa un suo vecchio corteggiatore, un brav'uomo che nella vita fa l'umile pescatore. Lei lo tradisce con il suo migliore amico, una persona con pochi scrupoli, fuggendo con lui, ma il marito dopo una violenta reazione quando scopre il tutto, la perdona e l'accoglie a casa con la sua figlioletta.",
+   "genres": [
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Barbara Stanwyck",
+    "Paul Douglas",
+    "Robert Ryan",
+    "Marilyn Monroe",
+    "J. Carrol Naish",
+    "Keith Andes"
+   ],
+   "original_title": "Clash by Night",
+   "release_date": "1952-05-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema",
+  "ref": {
+   "regia": "La confessione della signora Doyle, Fritz Lang",
+   "anno": 1952
+  },
+  "checked": "2026-11-25"
+ },
+ "the last day": {
+  "title": "THE LAST DAY",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1360385,
+   "title": "The Last Day",
+   "url": "https://www.themoviedb.org/movie/1360385?language=it-IT",
+   "poster_path": "/xFFnbhUIddss60t9LQuouqdMcuU.jpg",
+   "runtime": 99,
+   "director": "Rachel Rose",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Alicia Vikander",
+    "Victoria Pedretti",
+    "Wagner Moura",
+    "Michael Patrick Thornton",
+    "Jihae",
+    "Sinclair Daniel"
+   ],
+   "original_title": "The Last Day",
+   "release_date": "2027-04-22"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 125217 (1957): titolo diverso (somiglianza 0.37: 'A Sun-Tribe Myth from the Bakumatsu Era' / '幕末太陽傳'); TMDB scartato id 1828828 (2026): titolo diverso (somiglianza 0.44: 'On the Last Day of Christmas' / 'On the Last Day of Christmas'); TMDB scartato id 1667714 (2026): titolo diverso (somiglianza 0.53: 'The Last Day of Byron Bray' / 'The Last Day of Byron Bray'); TMDB scartato id 1404070 (2026): titolo diverso (somiglianza 0.35: 'Pai Nosso: Os Últimos Dias de Salazar' / 'Pai Nosso: Os Últimos Dias de Salazar')",
+  "ref": {
+   "regia": "Rachel Rose",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the liberation": {
+  "title": "THE LIBERATION",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1287365,
+   "title": "The Liberation",
+   "url": "https://www.themoviedb.org/movie/1287365?language=it-IT",
+   "poster_path": "/dZC9oWiakzwuh2Sce3Fdh9jz0mf.jpg",
+   "runtime": 124,
+   "director": "Guy Nattiv",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Carrie Coon",
+    "Lily James",
+    "Bella Ramsey",
+    "Odessa Young",
+    "Tracy Letts",
+    "Jaime Ray Newman"
+   ],
+   "original_title": "The Liberation",
+   "release_date": "2026-11-06"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1129188 (2026): regista Finn Taylor != 'Guy Nattiv'; TMDB scartato id 1622493 (2026): titolo diverso (somiglianza 0.56: 'The Hour of Liberation Is Near' / 'The Hour of Liberation Is Near')",
+  "ref": {
+   "regia": "Guy Nattiv",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "car la lune": {
+  "title": "CAR LA LUNE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1748770,
+   "title": "Car la lune",
+   "url": "https://www.themoviedb.org/movie/1748770?language=it-IT",
+   "poster_path": "/reG9dfrmQLtjzBuNUe05qEMzvTg.jpg",
+   "runtime": 88,
+   "director": "Eric Baudelaire",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Car la lune",
+   "release_date": "2027-03-24"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Éric Baudelaire",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "somalia": {
+  "title": "SOMALIA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818226,
+   "title": "Somalia",
+   "url": "https://www.themoviedb.org/movie/1818226?language=it-IT",
+   "poster_path": "/kSioc8AkHRtyQyZhjyk37CQWdmN.jpg",
+   "runtime": 62,
+   "director": "Giuseppe Carrieri, Mohamoud Hassan",
+   "year": 2026,
+   "overview": "Sulle coste della Somalia, lungo il Golfo di Aden, il pescato scarseggia. Il mare, che per generazioni ha garantito la sopravvivenza delle comunità costiere, è diventato una fonte di crescente incertezza. La caccia agli squali rappresenta ormai una delle poche possibilità di guadagno.  Schiacciato dai debiti e dalla dipendenza, Gagale è tormentato da una convinzione: da qualche parte, in quelle acque, si nasconde uno squalo leggendario dalla pelle dorata. E con lui, l'unica promessa di una vita diversa. Con una vecchia lancia e una piccola barca di legno, prende il largo nella notte per cercarlo.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Somalia",
+   "release_date": "2026-11-27"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1763205 (2026): titolo diverso (somiglianza 0.41: 'Keinaan, mee takas Somaliaan' / 'Keinaan, mee takas Somaliaan')",
+  "ref": {
+   "regia": "Mohamoud Hassan, Giuseppe Carrieri",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "bus stop": {
+  "title": "BUS STOP",
+  "url": "https://it.wikipedia.org/wiki/Bus_Stop_(serie_televisiva)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Marilyn_Maxwell_Tuesday_Weld_Gary_Lockwood_Bus_Stop_1961.JPG/250px-Marilyn_Maxwell_Tuesday_Weld_Gary_Lockwood_Bus_Stop_1961.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": null,
+  "tmdb": {
+   "id": 24010,
+   "title": "Fermata d'autobus",
+   "url": "https://www.themoviedb.org/movie/24010?language=it-IT",
+   "poster_path": "/xROYSvioPvfmuuLTxcOQpW6P0vi.jpg",
+   "runtime": 95,
+   "director": "Joshua Logan",
+   "year": 1956,
+   "overview": "Montana, Stati Uniti. Storia di amore e tenerezza tra Bo, giovane e aitante cowboy che sogna di trovare una moglie che assomigli a un angelo, e Cherie, ballerina di uno squallido night di Phoenix, che sogna di diventare qualcuno.",
+   "genres": [
+    "Commedia",
+    "Dramma",
+    "Romance"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Don Murray",
+    "Arthur O'Connell",
+    "Betty Field",
+    "Eileen Heckart",
+    "Robert Bray"
+   ],
+   "original_title": "Bus Stop",
+   "release_date": "1956-08-31"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Fermata d’autobus, Joshua Logan",
+   "anno": 1956
+  },
+  "checked": "2026-11-25"
+ },
+ "il primo giorno di vita di leonardo revelli figlio unico": {
+  "title": "IL PRIMO GIORNO DI VITA DI LEONARDO REVELLI, FIGLIO UNICO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1581932,
+   "title": "Il primo giorno di vita di Leonardo Revelli, figlio unico",
+   "url": "https://www.themoviedb.org/movie/1581932?language=it-IT",
+   "poster_path": "/mFlnW3AWnwjWTxsQLfHCuTXuh2b.jpg",
+   "runtime": null,
+   "director": "Stefano Grasso",
+   "year": 2026,
+   "overview": "Leonardo Revelli ha tutto per essere felice: il primo film che ha scritto in uscita al cinema, l’amore di una ragazza francese che lui ricambia con trasporto, due genitori che fin da bambino lo hanno sempre fatto sentire speciale. Talmente speciale che Leonardo ha finito per crederci, figlio unico in entrambe le accezioni. Giovanni e Laura, affermati psicanalisti di Torino, hanno costruito intorno a lui un nucleo familiare tenuto insieme da una mitologia ben precisa: ogni forma di mediocrità non è contemplata e il dolore è bandito. Quando Laura viene colpita da una grave malattia, il marito cade in uno sconforto che lo rende irriconoscibile e senza freni inibitori si rivela per quello che è:",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Valerio Mastandrea",
+    "Francesco Gheghi",
+    "Valeria Bruni Tedeschi"
+   ],
+   "original_title": "Il primo giorno di vita di Leonardo Revelli, figlio unico",
+   "release_date": "2026-11-28"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Stefano Grasso",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "l espece explosive": {
+  "title": "L’ESPÈCE EXPLOSIVE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1001405,
+   "title": "L'Espèce explosive",
+   "url": "https://www.themoviedb.org/movie/1001405?language=it-IT",
+   "poster_path": "/hOB3qNerOdWvDrJcn9rfA4SvNNs.jpg",
+   "runtime": 95,
+   "director": "Sarah Arnold",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Alexis Manenti",
+    "Ella Rumpf",
+    "Vincent Dedienne",
+    "Jean-Louis Coulloc'h",
+    "Pascal Rénéric",
+    "Bertrand Belin"
+   ],
+   "original_title": "L'Espèce explosive",
+   "release_date": "2026-10-07"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "La specie esplosiva, Sarah Arnold",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "la muerte no tiene dueno": {
+  "title": "LA MUERTE NO TIENE DUEÑO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1379747,
+   "title": "La Muerte no Tiene Dueño",
+   "url": "https://www.themoviedb.org/movie/1379747?language=it-IT",
+   "poster_path": "/6pztCoqbpdTXnAjRkIUPvSnVMwR.jpg",
+   "runtime": 104,
+   "director": "Jorge Thielen Armand",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Thriller",
+    "Mistero",
+    "Fantasy"
+   ],
+   "cast": [
+    "Asia Argento",
+    "Dogreika Tovar",
+    "Jorge Thielen Hedderich",
+    "Yermain Sequera",
+    "Arturo Rodríguez",
+    "Jericó Montilla"
+   ],
+   "original_title": "La Muerte no Tiene Dueño",
+   "release_date": "2027-03-25"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Jorge Thielen Armand",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "le angelesse": {
+  "title": "LE ANGELESSE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1550731,
+   "title": "Le Angelesse",
+   "url": "https://www.themoviedb.org/movie/1550731?language=it-IT",
+   "poster_path": "/lVqTplU5iTnPvN3oARs7vSoQljJ.jpg",
+   "runtime": null,
+   "director": "Roberta Torre",
+   "year": 2026,
+   "overview": "L’attesa del Natale in carcere somiglia a tutte le altre attese: per il colloquio, per i pasti, per l’avvocato, per i vestiti puliti, per l’ora d’aria. Le detenute ci accompagnano nei corridoi della propria coscienza, dove il bene e il male si rincorrono. Nel gioco del presepe sognano di essere angeli e volare via. “Qui abita la Giustizia”, viene detto. Ma senza la Tenerezza, l’essere umano si perde. L’attesa è ricominciata. La lunga attesa dell’angelo. Un albero acceso, ali bianche sui tetti, avvengono miracoli.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Le Angelesse",
+   "release_date": "2026-11-28"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Roberta Torre",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "les rayons et les ombres": {
+  "title": "LES RAYONS ET LES OMBRES",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1318335,
+   "title": "I raggi e le ombre",
+   "url": "https://www.themoviedb.org/movie/1318335?language=it-IT",
+   "poster_path": "/TPo1gsNCswrgyxrqdGN44OmPuH.jpg",
+   "runtime": 199,
+   "director": "Xavier Giannoli",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Jean Dujardin",
+    "Nastya Golubeva Carax",
+    "August Diehl",
+    "Olivier Chantreau",
+    "Anna Próchniak",
+    "Lucile Vignolles"
+   ],
+   "original_title": "Les Rayons et les Ombres",
+   "release_date": "2026-03-18"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Xavier Giannoli",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "il paradiso e un posto bellissimo": {
+  "title": "IL PARADISO È UN POSTO BELLISSIMO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818625,
+   "title": "Il Paradiso è un posto bellissimo",
+   "url": "https://www.themoviedb.org/movie/1818625?language=it-IT",
+   "poster_path": "/ud8mVeWBm1XWKYGrvImc3CrWC9w.jpg",
+   "runtime": 84,
+   "director": "David Ambrosini",
+   "year": 2026,
+   "overview": "Un dramma familiare a sfondo sociale che intreccia malattia, criminalità e desiderio di riscatto, mettendo al centro il rapporto tra un padre e un figlio e una promessa che diventa il motore della storia.",
+   "genres": [],
+   "cast": [
+    "Andrea Arcangeli"
+   ],
+   "original_title": "Il Paradiso è un posto bellissimo",
+   "release_date": "2026-11-28"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "David Ambrosini",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "love marilyn": {
+  "title": "LOVE, MARILYN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 121831,
+   "title": "Love, Marilyn",
+   "url": "https://www.themoviedb.org/movie/121831?language=it-IT",
+   "poster_path": "/pWwZEW6kOpQ6CEw2n2y6kvVXYAK.jpg",
+   "runtime": 105,
+   "director": "Liz Garbus",
+   "year": 2013,
+   "overview": "Attraverso poesie, appunti e lettere personali raccolti dopo la sua morte, il documentario ricostruisce il volto più intimo di Marilyn Monroe. Attrici e attori interpretano i suoi scritti, restituendo pensieri, fragilità e aspirazioni della diva al di là del mito cinematografico.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Elizabeth Banks",
+    "Lindsay Lohan",
+    "Evan Rachel Wood",
+    "Uma Thurman",
+    "Ben Foster"
+   ],
+   "original_title": "Love, Marilyn",
+   "release_date": "2013-05-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Love, Marilyn - I diari segreti, Liz Garbus",
+   "anno": 2012
+  },
+  "checked": "2026-11-25"
+ },
+ "l ora piu bella": {
+  "title": "L’ORA PIÙ BELLA",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1759768,
+   "title": "L'ora più bella",
+   "url": "https://www.themoviedb.org/movie/1759768?language=it-IT",
+   "poster_path": "/gZR9VmJS5svgCMYlI5lDS0mMdaH.jpg",
+   "runtime": 96,
+   "director": "Ernesto Maria Censori",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Crime"
+   ],
+   "cast": [
+    "Andrea Arcangeli",
+    "Filippo Timi",
+    "Peppe Servillo",
+    "Salvatore Striano",
+    "Swamy Rotolo",
+    "Luigi Diberti"
+   ],
+   "original_title": "L'ora più bella",
+   "release_date": "2026-10-09"
+  },
+  "t": true,
+  "v": 7,
+  "why": "wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 340101 (2017): anno 2017 != 2026",
+  "ref": {
+   "regia": "Ernesto Maria Censori",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "aqui": {
+  "title": "AQUÍ",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1548931,
+   "title": "Aquí",
+   "url": "https://www.themoviedb.org/movie/1548931?language=it-IT",
+   "poster_path": "/1uuiiA4nERvMYWLVAUKNne3bDOF.jpg",
+   "runtime": 203,
+   "director": "Tiago Guedes",
+   "year": 2027,
+   "overview": null,
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Alex Peláez",
+    "Hugo Encuentra",
+    "Manolo Solo",
+    "Patricia López Arnaiz",
+    "Lambert Wilson",
+    "Sergi López"
+   ],
+   "original_title": "Aquí",
+   "release_date": "2027-01-20"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1000837 (2024): titolo diverso (somiglianza 0.44: 'Io sono ancora qui' / 'Ainda Estou Aqui'); TMDB scartato id 1543219 (2025): titolo diverso (somiglianza 0.30: 'Estar aquí cuando puedo' / 'Estar aquí cuando puedo'); TMDB scartato id 1742004 (2026): titolo diverso (somiglianza 0.29: 'Aquí y Allá, en el Viento' / 'Aquí y Allá, en el Viento'); TMDB scartato id 1279081 (2026): titolo diverso (somiglianza 0.26: 'Aquí se escucha el silencio' / 'Aquí se escucha el silencio')",
+  "ref": {
+   "regia": "Tiago Guedes",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "la ilusion de un verano sin fin": {
+  "title": "LA ILUSIÓN DE UN VERANO SIN FIN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1729643,
+   "title": "La ilusión de un verano sin fin",
+   "url": "https://www.themoviedb.org/movie/1729643?language=it-IT",
+   "poster_path": "/pSTyPDEnDB6OQFDShkKFZzNY5Ve.jpg",
+   "runtime": 94,
+   "director": "Alessandra Sanguinetti",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Documentario"
+   ],
+   "cast": [
+    "Guillermina Aranciaga",
+    "Belinda Stutz",
+    "Juana Falconet"
+   ],
+   "original_title": "La ilusión de un verano sin fin",
+   "release_date": "2026-08-08"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Alessandra Sanguinetti",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "l ultimo salto": {
+  "title": "L’ULTIMO SALTO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1609295,
+   "title": "L'ultimo salto",
+   "url": "https://www.themoviedb.org/movie/1609295?language=it-IT",
+   "poster_path": "/xa2tfNIXBpFwZeEteqmlUeIZ8hS.jpg",
+   "runtime": null,
+   "director": "Umberto Riccioni Carteni",
+   "year": 2026,
+   "overview": "Nuovo film di Umberto Carteni",
+   "genres": [],
+   "cast": [
+    "Marco Giallini",
+    "Max Tortora",
+    "Giorgio Colangeli",
+    "Valeria Bilello",
+    "Fioretta Mari",
+    "Adriano Pappalardo"
+   ],
+   "original_title": "L'ultimo salto",
+   "release_date": "2026-11-29"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Umberto Carteni",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "insignificance": {
+  "title": "INSIGNIFICANCE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 42035,
+   "title": "La signora in bianco",
+   "url": "https://www.themoviedb.org/movie/42035?language=it-IT",
+   "poster_path": "/qo7gRiedO3oRbAdzIs5rofMdXQ0.jpg",
+   "runtime": 105,
+   "director": "Nicolas Roeg",
+   "year": 1985,
+   "overview": "New York, 1954. Si sta girando un film sotto la stanza occupata da uno scienziato. Il quale è ricattato da un bieco senatore vicino alle posizioni di McCarthy, inquisitore repubblicano della \"caccia alle streghe\". Protagonista del film un'attrice sposata con un noto giocatore di baseball. L'attrice e lo scienziato si ritrovano a discutere della teoria della relatività mentre sull'umanità incombe la minaccia di una esplosione nucleare.",
+   "genres": [
+    "Dramma",
+    "Commedia"
+   ],
+   "cast": [
+    "Michael Emil",
+    "Theresa Russell",
+    "Tony Curtis",
+    "Gary Busey",
+    "Will Sampson",
+    "Patrick Kilpatrick"
+   ],
+   "original_title": "Insignificance",
+   "release_date": "1985-08-02"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "La signora in bianco, Nicolas Roeg",
+   "anno": 1985
+  },
+  "checked": "2026-11-25"
+ },
+ "jim queen": {
+  "title": "JIM QUEEN",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1061798,
+   "title": "Jim Queen à la Recherche de la Chloroqueer",
+   "url": "https://www.themoviedb.org/movie/1061798?language=it-IT",
+   "poster_path": "/nvmGrOzolKlW1z90rLudSjPm9cG.jpg",
+   "runtime": 85,
+   "director": "Marco Nguyen, Nicolas Athané",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Animazione",
+    "Commedia"
+   ],
+   "cast": [
+    "Alex Ramirès",
+    "Jéremy Gillet",
+    "Philippe Katerine",
+    "Shirley Souagnon",
+    "Francois Sagat",
+    "Harald Marlot"
+   ],
+   "original_title": "Jim Queen à la Recherche de la Chloroqueer",
+   "release_date": "2026-06-17"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Nicolas Athane, Marco Nguyen",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "let s make love": {
+  "title": "LET’S MAKE LOVE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 24014,
+   "title": "Facciamo l'amore",
+   "url": "https://www.themoviedb.org/movie/24014?language=it-IT",
+   "poster_path": "/mPtHJuLSbAPzjTygtVFic6qCI8I.jpg",
+   "runtime": 118,
+   "director": "George Cukor",
+   "year": 1960,
+   "overview": "Saputo che si sta mettendo in scena a Broadway una rivista destinata a sbeffeggiarlo, il miliardario Jean Marc Clement si presenta in incognito a teatro, per vedere fino a che punto ciò è vero. Preso per una comparsa, finisce per vedersi affidata la parte... di se stesso. Accetta, per rimanere accanto ad Amanda, una bellissima attrice della compagnia dal fascino ingenuo quanto irresistibile.",
+   "genres": [
+    "Commedia",
+    "Romance"
+   ],
+   "cast": [
+    "Marilyn Monroe",
+    "Yves Montand",
+    "Tony Randall",
+    "Frankie Vaughan",
+    "Wilfrid Hyde-White",
+    "David Burns"
+   ],
+   "original_title": "Let's Make Love",
+   "release_date": "1960-09-08"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Facciamo l’amore, George Cukor",
+   "anno": 1960
+  },
+  "checked": "2026-11-25"
+ },
+ "le case spezzate": {
+  "title": "LE CASE SPEZZATE",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818199,
+   "title": "Le case spezzate",
+   "url": "https://www.themoviedb.org/movie/1818199?language=it-IT",
+   "poster_path": "/jq1CxgAimC41LJXi2QiVRrQxbo0.jpg",
+   "runtime": null,
+   "director": "Tony Saccucci",
+   "year": 2026,
+   "overview": "Tre generazioni di donne si confrontano con un’eredità di dolore, silenzi e verità negate. Dalla figlia che nel 1943 assiste impotente all’infoibamento del padre Mate, alle nipoti che decenni dopo ne cercano la verità, fino alle pronipoti che tornano a Spalato per riprendere quel viaggio interrotto: un percorso nella memoria  familiare e nelle ferite della storia, per comprendere come l’odio possa attraversare il tempo e segnare il destino di intere generazioni.",
+   "genres": [
+    "Documentario"
+   ],
+   "cast": [],
+   "original_title": "Le case spezzate",
+   "release_date": "2026-11-30"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Tony Saccucci, Robert Tomić Zuber",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "uncut gems": {
+  "title": "UNCUT GEMS",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 473033,
+   "title": "Diamanti grezzi",
+   "url": "https://www.themoviedb.org/movie/473033?language=it-IT",
+   "poster_path": "/eX85odLydC12I99Mgi50EZppv1T.jpg",
+   "runtime": 135,
+   "director": "Benny Safdie, Josh Safdie",
+   "year": 2019,
+   "overview": "Howard Ratner (Adam Sandler) è un carismatico gioielliere di New York alla costante ricerca del colpo della vita. Dopo aver piazzato una serie di scommesse ad alto rischio che promettono di ripagarlo alla grande, Howard si ritrova sul filo del rasoio alla ricerca di un equilibrio tra affari, famiglia e avversari che lo mettono sempre più con le spalle al muro nel suo instancabile percorso verso la vittoria.",
+   "genres": [
+    "Dramma",
+    "Thriller",
+    "Crime"
+   ],
+   "cast": [
+    "Adam Sandler",
+    "LaKeith Stanfield",
+    "Julia Fox",
+    "Kevin Garnett",
+    "Idina Menzel",
+    "Eric Bogosian"
+   ],
+   "original_title": "Uncut Gems",
+   "release_date": "2019-12-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Benny e Josh Safdie",
+   "anno": 2019
+  },
+  "checked": "2026-11-25"
+ },
+ "black church bay": {
+  "title": "BLACK CHURCH BAY",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1530249,
+   "title": "Black Church Bay",
+   "url": "https://www.themoviedb.org/movie/1530249?language=it-IT",
+   "poster_path": "/kmA9EHgd0nkKhVk3clZdTfHlXV3.jpg",
+   "runtime": 107,
+   "director": "Rhys Marc Jones",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Thriller"
+   ],
+   "cast": [
+    "Tom Cullen",
+    "Joe Locke",
+    "Marli Siu",
+    "Rakie Ayola",
+    "Ifan Huw Dafydd",
+    "Aneirin Hughes"
+   ],
+   "original_title": "Black Church Bay",
+   "release_date": "2026-09-25"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Rhys Marc Jones",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "blonde": {
+  "title": "BLONDE",
+  "url": "https://it.wikipedia.org/wiki/Blonde_(film_2022)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/35/Blonde_%28film_2022%29.jpg/250px-Blonde_%28film_2022%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Andrew Dominik",
+  "tmdb": {
+   "id": 301502,
+   "title": "Blonde",
+   "url": "https://www.themoviedb.org/movie/301502?language=it-IT",
+   "poster_path": "/l9jPyzfEBjpCykcEPMrob4dWPr8.jpg",
+   "runtime": 165,
+   "director": "Andrew Dominik",
+   "year": 2022,
+   "overview": "Basato sul romanzo bestseller di Joyce Carol Oates, Blonde è un ritratto romanzato e audace di una delle icone più durature di Hollywood, Marilyn Monroe.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Ana de Armas",
+    "Adrien Brody",
+    "Bobby Cannavale",
+    "Sara Paxton",
+    "Lucy DeVito",
+    "Julianne Nicholson"
+   ],
+   "original_title": "Blonde",
+   "release_date": "2022-09-16"
+  },
+  "t": true,
+  "v": 7,
+  "why": "TMDB scartato id 341013 (2017): titolo diverso (somiglianza 0.63: 'Atomica bionda' / 'Atomic Blonde'); TMDB scartato id 9441 (1998): titolo diverso (somiglianza 0.50: 'Nemiche amiche' / 'Stepmom'); TMDB scartato id 730028 (2021): titolo diverso (somiglianza 0.43: 'Il ragazzo più bello del mondo' / 'Världens vackraste pojke'); TMDB scartato id 61810 (1974): titolo diverso (somiglianza 0.52: 'Soffici letti, dure battaglie' / 'Soft Beds, Hard Battles')",
+  "ref": {
+   "regia": "Andrew Dominik",
+   "anno": 2022
+  },
+  "checked": "2026-11-25"
+ },
+ "il mio nemico immaginario": {
+  "title": "IL MIO NEMICO IMMAGINARIO",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1632190,
+   "title": "Il mio nemico immaginario",
+   "url": "https://www.themoviedb.org/movie/1632190?language=it-IT",
+   "poster_path": "/oGDIz1642ocxXghdVqrXu5kkW9t.jpg",
+   "runtime": null,
+   "director": "Antónia Lišková",
+   "year": 2026,
+   "overview": "Emma, una bambina di nove anni curiosa e fantasiosa, adora gli unicorni, le astronavi e gli alberi di Natale. Vive con la sua stravagante famiglia: la madre Sara, appassionata di gastronomia molecolare, l’arguta nonna Loredana e il severo padre Leo, insegnante di scienze preoccupato per il mondo fantastico in cui vive Emma. L’amico immaginario di Emma, Mojito, la aiuta a sfuggire alla realtà, ma suoi genitori, sul punto di separarsi, faticano a capirla. Nel frattempo, ricompare Bob, l’amico immaginario dimenticato da Leo, che cerca di riallacciare i rapporti con lui prima di scomparire per sempre. La storia esplora il viaggio di Emma per trovare un equilibrio tra i suoi sogni, la realtà e le",
+   "genres": [
+    "Commedia"
+   ],
+   "cast": [
+    "Fabio Volo",
+    "Giulia Bevilacqua",
+    "Loretta Goggi",
+    "Elena Sophia Senise",
+    "Pietro Serpi",
+    "Christian Roberto"
+   ],
+   "original_title": "Il mio nemico immaginario",
+   "release_date": "2026-12-10"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Antonia Liskova",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "that one beautiful day": {
+  "title": "THAT ONE BEAUTIFUL DAY",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1818497,
+   "title": "That one beautiful day",
+   "url": "https://www.themoviedb.org/movie/1818497?language=it-IT",
+   "poster_path": "/yOqIyjlLh4RP0GvRLzLGkn73jtF.jpg",
+   "runtime": 94,
+   "director": "Melora Walters",
+   "year": 2026,
+   "overview": "Una coppia divorziata si riunisce anni dopo la scomparsa del figlio, suscitando vecchi sentimenti e verità inespresse.",
+   "genres": [],
+   "cast": [],
+   "original_title": "That one beautiful day",
+   "release_date": "2026-12-01"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Melora Walters",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
+ },
+ "the last showgirl": {
+  "title": "THE LAST SHOWGIRL",
+  "url": "https://it.wikipedia.org/wiki/The_Last_Showgirl",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/23/TheLastShowgirl.png/250px-TheLastShowgirl.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Gia Coppola",
+  "tmdb": {
+   "id": 1235499,
+   "title": "The Last Showgirl",
+   "url": "https://www.themoviedb.org/movie/1235499?language=it-IT",
+   "poster_path": "/q8YXP8en90G7iWyR5LRzkvMvMsq.jpg",
+   "runtime": 89,
+   "director": "Gia Coppola",
+   "year": 2024,
+   "overview": "Un’incredibile storia di resilienza, strass e piume, con protagonista un’inedita Pamela Anderson, nominata ai Golden Globe 2025 come miglior attrice in un film drammatico e acclamata dalla critica di tutto il mondo per la sua performance toccante e rivoluzionaria. In The Last Showgirl interpreta Shelly, l’iconica showgirl di Las Vegas che dopo 30 anni di attività, quando il suo storico spettacolo chiude bruscamente, deve ripensare il suo futuro e affrontare le scelte del passato.",
+   "genres": [
+    "Dramma"
+   ],
+   "cast": [
+    "Pamela Anderson",
+    "Jamie Lee Curtis",
+    "Dave Bautista",
+    "Brenda Song",
+    "Kiernan Shipka",
+    "Billie Lourd"
+   ],
+   "original_title": "The Last Showgirl",
+   "release_date": "2024-12-13"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": "Gia Coppola",
+   "anno": 2024
+  },
+  "checked": "2026-11-25"
+ },
+ "villeneuve the rise of a legend": {
+  "title": "VILLENEUVE: THE RISE OF A LEGEND",
+  "url": null,
+  "poster": null,
+  "director": null,
+  "tmdb": {
+   "id": 1247662,
+   "title": "Villeneuve: L'ascension d'une légende",
+   "url": "https://www.themoviedb.org/movie/1247662?language=it-IT",
+   "poster_path": "/j9jspA0YzOfeVPSzL4Sv17ptL7c.jpg",
+   "runtime": 102,
+   "director": "Yan Lanouette Turgeon",
+   "year": 2026,
+   "overview": null,
+   "genres": [
+    "Dramma",
+    "Storia"
+   ],
+   "cast": [
+    "Rémi Goulet",
+    "Rosalie Bonenfant",
+    "Luc Picard",
+    "Patrice Robitaille",
+    "Anick Lemay",
+    "Fabien Cloutier"
+   ],
+   "original_title": "Villeneuve: L'ascension d'une légende",
+   "release_date": "2026-11-11"
+  },
+  "t": true,
+  "v": 7,
+  "why": "Wikipedia: nessuna pagina che sia un film con questo titolo",
+  "ref": {
+   "regia": "Yan Lanouette Turgeon",
+   "anno": 2026
+  },
+  "checked": "2026-11-25"
  }
 }

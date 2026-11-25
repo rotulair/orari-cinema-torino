@@ -1,28 +1,136 @@
-Report TMDB del 2026-11-25: 72 film con dati TMDB, 13 senza.
+Report TMDB del 2026-11-25: 119 film con dati TMDB, 67 senza.
 
+- A LONG WINTER  [regia dichiarata: Andrew Haigh; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- AMOOSED: A MOOSE ODYSSEY  [regia dichiarata: Hana Nováková; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- ANCORA È PRESTO  [regia dichiarata: Antonio Valerio Spera; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- AUDREY LA MER  [regia dichiarata: Levi Riso; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- BACK IN BLACK  [regia dichiarata: Ron Murphy; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- CARO NANNI  [regia dichiarata: Pablo Maqueda; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - CIAU CINE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- CLARISSA  [regia dichiarata: Arie Esiri, Chuko Esiri; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- COSTANERA  [regia dichiarata: Mauro Díez Concari; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- DIAMOND  [regia dichiarata: Andy Garcia; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- DONNIE BRASCO  [regia dichiarata: Mike Newell; anno: 1997; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- DON’T BOTHER TO KNOCK  [regia dichiarata: La tua bocca brucia, Roy Ward Baker; anno: 1952; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Doraemon  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 682153 (2020): titolo diverso (somiglianza 0.42: 'Doraemon: Il film - Nobita e il nuovo dinosauro' / '映画ドラえもん のび太の新恐竜'); TMDB scartato id 86184 (2010): titolo diverso (somiglianza 0.50: 'Doraemon: Nobita no ningyo taikaisen' / '映画ドラえもん のび太の人魚大海戦'); TMDB scartato id 52795 (2007): titolo diverso (somiglianza 0.52: 'Doraemon: Nobita no shin makai daibōken' / '映画ドラえもん のび太の新魔界大冒険 〜7人の魔法使い〜'); TMDB scartato id 265712 (2014): nessun riscontro e uscita 2014 non recente; TMDB scartato id 70841 (2006): titolo diverso (somiglianza 0.48: 'Doraemon: Il film - Il dinosauro di Nobita' / '映画ドラえもん のび太の恐竜2006')
+- ELA OLHAVA SEM NADA VER  [regia dichiarata: Fanny Ardant; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- GENTLEMEN PREFER BLONDES  [regia dichiarata: Gli uomini preferiscono le bionde, Howard Hawks; anno: 1953; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Gojira  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1669088 (None): titolo diverso (somiglianza 0.48: 'Gojira: sur la route' / 'Gojira: sur la route'); TMDB scartato id 596411 (2017): titolo diverso (somiglianza 0.32: 'Gojira: Bloodstock Open Air 2016' / 'Gojira: Bloodstock Open Air 2016'); TMDB scartato id 706969 (2020): titolo diverso (somiglianza 0.40: 'Gojira - Live at Red Rocks' / 'Gojira - Live at Red Rocks'); TMDB scartato id 131669 (2012): titolo diverso (somiglianza 0.43: 'Gojira: The Flesh Alive' / 'Gojira: The Flesh Alive'); TMDB scartato id 782939 (2020): titolo diverso (somiglianza 0.34: 'Gojira: Live At Red Rocks 2017' / 'Gojira: Live At Red Rocks 2017')
+- HEAT  [regia dichiarata: Jacqueline Zünd; anno: 2026; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 949 (1995): anno 1995 != 2026; TMDB scartato id 265208 (2015): anno 2015 != 2026; TMDB scartato id 9604 (1988): titolo diverso (somiglianza 0.67: 'Danko' / 'Red Heat'); TMDB scartato id 1015963 (2022): titolo diverso (somiglianza 0.62: 'High Heat - Fuoco mortale' / 'High Heat'); TMDB scartato id 26030 (1956): titolo diverso (somiglianza 0.57: 'Bob il giocatore' / 'Bob le flambeur')
+- HEIL JUPITER!  [regia dichiarata: Carlos Reygadas; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- HEYSEL 85  [regia dichiarata: Teodora Ana Mihai; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- HOW TO MARRY A MILLIONAIRE  [regia dichiarata: Come sposare un milionario, Jean Negulesco; anno: 1953; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- IF PIGEONS TURNED TO GOLD  [regia dichiarata: Pepa Lubojacki; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- INSTINCT DE FAMILLE  [regia dichiarata: Maurice Hermet; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - KEN IL GUERRIERO  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
+- LA BERMA  [regia dichiarata: Agustin Dominguez Cordero; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LA LIBERTAD DOBLE  [regia dichiarata: Lisandro Alonso; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LA U DI SVANIRE  [regia dichiarata: Augusto Contento; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LADIES OF THE CHORUS  [regia dichiarata: Orchidea bionda, Phil Carlson; anno: 1948; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LES CLOCHETTES DE KABOUL  [regia dichiarata: Chabname Zariab; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LES SURVIVANTS DU CHE  [regia dichiarata: Christophe Dimitri Réveille; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- LOS NADADORES  [regia dichiarata: Sol Iglesias; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- MARIINKA  [regia dichiarata: Pieter-Jan De Pue; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- MILLENNIUM MAMBO  [regia dichiarata: Hou Hsiao-hsien; anno: 2001; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- MONKEY BUSINESS  [regia dichiarata: Il magnifico scherzo, Howard Hawks; anno: 1952; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- MOSCAS  [regia dichiarata: Fernando Eimbcke; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- MY WEEK WITH MARILYN  [regia dichiarata: Marilyn, Simon Curtis; anno: 2011; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- NIAGARA  [regia dichiarata: Henry Hathaway; anno: 1953; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- NORMA JEAN & MARILYN  [regia dichiarata: Tim Fywell; anno: 1996; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Novecento Atto II  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- NOVEMBER 1963  [regia dichiarata: Novembre 1963, Roland Joffé; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- PARADISE  [regia dichiarata: Jérémy Comte; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- PICCOLO MONDO ANTICO  [regia dichiarata: Mario Soldati; anno: 1941; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Prima visione  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 137051 (1989): titolo diverso (somiglianza 0.67: 'Prima visione con la morte' / 'Midnight Matinee')
+- PULP FICTION  [regia dichiarata: Quentin Tarantino; anno: 1994; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Ragazzi al cinema  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- RIVER OF NO RETURN  [regia dichiarata: La magnifica preda, Otto Preminger; anno: 1954; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Scooby Doo e la leggenda del Fantosauro  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 67900 (2011): nessun riscontro e uscita 2011 non recente
+- SEIZE MOMENTS DE MA VIE  [regia dichiarata: Albert Serra; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- SGUARDI  [regia dichiarata: Marco Ponti; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
+- SOY MARIO  [regia dichiarata: Sharon Kleinberg; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- STRONG SON  [regia dichiarata: Ian Bawa; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- SUGAR  [regia dichiarata: Amira Duynhouwer; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
 - Tavola rotonda  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 19957 (1953): titolo diverso (somiglianza 0.64: 'I cavalieri della tavola rotonda' / 'Knights of the Round Table'); TMDB scartato id 124057 (1995): titolo diverso (somiglianza 0.67: 'I ragazzi della Tavola Rotonda' / 'Kids of the Round Table'); TMDB scartato id 65596 (1979): titolo diverso (somiglianza 0.64: 'Un astronauta alla tavola rotonda' / 'Unidentified Flying Oddball')
+- THE BLOOD COUNTESS  [regia dichiarata: Ulrike Ottinger; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- THE FERTILIZER HOME  [regia dichiarata: Hyo-jung Jeong; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- THE PRINCE AND THE SHOWGIRL  [regia dichiarata: Il principe e la ballerina, Laurence Olivier; anno: 1957; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- THE SEVEN YEAR ITCH  [regia dichiarata: Quando la moglie è in vacanza, Billy Wilder; anno: 1955; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- THE WORLD BEFORE  [regia dichiarata: Yoon Dan-bi; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- THERE’S NO BUSINESS LIKE SHOW BUSINESS  [regia dichiarata: Follie dell’anno, Walter Lang; anno: 1954; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- TRULY NAKED  [regia dichiarata: Muriel d’Ansembourg; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- UNDER THE RAIN  [regia dichiarata: Fabrizio Maria Cortese; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- VIVA  [regia dichiarata: Aina Clotet; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- WISHFUL THINKING  [regia dichiarata: Graham Parkes; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)
+- YOU CAN SEE EVERYTHING  [regia dichiarata: Nathan Fielder, Lance Oppenheim; anno: 2026; Wikipedia: no]
+    motivo: non ancora cercato (limite di ricerche per giro o errore di rete)

@@ -1,0 +1,22 @@
+Torino Film Festival - controllo del 2026-11-25 10:52
+Fonte del programma: file programma.pdf
+Proiezioni lette: 235
+
+== Proiezioni per giorno ==
+25/11:  24  (Massimo 1 5, Massimo 2 4, Massimo 3 5, Romano 1 5, Romano 2 5)
+26/11:  28  (Massimo 1 5, Massimo 2 5, Massimo 3 4, Romano 1 5, Romano 2 5, Romano 3 4)
+27/11:  30  (Massimo 1 5, Massimo 2 5, Massimo 3 5, Romano 1 5, Romano 2 5, Romano 3 5)
+28/11:  29  (Massimo 1 5, Massimo 2 4, Massimo 3 5, Romano 1 5, Romano 2 5, Romano 3 5)
+29/11:  32  (Massimo 1 5, Massimo 2 5, Massimo 3 5, Romano 1 5, Romano 2 6, Romano 3 6)
+30/11:  32  (Massimo 1 5, Massimo 2 5, Massimo 3 5, Romano 1 5, Romano 2 6, Romano 3 6)
+01/12:  30  (Massimo 1 5, Massimo 2 5, Massimo 3 4, Romano 1 5, Romano 2 5, Romano 3 6)
+02/12:  30  (Massimo 1 3, Massimo 2 6, Massimo 3 5, Romano 1 5, Romano 2 5, Romano 3 6)
+
+== Modifiche manuali applicate (data/tff/modifiche.txt) ==
+nessuna
+
+== Modifiche NON applicate ==
+nessuna
+
+== Registro variazioni ==
+
