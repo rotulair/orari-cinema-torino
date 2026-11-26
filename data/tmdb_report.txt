@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-25: 166 film con dati TMDB, 23 senza.
+Report TMDB del 2026-11-26: 163 film con dati TMDB, 22 senza.
 
 - ALICE NEL PAESE DEI COLONI  [regia dichiarata: Yanis Mhamdi; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -18,16 +18,12 @@ Report TMDB del 2026-11-25: 166 film con dati TMDB, 23 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - IL CASO MARIE-CLAIRE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- Jane Austen ha stravolto la mia vita  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 1082424 (2025): nessun riscontro e uscita 2025 non recente
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - KEN IL GUERRIERO  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
 - LA FURIA  [regia dichiarata: Gemma Blasco; anno: 2025; Wikipedia: no]
     motivo: wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 389 (1957): titolo diverso (somiglianza 0.40: 'La parola ai giurati' / '12 Angry Men'); TMDB scartato id 76341 (2015): titolo diverso (somiglianza 0.36: 'Mad Max: Fury Road' / 'Mad Max: Fury Road'); TMDB scartato id 637649 (2021): titolo diverso (somiglianza 0.48: 'La furia di un uomo - Wrath of Man' / 'Wrath of Man'); TMDB scartato id 580489 (2021): titolo diverso (somiglianza 0.33: 'Venom - La furia di Carnage' / 'Venom: Let There Be Carnage'); TMDB scartato id 594767 (2023): titolo diverso (somiglianza 0.42: 'Shazam! Furia degli dei' / 'Shazam! Fury of the Gods')
-- LADIES OF THE CHORUS  [regia dichiarata: Orchidea bionda, Phil Carlson; anno: 1948; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 39949 (1948): regista Phil Karlson != 'Orchidea bionda, Phil Carlson'
 - Novecento Atto II  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - PARADISE  [regia dichiarata: Jérémy Comte; anno: 2026; Wikipedia: no]
@@ -46,3 +42,5 @@ Report TMDB del 2026-11-25: 166 film con dati TMDB, 23 senza.
     motivo: wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1710886 (2026): titolo diverso (somiglianza 0.62: 'Sugar Mommy' / 'Sugar Mommy'); TMDB scartato id 1815447 (2026): titolo diverso (somiglianza 0.42: 'My Son’s Sugar Mama' / 'My Son’s Sugar Mama'); TMDB scartato id 1101401 (2024): titolo diverso (somiglianza 0.67: 'Sugar Baby' / 'Sugar Baby'); TMDB scartato id 1484708 (2026): titolo diverso (somiglianza 0.62: 'Sugar Beach' / 'Sugar Beach'); TMDB scartato id 1627985 (2026): titolo diverso (somiglianza 0.25: 'Sugar & Vice: A Hannah Swensen Mystery' / 'Sugar & Vice: A Hannah Swensen Mystery')
 - Tavola rotonda  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 19957 (1953): titolo diverso (somiglianza 0.64: 'I cavalieri della tavola rotonda' / 'Knights of the Round Table'); TMDB scartato id 124057 (1995): titolo diverso (somiglianza 0.67: 'I ragazzi della Tavola Rotonda' / 'Kids of the Round Table'); TMDB scartato id 65596 (1979): titolo diverso (somiglianza 0.64: 'Un astronauta alla tavola rotonda' / 'Unidentified Flying Oddball')
+- ÈANDATA COSÌ  [regia dichiarata: Gianni Zanasi; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
