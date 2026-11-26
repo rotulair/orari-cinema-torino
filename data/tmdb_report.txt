@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-26: 160 film con dati TMDB, 22 senza.
+Report TMDB del 2026-11-26: 160 film con dati TMDB, 21 senza.
 
 - ALICE NEL PAESE DEI COLONI  [regia dichiarata: Yanis Mhamdi; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
@@ -15,8 +15,6 @@ Report TMDB del 2026-11-26: 160 film con dati TMDB, 22 senza.
 - HEAT  [regia dichiarata: Jacqueline Zünd; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 949 (1995): anno 1995 != 2026; TMDB scartato id 265208 (2015): anno 2015 != 2026; TMDB scartato id 9604 (1988): titolo diverso (somiglianza 0.67: 'Danko' / 'Red Heat'); TMDB scartato id 1015963 (2022): titolo diverso (somiglianza 0.62: 'High Heat - Fuoco mortale' / 'High Heat'); TMDB scartato id 26030 (1956): titolo diverso (somiglianza 0.57: 'Bob il giocatore' / 'Bob le flambeur')
 - I CORTI DEL POLI  [regia dichiarata: -; anno: -; Wikipedia: no]
-    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
-- IL CASO MARIE-CLAIRE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
