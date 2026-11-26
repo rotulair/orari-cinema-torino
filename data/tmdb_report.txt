@@ -1,4 +1,4 @@
-Report TMDB del 2026-11-26: 163 film con dati TMDB, 22 senza.
+Report TMDB del 2026-11-26: 160 film con dati TMDB, 22 senza.
 
 - ALICE NEL PAESE DEI COLONI  [regia dichiarata: Yanis Mhamdi; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
