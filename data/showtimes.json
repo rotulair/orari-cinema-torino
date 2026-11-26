@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T18:27:00+01:00",
+ "generated_at": "2026-11-26T22:16:20+01:00",
  "today": "2026-11-26",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:09+01:00"
+    "fetched_at": "2026-11-26T22:15:32+01:00"
    }
   },
   {
@@ -25,11 +25,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 96,
+    "n": 86,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:12+01:00"
+    "fetched_at": "2026-11-26T22:15:34+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 144,
+    "n": 138,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:14+01:00"
+    "fetched_at": "2026-11-26T22:15:37+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:17+01:00"
+    "fetched_at": "2026-11-26T22:15:40+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:20+01:00"
+    "fetched_at": "2026-11-26T22:15:43+01:00"
    }
   },
   {
@@ -85,11 +85,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 61,
+    "n": 55,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:23+01:00"
+    "fetched_at": "2026-11-26T22:15:46+01:00"
    }
   },
   {
@@ -100,11 +100,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 59,
+    "n": 53,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:25+01:00"
+    "fetched_at": "2026-11-26T22:15:47+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:26+01:00"
+    "fetched_at": "2026-11-26T22:15:49+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 81,
+    "n": 74,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:28+01:00"
+    "fetched_at": "2026-11-26T22:15:50+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:31+01:00"
+    "fetched_at": "2026-11-26T22:15:54+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:35+01:00"
+    "fetched_at": "2026-11-26T22:15:57+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:37+01:00"
+    "fetched_at": "2026-11-26T22:15:59+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:43+01:00"
+    "fetched_at": "2026-11-26T22:16:04+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:47+01:00"
+    "fetched_at": "2026-11-26T22:16:07+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 43,
+    "n": 40,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:48+01:00"
+    "fetched_at": "2026-11-26T22:16:09+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:51+01:00"
+    "fetched_at": "2026-11-26T22:16:12+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:55+01:00"
+    "fetched_at": "2026-11-26T22:16:15+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-26T18:26:59+01:00"
+    "fetched_at": "2026-11-26T22:16:19+01:00"
    }
   }
  ],
@@ -299,71 +299,8 @@
    "cinema": "duegiardini",
    "film": "IL FUOCO CHE TI PORTI DENTRO",
    "date": "2026-11-26",
-   "time": "19:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-26",
    "time": "21:30",
    "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-26",
-   "time": "18:15",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-26",
-   "time": "21:00",
-   "tag": "Nirvana"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "FJORD",
-   "date": "2026-11-26",
-   "time": "18:15",
-   "tag": "Grande"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "FJORD",
-   "date": "2026-11-26",
-   "time": "21:15",
-   "tag": "Grande"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
-   "date": "2026-11-26",
-   "time": "18:20",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "STORIE PARALLELE (HISTOIRES PARALLÈLES)",
-   "date": "2026-11-26",
-   "time": "21:00",
-   "tag": "Rosso"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-26",
-   "time": "18:30",
-   "tag": "Blu"
-  },
-  {
-   "cinema": "eliseo",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-26",
-   "time": "20:50",
-   "tag": "Blu"
   },
   {
    "cinema": "greenwich",
@@ -573,7 +510,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "15:00",
    "tag": "",
@@ -582,7 +519,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "19:25",
    "tag": "",
@@ -688,14 +625,14 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "21:15",
    "tag": ""
@@ -705,118 +642,6 @@
    "film": "ÈANDATA COSÌ",
    "date": "2026-11-26",
    "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-26",
-   "time": "18:45",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-26",
-   "time": "21:15",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "MUSTANG",
-   "date": "2026-11-26",
-   "time": "18:45",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-26",
-   "time": "21:00",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-26",
-   "time": "18:15",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-26",
-   "time": "20:30",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-26",
-   "time": "19:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-26",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-26",
-   "time": "21:35",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-26",
-   "time": "19:45",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-26",
-   "time": "21:35",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-26",
-   "time": "20:00",
-   "tag": "Eventi Musicali"
-  },
-  {
-   "cinema": "massaua",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-26",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-26",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-26",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-26",
-   "time": "21:40",
    "tag": ""
   },
   {
@@ -995,107 +820,11 @@
   },
   {
    "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-26",
-   "time": "18:15",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "FJORD",
-   "date": "2026-11-26",
-   "time": "20:45",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LA BALLATA DEL RE DELLE API",
-   "date": "2026-11-26",
-   "time": "20:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LA GRADIVA",
-   "date": "2026-11-26",
-   "time": "18:45",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "LOOK BACK",
-   "date": "2026-11-26",
-   "time": "18:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "MUSTANG",
-   "date": "2026-11-26",
-   "time": "21:15",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-26",
-   "time": "18:30",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "nazionale",
    "film": "WILD HORSE NINE",
    "date": "2026-11-26",
    "time": "21:30",
    "tag": "",
    "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-26",
-   "time": "19:50",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-26",
-   "time": "18:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-26",
-   "time": "21:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-26",
-   "time": "19:50",
-   "tag": "",
-   "room": "5"
-  },
-  {
-   "cinema": "reposi",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-26",
-   "time": "20:00",
-   "tag": "",
-   "room": "2"
   },
   {
    "cinema": "reposi",
@@ -1123,15 +852,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-26",
-   "time": "19:55",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "22:00",
    "tag": "",
@@ -1442,35 +1163,35 @@
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "14:20",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "16:20",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "19:00",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "21:30",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "22:50",
    "tag": ""
@@ -1687,28 +1408,28 @@
   },
   {
    "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "16:30",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "18:50",
    "tag": "VO"
   },
   {
    "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "19:00",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-26",
    "time": "21:50",
    "tag": ""
@@ -2078,7 +1799,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "15:00",
    "tag": "",
@@ -2087,7 +1808,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "19:25",
    "tag": "",
@@ -2222,21 +1943,21 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "17:00",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "19:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "22:10",
    "tag": ""
@@ -2418,21 +2139,21 @@
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "16:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "19:50",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "21:50",
    "tag": ""
@@ -2847,7 +2568,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "15:30",
    "tag": "",
@@ -2855,7 +2576,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "19:55",
    "tag": "",
@@ -2863,7 +2584,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-27",
    "time": "22:00",
    "tag": "",
@@ -3437,7 +3158,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "15:00",
    "tag": "",
@@ -3446,7 +3167,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "19:25",
    "tag": "",
@@ -3616,28 +3337,28 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "14:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "17:00",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "19:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "22:10",
    "tag": ""
@@ -3724,7 +3445,8 @@
    "film": "DIO RIDE",
    "date": "2026-11-28",
    "time": "14:50",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
@@ -3840,21 +3562,21 @@
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "16:05",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "19:45",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "21:50",
    "tag": ""
@@ -3871,7 +3593,8 @@
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-28",
    "time": "14:25",
-   "tag": ""
+   "tag": "",
+   "room": "1"
   },
   {
    "cinema": "massimo",
@@ -4272,7 +3995,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "15:30",
    "tag": "",
@@ -4280,7 +4003,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "19:55",
    "tag": "",
@@ -4288,7 +4011,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-28",
    "time": "22:00",
    "tag": "",
@@ -4865,7 +4588,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "15:00",
    "tag": "",
@@ -4874,7 +4597,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "19:25",
    "tag": "",
@@ -5009,21 +4732,21 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "14:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "17:15",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "20:00",
    "tag": ""
@@ -5110,7 +4833,8 @@
    "film": "DIO RIDE",
    "date": "2026-11-29",
    "time": "16:10",
-   "tag": ""
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "massaua",
@@ -5226,14 +4950,14 @@
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "16:20",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "21:40",
    "tag": ""
@@ -5250,7 +4974,8 @@
    "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-29",
    "time": "14:30",
-   "tag": ""
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "massimo",
@@ -5663,7 +5388,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "15:30",
    "tag": "",
@@ -5671,7 +5396,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "19:55",
    "tag": "",
@@ -5679,7 +5404,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-29",
    "time": "22:00",
    "tag": "",
@@ -6233,7 +5958,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "19:25",
    "tag": "",
@@ -6332,21 +6057,21 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "21:00",
    "tag": "VO"
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "21:15",
    "tag": ""
@@ -6831,7 +6556,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "15:30",
    "tag": "",
@@ -6839,7 +6564,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "19:55",
    "tag": "",
@@ -6847,7 +6572,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-11-30",
    "time": "22:00",
    "tag": "",
@@ -7406,7 +7131,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "19:25",
    "tag": "",
@@ -7512,14 +7237,14 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "21:15",
    "tag": ""
@@ -7993,7 +7718,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "15:30",
    "tag": "",
@@ -8001,7 +7726,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "19:55",
    "tag": "",
@@ -8009,7 +7734,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-01",
    "time": "22:00",
    "tag": "",
@@ -8539,14 +8264,14 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-02",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-02",
    "time": "21:15",
    "tag": ""
@@ -8993,7 +8718,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-02",
    "time": "15:30",
    "tag": "",
@@ -9001,7 +8726,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-02",
    "time": "19:55",
    "tag": "",
@@ -9009,7 +8734,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "TI PRESENTO I FOTTER",
    "date": "2026-12-02",
    "time": "22:00",
    "tag": "",
@@ -9481,7 +9206,7 @@
    "film": "DUNE PARTE 3",
    "date": "2026-12-15",
    "time": "21:15",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massimo",
@@ -9558,91 +9283,98 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:01",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:05",
-   "tag": ""
+   "tag": "",
+   "room": "4"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "00:10",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "09:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "10:30",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "12:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "13:30",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "15:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "16:30",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "18:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "19:30",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "21:30",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-16",
    "time": "22:30",
-   "tag": ""
+   "tag": "",
+   "room": "3"
   },
   {
    "cinema": "massimo",
@@ -9767,21 +9499,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "15:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "18:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
    "time": "21:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "reposi",
@@ -9865,21 +9597,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "15:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "18:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-18",
    "time": "21:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "reposi",
@@ -9980,21 +9712,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "15:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "18:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
    "time": "21:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "reposi",
@@ -10095,21 +9827,21 @@
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "15:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "18:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "massaua",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-20",
    "time": "21:00",
-   "tag": ""
+   "tag": "Emozioni"
   },
   {
    "cinema": "reposi",
