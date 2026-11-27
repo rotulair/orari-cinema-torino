@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T06:30:41+01:00",
+ "generated_at": "2026-11-27T10:35:22+01:00",
  "today": "2026-11-27",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:29:52+01:00"
+    "fetched_at": "2026-11-27T10:34:33+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:29:55+01:00"
+    "fetched_at": "2026-11-27T10:34:36+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:29:57+01:00"
+    "fetched_at": "2026-11-27T10:34:38+01:00"
    }
   },
   {
@@ -55,11 +55,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 25,
+    "n": 23,
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:00+01:00"
+    "fetched_at": "2026-11-27T10:34:41+01:00"
    }
   },
   {
@@ -70,11 +70,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 33,
+    "n": 34,
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:02+01:00"
+    "fetched_at": "2026-11-27T10:34:44+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:04+01:00"
+    "fetched_at": "2026-11-27T10:34:47+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:06+01:00"
+    "fetched_at": "2026-11-27T10:34:48+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:07+01:00"
+    "fetched_at": "2026-11-27T10:34:50+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:09+01:00"
+    "fetched_at": "2026-11-27T10:34:51+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:13+01:00"
+    "fetched_at": "2026-11-27T10:34:56+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:16+01:00"
+    "fetched_at": "2026-11-27T10:34:59+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:17+01:00"
+    "fetched_at": "2026-11-27T10:35:01+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:22+01:00"
+    "fetched_at": "2026-11-27T10:35:06+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:25+01:00"
+    "fetched_at": "2026-11-27T10:35:10+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:27+01:00"
+    "fetched_at": "2026-11-27T10:35:11+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:30+01:00"
+    "fetched_at": "2026-11-27T10:35:14+01:00"
    }
   },
   {
@@ -250,11 +250,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 18,
-    "source": "Sito ufficiale",
+    "n": 0,
+    "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:36+01:00"
+    "fetched_at": "2026-11-27T10:35:16+01:00"
    }
   },
   {
@@ -269,19 +269,11 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T06:30:40+01:00"
+    "fetched_at": "2026-11-27T10:35:21+01:00"
    }
   }
  ],
  "showtimes": [
-  {
-   "cinema": "baretti",
-   "film": "SOSPESI",
-   "date": "2026-11-27",
-   "time": "21:00",
-   "tag": "",
-   "regia": "Luca Quaia e Francesco Sgrò"
-  },
   {
    "cinema": "classico",
    "film": "WILD HORSE NINE",
@@ -504,7 +496,7 @@
   },
   {
    "cinema": "greenwich",
-   "film": "YOU CAN SEE EVERYTHING",
+   "film": "You Can See Everything",
    "date": "2026-11-27",
    "time": "20:30",
    "tag": "VO",
@@ -1622,13 +1614,6 @@
    "cinema": "thespace",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
-   "time": "16:00",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
    "time": "17:15",
    "tag": ""
   },
@@ -1641,9 +1626,16 @@
   },
   {
    "cinema": "thespace",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-27",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
-   "time": "15:10",
+   "time": "15:05",
    "tag": ""
   },
   {
@@ -1657,7 +1649,7 @@
    "cinema": "thespace",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
-   "time": "19:20",
+   "time": "18:10",
    "tag": ""
   },
   {
@@ -1685,84 +1677,63 @@
    "cinema": "thespace",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
-   "time": "17:00",
+   "time": "16:05",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
-   "time": "19:25",
+   "time": "18:05",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
-   "time": "21:50",
+   "time": "22:15",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-27",
-   "time": "14:00",
+   "time": "15:20",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-27",
-   "time": "16:50",
+   "time": "18:25",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-27",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "22:30",
+   "time": "22:40",
    "tag": ""
   },
   {
    "cinema": "thespace",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-27",
-   "time": "16:40",
+   "time": "15:20",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-27",
+   "time": "15:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-27",
    "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-27",
-   "time": "14:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-27",
-   "time": "16:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-27",
-   "time": "19:00",
    "tag": ""
   },
   {
@@ -1774,16 +1745,30 @@
   },
   {
    "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "film": "UN WEEKEND ARTIFICIALE",
    "date": "2026-11-27",
-   "time": "22:50",
+   "time": "23:15",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "UN WEEKEND ARTIFICIALE",
+   "film": "You Can See Everything",
    "date": "2026-11-27",
-   "time": "14:15",
+   "time": "18:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "thespace",
+   "film": "You Can See Everything",
+   "date": "2026-11-27",
+   "time": "20:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "Clayface",
+   "date": "2026-11-27",
+   "time": "22:50",
    "tag": ""
   },
   {
@@ -1818,14 +1803,21 @@
    "cinema": "uci",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
-   "time": "17:30",
+   "time": "18:00",
    "tag": ""
   },
   {
    "cinema": "uci",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-27",
-   "time": "19:50",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-27",
+   "time": "20:00",
    "tag": ""
   },
   {
@@ -1840,20 +1832,13 @@
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
    "time": "14:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "15:20",
    "tag": "VO"
   },
   {
    "cinema": "uci",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
-   "time": "16:20",
+   "time": "16:30",
    "tag": ""
   },
   {
@@ -1881,13 +1866,6 @@
    "cinema": "uci",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
-   "time": "20:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
    "time": "21:10",
    "tag": "VO"
   },
@@ -1902,7 +1880,7 @@
    "cinema": "uci",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-27",
-   "time": "22:10",
+   "time": "22:30",
    "tag": ""
   },
   {
@@ -1917,13 +1895,6 @@
    "film": "LA NOTTE DELLE FRAGOLE",
    "date": "2026-11-27",
    "time": "16:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "17:40",
    "tag": ""
   },
   {
@@ -1951,7 +1922,7 @@
    "cinema": "uci",
    "film": "MUSTANG",
    "date": "2026-11-27",
-   "time": "21:20",
+   "time": "18:50",
    "tag": ""
   },
   {
@@ -1979,21 +1950,14 @@
    "cinema": "uci",
    "film": "SE DOMANI NON TORNO",
    "date": "2026-11-27",
-   "time": "14:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "18:40",
+   "time": "14:30",
    "tag": ""
   },
   {
    "cinema": "uci",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-27",
-   "time": "16:30",
+   "time": "16:20",
    "tag": ""
   },
   {
@@ -2018,20 +1982,25 @@
    "tag": ""
   },
   {
-   "cinema": "baretti",
-   "film": "L’HANGAR ROSSO",
-   "date": "2026-11-28",
-   "time": "18:00",
-   "tag": "VO",
-   "regia": "Juan Pablo Sallato"
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-27",
+   "time": "15:30",
+   "tag": ""
   },
   {
-   "cinema": "baretti",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-11-28",
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-27",
    "time": "21:00",
-   "tag": "",
-   "regia": "Jérôme Bonnell"
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-27",
+   "time": "21:21",
+   "tag": ""
   },
   {
    "cinema": "classico",
@@ -2269,7 +2238,7 @@
   },
   {
    "cinema": "greenwich",
-   "film": "YOU CAN SEE EVERYTHING",
+   "film": "You Can See Everything",
    "date": "2026-11-28",
    "time": "20:30",
    "tag": "VO",
@@ -3446,22 +3415,6 @@
    "tag": ""
   },
   {
-   "cinema": "baretti",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-11-29",
-   "time": "18:00",
-   "tag": "",
-   "regia": "Jérôme Bonnell"
-  },
-  {
-   "cinema": "baretti",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-11-29",
-   "time": "21:00",
-   "tag": "VO",
-   "regia": "Jérôme Bonnell"
-  },
-  {
    "cinema": "classico",
    "film": "WILD HORSE NINE",
    "date": "2026-11-29",
@@ -3697,7 +3650,7 @@
   },
   {
    "cinema": "greenwich",
-   "film": "YOU CAN SEE EVERYTHING",
+   "film": "You Can See Everything",
    "date": "2026-11-29",
    "time": "20:30",
    "tag": "VO",
@@ -4860,22 +4813,6 @@
    "tag": ""
   },
   {
-   "cinema": "baretti",
-   "film": "BORN TO DIE IN BERLIN",
-   "date": "2026-11-30",
-   "time": "21:15",
-   "tag": "",
-   "regia": "Maurizio Spagliardi"
-  },
-  {
-   "cinema": "baretti",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-11-30",
-   "time": "10:30",
-   "tag": "",
-   "regia": "Jérôme Bonnell"
-  },
-  {
    "cinema": "classico",
    "film": "WILD HORSE NINE",
    "date": "2026-11-30",
@@ -6026,14 +5963,6 @@
    "anno": 2019,
    "regia": "Benny e Josh Safdie",
    "tag": ""
-  },
-  {
-   "cinema": "baretti",
-   "film": "COME TI MUOVI, SBAGLI",
-   "date": "2026-12-01",
-   "time": "21:00",
-   "tag": "",
-   "regia": "Gianni Di Gregorio"
   },
   {
    "cinema": "centrale",
@@ -8213,28 +8142,12 @@
    "room": "3"
   },
   {
-   "cinema": "baretti",
-   "film": "NEL SILENZIO DELLE STANZE",
-   "date": "2026-12-04",
-   "time": "10:30",
-   "tag": "",
-   "regia": "Jérôme Bonnell"
-  },
-  {
    "cinema": "massimo",
    "film": "A Foggy Tale",
    "date": "2026-12-04",
    "time": "20:30",
    "tag": "VO",
    "room": "3"
-  },
-  {
-   "cinema": "baretti",
-   "film": "COME TI MUOVI, SBAGLI",
-   "date": "2026-12-05",
-   "time": "18:00",
-   "tag": "",
-   "regia": "Gianni Di Gregorio"
   },
   {
    "cinema": "massimo",
@@ -8403,13 +8316,6 @@
    "room": "3"
   },
   {
-   "cinema": "baretti",
-   "film": "CIAU CINE",
-   "date": "2026-12-13",
-   "time": "11:00",
-   "tag": ""
-  },
-  {
    "cinema": "massimo",
    "film": "La battaglia di Algeri",
    "date": "2026-12-14",
@@ -8432,14 +8338,6 @@
    "time": "15:30",
    "tag": "",
    "room": "3"
-  },
-  {
-   "cinema": "baretti",
-   "film": "WIND TALK TO ME",
-   "date": "2026-12-15",
-   "time": "21:00",
-   "tag": "VO",
-   "regia": "Stefan Djordjevic"
   },
   {
    "cinema": "duegiardini",
@@ -8478,14 +8376,6 @@
    "time": "18:00",
    "tag": "VO",
    "room": "3"
-  },
-  {
-   "cinema": "baretti",
-   "film": "LE COURS DE LA VIE",
-   "date": "2026-12-16",
-   "time": "21:00",
-   "tag": "VO",
-   "regia": "Frédéric Sojcher"
   },
   {
    "cinema": "ideal",
@@ -8681,22 +8571,6 @@
    "room": "3"
   },
   {
-   "cinema": "baretti",
-   "film": "DOMANI, Il viaggio di Maysoon Majidi",
-   "date": "2026-12-17",
-   "time": "21:00",
-   "tag": "",
-   "regia": "Vincenzo Caricari e Barbara Di Fabio"
-  },
-  {
-   "cinema": "baretti",
-   "film": "LOST LAND",
-   "date": "2026-12-17",
-   "time": "16:00",
-   "tag": "VO",
-   "regia": "Akio Fujimoto"
-  },
-  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
@@ -8902,14 +8776,6 @@
    "room": "3"
   },
   {
-   "cinema": "baretti",
-   "film": "WIND TALK TO ME",
-   "date": "2026-12-19",
-   "time": "18:00",
-   "tag": "VO",
-   "regia": "Stefan Djordjevic"
-  },
-  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
@@ -9015,14 +8881,6 @@
    "time": "21:30",
    "tag": "",
    "room": "3"
-  },
-  {
-   "cinema": "baretti",
-   "film": "UN TOPOLINO SOTTO L’ALBERO",
-   "date": "2026-12-20",
-   "time": "15:30",
-   "tag": "",
-   "regia": "Henrik M. Dahlsbakken"
   },
   {
    "cinema": "ideal",
@@ -9570,13 +9428,6 @@
    "time": "20:30",
    "tag": "VO",
    "room": "3"
-  },
-  {
-   "cinema": "baretti",
-   "film": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
-   "date": "2027-01-21",
-   "time": "21:00",
-   "tag": ""
   }
  ]
 }
