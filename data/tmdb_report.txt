@@ -1,6 +1,10 @@
-Report TMDB del 2026-11-27: 145 film con dati TMDB, 17 senza.
+Report TMDB del 2026-11-27: 153 film con dati TMDB, 21 senza.
 
 - ALICE NEL PAESE DEI COLONI  [regia dichiarata: Yanis Mhamdi; anno: 2026; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- BORN TO DIE IN BERLIN  [regia dichiarata: Maurizio Spagliardi; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- CIAU CINE  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - DIAMOND  [regia dichiarata: Andy Garcia; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 681 (1971): titolo diverso (somiglianza 0.53: 'Agente 007 - Una cascata di diamanti' / 'Diamonds Are Forever'); TMDB scartato id 17101 (2007): titolo diverso (somiglianza 0.36: 'Bleach the Movie: The DiamondDust Rebellion' / '劇場版 BLEACH The DiamondDust Rebellion もう一つの氷輪丸'); TMDB scartato id 1005076 (2024): titolo diverso (somiglianza 0.41: 'Duchess' / 'Duchess'); TMDB scartato id 1425725 (2025): titolo diverso (somiglianza 0.29: 'Hans Zimmer & Friends: Diamond in the Desert' / 'Hans Zimmer & Friends: Diamond in the Desert'); TMDB scartato id 1013446 (2025): titolo diverso (somiglianza 0.40: 'Reflection in a Dead Diamond' / 'Reflet dans un diamant mort')
@@ -11,6 +15,8 @@ Report TMDB del 2026-11-27: 145 film con dati TMDB, 17 senza.
 - HEAT  [regia dichiarata: Jacqueline Zünd; anno: 2026; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 949 (1995): anno 1995 != 2026; TMDB scartato id 265208 (2015): anno 2015 != 2026; TMDB scartato id 9604 (1988): titolo diverso (somiglianza 0.67: 'Danko' / 'Red Heat'); TMDB scartato id 1015963 (2022): titolo diverso (somiglianza 0.62: 'High Heat - Fuoco mortale' / 'High Heat'); TMDB scartato id 26030 (1956): titolo diverso (somiglianza 0.57: 'Bob il giocatore' / 'Bob le flambeur')
 - I CORTI DEL POLI  [regia dichiarata: -; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
+- JOU, SCIALPINISMO NEI PICOS DE EUROPA  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - KEN IL GUERRIERO  [regia dichiarata: -; anno: -; Wikipedia: si]
     motivo: TMDB scartato id 19877 (1986): titolo diverso (somiglianza 0.80: 'Ken il guerriero - Il film' / '北斗の拳')
@@ -28,6 +34,8 @@ Report TMDB del 2026-11-27: 145 film con dati TMDB, 17 senza.
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB: la ricerca non ha restituito nessun film
 - Scooby Doo e la leggenda del Fantosauro  [regia dichiarata: -; anno: -; Wikipedia: no]
     motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 67900 (2011): nessun riscontro e uscita 2011 non recente
+- SOSPESI  [regia dichiarata: Luca Quaia e Francesco Sgrò; anno: -; Wikipedia: no]
+    motivo: Wikipedia: nessuna pagina che sia un film con questo titolo; TMDB scartato id 10779 (1996): titolo diverso (somiglianza 0.58: 'Sospesi nel tempo' / 'The Frighteners'); TMDB scartato id 248119 (1997): titolo diverso (somiglianza 0.70: 'Amori sospesi' / 'The Only Thrill'); TMDB scartato id 1318420 (2024): regista Fabio Guerra, Tonja Korosteliev != 'Luca Quaia e Francesco Sgrò'; TMDB scartato id 1061574 (2022): regista Martina Dall'Ara != 'Luca Quaia e Francesco Sgrò'
 - SUGAR  [regia dichiarata: Amira Duynhouwer; anno: 2026; Wikipedia: no]
     motivo: wikipedia scartata: regista diverso da quello del cinema; TMDB scartato id 1710886 (2026): titolo diverso (somiglianza 0.62: 'Sugar Mommy' / 'Sugar Mommy'); TMDB scartato id 1815447 (2026): titolo diverso (somiglianza 0.42: 'My Son’s Sugar Mama' / 'My Son’s Sugar Mama'); TMDB scartato id 1101401 (2024): titolo diverso (somiglianza 0.67: 'Sugar Baby' / 'Sugar Baby'); TMDB scartato id 1484708 (2026): titolo diverso (somiglianza 0.62: 'Sugar Beach' / 'Sugar Beach'); TMDB scartato id 1627985 (2026): titolo diverso (somiglianza 0.25: 'Sugar & Vice: A Hannah Swensen Mystery' / 'Sugar & Vice: A Hannah Swensen Mystery')
 - Tavola rotonda  [regia dichiarata: -; anno: -; Wikipedia: no]
