@@ -1407,7 +1407,7 @@
    "regia": "Luca Quaia e Francesco Sgrò",
    "anno": null
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-27"
  },
  "born to die in berlin": {
   "title": "BORN TO DIE IN BERLIN",
@@ -1422,7 +1422,7 @@
    "regia": "Maurizio Spagliardi",
    "anno": null
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-27"
  },
  "come ti muovi sbagli": {
   "title": "COME TI MUOVI, SBAGLI",
@@ -1474,7 +1474,7 @@
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-27"
  },
  "domani il viaggio di maysoon majidi": {
   "title": "DOMANI, Il viaggio di Maysoon Majidi",
@@ -1859,7 +1859,7 @@
    "regia": null,
    "anno": null
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-27"
  },
  "il fuoco che ti porti dentro": {
   "title": "IL FUOCO CHE TI PORTI DENTRO",
@@ -7561,5 +7561,44 @@
    "anno": 2026
   },
   "checked": "2026-11-25"
+ },
+ "il sentiero azzurro": {
+  "title": "Il sentiero azzurro",
+  "url": "https://it.wikipedia.org/wiki/Il_sentiero_azzurro",
+  "poster": null,
+  "director": "Gabriel Mascaro",
+  "tmdb": {
+   "id": 1172265,
+   "title": "Il sentiero azzurro",
+   "url": "https://www.themoviedb.org/movie/1172265?language=it-IT",
+   "poster_path": "/ajv99fDULy90GXvxWtl6a9FVRK9.jpg",
+   "runtime": 86,
+   "director": "Gabriel Mascaro",
+   "year": 2025,
+   "overview": "In un Brasile del futuro prossimo, la parte più anziana della popolazione viene al tempo stesso celebrata e ostracizzata, in una serie di attività cerimoniali di facciata che nascondono un tentativo di controllo e di rimozione forzata dalla società. È il caso di Tereza, che come molti altri è costretta a smettere di lavorare finendo sotto la custodia della figlia, senza poter nemmeno comprare cose in autonomia. Ancora fieramente indipendente, la donna non vuole rassegnarsi a trascorrere il resto dei suoi giorni nell'inquietante \"colonia\" in cui la vorrebbe il governo, e con il sogno di volare a bordo di un aereo si incammina in un clandestino viaggio di scoperta.",
+   "genres": [
+    "Dramma",
+    "Avventura",
+    "Fantascienza"
+   ],
+   "cast": [
+    "Denise Weinberg",
+    "Rodrigo Santoro",
+    "Miriam Socarrás",
+    "Adanilo",
+    "Rosa Malagueta",
+    "Clarissa Pinheiro"
+   ],
+   "original_title": "O Último Azul",
+   "release_date": "2025-08-28"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-27"
  }
 }
