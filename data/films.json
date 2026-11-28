@@ -7600,5 +7600,43 @@
    "anno": null
   },
   "checked": "2026-11-27"
+ },
+ "je so pazzo": {
+  "title": "JE SO’ PAZZO",
+  "url": "https://it.wikipedia.org/wiki/Je_so%27_pazzo_(film_2026)",
+  "poster": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/f2/Jesopazzfilm.webp/250px-Jesopazzfilm.webp?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "director": "Nicola Prosatore",
+  "tmdb": {
+   "id": 1438966,
+   "title": "Je so’ pazzo",
+   "url": "https://www.themoviedb.org/movie/1438966?language=it-IT",
+   "poster_path": "/eDfWOV5oad5wbI8AdzsMhnq7Zbd.jpg",
+   "runtime": 120,
+   "director": "Nicola Prosatore",
+   "year": 2026,
+   "overview": "Je so’ pazzo è un ritratto intenso di Pino Daniele, un’anima ribelle nata nei vicoli di Napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione partenopea. Il film racconta la sua ascesa, dagli anni difficili dell’infanzia segnata dall’abbandono, fino al leggendario concerto del 1981 davanti a 200.000 persone. Tra conflitti familiari, fragilità personali e amori profondi, Pino trova nella musica un linguaggio per esprimere ciò che non riesce a dire. Ma il successo porta con sé nuove sfide: il rapporto irrisolto con il padre, il peso delle aspettative, e il rischio di ripetere gli stessi errori. Non è solo la storia di un musicista straordinario, ma quella di un uomo",
+   "genres": [
+    "Dramma",
+    "Musica"
+   ],
+   "cast": [
+    "Massimiliano Caiazzo",
+    "Mariasole Pollio",
+    "Giovanni Ludeno",
+    "Giuseppe Brunetti",
+    "Leonardo Bianconi",
+    "Giampiero De Concilio"
+   ],
+   "original_title": "Je so’ pazzo",
+   "release_date": "2026-10-15"
+  },
+  "t": true,
+  "v": 7,
+  "why": null,
+  "ref": {
+   "regia": null,
+   "anno": null
+  },
+  "checked": "2026-11-28"
  }
 }
