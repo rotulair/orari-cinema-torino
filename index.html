@@ -120,7 +120,16 @@ summary.fh:not(.chd)>.pbtn{grid-column:1;grid-row:1 / span 2}
 summary.fh:not(.chd)>.fm{grid-column:2;grid-row:1}
 summary.fh:not(.chd)>.plotw{grid-column:2;grid-row:2;min-width:0}
 summary.fh:not(.chd)>.prev{grid-column:1 / -1;grid-row:3;margin-top:10px}
-@media (max-width:639px){.card.xo>summary.fh>.plotw{grid-column:1 / -1;grid-row:3;margin-top:12px}}
+/* telefono, trama aperta: la locandina galleggia a sinistra e il testo la aggira, poi si allarga sotto di lei */
+@media (max-width:639px){
+  .card.xo>summary.fh:not(.chd){display:block}
+  .card.xo>summary.fh:not(.chd)::after{content:"";display:block;clear:both}
+  .card.xo>summary.fh>.pbtn{float:left;margin:0 14px 2px 0}
+  .card.xo>summary.fh>.plotw{margin-top:8px}
+  .card.xo .plotw .plot{text-align:justify;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:6 3 3;text-justify:inter-word}
+  .card.xo .plotw .plot{overflow:visible}   /* overflow:hidden farebbe del paragrafo un blocco che non aggira la locandina */
+  .card.xo>summary.fh>.prev{clear:both}
+}
 .card[open] .prev{display:none}
 .pp{display:inline-flex;align-items:baseline;gap:6px;background:var(--raised);border-radius:9px;padding:4px 9px;
   border:2px solid transparent;font-size:14px;min-width:0;max-width:100%}
