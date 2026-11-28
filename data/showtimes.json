@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T22:18:49+01:00",
- "today": "2026-11-27",
+ "generated_at": "2026-11-28T02:44:30+01:00",
+ "today": "2026-11-28",
  "cinemas": [
   {
    "id": "ideal",
@@ -10,11 +10,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 136,
+    "n": 117,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:03+01:00"
+    "fetched_at": "2026-11-28T02:43:43+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:06+01:00"
+    "fetched_at": "2026-11-28T02:43:46+01:00"
    }
   },
   {
@@ -40,11 +40,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 119,
+    "n": 115,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:08+01:00"
+    "fetched_at": "2026-11-28T02:43:48+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:11+01:00"
+    "fetched_at": "2026-11-28T02:43:51+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:14+01:00"
+    "fetched_at": "2026-11-28T02:43:54+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:16+01:00"
+    "fetched_at": "2026-11-28T02:43:57+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:18+01:00"
+    "fetched_at": "2026-11-28T02:43:58+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:19+01:00"
+    "fetched_at": "2026-11-28T02:44:00+01:00"
    }
   },
   {
@@ -130,11 +130,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 62,
+    "n": 61,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:21+01:00"
+    "fetched_at": "2026-11-28T02:44:01+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:24+01:00"
+    "fetched_at": "2026-11-28T02:44:05+01:00"
    }
   },
   {
@@ -164,7 +164,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:27+01:00"
+    "fetched_at": "2026-11-28T02:44:08+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:29+01:00"
+    "fetched_at": "2026-11-28T02:44:10+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:33+01:00"
+    "fetched_at": "2026-11-28T02:44:14+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:36+01:00"
+    "fetched_at": "2026-11-28T02:44:17+01:00"
    }
   },
   {
@@ -220,11 +220,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 33,
+    "n": 32,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:38+01:00"
+    "fetched_at": "2026-11-28T02:44:19+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:43+01:00"
+    "fetched_at": "2026-11-28T02:44:21+01:00"
    }
   },
   {
@@ -250,11 +250,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 0,
-    "source": null,
+    "n": 18,
+    "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:45+01:00"
+    "fetched_at": "2026-11-28T02:44:25+01:00"
    }
   },
   {
@@ -269,1243 +269,26 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-27T22:18:48+01:00"
+    "fetched_at": "2026-11-28T02:44:29+01:00"
    }
   }
  ],
  "showtimes": [
   {
-   "cinema": "classico",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "15:45",
-   "tag": ""
-  },
-  {
-   "cinema": "classico",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "tag": "VO"
-  },
-  {
-   "cinema": "classico",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "20:45",
-   "tag": "VO"
-  },
-  {
-   "cinema": "duegiardini",
-   "film": "IL FUOCO CHE TI PORTI DENTRO",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "Ombrerosse"
-  },
-  {
-   "cinema": "esedra",
-   "film": "Ragione e sentimento",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-27",
-   "time": "15:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "FJORD",
-   "date": "2026-11-27",
-   "time": "20:45",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "IL CANTO DELLA FORESTA",
-   "date": "2026-11-27",
-   "time": "15:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-27",
-   "time": "15:30",
-   "tag": "VO",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-27",
-   "time": "17:30",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "L'ESSERE AMATO (EL SER QUERIDO)",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "20:30",
-   "tag": "VO",
-   "room": "3"
-  },
-  {
-   "cinema": "greenwich",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "21:00",
-   "tag": "VO",
-   "room": "4"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "tag": "",
-   "room": "3",
-   "regia": "Jason Hand, Fawn Veerasunthorn"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "17:10",
-   "tag": "",
-   "room": "3",
-   "regia": "Jason Hand, Fawn Veerasunthorn"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "19:20",
-   "tag": "",
-   "room": "3",
-   "regia": "Jason Hand, Fawn Veerasunthorn"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "15:15",
-   "tag": "",
-   "room": "1",
-   "regia": "Francis Lawrence"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "tag": "",
-   "room": "1",
-   "regia": "Francis Lawrence"
-  },
-  {
-   "cinema": "ideal",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "tag": "",
-   "room": "1",
-   "regia": "Francis Lawrence"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "tag": "",
-   "room": "5",
-   "regia": "Alessandro Carloni, Erica Rivinoja",
-   "anno": 2026
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-27",
-   "time": "17:35",
-   "tag": "",
-   "room": "4",
-   "regia": "Paolo Genovese"
-  },
-  {
-   "cinema": "ideal",
-   "film": "IL RUMORE DELLE COSE NUOVE",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "",
-   "room": "5",
-   "regia": "Paolo Genovese"
-  },
-  {
-   "cinema": "ideal",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-27",
-   "time": "19:45",
-   "tag": "",
-   "room": "4",
-   "regia": "Dario Zonta, Carlo Zoratti"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "17:10",
-   "tag": "",
-   "room": "2",
-   "regia": "Ti West"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "21:35",
-   "tag": "",
-   "room": "2",
-   "regia": "Ti West"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "15:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Paola Randi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "19:25",
-   "tag": "",
-   "room": "5",
-   "regia": "Paola Randi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "tag": "",
-   "room": "2",
-   "regia": "John Hamburg"
-  },
-  {
-   "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "19:25",
-   "tag": "",
-   "room": "2",
-   "regia": "John Hamburg"
-  },
-  {
-   "cinema": "ideal",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "",
-   "room": "3",
-   "regia": "Martin McDonagh"
-  },
-  {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-27",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "17:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
+   "cinema": "baretti",
+   "film": "L’HANGAR ROSSO",
+   "date": "2026-11-28",
    "time": "18:00",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Juan Pablo Sallato"
   },
   {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "tag": "",
-   "anno": 2026
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "22:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-27",
-   "time": "22:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "19:35",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "22:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "22:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-27",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "21:45",
-   "fest": "TFF",
-   "film": "ALL ABOUT EVE",
-   "sez": "Marilyn Monroe",
-   "nota": "Il film sarà presentato da Eva Carducci.",
-   "anno": 1950,
-   "regia": "Eva contro Eva, Joseph L. Mankiewicz",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "22:30",
-   "fest": "TFF",
-   "film": "BAD LIEUTENANT: TOKYO",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Takashi Miike",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "fest": "TFF",
-   "film": "CARO NANNI",
-   "sez": "Zibaldone",
-   "anno": 2026,
-   "regia": "Pablo Maqueda",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "14:45",
-   "fest": "TFF",
-   "film": "CLASH BY NIGHT",
-   "sez": "Marilyn Monroe",
-   "nota": "Il film sarà presentato da Marina Fabbri.",
-   "anno": 1952,
-   "regia": "La confessione della signora Doyle, Fritz Lang",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "19:45",
-   "fest": "TFF",
-   "film": "GENTLEMEN PREFER BLONDES",
-   "sez": "Marilyn Monroe",
-   "nota": "Il film sarà presentato da Chiara Spagnoli Gabardi.",
-   "anno": 1953,
-   "regia": "Gli uomini preferiscono le bionde, Howard Hawks",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "17:15",
-   "fest": "TFF",
-   "film": "HOW TO MARRY A MILLIONAIRE",
-   "sez": "Marilyn Monroe",
-   "nota": "Il film sarà presentato da Elisa Giordano.",
-   "anno": 1953,
-   "regia": "Come sposare un milionario, Jean Negulesco",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "fest": "TFF",
-   "film": "KRUX",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Tony Vahl",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "fest": "TFF",
-   "film": "LA LIBERTAD DOBLE",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Lisandro Alonso",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "11:45",
-   "fest": "TFF",
-   "film": "MONKEY BUSINESS",
-   "sez": "Marilyn Monroe",
-   "anno": 1952,
-   "regia": "Il magnifico scherzo, Howard Hawks",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "11:00",
-   "fest": "TFF",
-   "film": "RONDOLINO DOCET",
-   "sez": "Zibaldone",
-   "anno": 2026,
-   "regia": "Mimmo Calopresti",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "12:00",
-   "fest": "TFF",
-   "film": "THE END OF IT",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Maria Martinez Bayona",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "14:30",
-   "fest": "TFF",
-   "film": "THE FERTILIZER HOME",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Hyo-jung Jeong",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "17:30",
-   "fest": "TFF",
-   "film": "THE LAST DAY",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Rachel Rose",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "fest": "TFF",
-   "film": "THE LIBERATION",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Guy Nattiv",
-   "tag": ""
-  },
-  {
-   "cinema": "massimo",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "14:00",
-   "fest": "TFF",
-   "film": "TRULY NAKED",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Muriel d’Ansembourg",
-   "tag": ""
-  },
-  {
-   "cinema": "nazionale",
-   "film": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": "",
-   "room": "3"
-  },
-  {
-   "cinema": "reposi",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "tag": "",
-   "room": "2"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "tag": "",
-   "room": "4"
-  },
-  {
-   "cinema": "reposi",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "tag": "",
-   "room": "5"
-  },
-  {
-   "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "22:00",
-   "tag": "",
-   "room": "1"
-  },
-  {
-   "cinema": "romano",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "14:15",
-   "fest": "TFF",
-   "film": "ANCORA È PRESTO",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Antonio Valerio Spera",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "fest": "TFF",
-   "film": "CAR LA LUNE",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Éric Baudelaire",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "fest": "TFF",
-   "film": "COSTANERA",
-   "sez": "Zibaldone",
-   "nota": "Il film sarà presentato da Mauro Díez Concari e Celeste Dalla Porta e Michele Sallicandro.",
-   "anno": 2026,
-   "regia": "Mauro Díez Concari",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "3",
-   "date": "2026-11-27",
+   "cinema": "baretti",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-28",
    "time": "21:00",
-   "fest": "TFF",
-   "film": "DIRTY PRETTY THINGS",
-   "sez": "Zibaldone",
-   "anno": 2002,
-   "regia": "Piccoli affari sporchi, Stephen Frears",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "fest": "TFF",
-   "film": "DOGMAN",
-   "sez": "Zibaldone",
-   "anno": 2023,
-   "regia": "Luc Besson",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "fest": "TFF",
-   "film": "HEIL JUPITER!",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Carlos Reygadas",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "14:30",
-   "fest": "TFF",
-   "film": "IF PIGEONS TURNED TO GOLD",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Pepa Lubojacki",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "16:45",
-   "fest": "TFF",
-   "film": "LA BERMA",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Agustin Dominguez Cordero",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "fest": "TFF",
-   "film": "LA U DI SVANIRE",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Augusto Contento",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "3",
-   "date": "2026-11-27",
-   "time": "11:00",
-   "fest": "TFF",
-   "film": "LES SURVIVANTS DU CHE",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Christophe Dimitri Réveille",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "14:00",
-   "fest": "TFF",
-   "film": "LOS NADADORES",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Sol Iglesias",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "16:30",
-   "fest": "TFF",
-   "film": "MOSCAS",
-   "sez": "Fuori Concorso",
-   "anno": 2026,
-   "regia": "Fernando Eimbcke",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "12:00",
-   "fest": "TFF",
-   "film": "SEIZE MOMENTS DE MA VIE",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Albert Serra",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "1",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "fest": "TFF",
-   "film": "SOMALIA",
-   "sez": "Concorso Documentari",
-   "anno": 2026,
-   "regia": "Mohamoud Hassan, Giuseppe Carrieri",
-   "tag": ""
-  },
-  {
-   "cinema": "romano",
-   "room": "2",
-   "date": "2026-11-27",
-   "time": "11:30",
-   "fest": "TFF",
-   "film": "THIRTEEN IN GAZA",
-   "sez": "Concorso Lungometraggi",
-   "anno": 2026,
-   "regia": "Hosam Abu Dan",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "14:30",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "15:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "17:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "18:10",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "20:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "21:40",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "14:55",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "16:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "18:05",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "22:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "15:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "22:40",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "15:20",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "15:40",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "UN WEEKEND ARTIFICIALE",
-   "date": "2026-11-27",
-   "time": "23:15",
-   "tag": ""
-  },
-  {
-   "cinema": "thespace",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "tag": "VO"
-  },
-  {
-   "cinema": "thespace",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "20:30",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "Clayface",
-   "date": "2026-11-27",
-   "time": "22:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "14:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "16:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "16:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-27",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "14:20",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "16:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "17:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "17:50",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "19:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "21:10",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-27",
-   "time": "22:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "15:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "16:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "19:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-27",
-   "time": "21:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "MUSTANG",
-   "date": "2026-11-27",
-   "time": "18:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "14:10",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "16:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-27",
-   "time": "22:40",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-27",
-   "time": "14:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "16:20",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "18:50",
-   "tag": "VO"
-  },
-  {
-   "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-27",
-   "time": "21:50",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "15:30",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "uci",
-   "film": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "21:21",
-   "tag": ""
+   "tag": "",
+   "regia": "Jérôme Bonnell"
   },
   {
    "cinema": "classico",
@@ -1751,6 +534,24 @@
   },
   {
    "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "15:00",
@@ -1878,7 +679,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "15:00",
    "tag": "",
@@ -1887,7 +688,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "19:25",
    "tag": "",
@@ -1904,22 +705,18 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-28",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "14:30",
+   "tag": ""
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-28",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "22:00",
+   "tag": ""
   },
   {
    "cinema": "lux",
@@ -2057,44 +854,30 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "14:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "17:00",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "19:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "22:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-28",
-   "time": "14:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-28",
-   "time": "22:00",
    "tag": ""
   },
   {
@@ -2103,6 +886,27 @@
    "date": "2026-11-28",
    "time": "16:15",
    "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "18:15",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-28",
+   "time": "20:30",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -2138,27 +942,6 @@
    "date": "2026-11-28",
    "time": "21:00",
    "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-28",
-   "time": "16:00",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-28",
-   "time": "18:15",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-28",
-   "time": "20:30",
-   "tag": "Groucho"
   },
   {
    "cinema": "massaua",
@@ -2281,27 +1064,24 @@
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "16:05",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "19:45",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "21:50",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -2716,7 +1496,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "15:30",
    "tag": "",
@@ -2724,7 +1504,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "19:55",
    "tag": "",
@@ -2732,7 +1512,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
    "time": "22:00",
    "tag": "",
@@ -2921,6 +1701,421 @@
    "anno": 2026,
    "regia": "Rachel Rose",
    "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "14:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "17:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "21:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "15:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "17:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "18:10",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "20:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "21:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "14:55",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "16:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "18:05",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "22:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "15:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "18:25",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "22:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-28",
+   "time": "15:20",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "15:40",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "UN WEEKEND ARTIFICIALE",
+   "date": "2026-11-28",
+   "time": "23:15",
+   "tag": ""
+  },
+  {
+   "cinema": "thespace",
+   "film": "You Can See Everything",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "thespace",
+   "film": "You Can See Everything",
+   "date": "2026-11-28",
+   "time": "20:30",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "Clayface",
+   "date": "2026-11-28",
+   "time": "22:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "14:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "15:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "16:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "18:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "14:20",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "16:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "17:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "17:50",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "19:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "21:10",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "21:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+   "date": "2026-11-28",
+   "time": "22:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "15:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "16:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "19:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "LA NOTTE DELLE FRAGOLE",
+   "date": "2026-11-28",
+   "time": "21:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "MUSTANG",
+   "date": "2026-11-28",
+   "time": "18:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "14:10",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "16:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "date": "2026-11-28",
+   "time": "22:40",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "SE DOMANI NON TORNO",
+   "date": "2026-11-28",
+   "time": "14:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "16:20",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "18:50",
+   "tag": "VO"
+  },
+  {
+   "cinema": "uci",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "19:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
+   "date": "2026-11-28",
+   "time": "21:50",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-28",
+   "time": "15:30",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "tag": ""
+  },
+  {
+   "cinema": "uci",
+   "film": "You Can See Everything",
+   "date": "2026-11-28",
+   "time": "21:21",
+   "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-29",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Jérôme Bonnell"
+  },
+  {
+   "cinema": "baretti",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-29",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Jérôme Bonnell"
   },
   {
    "cinema": "classico",
@@ -3166,6 +2361,24 @@
   },
   {
    "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "15:00",
@@ -3293,7 +2506,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "15:00",
    "tag": "",
@@ -3302,7 +2515,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "19:25",
    "tag": "",
@@ -3319,22 +2532,18 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-29",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
+   "time": "14:45",
+   "tag": ""
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-29",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "20:00",
+   "tag": ""
   },
   {
    "cinema": "lux",
@@ -3437,35 +2646,21 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "14:40",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "17:15",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
-   "date": "2026-11-29",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-29",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "20:00",
    "tag": ""
@@ -3476,6 +2671,27 @@
    "date": "2026-11-29",
    "time": "16:15",
    "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "18:30",
+   "tag": "Groucho"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-29",
+   "time": "21:15",
+   "tag": "Groucho"
   },
   {
    "cinema": "marx",
@@ -3511,27 +2727,6 @@
    "date": "2026-11-29",
    "time": "21:00",
    "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-29",
-   "time": "16:00",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-29",
-   "time": "18:30",
-   "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-29",
-   "time": "21:15",
-   "tag": "Groucho"
   },
   {
    "cinema": "massaua",
@@ -3654,19 +2849,17 @@
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "16:20",
-   "tag": "",
-   "room": "3"
+   "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "21:40",
-   "tag": "",
-   "room": "1"
+   "tag": ""
   },
   {
    "cinema": "massaua",
@@ -4093,7 +3286,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "15:30",
    "tag": "",
@@ -4101,7 +3294,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "19:55",
    "tag": "",
@@ -4109,7 +3302,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
    "time": "22:00",
    "tag": "",
@@ -4321,6 +3514,22 @@
    "anno": 2026,
    "regia": "Fabrizio Maria Cortese",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "BORN TO DIE IN BERLIN",
+   "date": "2026-11-30",
+   "time": "21:15",
+   "tag": "",
+   "regia": "Maurizio Spagliardi"
+  },
+  {
+   "cinema": "baretti",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-11-30",
+   "time": "10:30",
+   "tag": "",
+   "regia": "Jérôme Bonnell"
   },
   {
    "cinema": "classico",
@@ -4538,6 +3747,24 @@
   },
   {
    "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "17:35",
@@ -4647,7 +3874,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "19:25",
    "tag": "",
@@ -4664,22 +3891,11 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-11-30",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-30",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:30",
+   "tag": ""
   },
   {
    "cinema": "lux",
@@ -4746,30 +3962,23 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "21:00",
    "tag": "VO"
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-30",
-   "time": "18:30",
    "tag": ""
   },
   {
@@ -4778,6 +3987,27 @@
    "date": "2026-11-30",
    "time": "16:15",
    "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "16:00",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-11-30",
+   "time": "20:30",
+   "tag": "Harpo"
   },
   {
    "cinema": "marx",
@@ -4813,27 +4043,6 @@
    "date": "2026-11-30",
    "time": "16:30",
    "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-30",
-   "time": "16:00",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-30",
-   "time": "18:15",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-11-30",
-   "time": "20:30",
-   "tag": "Harpo"
   },
   {
    "cinema": "massimo",
@@ -5245,7 +4454,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "15:30",
    "tag": "",
@@ -5253,7 +4462,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "19:55",
    "tag": "",
@@ -5261,7 +4470,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
    "time": "22:00",
    "tag": "",
@@ -5473,6 +4682,14 @@
    "anno": 2019,
    "regia": "Benny e Josh Safdie",
    "tag": ""
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-01",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
   },
   {
    "cinema": "centrale",
@@ -5701,6 +4918,24 @@
   },
   {
    "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "17:10",
+   "tag": "",
+   "room": "5",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "21:30",
+   "tag": "",
+   "room": "4",
+   "regia": "Gianni Zanasi"
+  },
+  {
+   "cinema": "ideal",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "15:00",
@@ -5819,7 +5054,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "19:25",
    "tag": "",
@@ -5836,22 +5071,11 @@
    "regia": "Martin McDonagh"
   },
   {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "lux",
+   "film": "E' ANDATA COSI'",
    "date": "2026-12-01",
-   "time": "17:10",
-   "tag": "",
-   "room": "5",
-   "regia": "Gianni Zanasi"
-  },
-  {
-   "cinema": "ideal",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-01",
-   "time": "21:30",
-   "tag": "",
-   "room": "4",
-   "regia": "Gianni Zanasi"
+   "time": "18:30",
+   "tag": ""
   },
   {
    "cinema": "lux",
@@ -5925,23 +5149,16 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-01",
-   "time": "18:30",
    "tag": ""
   },
   {
@@ -5950,6 +5167,27 @@
    "date": "2026-12-01",
    "time": "16:15",
    "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "16:00",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "18:15",
+   "tag": "Harpo"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-01",
+   "time": "20:30",
+   "tag": "Harpo"
   },
   {
    "cinema": "marx",
@@ -5985,27 +5223,6 @@
    "date": "2026-12-01",
    "time": "16:30",
    "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-01",
-   "time": "16:00",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-01",
-   "time": "18:15",
-   "tag": "Harpo"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-01",
-   "time": "20:30",
-   "tag": "Harpo"
   },
   {
    "cinema": "massimo",
@@ -6406,7 +5623,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "15:30",
    "tag": "",
@@ -6414,7 +5631,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "19:55",
    "tag": "",
@@ -6422,7 +5639,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "22:00",
    "tag": "",
@@ -6896,6 +6113,13 @@
   },
   {
    "cinema": "lux",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "18:30",
+   "tag": ""
+  },
+  {
+   "cinema": "lux",
    "film": "HEXE - IL REGNO DELLE STREGHE",
    "date": "2026-12-02",
    "time": "18:00",
@@ -6966,24 +6190,38 @@
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "18:20",
    "tag": ""
   },
   {
    "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "21:15",
    "tag": ""
   },
   {
-   "cinema": "lux",
-   "film": "ÈANDATA COSÌ",
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
    "date": "2026-12-02",
-   "time": "18:30",
-   "tag": ""
+   "time": "16:00",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "18:15",
+   "tag": "Chico"
+  },
+  {
+   "cinema": "marx",
+   "film": "E' ANDATA COSI'",
+   "date": "2026-12-02",
+   "time": "20:30",
+   "tag": "Chico"
   },
   {
    "cinema": "marx",
@@ -7005,27 +6243,6 @@
    "date": "2026-12-02",
    "time": "16:30",
    "tag": "Groucho"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-02",
-   "time": "16:00",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-02",
-   "time": "18:15",
-   "tag": "Chico"
-  },
-  {
-   "cinema": "marx",
-   "film": "ÈANDATA COSÌ",
-   "date": "2026-12-02",
-   "time": "20:30",
-   "tag": "Chico"
   },
   {
    "cinema": "massimo",
@@ -7420,7 +6637,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "15:30",
    "tag": "",
@@ -7428,7 +6645,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "19:55",
    "tag": "",
@@ -7436,7 +6653,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "TI PRESENTO I FOTTER",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "22:00",
    "tag": "",
@@ -7652,12 +6869,28 @@
    "room": "3"
   },
   {
+   "cinema": "baretti",
+   "film": "NEL SILENZIO DELLE STANZE",
+   "date": "2026-12-04",
+   "time": "10:30",
+   "tag": "",
+   "regia": "Jérôme Bonnell"
+  },
+  {
    "cinema": "massimo",
    "film": "A Foggy Tale",
    "date": "2026-12-04",
    "time": "20:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "COME TI MUOVI, SBAGLI",
+   "date": "2026-12-05",
+   "time": "18:00",
+   "tag": "",
+   "regia": "Gianni Di Gregorio"
   },
   {
    "cinema": "massimo",
@@ -7826,6 +7059,13 @@
    "room": "3"
   },
   {
+   "cinema": "baretti",
+   "film": "CIAU CINE",
+   "date": "2026-12-13",
+   "time": "11:00",
+   "tag": ""
+  },
+  {
    "cinema": "massimo",
    "film": "La battaglia di Algeri",
    "date": "2026-12-14",
@@ -7848,6 +7088,14 @@
    "time": "15:30",
    "tag": "",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-15",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
   },
   {
    "cinema": "duegiardini",
@@ -7886,6 +7134,14 @@
    "time": "18:00",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "LE COURS DE LA VIE",
+   "date": "2026-12-16",
+   "time": "21:00",
+   "tag": "VO",
+   "regia": "Frédéric Sojcher"
   },
   {
    "cinema": "ideal",
@@ -8081,6 +7337,22 @@
    "room": "3"
   },
   {
+   "cinema": "baretti",
+   "film": "DOMANI, Il viaggio di Maysoon Majidi",
+   "date": "2026-12-17",
+   "time": "21:00",
+   "tag": "",
+   "regia": "Vincenzo Caricari e Barbara Di Fabio"
+  },
+  {
+   "cinema": "baretti",
+   "film": "LOST LAND",
+   "date": "2026-12-17",
+   "time": "16:00",
+   "tag": "VO",
+   "regia": "Akio Fujimoto"
+  },
+  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-17",
@@ -8286,6 +7558,14 @@
    "room": "3"
   },
   {
+   "cinema": "baretti",
+   "film": "WIND TALK TO ME",
+   "date": "2026-12-19",
+   "time": "18:00",
+   "tag": "VO",
+   "regia": "Stefan Djordjevic"
+  },
+  {
    "cinema": "ideal",
    "film": "AVENGERS: DOOMSDAY",
    "date": "2026-12-19",
@@ -8391,6 +7671,14 @@
    "time": "21:30",
    "tag": "",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "UN TOPOLINO SOTTO L’ALBERO",
+   "date": "2026-12-20",
+   "time": "15:30",
+   "tag": "",
+   "regia": "Henrik M. Dahlsbakken"
   },
   {
    "cinema": "ideal",
@@ -8938,6 +8226,13 @@
    "time": "20:30",
    "tag": "VO",
    "room": "3"
+  },
+  {
+   "cinema": "baretti",
+   "film": "JOU, SCIALPINISMO NEI PICOS DE EUROPA",
+   "date": "2027-01-21",
+   "time": "21:00",
+   "tag": ""
   }
  ]
 }
