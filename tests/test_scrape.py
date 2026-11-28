@@ -9,6 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scraper"))
 import scrape  # noqa: E402
+import films  # noqa: E402
 
 MOVIEPLAYER_HTML = """
 <html><body>
@@ -926,6 +927,109 @@ sposta 25/11 11:00 Pluto 9 -> 12.00
             self.assertEqual(len(res["rows"]), len(snap) + 1)
             self.assertTrue((base / "tff_report.txt").exists())
 
+
+
+class TffSchedeTest(unittest.TestCase):
+    XML = """<pdf2xml><page number="20" position="absolute" top="0" left="0" height="892" width="1258">
+<fontspec id="3" size="14" family="X-Light" color="#000000"/>
+<fontspec id="5" size="11" family="X-Light" color="#000000"/>
+<fontspec id="11" size="21" family="X-Black" color="#00599d"/>
+<image top="126" left="222" width="323" height="181" src="p-20_2.jpg"/>
+<image top="126" left="713" width="323" height="182" src="p-20_1.jpg"/>
+<text top="125" left="53" width="88" height="23" font="11"><b>Car la lune</b></text>
+<text top="125" left="1056" width="79" height="23" font="11"><b>Dream of </b></text>
+<text top="146" left="1056" width="144" height="23" font="11"><b>Another Summer </b></text>
+<text top="326" left="224" width="322" height="15" font="3">Girato presso l’Istituto, un film </text>
+<text top="344" left="224" width="323" height="15" font="3">osservativo e l’e-</text>
+<text top="362" left="224" width="112" height="15" font="3">sperienza di chi non vede. </text>
+<text top="326" left="714" width="307" height="15" font="3">Il crollo di una donna a Beirut </text>
+<text top="326" left="53" width="83" height="15" font="5">Bio del regista di sinistra</text>
+<text top="326" left="1056" width="84" height="15" font="5">Bio del regista di destra</text>
+</page></pdf2xml>"""
+
+    def test_layout_a_due_colonne(self):
+        import tff_schede
+        res = {f["titolo"]: f for f in tff_schede.parse_catalog(self.XML)}
+        self.assertEqual(set(res), {"Car la lune", "Dream of Another Summer"})
+        self.assertEqual(res["Car la lune"]["sinossi"], "Girato presso l’Istituto, un film osservativo e l’esperienza di chi non vede.")
+        self.assertEqual(res["Car la lune"]["src"], "p-20_2.jpg")          # l'immagine nella stessa fascia, non quella di fianco
+        self.assertEqual(res["Dream of Another Summer"]["sinossi"], "Il crollo di una donna a Beirut")
+        self.assertEqual(res["Dream of Another Summer"]["src"], "p-20_1.jpg")
+
+    def test_catalogo_reale(self):
+        import shutil, tempfile, tff_schede, films
+        pdf = Path(__file__).parent.parent / "data" / "tff" / "programma.pdf"
+        if not pdf.exists() or not shutil.which("pdftohtml"):
+            self.skipTest("PDF o pdftohtml non disponibili")
+        with tempfile.TemporaryDirectory() as d:
+            res = tff_schede.build(pdf, Path(d), films.film_key, log=lambda *_: None)
+            self.assertGreaterEqual(len(res) - 1, 100)
+            krux = res[films.film_key("KRUX")]
+            self.assertTrue(krux["sinossi"].startswith("1945: in un villaggio"))
+            self.assertTrue((Path(d) / "img" / "krux.jpg").exists())
+            revelli = res[films.film_key("Il primo giorno di vita di Leonardo Revelli, figlio unico")]
+            self.assertIn("Leonardo Revelli", revelli["sinossi"])
+            # seconda lettura: stesso PDF -> nessun lavoro (si riusa schede.json)
+            again = tff_schede.build(pdf, Path(d), films.film_key, log=lambda *_: None)
+            self.assertEqual(again["_pdf"], res["_pdf"])
+
+
+
+class TitoliConRefusoTmdbTest(unittest.TestCase):
+    def _fetch(self, by_query, persons=None):
+        def fetch(url):
+            from urllib.parse import urlparse, parse_qs
+            u = urlparse(url); q = parse_qs(u.query).get("query", [""])[0]
+            if "/search/movie" in u.path:
+                return json.dumps({"results": by_query.get(q, [])})
+            if "/search/person" in u.path:
+                return json.dumps({"results": persons or []})
+            return json.dumps({"id": 7, "title": "È andata così", "original_title": "È andata così",
+                               "release_date": "2026-11-20", "runtime": 100, "poster_path": "/p.jpg", "popularity": 3,
+                               "credits": {"crew": [{"job": "Director", "name": "Gianni Zanasi"}], "cast": []}})
+        return fetch
+
+    def test_accento_attaccato_alla_parola(self):
+        hit = {"id": 7, "title": "È andata così", "original_title": "È andata così"}
+        notes = []
+        c = films.tmdb_candidates("Èandata così", self._fetch({"È andata così": [hit]}), None, notes, "Gianni Zanasi")
+        self.assertEqual(c[0]["title"], "È andata così")
+        self.assertGreaterEqual(c[0]["sim"], 0.9)
+
+    def test_ripiego_dal_regista(self):
+        persons = [{"known_for_department": "Directing", "known_for": [{"id": 7, "media_type": "movie"}]}]
+        c = films.tmdb_candidates("Eandta cosi", self._fetch({}, persons), None, [], "Gianni Zanasi")
+        self.assertEqual([x["id"] for x in c], [7])
+        self.assertEqual(c[0]["title"], "È andata così")
+
+    def test_similarita_senza_spazi(self):
+        self.assertGreaterEqual(films.title_sim("Èandata così", "È andata così"), 0.95)
+        self.assertLess(films.title_sim("Look Back", "Lo Hobbit"), 0.6)
+
+
+class LuxHomeTest(unittest.TestCase):
+    def setUp(self):
+        self.html = (Path(__file__).parent / "fixtures" / "lux_home.html").read_text(encoding="utf-8")
+
+    def test_film_orari_e_regia(self):
+        rows = scrape.parse_movieplanet_any(self.html, "2026-11-27")
+        scrape.unify_titles(rows)
+        self.assertTrue(any(r.get("tag") == "VO" for r in rows))        # "| FILM IN INGLESE" = versione originale
+        self.assertEqual({r["film"] for r in rows}, {"TI PRESENTO I FOTTER", "HUNGER GAMES - L'ALBA SULLA MIETITURA",
+                                                      "SCROOGE E GLI SPIRITI DEL NATALE"})
+        hg = [r for r in rows if r["film"].startswith("HUNGER")]
+        self.assertEqual(hg[0]["regia"], "Francis Lawrence")
+        self.assertIn(("2026-11-27", "21:15"), {(r["date"], r["time"]) for r in hg})
+        self.assertIn(("2026-11-28", "21:30"), {(r["date"], r["time"]) for r in hg})
+        self.assertTrue(all("2026-11-27" <= r["date"] <= "2026-12-02" for r in rows))
+
+    def test_giorni_con_accento_rotto(self):
+        rows = scrape.parse_movieplanet_any(self.html, "2026-11-27")
+        self.assertTrue(any(r["date"] == "2026-11-30" for r in rows))   # lunedi'
+
+    def test_decode_html_latin1(self):
+        self.assertEqual(scrape.decode_html("Venerdì".encode("latin-1")), "Venerdì")
+        self.assertEqual(scrape.decode_html("Venerdì".encode("utf-8")), "Venerdì")
 
 if __name__ == "__main__":
     unittest.main()
