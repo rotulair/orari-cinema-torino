@@ -164,7 +164,12 @@ def _strip_articles(key: str) -> str:
 def title_sim(a: str, b: str) -> float:
     import difflib
     x, y = _strip_articles(film_key(a)), _strip_articles(film_key(b))
-    return difflib.SequenceMatcher(None, x, y).ratio() if x and y else 0.0
+    if not x or not y:
+        return 0.0
+    r = difflib.SequenceMatcher(None, x, y).ratio()
+    # refusi di battitura sugli spazi ("Èandata così" per "È andata così"): si confronta anche senza spazi
+    xs, ys = x.replace(" ", ""), y.replace(" ", "")
+    return max(r, difflib.SequenceMatcher(None, xs, ys).ratio() - 0.02) if xs and ys else r
 
 
 def _fold(s: str) -> str:
@@ -206,21 +211,63 @@ def _all_titles(d: dict) -> list[str]:
     return [t for t in out if t]
 
 
-def tmdb_candidates(title: str, fetch, hint_year: int | None = None, notes: list[str] | None = None) -> list[dict]:
+def _query_variants(q: str) -> list[str]:
+    """Il titolo cosi' com'e', poi versioni corrette di refusi tipici: accento attaccato alla parola dopo
+    ("Èandata" -> "È andata"), spazi doppi, apostrofi tipografici."""
+    out = [q]
+    v = re.sub(r"\b([ÈÉÀÒÙÌèéàòùì])(?=[a-zà-ü]{2,})", r"\1 ", q)
+    v = re.sub(r"\s+", " ", v.replace("’", "'")).strip()
+    if v and v not in out:
+        out.append(v)
+    return out
+
+
+def _person_titles(director: str, fetch) -> list[int]:
+    """Film noti del regista dichiarato dal cinema: ultimo ripiego quando il titolo ha un refuso troppo grosso."""
+    res = json.loads(fetch(f"{TMDB_API}/search/person?" + urllib.parse.urlencode(
+        {"query": director, "language": "it-IT", "include_adult": "false"})))
+    ids: list[int] = []
+    for p in (res.get("results") or [])[:2]:
+        if p.get("known_for_department") not in (None, "Directing"):
+            continue
+        for m in p.get("known_for") or []:
+            if m.get("media_type", "movie") == "movie" and m.get("id") not in ids:
+                ids.append(m["id"])
+    return ids
+
+
+def tmdb_candidates(title: str, fetch, hint_year: int | None = None, notes: list[str] | None = None,
+                    director: str | None = None) -> list[dict]:
     """Cerca il film e, per i primi risultati, scarica dettagli, regia e titoli alternativi.
     Il titolo conta se somiglia a UNO qualsiasi dei titoli noti (anche solo traduzioni o titoli alternativi):
     una scheda TMDB senza traduzione italiana si trova comunque."""
     notes = notes if notes is not None else []
     q = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title).strip()
     results: list[dict] = []
-    for year in ([hint_year, None] if hint_year else [None]):    # se con l'anno non c'e' nulla, riprova senza
-        params = {"query": q, "language": "it-IT", "include_adult": "false"}
-        if year:
-            params["year"] = str(year)
-        res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(params)))
-        results = res.get("results", [])
+    for qv in _query_variants(q):
+        for year in ([hint_year, None] if hint_year else [None]):    # se con l'anno non c'e' nulla, riprova senza
+            params = {"query": qv, "language": "it-IT", "include_adult": "false"}
+            if year:
+                params["year"] = str(year)
+            res = json.loads(fetch(f"{TMDB_API}/search/movie?" + urllib.parse.urlencode(params)))
+            results = res.get("results", [])
+            if results:
+                break
         if results:
+            if qv != q:
+                notes.append(f"titolo corretto per la ricerca: '{qv}'")
+                q = qv
             break
+    if director and not any(title_sim(q, r.get("title") or "") >= 0.8 or
+                            title_sim(q, r.get("original_title") or "") >= 0.8 for r in results):
+        try:                                   # nessun risultato somiglia al titolo: si prova dal regista
+            known = [{"id": i} for i in _person_titles(director, fetch)]
+        except Exception:  # noqa: BLE001
+            known = []
+        have = {r["id"] for r in results}
+        results = results + [k for k in known if k["id"] not in have]
+        if known:
+            notes.append(f"ricerca anche tra i film di {director}")
     if not results:
         notes.append("TMDB: la ricerca non ha restituito nessun film")
         return []
@@ -228,7 +275,7 @@ def tmdb_candidates(title: str, fetch, hint_year: int | None = None, notes: list
     for r in sorted(results, key=lambda r: -(r.get("popularity") or 0))[:5]:
         d = json.loads(fetch(f"{TMDB_API}/movie/{r['id']}?" + urllib.parse.urlencode(
             {"language": "it-IT", "append_to_response": "credits,alternative_titles,translations"})))
-        sim = max([title_sim(q, t) for t in _all_titles(d)] or [0.0])
+        sim = max([max(title_sim(q, t), title_sim(title, t)) for t in _all_titles(d)] or [0.0])
         crew = (d.get("credits") or {}).get("crew") or []
         year = int((d.get("release_date") or "0000")[:4] or 0) or None
         out.append({"id": d["id"], "sim": sim, "year": year, "popularity": d.get("popularity") or 0,
@@ -382,7 +429,8 @@ def enrich(showtimes: list[dict], path: Path, fetcher, today: str | None = None,
             notes0.append("Wikipedia: nessuna pagina che sia un film con questo titolo")
         if tmdb:
             try:
-                cands = tmdb_candidates(title, tmdb, ref["anno"] or (wiki or {}).get("year"), notes0)
+                cands = tmdb_candidates(title, tmdb, ref["anno"] or (wiki or {}).get("year"), notes0,
+                                        ref["regia"] or None)
             except Exception as exc:  # noqa: BLE001 - errore TMDB: lo si vede nel log, i dati Wikipedia restano
                 if not tmdb_errors:
                     print(f"  TMDB errore: {exc}")

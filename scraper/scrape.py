@@ -34,6 +34,22 @@ DELAY_SECONDS = 1.5  # pausa tra una richiesta e la successiva, per gentilezza v
 
 # --------------------------------------------------------------------------- HTML
 
+def decode_html(raw: bytes, header_charset: str | None = None) -> str:
+    """Pagina in testo: charset dell'intestazione, poi <meta charset>, poi UTF-8; se i byte non sono UTF-8 validi
+    (siti vecchi in ISO-8859-1) si ripiega su Windows-1252, cosi' "venerdì" non diventa "venerd\ufffd"."""
+    cands = [header_charset] if header_charset else []
+    m = re.search(rb"<meta[^>]+charset=[\"']?\s*([\w-]+)", raw[:4096], re.I)
+    if m:
+        cands.append(m.group(1).decode("ascii", "ignore"))
+    cands += ["utf-8", "cp1252"]
+    for cs in cands:
+        try:
+            return raw.decode(cs)
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
 def fetch(url: str, retries: int = 3, timeout: int = 25) -> str:
     last: Exception | None = None
     for attempt in range(retries):
@@ -41,8 +57,8 @@ def fetch(url: str, retries: int = 3, timeout: int = 25) -> str:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 raw = resp.read()
-                charset = resp.headers.get_content_charset() or "utf-8"
-            return raw.decode(charset, errors="replace")
+                charset = resp.headers.get_content_charset()
+            return decode_html(raw, charset)
         except (urllib.error.URLError, TimeoutError, ConnectionError) as exc:
             last = exc
             time.sleep(2 * (attempt + 1))
@@ -534,6 +550,88 @@ def parse_movieplanet(html: str, day: str) -> list[dict]:
     return out
 
 
+_MP_DAY = re.compile(r"^(lun|mar|mer|gio|ven|sab|dom)[\w\ufffd]{0,9}$", re.I)   # tollera "Venerd\ufffd" (accento rotto)
+
+
+def _mp_week(lines: list[str], day: str) -> dict[int, str]:
+    for t in lines:
+        m = re.search(rf"dal\s+(\d{{1,2}})(?:\s+({_MONTH_RE}))?\s+al\s+(\d{{1,2}})\s+({_MONTH_RE})", t, re.I)
+        if m:
+            mo2 = MONTHS[m.group(4).lower()]
+            mo1 = MONTHS[m.group(2).lower()] if m.group(2) else mo2
+            a, b = infer_date(day, int(m.group(1)), mo1), infer_date(day, int(m.group(3)), mo2)
+            week: dict[int, str] = {}
+            if a and b:
+                c = dt.date.fromisoformat(a)
+                while c.isoformat() <= b:
+                    week[c.weekday()] = c.isoformat()
+                    c += dt.timedelta(days=1)
+            return week
+    return {}
+
+
+def parse_movieplanet_home(html: str, day: str) -> list[dict]:
+    """Home di movieplanetgroup.it/mp_torino/: "PROGRAMMAZIONE DAL 26 NOVEMBRE AL 02 DICEMBRE", poi per ogni film
+    l'intestazione del cinema, il titolo, Regia/Genere/Durata/Cast, "SCHEDA FILM" e i giorni con gli orari.
+    Solo il cinema Torino Lux: gli altri cinema del gruppo stanno in altre citta'."""
+    lines = [t for t, _ in lines_of(html)]
+    week = _mp_week(lines, day)
+    start = next((i for i, t in enumerate(lines) if re.match(r"(?i)programmazione\s+dal\b", t)), None)
+    if not week or start is None:
+        return []
+    out: list[dict] = []
+    seen: set = set()
+    title = regia = ""
+    cur: str | None = None
+    in_lux = False
+    want = None
+    i = start + 1
+    while i < len(lines):
+        t = lines[i].strip()
+        i += 1
+        if re.match(r"(?i)^movie planet\b", t) and len(t) < 60:
+            in_lux = "torino" in t.lower()
+            title = regia = ""
+            cur = None
+            want = "title"
+            continue
+        if re.match(r"(?i)^movie planet s\.r\.l|^sede legale", t):
+            break
+        if not in_lux:
+            continue
+        if want == "title":
+            title, want = clean(t), None
+            continue
+        if re.match(r"(?i)^regia\s*:?$", t):
+            want = "regia"
+            continue
+        if want == "regia":
+            regia, want = clean(t), None
+            continue
+        if re.match(r"(?i)^(genere|durata|cast)\s*:?$", t) or t.upper() in ("SCHEDA", "FILM"):
+            if re.match(r"(?i)^(genere|durata|cast)", t):
+                want = "skip"
+            continue
+        if want == "skip":
+            want = None
+            continue
+        m = _MP_DAY.match(t)
+        if m:
+            cur = week.get(_WD_IDX[m.group(1).lower()])
+            continue
+        if title and cur and re.fullmatch(r"(?:\d{1,2}[.:]\d{2}\s*)+", t):
+            for hhmm in times_in(t):
+                n0 = len(out)
+                _add(out, seen, title, cur, hhmm)
+                if regia and len(out) > n0:
+                    out[-1]["regia"] = regia
+    return out
+
+
+def parse_movieplanet_any(html: str, day: str) -> list[dict]:
+    return parse_movieplanet_home(html, day) or parse_movieplanet(html, day)
+
+
 # ------------------------------------------------------------------ parser: Esedra
 # Home: titolo in un titolo/grassetto, poi "Sabato 14/11/2026" e "h. 16:00 - 21:15".
 
@@ -862,7 +960,7 @@ def parse_grantorino(html: str, day: str) -> list[dict]:
 
 
 PARSERS = {"movieplayer": parse_movieplayer, "18tickets": parse_18tickets, "ideal": parse_ideal,
-           "massimo": parse_massimo, "movieplanet": parse_movieplanet, "esedra": parse_esedra,
+           "massimo": parse_massimo, "movieplanet": parse_movieplanet_any, "esedra": parse_esedra,
            "baretti": parse_baretti, "agnelli": parse_agnelli, "centrale": parse_centrale,
            "grantorino": parse_grantorino}
 
@@ -922,12 +1020,16 @@ _EDITION = re.compile(r"\s*[-–—]\s*[^-–—]*\b(?:anniversar\w*|restaurat\w
 # "Titolo sub ita": sono informazioni su QUELLA proiezione, non parte del titolo.
 _LANG = (r"(?:film\s+)?in\s+(?:lingua\s+)?(?:originale|inglese|francese|spagnolo|tedesco|giapponese|coreano|russo|cinese)"
          r"(?:\s+(?:con|e)?\s*sott\w*[^)\]]*)?|(?:con\s+)?sottotitoli?\s+(?:in\s+)?italian\w*|sub\.?\s?ita|lingua originale")
-_LANG_NOTE = re.compile(r"\s*(?:[-–—:]\s*|[(\[]\s*)?\b(?:" + _LANG + r")\s*[)\]]?\s*$", re.I)
+_LANG_NOTE = re.compile(r"\s*(?:[-–—:|]\s*|[(\[]\s*)?\b(?:" + _LANG + r")\s*[)\]]?\s*$", re.I)
+
+
+_VO_PREFIX = re.compile(r"^\s*\((?:o\.?\s?v\.?|v\.?\s?o\.?(?:\s?s\.?)?)\)\s*", re.I)   # "(O.V.) THE HUNGER GAMES"
 
 
 def strip_noise(title: str) -> str:
     """'Titolo - V. O.' -> 'Titolo'; 'Titolo (Film in inglese)' -> 'Titolo'; 'Titolo 4K – WB 100th Anniversary' -> 'Titolo'."""
-    t = _LANG_NOTE.sub("", title)
+    t = _VO_PREFIX.sub("", title)
+    t = _LANG_NOTE.sub("", t)
     t = _VO_SUFFIX.sub("", t)
     m = _vo_tail_match(t)
     if m:
@@ -1061,7 +1163,8 @@ def unify_titles(rows: list[dict]) -> list[tuple[str, str]]:
     for r in rows:
         if re.search(r"(?i)\b4k\b|\bried\b|\brid\.|restaurat|rimasterizz|remaster|anniversar|riedizione|ritorna", r["film"]):
             r["rer"] = True                                   # riedizione di un film vecchio: serve a TMDB
-        if (_VO_SUFFIX.search(r["film"]) or _LANG_NOTE.search(r["film"]) or _vo_tail_match(r["film"])) and r.get("tag") != "VO":
+        if (_VO_SUFFIX.search(r["film"]) or _VO_PREFIX.search(r["film"]) or _LANG_NOTE.search(r["film"])
+                or _vo_tail_match(r["film"])) and r.get("tag") != "VO":
             if r.get("tag") and r["tag"] != "ITA":
                 r["hall"] = r.get("hall") or r["tag"]         # l'indicazione precedente (sala, formato) non va persa
             r["tag"] = "VO"                                   # "Titolo - V. O." = proiezione in originale
