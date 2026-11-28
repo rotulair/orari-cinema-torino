@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T10:13:08+01:00",
+ "generated_at": "2026-11-28T12:31:06+01:00",
  "today": "2026-11-28",
  "cinemas": [
   {
@@ -14,7 +14,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:22+01:00"
+    "fetched_at": "2026-11-28T12:30:20+01:00"
    }
   },
   {
@@ -29,7 +29,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:25+01:00"
+    "fetched_at": "2026-11-28T12:30:23+01:00"
    }
   },
   {
@@ -44,7 +44,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:28+01:00"
+    "fetched_at": "2026-11-28T12:30:25+01:00"
    }
   },
   {
@@ -59,7 +59,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:30+01:00"
+    "fetched_at": "2026-11-28T12:30:28+01:00"
    }
   },
   {
@@ -74,7 +74,7 @@
     "source": "Movieplayer",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:33+01:00"
+    "fetched_at": "2026-11-28T12:30:31+01:00"
    }
   },
   {
@@ -89,7 +89,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:36+01:00"
+    "fetched_at": "2026-11-28T12:30:34+01:00"
    }
   },
   {
@@ -104,7 +104,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:37+01:00"
+    "fetched_at": "2026-11-28T12:30:35+01:00"
    }
   },
   {
@@ -119,7 +119,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:39+01:00"
+    "fetched_at": "2026-11-28T12:30:37+01:00"
    }
   },
   {
@@ -134,7 +134,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:40+01:00"
+    "fetched_at": "2026-11-28T12:30:39+01:00"
    }
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:44+01:00"
+    "fetched_at": "2026-11-28T12:30:42+01:00"
    }
   },
   {
@@ -160,11 +160,11 @@
    "info_url": null,
    "status": {
     "ok": true,
-    "n": 115,
+    "n": 28,
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:47+01:00"
+    "fetched_at": "2026-11-28T12:30:45+01:00"
    }
   },
   {
@@ -179,7 +179,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:49+01:00"
+    "fetched_at": "2026-11-28T12:30:47+01:00"
    }
   },
   {
@@ -194,7 +194,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:53+01:00"
+    "fetched_at": "2026-11-28T12:30:52+01:00"
    }
   },
   {
@@ -209,7 +209,7 @@
     "source": "Sito ufficiale (PDF)",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:57+01:00"
+    "fetched_at": "2026-11-28T12:30:55+01:00"
    }
   },
   {
@@ -224,7 +224,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:12:58+01:00"
+    "fetched_at": "2026-11-28T12:30:57+01:00"
    }
   },
   {
@@ -239,7 +239,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:13:01+01:00"
+    "fetched_at": "2026-11-28T12:30:59+01:00"
    }
   },
   {
@@ -254,7 +254,7 @@
     "source": null,
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:13:04+01:00"
+    "fetched_at": "2026-11-28T12:31:02+01:00"
    }
   },
   {
@@ -269,7 +269,7 @@
     "source": "Sito ufficiale",
     "error": null,
     "stale": false,
-    "fetched_at": "2026-11-28T10:13:07+01:00"
+    "fetched_at": "2026-11-28T12:31:06+01:00"
    }
   }
  ],
@@ -536,7 +536,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "15:00",
    "tag": "",
@@ -545,7 +545,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:10",
    "tag": "",
@@ -554,7 +554,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:20",
    "tag": "",
@@ -690,179 +690,59 @@
   },
   {
    "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-11-28",
-   "time": "14:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-11-28",
-   "time": "22:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-28",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-28",
-   "time": "17:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-28",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-28",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-28",
-   "time": "17:00",
-   "tag": ""
+   "time": "15:00",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-28",
    "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-28",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-28",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-28",
-   "time": "14:30",
    "tag": "",
-   "anno": 2026
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
+   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-28",
-   "time": "15:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-28",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-28",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-28",
-   "time": "22:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-28",
-   "time": "22:10",
-   "tag": ""
+   "time": "21:30",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-28",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-28",
-   "time": "19:35",
-   "tag": ""
+   "time": "15:15",
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-28",
    "time": "22:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-28",
-   "time": "17:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-28",
-   "time": "19:30",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
-   "time": "14:40",
-   "tag": ""
+   "time": "17:30",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "lux",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-28",
-   "time": "17:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-28",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-28",
-   "time": "22:10",
-   "tag": ""
+   "time": "19:50",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "marx",
@@ -936,21 +816,21 @@
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "14:50",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:00",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:30",
    "tag": ""
@@ -1009,14 +889,14 @@
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-28",
    "time": "14:30",
-   "tag": "Eventi Musicali"
+   "tag": "Sala 4 Eventi Musicali"
   },
   {
    "cinema": "massaua",
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-28",
    "time": "19:50",
-   "tag": "Eventi Musicali"
+   "tag": "Emozioni Eventi Musicali"
   },
   {
    "cinema": "massaua",
@@ -1352,7 +1232,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "15:30",
    "tag": "",
@@ -1360,7 +1240,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:40",
    "tag": "",
@@ -1368,7 +1248,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:50",
    "tag": "",
@@ -1695,28 +1575,28 @@
   },
   {
    "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "14:30",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "16:25",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:15",
    "tag": ""
   },
   {
    "cinema": "thespace",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "20:00",
    "tag": ""
@@ -1891,56 +1771,56 @@
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "10:10",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "11:00",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "13:30",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "15:00",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "16:00",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "17:30",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "19:50",
    "tag": ""
   },
   {
    "cinema": "uci",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-28",
    "time": "21:00",
    "tag": ""
@@ -2431,7 +2311,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "15:00",
    "tag": "",
@@ -2440,7 +2320,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "17:10",
    "tag": "",
@@ -2449,7 +2329,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "19:20",
    "tag": "",
@@ -2585,137 +2465,43 @@
   },
   {
    "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-11-29",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-11-29",
-   "time": "20:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-29",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-29",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-29",
-   "time": "14:45",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-29",
-   "time": "16:00",
-   "tag": ""
+   "time": "15:00",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-29",
    "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
-   "date": "2026-11-29",
-   "time": "19:40",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "IL GATTO COL CAPPELLO",
-   "date": "2026-11-29",
-   "time": "14:45",
    "tag": "",
-   "anno": 2026
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-29",
-   "time": "15:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-29",
-   "time": "17:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-29",
-   "time": "20:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-29",
-   "time": "20:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-11-29",
-   "time": "17:20",
-   "tag": ""
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-29",
    "time": "20:05",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-29",
-   "time": "17:10",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
-   "time": "14:40",
-   "tag": ""
+   "time": "14:45",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "lux",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-29",
-   "time": "17:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-29",
-   "time": "20:00",
-   "tag": ""
+   "time": "17:20",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "marx",
@@ -2789,14 +2575,14 @@
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "16:10",
    "tag": ""
   },
   {
    "cinema": "massaua",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "19:35",
    "tag": ""
@@ -2855,14 +2641,14 @@
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-29",
    "time": "14:20",
-   "tag": "Eventi Musicali"
+   "tag": "Sala 1 Eventi Musicali"
   },
   {
    "cinema": "massaua",
    "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
    "date": "2026-11-29",
    "time": "20:05",
-   "tag": "Eventi Musicali"
+   "tag": "Sala 1 Eventi Musicali"
   },
   {
    "cinema": "massaua",
@@ -3210,7 +2996,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "15:30",
    "tag": "",
@@ -3218,7 +3004,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "17:40",
    "tag": "",
@@ -3226,7 +3012,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-29",
    "time": "19:50",
    "tag": "",
@@ -3801,7 +3587,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "17:35",
    "tag": "",
@@ -3810,7 +3596,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "19:20",
    "tag": "",
@@ -3928,94 +3714,35 @@
   },
   {
    "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-11-30",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-30",
-   "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-11-30",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-30",
-   "time": "17:45",
-   "tag": ""
+   "time": "18:00",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-11-30",
    "time": "21:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-30",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
-   "date": "2026-11-30",
-   "time": "21:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
-   "date": "2026-11-30",
-   "time": "21:15",
-   "tag": ""
+   "tag": "VO",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-11-30",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-11-30",
-   "time": "21:15",
-   "tag": ""
+   "time": "21:20",
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
    "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-11-30",
-   "time": "18:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-30",
-   "time": "21:00",
-   "tag": "VO"
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-11-30",
-   "time": "21:15",
-   "tag": ""
+   "time": "18:45",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "marx",
@@ -4362,7 +4089,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "15:30",
    "tag": "",
@@ -4370,7 +4097,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-11-30",
    "time": "17:40",
    "tag": "",
@@ -4964,7 +4691,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "15:00",
    "tag": "",
@@ -4973,7 +4700,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "17:10",
    "tag": "",
@@ -4982,7 +4709,7 @@
   },
   {
    "cinema": "ideal",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "19:20",
    "tag": "",
@@ -5100,94 +4827,51 @@
   },
   {
    "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-12-01",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-12-01",
-   "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-12-01",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-12-01",
-   "time": "17:45",
-   "tag": ""
+   "time": "18:00",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-12-01",
    "time": "21:00",
-   "tag": ""
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-12-01",
    "time": "18:30",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-12-01",
    "time": "21:20",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
-   "time": "21:15",
-   "tag": ""
+   "time": "18:15",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-12-01",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-01",
    "time": "21:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-12-01",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-12-01",
-   "time": "18:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-12-01",
-   "time": "21:15",
-   "tag": ""
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "marx",
@@ -5523,7 +5207,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "15:30",
    "tag": "",
@@ -5531,7 +5215,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-01",
    "time": "17:40",
    "tag": "",
@@ -6141,94 +5825,51 @@
   },
   {
    "cinema": "lux",
-   "film": "E' ANDATA COSI'",
-   "date": "2026-12-02",
-   "time": "18:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-12-02",
-   "time": "18:00",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
-   "date": "2026-12-02",
-   "time": "20:30",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-12-02",
-   "time": "17:45",
-   "tag": ""
+   "time": "18:00",
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
    "film": "HUNGER GAMES - L'ALBA SULLA MIETITURA",
    "date": "2026-12-02",
    "time": "21:00",
-   "tag": ""
+   "tag": "",
+   "regia": "Francis Lawrence"
   },
   {
    "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-12-02",
    "time": "18:30",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
-   "film": "LA NOTTE DELLE FRAGOLE",
+   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
    "date": "2026-12-02",
    "time": "21:20",
-   "tag": ""
+   "tag": "",
+   "regia": "Ti West"
   },
   {
    "cinema": "lux",
-   "film": "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
-   "time": "21:15",
-   "tag": ""
+   "time": "18:15",
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
-   "date": "2026-12-02",
-   "time": "18:25",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SCROOGE E GLI SPIRITI DEL NATALE",
+   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
    "date": "2026-12-02",
    "time": "21:10",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "SE DOMANI NON TORNO",
-   "date": "2026-12-02",
-   "time": "21:15",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-12-02",
-   "time": "18:20",
-   "tag": ""
-  },
-  {
-   "cinema": "lux",
-   "film": "TI PRESENTO I FOTTER (FOCKER-IN-LAW)",
-   "date": "2026-12-02",
-   "time": "21:15",
-   "tag": ""
+   "tag": "",
+   "regia": "John Hamburg"
   },
   {
    "cinema": "marx",
@@ -6537,7 +6178,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-02",
    "time": "15:30",
    "tag": "",
@@ -6545,7 +6186,7 @@
   },
   {
    "cinema": "reposi",
-   "film": "HEXE - IL REGNO DELLE STREGHE",
+   "film": "HEXE: IL REGNO DELLE STREGHE",
    "date": "2026-12-02",
    "time": "17:40",
    "tag": "",
