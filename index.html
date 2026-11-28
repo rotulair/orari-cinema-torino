@@ -120,15 +120,19 @@ summary.fh:not(.chd)>.pbtn{grid-column:1;grid-row:1 / span 2}
 summary.fh:not(.chd)>.fm{grid-column:2;grid-row:1}
 summary.fh:not(.chd)>.plotw{grid-column:2;grid-row:2;min-width:0}
 summary.fh:not(.chd)>.prev{grid-column:1 / -1;grid-row:3;margin-top:10px}
-/* telefono, trama aperta: la locandina galleggia a sinistra e il testo la aggira, poi si allarga sotto di lei */
+/* testo breve a scheda chiusa, intero a "Leggi tutto" aperto */
+.plotw .plot{display:block;overflow:visible;-webkit-line-clamp:unset}
+.plot .pfull{display:none}
+.card.xo .plot .pfull{display:inline}
+.card.xo .plot .pshort{display:none}
+/* telefono: la locandina galleggia a sinistra e il testo la aggira, poi si allarga sotto di lei (anche a scheda chiusa) */
 @media (max-width:639px){
-  .card.xo>summary.fh:not(.chd){display:block}
-  .card.xo>summary.fh:not(.chd)::after{content:"";display:block;clear:both}
-  .card.xo>summary.fh>.pbtn{float:left;margin:0 14px 2px 0}
-  .card.xo>summary.fh>.plotw{margin-top:8px}
-  .card.xo .plotw .plot{text-align:justify;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:6 3 3;text-justify:inter-word}
-  .card.xo .plotw .plot{overflow:visible}   /* overflow:hidden farebbe del paragrafo un blocco che non aggira la locandina */
-  .card.xo>summary.fh>.prev{clear:both}
+  .card>summary.fh:not(.chd){display:block}
+  .card>summary.fh:not(.chd)::after{content:"";display:block;clear:both}
+  .card>summary.fh:not(.chd)>.pbtn{float:left;margin:0 14px 2px 0}
+  .card>summary.fh:not(.chd)>.plotw{margin-top:8px}
+  .card>summary.fh:not(.chd)>.prev{clear:both;margin-top:10px}
+  .card .plotw .plot{text-align:justify;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:6 3 3;text-justify:inter-word}
 }
 .card[open] .prev{display:none}
 .pp{display:inline-flex;align-items:baseline;gap:6px;background:var(--raised);border-radius:9px;padding:4px 9px;
@@ -450,9 +454,12 @@ function infoTop(i, title){
   return "";
 }
 function plotHtml(i, open){
-  const long = i.overview.length > 110;
-  return `<div class="plotw">` + (i.overview ? `<p class="plot${long && !open ? "" : " full"}">${esc(i.overview)}</p>` : "")
-    + `<button type="button" class="link more" data-more="1">${open ? "Mostra meno" : "Leggi tutto"}</button></div>`;
+  const ov = i.overview || "", LIM = 200, long = ov.length > LIM + 20;
+  let short = ov;
+  if(long){ short = ov.slice(0, LIM); const sp = short.lastIndexOf(" "); if(sp > 120) short = short.slice(0, sp); short = short.replace(/[\s,;:.\-–—]+$/, "") + "…"; }
+  // due versioni del testo: il CSS mostra quella breve a scheda chiusa e quella intera a "Leggi tutto" aperto
+  return `<div class="plotw">` + (ov ? `<p class="plot${long ? "" : " full"}"><span class="pshort">${esc(short)}</span>${long ? `<span class="pfull">${esc(ov)}</span>` : ""}</p>` : "")
+    + (long ? `<button type="button" class="link more" data-more="1">${open ? "Mostra meno" : "Leggi tutto"}</button>` : "") + `</div>`;
 }
 function infoBottom(i){
   const btns = `<div class="ibtns"><a class="ibtn" href="${esc(i.url)}" target="_blank" rel="noopener">${i.wiki?"Wikipedia ↗":"Cerca su Google ↗"}</a>`
